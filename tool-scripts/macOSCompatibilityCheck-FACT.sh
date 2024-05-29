@@ -35,24 +35,23 @@ etag_cache="$json_cache_dir/macos_data_feed_etag.txt"
 # check local vs online using etag
 if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
     if /usr/bin/curl --silent --etag-compare "$etag_cache" "$online_json_url" --output /dev/null; then
-        echo "Cached e-tag matches online e-tag - cached json file is up to date"
+#        echo "Cached e-tag matches online e-tag - cached json file is up to date"
     else
-        echo "Cached e-tag does not match online e-tag, proceeding to download SOFA json file"
-        /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
+#        /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
     fi
 else
-    echo "No e-tag cached, proceeding to download SOFA json file"
+#    echo "No e-tag cached, proceeding to download SOFA json file"
     /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
 fi
 
-echo
+# echo
 
 if [[ ! -f "$json_cache" ]]; then
     echo "<result>Could not obtain data</result>"
-    exit
+    exit 1
 elif ! plutil -extract "UpdateHash" raw "$json_cache" > /dev/null; then
     echo "<result>Could not obtain data</result>"
-    exit
+    exit 1
 fi
 
 # 1. Get model (DeviceID)
@@ -61,11 +60,11 @@ model=$(/usr/sbin/sysctl -n hw.model)
 
 # 2. identify the latest major OS
 latest_os=$(/usr/bin/plutil -extract "OSVersions.0.OSVersion" raw -expect string "$json_cache" | /usr/bin/head -n 1)
-echo "Latest macOS: $latest_os"
+# echo "Latest macOS: $latest_os"
 
 # 3. idenfity latest compatible major OS
 latest_compatible_os=$(/usr/bin/plutil -extract "Models.$model.SupportedOS.0" raw -expect string "$json_cache" | /usr/bin/head -n 1)
-echo "Latest Compatible macOS: $latest_compatible_os"
+# echo "Latest Compatible macOS: $latest_compatible_os"
 
 # 5. Compare latest with compatible
 if [[ "$latest_os" == "$latest_compatible_os" ]];then
