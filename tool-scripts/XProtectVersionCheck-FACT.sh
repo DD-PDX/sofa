@@ -15,10 +15,36 @@ autoload is-at-least
 
 # URL to the online JSON data
 online_json_url="https://sofa.macadmins.io/v1/macos_data_feed.json"
-json_data=$(/usr/bin/curl -L -m 3 -s "$online_json_url")
-if [[ ! "$json_data" ]]; then
+
+# local store
+json_cache_dir="/private/tmp/sofa"
+json_cache="$json_cache_dir/macos_data_feed.json"
+etag_cache="$json_cache_dir/macos_data_feed_etag.txt"
+
+# ensure local cache folder exists
+/bin/mkdir -p "$json_cache_dir"
+
+# check local vs online using etag
+if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
+    if /usr/bin/curl --silent --etag-compare "$etag_cache" "$online_json_url" --output /dev/null; then
+        echo "Cached e-tag matches online e-tag - cached json file is up to date"
+    else
+        echo "Cached e-tag does not match online e-tag, proceeding to download SOFA json file"
+        /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
+    fi
+else
+    echo "No e-tag cached, proceeding to download SOFA json file"
+    /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
+fi
+
+echo
+
+if [[ ! -f "$json_cache" ]]; then
     echo "<result>Could not obtain data</result>"
-    exit 1
+    exit
+elif ! plutil -extract "UpdateHash" raw "$json_cache" > /dev/null; then
+    echo "<result>Could not obtain data</result>"
+    exit
 fi
 
 # 1. Get model (DeviceID)
@@ -39,16 +65,16 @@ fi
 # echo
 
 # Extract the online version of XProtect configuration data
-onlineXProtectVersion=$(/usr/bin/plutil -extract "XProtectPlistConfigData.com\\.apple\\.XProtect" raw - - <<< "$json_data" | /usr/bin/head -n 1)
-# echo "Online XProtect Version: $onlineXProtectVersion"
+onlineXProtectVersion=$(/usr/bin/plutil -extract "XProtectPlistConfigData.com\\.apple\\.XProtect" raw "$json_cache" | /usr/bin/head -n 1)
+echo "Online XProtect Version: $onlineXProtectVersion"
 
 # Extract the local installed version of XProtect configuration data
 localXProtectVersion=$(/usr/bin/plutil -extract CFBundleShortVersionString raw /Library/Apple/System/Library/CoreServices/XProtect.bundle/Contents/Info.plist)
 # echo "Local XProtect Version: $localXProtectVersion"
 
 # Extract the online version of XProtect.app
-onlineXProtectAppVersion=$(/usr/bin/plutil -extract "XProtectPayloads.com\\.apple\\.XProtectFramework\\.XProtect" raw - - <<< "$json_data" | /usr/bin/head -n 1)
-# echo "Online XProtect.app Version: $onlineXProtectAppVersion"
+onlineXProtectAppVersion=$(/usr/bin/plutil -extract "XProtectPayloads.com\\.apple\\.XProtectFramework\\.XProtect" raw "$json_cache" | /usr/bin/head -n 1)
+echo "Online XProtect.app Version: $onlineXProtectAppVersion"
 
 # Extract the local installed version of XProtect.app
 localXProtectAppVersion=$(/usr/bin/plutil -extract CFBundleShortVersionString raw /Library/Apple/System/Library/CoreServices/XProtect.app/Contents/Info.plist)
