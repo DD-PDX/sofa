@@ -8,7 +8,14 @@
 #
 # Note that this uses plutil so is only compatible with macOS 12+
 #
-# Modified to use in Addigy as a boolean fact. - CH
+#
+#################################################
+# EA script modified for use as an Addigy fact. #
+#  - Removed verbose output						#
+#  - Set exits for errors to exit 1				#
+#  - Changed output to boolean strings.			#
+#################################################
+#
 #
 # autoload is-at-least module for version comparisons
 autoload is-at-least
@@ -29,8 +36,8 @@ if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
     if /usr/bin/curl --silent --etag-compare "$etag_cache" "$online_json_url" --output /dev/null; then
 #         echo "Cached e-tag matches online e-tag - cached json file is up to date"
     else
-        echo "Cached e-tag does not match online e-tag, proceeding to download SOFA json file"
-#         /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
+#         echo "Cached e-tag does not match online e-tag, proceeding to download SOFA json file"
+        /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
     fi
 else
 #     echo "No e-tag cached, proceeding to download SOFA json file"

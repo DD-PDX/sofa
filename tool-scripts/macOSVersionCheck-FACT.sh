@@ -7,7 +7,12 @@
 # To use in a Smart Groups to scope computers that are not up to date:
 #   macOS Version Check - is - Fail
 #
-# Modified to use as a boolean fact in Addigy.
+#################################################
+# EA script modified for use as an Addigy fact. #
+#  - Removed verbose output						#
+#  - Set exits for errors to exit 1				#
+#  - Changed output to boolean strings.			#
+#################################################
 #
 # Note that this uses plutil so is only compatible with macOS 12+
 

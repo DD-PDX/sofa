@@ -16,10 +16,14 @@
 #
 # Note that this uses plutil so is only compatible with macOS 12+
 #
-##### DaVinci Notes Start Here ####
 #
-# Adapted from EA to work as an Addigy fact with numeric output.
-
+#################################################
+# EA script modified for use as an Addigy fact. #
+#  - Removed verbose output						#
+#  - Set exits for errors to exit 1				#
+#  - Changed output to just the CVE count.		#
+#################################################
+#
 # autoload is-at-least module for version comparisons
 autoload is-at-least
 

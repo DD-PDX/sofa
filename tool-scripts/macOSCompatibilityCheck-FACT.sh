@@ -7,8 +7,14 @@
 # adobted from the following script by Graham Pugh
 # https://github.com/macadmins/sofa/blob/main/tool-scripts/macOSVersionCheck-EA.sh
 #
-# Updated for use with Addigy. - CH
-
+#################################################
+# EA script modified for use as an Addigy fact. #
+#  - Removed verbose output						#
+#  - Set exits for errors to exit 1				#
+#  - Changed output to boolean strings.			#
+#  - Updated build check from 21H to 21D		#
+#################################################
+#
 # Note that this uses plutil so is only compatible with macOS 12+
 #
 # Use code inspired by the following post to exit if macOS < 12
