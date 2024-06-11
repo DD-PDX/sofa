@@ -43,7 +43,8 @@ if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
     if /usr/bin/curl --silent --etag-compare "$etag_cache" "$online_json_url" --output /dev/null; then
 #        echo "Cached e-tag matches online e-tag - cached json file is up to date"
     else
-#        /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
+#         echo "Cached e-tag does not match online e-tag, proceeding to download SOFA json file"
+        /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
     fi
 else
 #    echo "No e-tag cached, proceeding to download SOFA json file"
@@ -63,6 +64,15 @@ fi
 # 1. Get model (DeviceID)
 model=$(/usr/sbin/sysctl -n hw.model)
 # echo "Model Identifier: $model"
+
+# check that the model is virtual or is in the feed at all
+if [[ $model == "VirtualMac"* ]]; then
+    # if virtual, we need to arbitrarily choose a model that supports all current OSes. Plucked for an M1 Mac mini
+    model="Macmini9,1"
+elif ! grep -q "$model" "$json_cache"; then
+    echo "<result>Unsupported Hardware</result>"
+    exit
+fi
 
 # 2. identify the latest major OS
 latest_os=$(/usr/bin/plutil -extract "OSVersions.0.OSVersion" raw -expect string "$json_cache" | /usr/bin/head -n 1)
