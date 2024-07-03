@@ -1,4 +1,5 @@
-# SOFA
+# SOFA 
+**S**imple **O**rganized **F**eed for **A**pple Software Updates
 
 ![Sofa logo](./images/custom_logo.png "Optional title")
 
@@ -18,7 +19,7 @@ Updated automatically via GitHub Actions, the SOFA feed is a dynamic, centralize
 
 ### Use Cases
 
-SOFA supports a wide array of practical applications, wether for MacAdmin tooling directly or discussing the state of security on Apple platforms with security personnel.
+SOFA supports a wide array of practical applications, whether for MacAdmin tooling directly or discussing the state of security on Apple platforms with security personnel.
 
 - **Xprotect Monitoring**: Keep track of the latest XProtect updates centrally so agents running on your fleet can verify compliance with CIS/mSCP standards, ensuring Apple's tooling is up-to-date
 - **Security Overviews**: Surface information on vulnerabilities (CVEs) and their exploitation status (KEV).
