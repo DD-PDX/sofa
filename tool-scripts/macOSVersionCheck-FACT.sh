@@ -40,7 +40,7 @@ if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
         /usr/bin/curl --compressed --location --max-time 3 --silent --header "User-Agent: $user_agent" "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
     fi
 else
-    echo "No e-tag cached, proceeding to download SOFA json file"
+#     echo "No e-tag cached, proceeding to download SOFA json file"
     /usr/bin/curl --compressed --location --max-time 3 --silent --header "User-Agent: $user_agent" "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
 fi
 

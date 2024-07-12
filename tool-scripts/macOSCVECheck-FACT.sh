@@ -45,7 +45,7 @@ else
     /usr/bin/curl --location --max-time 3 --silent "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
 fi
 
-echo
+# echo
 
 if [[ ! -f "$json_cache" ]]; then
     echo "<result>Could not obtain data</result>"
