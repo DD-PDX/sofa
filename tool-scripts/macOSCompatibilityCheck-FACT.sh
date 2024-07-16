@@ -48,7 +48,7 @@ etag_cache="$json_cache_dir/macos_data_feed_etag.txt"
 # check local vs online using etag (only available on macOS 12+)
 if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
     if /usr/bin/curl --compressed --silent --etag-compare "$etag_cache" --header "User-Agent: $user_agent" "$online_json_url" --output /dev/null; then
-#         echo "Cached e-tag matches online e-tag - cached json file is up to date"
+# 			echo "Cached e-tag matches online e-tag - cached json file is up to date"
     else
 #         echo "Cached e-tag does not match online e-tag, proceeding to download SOFA json file"
         /usr/bin/curl --compressed --location --max-time 3 --silent --header "User-Agent: $user_agent" "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
