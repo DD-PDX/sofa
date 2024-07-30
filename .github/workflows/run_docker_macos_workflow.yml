@@ -4,7 +4,7 @@ on:
   schedule:
     # Monday, Tuesday, Thursday, and Friday every 1 hour from 5:00 PM to 8:00 PM CET
     - cron: '0 17-20 * * 1,2,3,4,5'
-    
+
     # On every day every 4 hours
     - cron: '30 */4 * * *'
   workflow_dispatch:
@@ -45,8 +45,27 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add v1/*.json v1/*.xml cache/*.json time-series.csv
+        git add public/v1/*.json public/v1/*.xml
         git commit -m "Update SOFA data - $timestamp" -a || exit 0
         git push
+
+    - name: Un prettify jsons
+      run: |
+        jq -c . v1/ios_data_feed.json > v1/ios_data_feed_jq.json
+        rm -f v1/ios_data_feed.json
+        mv v1/ios_data_feed_jq.json v1/ios_data_feed.json
+        jq -c . v1/macos_data_feed.json > v1/macos_data_feed_jq.json
+        rm -f v1/macos_data_feed.json
+        mv v1/macos_data_feed_jq.json v1/macos_data_feed.json
+        jq -c . v1/timestamp.json > v1/timestamp_jq.json
+        rm -f v1/timestamp.json
+        mv v1/timestamp_jq.json v1/timestamp.json
+
+    - name: Copy v1 data feed files into public dir for VitePress
+      run: |
+        mkdir -p public/v1
+        cp -r v1/*.json public/v1/
+        cp -r v1/*.xml public/v1/
 
     - name: Set up S3cmd cli tool
       uses: s3-actions/s3cmd@ef6ce583c6f4e5c121c53777f2f17740c36243be #v1.6.1
