@@ -9,13 +9,6 @@ export default defineConfig({
   themeConfig: {
     logo: '/custom_logo.png',
     head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
-    search: {
-      provider: 'local',  // Default search provider
-      options: {
-        // Search options can be configured here
-      }
-    },
-
     nav: [
       { text: 'Home', link: '/getting-started' },
       { text: '💫 Sequoia', link: '/macOS_Sequoia' }, 
@@ -90,6 +83,11 @@ export default defineConfig({
         '@images': resolve(__dirname, '../../web/images'),
         '@v1': resolve(__dirname, '../../v1'),
       },
+    },
+    ssr: {
+      noExternal: [
+        // Add any packages that should not be externalized in the SSR bundle
+      ],
     },
     plugins: [
       {
