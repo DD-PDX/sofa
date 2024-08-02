@@ -1,14 +1,34 @@
 #!/bin/zsh
 cd /tmp/
 rm -rf /tmp/sofa
-git clone https://github.com/DD-PDX/sofa
 echo "Exploit Check:"
-zsh /tmp/sofa/tool-scripts/macOSActiveExploitCheck-NUMERIC-FACT.sh
+scriptPath="/tmp/macOSActiveExploitCheck-NUMERIC-FACT.sh"
+scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSActiveExploitCheck-NUMERIC-FACT.sh"
+runScript
 echo "CVE Check:"
-zsh /tmp/sofa/tool-scripts/macOSCVECheck-NUMERIC-FACT.sh
+scriptPath="/tmp/macOSCVECheck-NUMERIC-FACT.sh"
+scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSCVECheck-NUMERIC-FACT.sh"
+runScript
 echo "Compatibility Check:"
-zsh /tmp/sofa/tool-scripts/macOSCompatibilityCheck-FACT.sh
+scriptPath="/tmp/macOSCompatibilityCheck-FACT.sh"
+scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSCompatibilityCheck-FACT.sh"
+runScript
 echo "Version Check:"
-zsh /tmp/sofa/tool-scripts/macOSVersionCheck-FACT.sh
+scriptPath="/tmp/macOSVersionCheck-FACT.sh"
+scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSVersionCheck-FACT.sh"
+runScript
 echo "Verbose CVE Check:"
-zsh /tmp/sofa/tool-scripts/macOSCVECheck-FACT.sh
+scriptPath="/tmp/macOSCVECheck-FACT.sh"
+scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSCVECheck-FACT.sh"
+runScript
+
+runScript() {
+# Download the script
+/usr/bin/curl -L -s $scriptURL -o $scriptPath
+#
+# Make it executable
+chmod a+x $scriptPath
+#
+# Run the script
+/bin/zsh $scriptPath
+}
