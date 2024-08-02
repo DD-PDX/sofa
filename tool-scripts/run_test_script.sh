@@ -6,7 +6,6 @@
 #
 scriptPath="/tmp/test_scripts.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/test_scripts.sh"
-# slackToken="xoxb-6508766112-6525785098051-NfPx5fsPei3mfmKclEnX11Q4"
 epochTime=$( date +%s )
 mySerial=$(/usr/sbin/system_profiler SPHardwareDataType | /usr/bin/awk '/Serial\ Number\ \(system\)/ {print $NF}')
 #
