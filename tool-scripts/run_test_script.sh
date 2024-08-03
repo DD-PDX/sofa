@@ -7,6 +7,9 @@
 scriptPath="/tmp/test_scripts.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/test_scripts.sh"
 #
+# Delete any old versions
+rm -rf $scriptPath
+#
 # Download the script
 /usr/bin/curl -L -s $scriptURL -o $scriptPath
 #
