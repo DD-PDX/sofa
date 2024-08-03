@@ -1,6 +1,6 @@
 #!/bin/zsh
 cd /tmp/
-rm -rf /tmp/sofa
+rm -rf /tmp/*FACT.sh
 echo "Exploit Check:"
 scriptPath="/tmp/macOSActiveExploitCheck-NUMERIC-FACT.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSActiveExploitCheck-NUMERIC-FACT.sh"
@@ -21,7 +21,11 @@ echo "Verbose CVE Check:"
 scriptPath="/tmp/macOSCVECheck-FACT.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSCVECheck-FACT.sh"
 runScript
-
+echo "XProtect Version Check:"
+scriptPath="/tmp/XProtectVersionCheck-FACT.sh
+https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/XProtectVersionCheck-FACT.sh"
+runScript
+#
 runScript() {
 # Download the script
 /usr/bin/curl -L -s $scriptURL -o $scriptPath
