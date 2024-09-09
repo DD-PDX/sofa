@@ -1,34 +1,40 @@
 <template>
   <div>
-    <div v-if="securityData && securityData.length">
+    <!-- Show beta message if stage is beta and no security data is available -->
+    <div v-if="!securityData && stage === 'beta'">
+      <p>Feature information will be available when no longer in beta.</p>
+    </div>
+
+    <!-- Show security data when available -->
+    <div v-else-if="securityData && securityData.length">
       <div v-for="(info, index) in securityData" :key="index" class="security-info-item">
         <h3>{{ info.UpdateName }}</h3>
         <p>
-          Release Date: {{ formatDate(info.ReleaseDate) }} 
+          Release Date: {{ formatDate(info.ReleaseDate) }}
           <span v-if="isCritical(info.SecurityInfo)" title="Critical security updates included in this release. Please review for impact.">⚠️</span>
         </p>
         <p>{{ info.UpdateName }}</p>
         <p>
-          Security Info: 
+          Security Info:
           <a :href="createSafeLink(info.SecurityInfo)" target="_blank">
             {{ info.SecurityInfo && info.SecurityInfo !== 'This update has no published CVE entries.' ? info.SecurityInfo : 'This update has no published CVE entries.' }}
           </a>
         </p>
         <p>Vulnerabilities Addressed: {{ Object.keys(info.CVEs).length || 0 }}</p>
         <p>
-          Actively Exploited Vulnerabilities (KEV): 
+          Actively Exploited Vulnerabilities (KEV):
           <span v-if="info.ActivelyExploitedCVEs.length">
-            <span v-for="(cve, idx) in info.ActivelyExploitedCVEs" :key="idx">
-              🔥 <a :href="`/cve-details.html?cveId=${cve}`" target="_blank">{{ cve }}</a>{{ idx < info.ActivelyExploitedCVEs.length - 1 ? ', ' : '' }}
+            <span v-for="(cve, idx) in sortedKEVs(info.ActivelyExploitedCVEs)" :key="idx">
+              🔥 <a :href="`/cve-details.html?cveId=${cve}`" target="_blank">{{ cve }}</a>{{ idx < sortedKEVs(info.ActivelyExploitedCVEs).length - 1 ? ', ' : '' }}
             </span>
           </span>
           <span v-else>0</span>
         </p>
         <p>
-          CVEs: 
+          CVEs:
           <span v-if="Object.keys(info.CVEs).length">
-            <span v-for="(cve, idx) in Object.keys(info.CVEs)" :key="idx">
-              <a :href="`/cve-details.html?cveId=${cve}`" target="_blank">{{ cve }}</a>{{ idx < Object.keys(info.CVEs).length - 1 ? ', ' : '' }}
+            <span v-for="(cve, idx) in sortedCVEs(info.CVEs)" :key="idx">
+              <a :href="`/cve-details.html?cveId=${cve}`" target="_blank">{{ cve }}</a>{{ idx < sortedCVEs(info.CVEs).length - 1 ? ', ' : '' }}
             </span>
           </span>
           <span v-else>0</span>
@@ -36,10 +42,14 @@
         <p>Days to Prev. Release: {{ info.DaysSincePreviousRelease }}</p>
       </div>
     </div>
-    <div v-else>
+
+    <!-- Show loading if no data yet and no error -->
+    <div v-else-if="!error">
       Loading...
     </div>
-    <div v-if="error">
+
+    <!-- Show error message if data fails to load and stage is not beta -->
+    <div v-if="error && stage !== 'beta'">
       {{ error }}
     </div>
   </div>
@@ -58,6 +68,10 @@ export default {
     platform: {
       type: String,
       required: true,
+    },
+    stage: {
+      type: String,
+      default: 'release', // Default to 'release'
     },
   },
   data() {
@@ -94,14 +108,38 @@ export default {
       tempAnchorElement.href = url;
       // Replace specific text with a generic link
       if (url === 'This update has no published CVE entries.') {
-        return 'https://support.apple.com/en-ca/HT201222';
+        return 'https://support.apple.com/en-ca/100100';
       }
       return tempAnchorElement.href;
     },
     isCritical(url) {
       return url && url.startsWith('http');
     },
-  },
+    sortedCVEs(CVEs) {
+      return Object.keys(CVEs).sort((a, b) => {
+        const yearA = parseInt(a.split('-')[1]);
+        const yearB = parseInt(b.split('-')[1]);
+        if (yearA === yearB) {
+          const numA = parseInt(a.split('-').pop());
+          const numB = parseInt(b.split('-').pop());
+          return numB - numA;
+        }
+        return yearB - yearA;
+      });
+    },
+    sortedKEVs(KEVs) {
+      return KEVs.sort((a, b) => {
+        const yearA = parseInt(a.split('-')[1]);
+        const yearB = parseInt(b.split('-')[1]);
+        if (yearA === yearB) {
+          const numA = parseInt(a.split('-').pop());
+          const numB = parseInt(b.split('-').pop());
+          return numB - numA;
+        }
+        return yearB - yearA;
+      });
+    }
+  }
 };
 </script>
 

@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "c1f970661a471fde26259e709021fe3880223f9ab2cb314467dca9e0f19fc538",
+    "UpdateHash": "d7f1ac5895f7185f8a19abf91a0f34d1672400099c72a9b4105e3412e63c3d5a",
     "OSVersions": [
         {
             "OSVersion": "Sonoma 14",
@@ -7,7 +7,7 @@
                 "ProductVersion": "14.6.1",
                 "Build": "23G93",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2024-11-24T00:00:00Z",
+                "ExpirationDate": "2024-12-08T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -140,7 +140,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 9
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.6",
@@ -148,7 +148,7 @@
                     "ProductVersion": "14.6",
                     "ReleaseDate": "2024-07-29T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214119",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120911",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -280,7 +280,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 69,
-                    "DaysSincePreviousRelease": 77
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.5",
@@ -288,7 +288,7 @@
                     "ProductVersion": "14.5",
                     "ReleaseDate": "2024-05-13T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214106",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120903",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -400,7 +400,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 49,
-                    "DaysSincePreviousRelease": 49
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.4.1",
@@ -408,7 +408,7 @@
                     "ProductVersion": "14.4.1",
                     "ReleaseDate": "2024-03-25T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214096",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120889",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -472,7 +472,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 18
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.4",
@@ -480,7 +480,7 @@
                     "ProductVersion": "14.4",
                     "ReleaseDate": "2024-03-07T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214084",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120895",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -623,7 +623,7 @@
                         "CVE-2024-23296"
                     ],
                     "UniqueCVEsCount": 77,
-                    "DaysSincePreviousRelease": 28
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.3.1",
@@ -693,7 +693,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 17
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.3",
@@ -701,7 +701,7 @@
                     "ProductVersion": "14.3",
                     "ReleaseDate": "2024-01-22T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214061",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120309",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -786,7 +786,7 @@
                         "CVE-2024-23222"
                     ],
                     "UniqueCVEsCount": 20,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.2.1",
@@ -858,7 +858,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 8
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.2",
@@ -988,7 +988,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 59,
-                    "DaysSincePreviousRelease": 11
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.1.2",
@@ -1064,7 +1064,7 @@
                         "CVE-2023-42917"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 23
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.1.1",
@@ -1134,7 +1134,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 13
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.1",
@@ -1275,7 +1275,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 70,
-                    "DaysSincePreviousRelease": 29
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Sonoma 14",
@@ -1551,7 +1551,7 @@
                 "ProductVersion": "13.6.9",
                 "Build": "22G830",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2024-11-24T00:00:00Z",
+                "ExpirationDate": "2024-12-08T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -1682,7 +1682,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 9
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.8",
@@ -1690,7 +1690,7 @@
                     "ProductVersion": "13.6.8",
                     "ReleaseDate": "2024-07-29T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214120",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120912",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -1797,7 +1797,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 45,
-                    "DaysSincePreviousRelease": 77
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.7",
@@ -1805,7 +1805,7 @@
                     "ProductVersion": "13.6.7",
                     "ReleaseDate": "2024-05-13T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214107",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120900",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -1890,7 +1890,7 @@
                         "CVE-2024-23296"
                     ],
                     "UniqueCVEsCount": 21,
-                    "DaysSincePreviousRelease": 49
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.6",
@@ -1898,7 +1898,7 @@
                     "ProductVersion": "13.6.6",
                     "ReleaseDate": "2024-03-25T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214095",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120891",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -1961,7 +1961,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 18
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.5",
@@ -1969,7 +1969,7 @@
                     "ProductVersion": "13.6.5",
                     "ReleaseDate": "2024-03-07T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214085",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120886",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -2065,7 +2065,7 @@
                         "CVE-2024-23225"
                     ],
                     "UniqueCVEsCount": 32,
-                    "DaysSincePreviousRelease": 45
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.4",
@@ -2073,7 +2073,7 @@
                     "ProductVersion": "13.6.4",
                     "ReleaseDate": "2024-01-22T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214058",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120307",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -2150,7 +2150,7 @@
                         "CVE-2024-23222"
                     ],
                     "UniqueCVEsCount": 13,
-                    "DaysSincePreviousRelease": 42
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.3",
@@ -2251,7 +2251,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 31,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.2",
@@ -2320,7 +2320,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 13
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.1",
@@ -2418,7 +2418,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 28,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6",
@@ -2512,7 +2512,7 @@
                         "CVE-2023-41991"
                     ],
                     "UniqueCVEsCount": 21,
-                    "DaysSincePreviousRelease": 14
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.5.2",
@@ -2585,7 +2585,7 @@
                         "CVE-2023-41064"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 21
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.5.1",
@@ -2654,7 +2654,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 24
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.5",
@@ -2804,7 +2804,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 77,
-                    "DaysSincePreviousRelease": 12
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "Rapid Security Response macOS Ventura 13.4.1 (c)",
@@ -2877,7 +2877,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 2
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "Rapid Security Response macOS Ventura 13.4.1 (a)",
@@ -2950,7 +2950,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 19
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.4.1",
@@ -3025,7 +3025,7 @@
                         "CVE-2023-32439"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.4",
@@ -3162,7 +3162,7 @@
                         "CVE-2023-32373"
                     ],
                     "UniqueCVEsCount": 63,
-                    "DaysSincePreviousRelease": 41
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.3.1",
@@ -3237,7 +3237,7 @@
                         "CVE-2023-28205"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 11
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.3",
@@ -3404,7 +3404,7 @@
                         "CVE-2023-32435"
                     ],
                     "UniqueCVEsCount": 95,
-                    "DaysSincePreviousRelease": 42
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.2.1",
@@ -3480,7 +3480,7 @@
                         "CVE-2023-23529"
                     ],
                     "UniqueCVEsCount": 4,
-                    "DaysSincePreviousRelease": 21
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.2",
@@ -3588,7 +3588,7 @@
                         "CVE-2023-41990"
                     ],
                     "UniqueCVEsCount": 36,
-                    "DaysSincePreviousRelease": 75
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13.0.1",
@@ -3660,7 +3660,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 16
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Ventura 13",
@@ -3998,7 +3998,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2024-11-24T00:00:00Z",
+                "ExpirationDate": "2024-12-08T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -4059,7 +4059,7 @@
                     "VMA2MACOSAP",
                     "VMM-x86_64"
                 ],
-                "SecurityInfo": "https://support.apple.com/kb/HT214118",
+                "SecurityInfo": "https://support.apple.com/en-ca/120910",
                 "CVEs": {
                     "CVE-2024-40783": false,
                     "CVE-2024-27826": false,
@@ -4115,7 +4115,7 @@
                     "ProductVersion": "12.7.6",
                     "ReleaseDate": "2024-07-29T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214118",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120910",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -4223,7 +4223,7 @@
                         "CVE-2024-23296"
                     ],
                     "UniqueCVEsCount": 41,
-                    "DaysSincePreviousRelease": 77
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7.5",
@@ -4231,7 +4231,7 @@
                     "ProductVersion": "12.7.5",
                     "ReleaseDate": "2024-05-13T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214105",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120899",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -4314,7 +4314,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 18,
-                    "DaysSincePreviousRelease": 67
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7.4",
@@ -4322,7 +4322,7 @@
                     "ProductVersion": "12.7.4",
                     "ReleaseDate": "2024-03-07T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214083",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120884",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -4417,7 +4417,7 @@
                         "CVE-2024-23225"
                     ],
                     "UniqueCVEsCount": 28,
-                    "DaysSincePreviousRelease": 45
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7.3",
@@ -4425,7 +4425,7 @@
                     "ProductVersion": "12.7.3",
                     "ReleaseDate": "2024-01-22T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214057",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120305",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -4501,7 +4501,7 @@
                         "CVE-2024-23222"
                     ],
                     "UniqueCVEsCount": 9,
-                    "DaysSincePreviousRelease": 42
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7.2",
@@ -4602,7 +4602,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 28,
-                    "DaysSincePreviousRelease": 47
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7.1",
@@ -4698,7 +4698,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 23,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7",
@@ -4789,7 +4789,7 @@
                         "CVE-2023-41992"
                     ],
                     "UniqueCVEsCount": 16,
-                    "DaysSincePreviousRelease": 10
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.9",
@@ -4865,7 +4865,7 @@
                         "CVE-2023-41064"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 49
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.8",
@@ -4991,7 +4991,7 @@
                         "CVE-2023-38606"
                     ],
                     "UniqueCVEsCount": 50,
-                    "DaysSincePreviousRelease": 33
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.7",
@@ -5067,7 +5067,7 @@
                         "CVE-2023-32434"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.6",
@@ -5172,7 +5172,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 32,
-                    "DaysSincePreviousRelease": 38
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.5",
@@ -5248,7 +5248,7 @@
                         "CVE-2023-28206"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 14
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.4",
@@ -5361,7 +5361,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 40,
-                    "DaysSincePreviousRelease": 63
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.3",
@@ -5455,7 +5455,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 21,
-                    "DaysSincePreviousRelease": 41
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.2",
@@ -5545,7 +5545,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 17,
-                    "DaysSincePreviousRelease": 50
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.1",
@@ -5632,7 +5632,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 14,
-                    "DaysSincePreviousRelease": 42
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6",
@@ -5747,7 +5747,7 @@
                         "CVE-2022-32917"
                     ],
                     "UniqueCVEsCount": 40,
-                    "DaysSincePreviousRelease": 26
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.5.1",
@@ -5825,7 +5825,7 @@
                         "CVE-2022-32893"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 28
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.5",
@@ -5969,7 +5969,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 71,
-                    "DaysSincePreviousRelease": 65
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.4",
@@ -6126,7 +6126,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 84,
-                    "DaysSincePreviousRelease": 46
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.3.1",
@@ -6204,7 +6204,7 @@
                         "CVE-2022-22674"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 17
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.3",
@@ -6346,7 +6346,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 69,
-                    "DaysSincePreviousRelease": 32
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.2.1",
@@ -6422,7 +6422,7 @@
                         "CVE-2022-22620"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 15
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.2",
@@ -6512,7 +6512,7 @@
                         "CVE-2022-22587"
                     ],
                     "UniqueCVEsCount": 15,
-                    "DaysSincePreviousRelease": 44
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.1",
@@ -6520,7 +6520,7 @@
                     "ProductVersion": "12.1",
                     "ReleaseDate": "2021-12-13T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT212978",
+                    "SecurityInfo": "https://support.apple.com/en-ca/102874",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -6639,7 +6639,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 54,
-                    "DaysSincePreviousRelease": 49
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "macOS Monterey 12.0.1",
@@ -6647,7 +6647,7 @@
                     "ProductVersion": "12.0.1",
                     "ReleaseDate": "2021-10-25T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT212869",
+                    "SecurityInfo": "https://support.apple.com/en-ca/103236",
                     "SupportedDevices": [
                         "J132AP",
                         "J137AP",
@@ -6955,13 +6955,13 @@
         }
     ],
     "XProtectPayloads": {
-        "com.apple.XProtectFramework.XProtect": "142",
+        "com.apple.XProtectFramework.XProtect": "145",
         "com.apple.XprotectFramework.PluginService": "74",
-        "ReleaseDate": "2024-08-20T17:08:31Z"
+        "ReleaseDate": "2024-09-03T18:18:18Z"
     },
     "XProtectPlistConfigData": {
-        "com.apple.XProtect": "5271",
-        "ReleaseDate": "2024-08-06T19:48:03Z"
+        "com.apple.XProtect": "5272",
+        "ReleaseDate": "2024-08-28T17:03:35Z"
     },
     "Models": {
         "Mac15,13": {

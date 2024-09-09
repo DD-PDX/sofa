@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "ba360ba3b443eb8c65758f28568316335243c40f5bb1f63fa49b64c5d3606c78",
+    "UpdateHash": "380db72bd271f3b906931f26509754c35d47dea9bc454f3192436be064241f42",
     "OSVersions": [
         {
             "OSVersion": "17",
@@ -7,7 +7,7 @@
                 "ProductVersion": "17.6.1",
                 "Build": "21G93",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2024-11-24T00:00:00Z",
+                "ExpirationDate": "2024-12-08T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -186,7 +186,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 9
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.6 and iPadOS 17.6",
@@ -194,7 +194,7 @@
                     "ProductVersion": "17.6",
                     "ReleaseDate": "2024-07-29T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214117",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120909",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -317,7 +317,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 35,
-                    "DaysSincePreviousRelease": 70
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.5.1 and iPadOS 17.5.1",
@@ -330,7 +330,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 7
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.5 and iPadOS 17.5",
@@ -338,7 +338,7 @@
                     "ProductVersion": "17.5",
                     "ReleaseDate": "2024-05-13T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214101",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120905",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-27826": false,
@@ -389,7 +389,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 45,
-                    "DaysSincePreviousRelease": 53
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.4.1 and iPadOS 17.4.1",
@@ -397,14 +397,14 @@
                     "ProductVersion": "17.4.1",
                     "ReleaseDate": "2024-03-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214097",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120890",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-1580": false
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 16
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.4 and iPadOS 17.4",
@@ -412,7 +412,7 @@
                     "ProductVersion": "17.4",
                     "ReleaseDate": "2024-03-05T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214081",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120893",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-23243": false,
@@ -460,7 +460,7 @@
                         "CVE-2024-23296"
                     ],
                     "UniqueCVEsCount": 39,
-                    "DaysSincePreviousRelease": 26
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.3.1 and iPadOS 17.3.1",
@@ -473,7 +473,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 17
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.3 and iPadOS 17.3",
@@ -481,7 +481,7 @@
                     "ProductVersion": "17.3",
                     "ReleaseDate": "2024-01-22T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214059",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120304",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-23212": false,
@@ -509,7 +509,7 @@
                         "CVE-2024-23222"
                     ],
                     "UniqueCVEsCount": 20,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.2.1",
@@ -522,7 +522,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 8
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.2 and iPadOS 17.2",
@@ -559,7 +559,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 23,
-                    "DaysSincePreviousRelease": 11
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.1.2 and iPadOS 17.1.2",
@@ -578,7 +578,7 @@
                         "CVE-2023-42917"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 23
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.1.1 and iPadOS 17.1.1",
@@ -591,7 +591,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 13
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.1 and iPadOS 17.1",
@@ -643,7 +643,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 38,
-                    "DaysSincePreviousRelease": 21
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.0.3 and iPadOS 17.0.3",
@@ -661,7 +661,7 @@
                         "CVE-2023-42824"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 8
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.0.2 and iPadOS 17.0.2",
@@ -674,7 +674,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 5
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.0.2",
@@ -687,7 +687,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 3
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17.0.1 and iPadOS 17.0.1",
@@ -708,7 +708,7 @@
                         "CVE-2023-41993"
                     ],
                     "UniqueCVEsCount": 3,
-                    "DaysSincePreviousRelease": 3
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 17 and iPadOS 17",
@@ -882,7 +882,7 @@
                 "ProductVersion": "16.7.10",
                 "Build": "20H6350",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2024-11-24T00:00:00Z",
+                "ExpirationDate": "2024-12-08T00:00:00Z",
                 "SupportedDevices": [
                     "iPad6,11",
                     "iPad6,12",
@@ -923,7 +923,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 9
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.9 and iPadOS 16.7.9",
@@ -931,7 +931,7 @@
                     "ProductVersion": "16.7.9",
                     "ReleaseDate": "2024-07-29T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214116",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120908",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-40799": false,
@@ -963,7 +963,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 26,
-                    "DaysSincePreviousRelease": 77
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.8 and iPadOS 16.7.8",
@@ -971,7 +971,7 @@
                     "ProductVersion": "16.7.8",
                     "ReleaseDate": "2024-05-13T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214100",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120898",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-27805": false,
@@ -1001,7 +1001,7 @@
                         "CVE-2024-23296"
                     ],
                     "UniqueCVEsCount": 22,
-                    "DaysSincePreviousRelease": 53
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.7 and iPadOS 16.7.7",
@@ -1009,14 +1009,14 @@
                     "ProductVersion": "16.7.7",
                     "ReleaseDate": "2024-03-21T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214098",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120892",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-1580": false
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 16
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.6 and iPadOS 16.7.6",
@@ -1024,7 +1024,7 @@
                     "ProductVersion": "16.7.6",
                     "ReleaseDate": "2024-03-05T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214082",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120880",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2024-23262": false,
@@ -1051,7 +1051,7 @@
                         "CVE-2024-23225"
                     ],
                     "UniqueCVEsCount": 19,
-                    "DaysSincePreviousRelease": 43
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.5 and iPadOS 16.7.5",
@@ -1059,7 +1059,7 @@
                     "ProductVersion": "16.7.5",
                     "ReleaseDate": "2024-01-22T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/kb/HT214063",
+                    "SecurityInfo": "https://support.apple.com/en-ca/120310",
                     "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2023-42937": false,
@@ -1076,7 +1076,7 @@
                         "CVE-2024-23222"
                     ],
                     "UniqueCVEsCount": 9,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.4 and iPadOS 16.7.4",
@@ -1089,7 +1089,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 8
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.3 and iPadOS 16.7.3",
@@ -1118,7 +1118,7 @@
                         "CVE-2023-42916"
                     ],
                     "UniqueCVEsCount": 12,
-                    "DaysSincePreviousRelease": 47
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.2 and iPadOS 16.7.2",
@@ -1224,7 +1224,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 23,
-                    "DaysSincePreviousRelease": 15
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7.1 and iPadOS 16.7.1",
@@ -1255,7 +1255,7 @@
                         "CVE-2023-42824"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 19
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.7 and iPadOS 16.7",
@@ -1305,7 +1305,7 @@
                         "CVE-2023-41993"
                     ],
                     "UniqueCVEsCount": 19,
-                    "DaysSincePreviousRelease": 14
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.6.1 and iPadOS 16.6.1",
@@ -1324,7 +1324,7 @@
                         "CVE-2023-41061"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 45
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.6 and iPadOS 16.6",
@@ -1385,7 +1385,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 44,
-                    "DaysSincePreviousRelease": 12
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "Rapid Security Response iOS 16.5.1 (c)",
@@ -1402,7 +1402,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 2
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "Rapid Security Response iOS 16.5.1 (a)",
@@ -1419,7 +1419,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 19
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.5.1 and iPadOS 16.5.1",
@@ -1438,7 +1438,7 @@
                         "CVE-2023-32439"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 34
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.5 and iPadOS 16.5",
@@ -1502,7 +1502,7 @@
                         "CVE-2023-32373"
                     ],
                     "UniqueCVEsCount": 46,
-                    "DaysSincePreviousRelease": 41
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.4.1 and iPadOS 16.4.1",
@@ -1521,7 +1521,7 @@
                         "CVE-2023-28205"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 11
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.4 and iPadOS 16.4",
@@ -1590,7 +1590,7 @@
                         "CVE-2023-32435"
                     ],
                     "UniqueCVEsCount": 53,
-                    "DaysSincePreviousRelease": 42
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.3.1 and iPadOS 16.3.1",
@@ -1609,7 +1609,7 @@
                         "CVE-2023-23529"
                     ],
                     "UniqueCVEsCount": 3,
-                    "DaysSincePreviousRelease": 21
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.3 and iPadOS 16.3",
@@ -1646,7 +1646,7 @@
                         "CVE-2023-41990"
                     ],
                     "UniqueCVEsCount": 21,
-                    "DaysSincePreviousRelease": 41
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.2 and iPadOS 16.2",
@@ -1710,7 +1710,7 @@
                         "CVE-2022-42856"
                     ],
                     "UniqueCVEsCount": 47,
-                    "DaysSincePreviousRelease": 13
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.1.2",
@@ -1727,7 +1727,7 @@
                         "CVE-2022-42856"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 21
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.1.1 and iPadOS 16.1.1",
@@ -1743,7 +1743,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 16
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.1 and iPadOS 16",
@@ -1802,7 +1802,7 @@
                         "CVE-2022-42827"
                     ],
                     "UniqueCVEsCount": 43,
-                    "DaysSincePreviousRelease": 14
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.0.3",
@@ -1817,7 +1817,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 18
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.0.2",
@@ -1830,7 +1830,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 7
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16.0.1",
@@ -1843,7 +1843,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 3
+                    "DaysSincePreviousRelease": 0
                 },
                 {
                     "UpdateName": "iOS 16",
