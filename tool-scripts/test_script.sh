@@ -1,4 +1,3 @@
-
 #!/bin/zsh
 #
 #
@@ -39,7 +38,6 @@ echo "macOS Displacement Check:"
 scriptPath="/tmp/macOSVersionDisplacement-FACT.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSVersionDisplacement-FACT.sh"
 runScript
-
 echo "Verbose CVE Check:"
 scriptPath="/tmp/macOSCVECheck-FACT.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSCVECheck-FACT.sh"
