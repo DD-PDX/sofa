@@ -13,7 +13,13 @@
       <link>https://sofa.macadmins.io/v1/rss_feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Sep 2024 17:02:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2024 12:47:12 +0000</lastBuildDate>
+    <item>
+      <title>XProtect Plist Config 5273</title>
+      <link>https://sofa.macadmins.io/</link>
+      <guid isPermaLink="false">XProtect_Config_5273</guid>
+      <pubDate>Thu, 12 Sep 2024 23:58:11 +0000</pubDate>
+    </item>
     <item>
       <title>XProtect Plug-in Service 74</title>
       <link>https://sofa.macadmins.io/</link>
@@ -25,12 +31,6 @@
       <link>https://sofa.macadmins.io/</link>
       <guid isPermaLink="false">XProtect_Remediator_145</guid>
       <pubDate>Tue, 03 Sep 2024 18:18:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>XProtect Plist Config 5272</title>
-      <link>https://sofa.macadmins.io/</link>
-      <guid isPermaLink="false">XProtect_Config_5272</guid>
-      <pubDate>Wed, 28 Aug 2024 17:03:35 +0000</pubDate>
     </item>
     <item>
       <title>iOS 16.7.10 and iPadOS 16.7.10</title>

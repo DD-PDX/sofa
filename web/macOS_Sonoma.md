@@ -4,11 +4,11 @@ platform: macOS
 layout: doc
 ---
 
-# macOS Sonoma 14 <Badge type="tip" text="Current Version (N-0)" />
+# macOS Sonoma 14 <Badge type="tip" text="Previous Version (N-1)" />
 
-::: tip RECOMMENDED RELEASE FOR MOST UP-TO-DATE SECURITY
-This is the latest version of macOS that receives the most up-to-date security patches and updates, making it the recommended choice to protect your devices.
-:::
+::: tip STABLE RELEASE WITH MOST SECURITY UPDATES
+This version of macOS may not contain the newest security features contained in the latest macOS version. To maintain your computer's security, stability, and compatibility, Apple recommends using the latest macOS that is compatible with your Mac. 
+::: 
 
 
 <script setup>
@@ -18,14 +18,15 @@ import SecurityInfo from './components/SecurityInfo.vue';
 const frontmatter = {
   title: 'Sonoma 14',
   platform: 'macOS',
+  stage: 'release',
 };
 </script>
 
 ## Latest Release Info
-<LatestFeatures :title="frontmatter.title" :platform="frontmatter.platform" />
+<LatestFeatures :title="frontmatter.title" :platform="frontmatter.platform" :stage="frontmatter.stage" />
 
 ## Essential Apple Resources
-<LinksComponent :title="frontmatter.title" :platform="frontmatter.platform" />
+<LinksComponent :title="frontmatter.title" :platform="frontmatter.platform" :stage="frontmatter.stage" />
 
 ## Security Information
-<SecurityInfo :title="frontmatter.title" :platform="frontmatter.platform" />
+<SecurityInfo :title="frontmatter.title" :platform="frontmatter.platform" :stage="frontmatter.stage" />
