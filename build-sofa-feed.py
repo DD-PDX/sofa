@@ -222,7 +222,7 @@ def process_os_type(os_type: str, config: dict, gdmf_data: dict) -> list:
     }
     if os_type == "macOS":
         catalog_url: str = (
-            "https://swscan.apple.com/content/catalogs/others/index-15seed-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog.gz" 
+            "https://swscan.apple.com/content/catalogs/others/index-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog" 
     # noqa: E501 pylint: disable=line-too-long
         )
         catalog_content = fetch_content(catalog_url)
@@ -580,8 +580,8 @@ def fetch_security_releases(os_type: str, os_version: str, gdmf_data: dict) -> l
     urls = [
         "https://support.apple.com/en-ca/100100",  # Current info
         "https://support.apple.com/en-ca/121012",  # 2022 to 2023
-        "https://support.apple.com/en-ca/120989",  # 2020 to 2021
-        "https://support.apple.com/en-ca/103179",  # 2018 to 2019
+        #"https://support.apple.com/en-ca/120989",  # 2020 to 2021
+        #"https://support.apple.com/en-ca/103179",  # 2018 to 2019
     ]
     
     security_releases = []
@@ -617,6 +617,9 @@ def fetch_security_releases(os_type: str, os_version: str, gdmf_data: dict) -> l
                         # extract ProductVersion from the name_info, any digit(s), dot, any digit(s)
                         version_match = re.search(r"\d+(\.\d+)*", name_info)
                         product_version = version_match.group() if version_match else "Unknown"
+                        # Ensure that product_version includes the minor version or add .0 see GH issue #174
+                        if '.' not in product_version:
+                            product_version += '.0'
                         print(f"Processing security release {product_version}, source {name_info}")
                         # Handling the case when the page indicates no published CVE entries
                         if link_info and "no published CVE entries" in fetch_content(link_info).lower():
@@ -786,42 +789,53 @@ def write_data_to_json(feed_structure: dict, filename: str):
     
     for os_version in feed_structure["OSVersions"]:
         if "Latest" in os_version:
-            product_version = os_version["Latest"].get("ProductVersion", "")
-            latest_date = format_iso_date(
-                os_version["Latest"].get("ReleaseDate", "")
-            )
-            os_version["Latest"]["ReleaseDate"] = latest_date
-
-            if "ExpirationDate" in os_version["Latest"]:
-                os_version["Latest"]["ExpirationDate"] = format_iso_date(
-                    os_version["Latest"].get("ExpirationDate", "")
-                )
+            latest_dict = os_version["Latest"]
             
+            # Ensure all required keys are present with default values
+            latest_dict["ProductVersion"] = latest_dict.get("ProductVersion", "")
+            latest_dict["ReleaseDate"] = latest_dict.get("ReleaseDate", "")
+            latest_dict["ExpirationDate"] = latest_dict.get("ExpirationDate", "")
+            latest_dict["Build"] = latest_dict.get("Build", "")
+            latest_dict["SecurityInfo"] = latest_dict.get("SecurityInfo", "")
+            latest_dict["UniqueCVEsCount"] = latest_dict.get("UniqueCVEsCount", 0)
+            latest_dict["ActivelyExploitedCVEs"] = latest_dict.get("ActivelyExploitedCVEs", [])
+            latest_dict["CVEs"] = latest_dict.get("CVEs", {})
+            latest_dict["SupportedDevices"] = latest_dict.get("SupportedDevices", [])
+            
+            # Convert dates to ISO format
+            latest_dict["ReleaseDate"] = format_iso_date(latest_dict.get("ReleaseDate", ""))
+            latest_dict["ExpirationDate"] = format_iso_date(latest_dict.get("ExpirationDate", ""))
+            
+            product_version = latest_dict["ProductVersion"]
+
             # Store the latest version info for comparison
             latest_versions[product_version] = {
-                "latest_date": latest_date,
+                "latest_date": latest_dict["ReleaseDate"],
                 "os_version_dict": os_version
             }
         
+        # Handle SecurityReleases similarly if present
         if "SecurityReleases" in os_version and isinstance(os_version["SecurityReleases"], list):
             for release in os_version["SecurityReleases"]:
-                potential_date = format_iso_date(release.get("ReleaseDate", ""))
-                product_version = release.get("ProductVersion", "")
+                release["ProductVersion"] = release.get("ProductVersion", "")
+                release["ReleaseDate"] = release.get("ReleaseDate", "")
+                release["ReleaseDate"] = format_iso_date(release.get("ReleaseDate", ""))
 
+                product_version = release["ProductVersion"]
                 if product_version in latest_versions:
                     # Update security date if the product version matches
-                    latest_versions[product_version]["security_date"] = potential_date
-                release["ReleaseDate"] = potential_date
-    
+                    latest_versions[product_version]["security_date"] = release["ReleaseDate"]
+
     # Update all relevant Latest entries with their respective security dates
     for product_version, version_info in latest_versions.items():
         if "security_date" in version_info:
             latest_dict = version_info["os_version_dict"]["Latest"]
-            from_date = version_info["latest_date"]
-            to_date = version_info["security_date"]
-            latest_dict["ReleaseDate"] = to_date
-            print(f"Updated {product_version} ReleaseDate from {from_date} to {to_date}")
-        
+            original_date = latest_dict.get("ReleaseDate", "")
+            new_date = version_info["security_date"]
+            latest_dict["ReleaseDate"] = new_date
+            print(f"Updated {product_version} ReleaseDate from {original_date} to {new_date}")
+    
+    # Write the updated feed structure back to a file
     with open(filename, "w", encoding="utf-8") as json_file:
         json.dump(
             feed_structure, json_file, indent=4, ensure_ascii=False

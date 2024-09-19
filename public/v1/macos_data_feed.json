@@ -1,13 +1,319 @@
 {
-    "UpdateHash": "6cb0cf8a33ac7d6995f08b966833acc0939e0ebc82020445ac85b0dfe681bd1c",
+    "UpdateHash": "e3d843ff75c2818b5b2d29a0c049d41b6f0fc972b2343612f54b2af6bf7f8599",
     "OSVersions": [
+        {
+            "OSVersion": "Sequoia 15",
+            "Latest": {
+                "ProductVersion": "15.0",
+                "Build": "24A335",
+                "ReleaseDate": "2024-09-16T00:00:00Z",
+                "ExpirationDate": "2024-12-18T00:00:00Z",
+                "SupportedDevices": [
+                    "J132AP",
+                    "J137AP",
+                    "J152FAP",
+                    "J160AP",
+                    "J174AP",
+                    "J180dAP",
+                    "J185AP",
+                    "J185FAP",
+                    "J213AP",
+                    "J214KAP",
+                    "J215AP",
+                    "J223AP",
+                    "J230KAP",
+                    "J274AP",
+                    "J293AP",
+                    "J313AP",
+                    "J314cAP",
+                    "J314sAP",
+                    "J316cAP",
+                    "J316sAP",
+                    "J375cAP",
+                    "J375dAP",
+                    "J413AP",
+                    "J414cAP",
+                    "J414sAP",
+                    "J415AP",
+                    "J416cAP",
+                    "J416sAP",
+                    "J433AP",
+                    "J434AP",
+                    "J456AP",
+                    "J457AP",
+                    "J473AP",
+                    "J474sAP",
+                    "J475cAP",
+                    "J475dAP",
+                    "J493AP",
+                    "J504AP",
+                    "J514cAP",
+                    "J514mAP",
+                    "J514sAP",
+                    "J516cAP",
+                    "J516mAP",
+                    "J516sAP",
+                    "J613AP",
+                    "J615AP",
+                    "J680AP",
+                    "J780AP",
+                    "Mac-1E7E29AD0135F9BC",
+                    "Mac-63001698E7A34814",
+                    "Mac-937A206F2EE63C01",
+                    "Mac-AA95B1DDAB278B95",
+                    "VMA2MACOSAP",
+                    "VMM-x86_64"
+                ],
+                "SecurityInfo": "",
+                "UniqueCVEsCount": 0,
+                "ActivelyExploitedCVEs": [],
+                "CVEs": {}
+            },
+            "SecurityReleases": [
+                {
+                    "UpdateName": "macOS Sequoia 15",
+                    "ProductName": "macOS",
+                    "ProductVersion": "15.0",
+                    "ReleaseDate": "2024-09-16T00:00:00Z",
+                    "ReleaseType": "OS",
+                    "SecurityInfo": "https://support.apple.com/en-ca/121238",
+                    "SupportedDevices": [
+                        "J132AP",
+                        "J137AP",
+                        "J152FAP",
+                        "J160AP",
+                        "J174AP",
+                        "J180dAP",
+                        "J185AP",
+                        "J185FAP",
+                        "J213AP",
+                        "J214KAP",
+                        "J215AP",
+                        "J223AP",
+                        "J230KAP",
+                        "J274AP",
+                        "J293AP",
+                        "J313AP",
+                        "J314cAP",
+                        "J314sAP",
+                        "J316cAP",
+                        "J316sAP",
+                        "J375cAP",
+                        "J375dAP",
+                        "J413AP",
+                        "J414cAP",
+                        "J414sAP",
+                        "J415AP",
+                        "J416cAP",
+                        "J416sAP",
+                        "J433AP",
+                        "J434AP",
+                        "J456AP",
+                        "J457AP",
+                        "J473AP",
+                        "J474sAP",
+                        "J475cAP",
+                        "J475dAP",
+                        "J493AP",
+                        "J504AP",
+                        "J514cAP",
+                        "J514mAP",
+                        "J514sAP",
+                        "J516cAP",
+                        "J516mAP",
+                        "J516sAP",
+                        "J613AP",
+                        "J615AP",
+                        "J680AP",
+                        "J780AP",
+                        "Mac-1E7E29AD0135F9BC",
+                        "Mac-63001698E7A34814",
+                        "Mac-937A206F2EE63C01",
+                        "Mac-AA95B1DDAB278B95",
+                        "VMA2MACOSAP",
+                        "VMM-x86_64"
+                    ],
+                    "CVEs": {
+                        "CVE-2024-44129": false,
+                        "CVE-2024-44153": false,
+                        "CVE-2024-44188": false,
+                        "CVE-2024-40825": false,
+                        "CVE-2024-44130": false,
+                        "CVE-2024-44182": false,
+                        "CVE-2024-44154": false,
+                        "CVE-2024-40845": false,
+                        "CVE-2024-40846": false,
+                        "CVE-2024-44164": false,
+                        "CVE-2024-40837": false,
+                        "CVE-2024-40847": false,
+                        "CVE-2024-40848": false,
+                        "CVE-2024-44168": false,
+                        "CVE-2024-27860": false,
+                        "CVE-2024-27861": false,
+                        "CVE-2024-40841": false,
+                        "CVE-2024-27795": false,
+                        "CVE-2024-44135": false,
+                        "CVE-2024-44132": false,
+                        "CVE-2024-44128": false,
+                        "CVE-2024-44151": false,
+                        "CVE-2024-27876": false,
+                        "CVE-2024-27869": false,
+                        "CVE-2024-27875": false,
+                        "CVE-2024-44146": false,
+                        "CVE-2023-4504": false,
+                        "CVE-2024-44148": false,
+                        "CVE-2024-44177": false,
+                        "CVE-2024-44131": false,
+                        "CVE-2024-40850": false,
+                        "CVE-2024-40831": false,
+                        "CVE-2024-27880": false,
+                        "CVE-2024-44176": false,
+                        "CVE-2024-40861": false,
+                        "CVE-2024-44160": false,
+                        "CVE-2024-44161": false,
+                        "CVE-2024-44169": false,
+                        "CVE-2024-44165": false,
+                        "CVE-2024-44191": false,
+                        "CVE-2024-44198": false,
+                        "CVE-2024-40791": false,
+                        "CVE-2024-44181": false,
+                        "CVE-2024-44183": false,
+                        "CVE-2023-5841": false,
+                        "CVE-2024-27858": false,
+                        "CVE-2024-44167": false,
+                        "CVE-2024-40838": false,
+                        "CVE-2024-44186": false,
+                        "CVE-2024-39894": false,
+                        "CVE-2024-44178": false,
+                        "CVE-2024-40826": false,
+                        "CVE-2024-44149": false,
+                        "CVE-2024-40797": false,
+                        "CVE-2024-44125": false,
+                        "CVE-2024-44163": false,
+                        "CVE-2024-40801": false,
+                        "CVE-2024-44158": false,
+                        "CVE-2024-40844": false,
+                        "CVE-2024-44170": false,
+                        "CVE-2024-40860": false,
+                        "CVE-2024-44152": false,
+                        "CVE-2024-44166": false,
+                        "CVE-2024-44190": false,
+                        "CVE-2024-44133": false,
+                        "CVE-2024-44184": false,
+                        "CVE-2024-40859": false,
+                        "CVE-2024-41957": false,
+                        "CVE-2024-40857": false,
+                        "CVE-2024-40866": false,
+                        "CVE-2024-44187": false,
+                        "CVE-2024-40770": false,
+                        "CVE-2024-23237": false,
+                        "CVE-2024-44134": false,
+                        "CVE-2024-40856": false,
+                        "CVE-2024-44189": false,
+                        "CVE-2024-40842": false,
+                        "CVE-2024-40843": false
+                    },
+                    "ActivelyExploitedCVEs": [],
+                    "UniqueCVEsCount": 78,
+                    "DaysSincePreviousRelease": 0
+                }
+            ],
+            "SupportedModels": [
+                {
+                    "Model": "MacBook Air",
+                    "URL": "https://support.apple.com/en-ca/HT201862",
+                    "Identifiers": {
+                        "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+                        "Mac15,12": "MacBook Air (15-inch, M3, 2024)",
+                        "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+                        "Mac14,2": "MacBook Air (M2, 2022)",
+                        "MacBookAir10,1": "MacBook Air (M1, 2020)",
+                        "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
+                    }
+                },
+                {
+                    "Model": "MacBook Pro",
+                    "URL": "https://support.apple.com/en-ca/HT201300",
+                    "Identifiers": {
+                        "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
+                        "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
+                        "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
+                        "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
+                        "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
+                        "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
+                        "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
+                        "Mac14,5": "MacBook Pro (14-inch, 2023)",
+                        "Mac14,9": "MacBook Pro (14-inch, 2023)",
+                        "Mac14,6": "MacBook Pro (16-inch, 2023)",
+                        "Mac14,10": "MacBook Pro (16-inch, 2023)",
+                        "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+                        "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
+                        "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
+                        "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
+                        "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
+                        "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+                        "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+                        "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+                        "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+                        "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+                        "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+                        "MacBookPro15,1": "MacBook Pro (15-inch, 2019)",
+                        "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
+                        "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
+                    }
+                },
+                {
+                    "Model": "Mac mini",
+                    "URL": "https://support.apple.com/en-ca/HT201894",
+                    "Identifiers": {
+                        "Mac14,3": "Mac mini (2023)",
+                        "Mac14,12": "Mac mini (2023)",
+                        "Macmini9,1": "Mac mini (M1, 2020)",
+                        "Macmini8,1": "Mac mini (2018)"
+                    }
+                },
+                {
+                    "Model": "Mac Studio",
+                    "URL": "https://support.apple.com/en-ca/HT213073",
+                    "Identifiers": {
+                        "Mac14,13": "Mac Studio (2023)",
+                        "Mac14,14": "Mac Studio (2023)",
+                        "Mac13,1": "Mac Studio (2022)",
+                        "Mac13,2": "Mac Studio (2022)"
+                    }
+                },
+                {
+                    "Model": "iMac",
+                    "URL": "https://support.apple.com/en-ca/HT201634",
+                    "Identifiers": {
+                        "Mac15,5": "iMac (24-inch, 2023)",
+                        "Mac15,4": "iMac (24-inch, 2023)",
+                        "iMac21,1": "iMac (24-inch, M1, 2021)",
+                        "iMac21,2": "iMac (24-inch, M1, 2021)",
+                        "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+                        "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+                        "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+                        "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
+                        "iMacPro1,1": "iMac Pro"
+                    }
+                },
+                {
+                    "Model": "Mac Pro",
+                    "URL": "https://support.apple.com/en-ca/HT202888",
+                    "Identifiers": {
+                        "Mac14,8": "Mac Pro (2023)",
+                        "MacPro7,1": "Mac Pro (2019)"
+                    }
+                }
+            ]
+        },
         {
             "OSVersion": "Sonoma 14",
             "Latest": {
-                "ProductVersion": "14.6.1",
-                "Build": "23G93",
-                "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2024-12-15T00:00:00Z",
+                "ProductVersion": "14.7",
+                "Build": "23H124",
+                "ReleaseDate": "2024-09-16T00:00:00Z",
+                "ExpirationDate": "2024-12-18T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -66,12 +372,158 @@
                     "VMA2MACOSAP",
                     "VMM-x86_64"
                 ],
-                "SecurityInfo": "This update has no published CVE entries.",
-                "CVEs": {},
+                "SecurityInfo": "https://support.apple.com/en-ca/121247",
+                "CVEs": {
+                    "CVE-2024-44153": false,
+                    "CVE-2024-44182": false,
+                    "CVE-2024-40846": false,
+                    "CVE-2024-40845": false,
+                    "CVE-2024-44154": false,
+                    "CVE-2024-40847": false,
+                    "CVE-2024-44164": false,
+                    "CVE-2024-44168": false,
+                    "CVE-2024-40848": false,
+                    "CVE-2024-40841": false,
+                    "CVE-2024-44135": false,
+                    "CVE-2024-44128": false,
+                    "CVE-2024-44151": false,
+                    "CVE-2024-27876": false,
+                    "CVE-2024-44177": false,
+                    "CVE-2024-40850": false,
+                    "CVE-2024-27880": false,
+                    "CVE-2024-44176": false,
+                    "CVE-2024-44160": false,
+                    "CVE-2024-44161": false,
+                    "CVE-2024-44169": false,
+                    "CVE-2024-44165": false,
+                    "CVE-2024-40791": false,
+                    "CVE-2024-44181": false,
+                    "CVE-2024-44183": false,
+                    "CVE-2024-44167": false,
+                    "CVE-2024-44178": false,
+                    "CVE-2024-40797": false,
+                    "CVE-2024-44163": false,
+                    "CVE-2024-44125": false,
+                    "CVE-2024-40801": false,
+                    "CVE-2024-44158": false,
+                    "CVE-2024-40844": false,
+                    "CVE-2024-40860": false,
+                    "CVE-2024-44166": false,
+                    "CVE-2024-44190": false,
+                    "CVE-2024-44184": false
+                },
                 "ActivelyExploitedCVEs": [],
-                "UniqueCVEsCount": 0
+                "UniqueCVEsCount": 37
             },
             "SecurityReleases": [
+                {
+                    "UpdateName": "macOS Sonoma 14.7",
+                    "ProductName": "macOS",
+                    "ProductVersion": "14.7",
+                    "ReleaseDate": "2024-09-16T00:00:00Z",
+                    "ReleaseType": "OS",
+                    "SecurityInfo": "https://support.apple.com/en-ca/121247",
+                    "SupportedDevices": [
+                        "J132AP",
+                        "J137AP",
+                        "J140AAP",
+                        "J140KAP",
+                        "J152FAP",
+                        "J160AP",
+                        "J174AP",
+                        "J180dAP",
+                        "J185AP",
+                        "J185FAP",
+                        "J213AP",
+                        "J214KAP",
+                        "J215AP",
+                        "J223AP",
+                        "J230KAP",
+                        "J274AP",
+                        "J293AP",
+                        "J313AP",
+                        "J314cAP",
+                        "J314sAP",
+                        "J316cAP",
+                        "J316sAP",
+                        "J375cAP",
+                        "J375dAP",
+                        "J413AP",
+                        "J414cAP",
+                        "J414sAP",
+                        "J415AP",
+                        "J416cAP",
+                        "J416sAP",
+                        "J433AP",
+                        "J434AP",
+                        "J456AP",
+                        "J457AP",
+                        "J473AP",
+                        "J474sAP",
+                        "J475cAP",
+                        "J475dAP",
+                        "J493AP",
+                        "J504AP",
+                        "J514cAP",
+                        "J514mAP",
+                        "J514sAP",
+                        "J516cAP",
+                        "J516mAP",
+                        "J516sAP",
+                        "J613AP",
+                        "J615AP",
+                        "J680AP",
+                        "J780AP",
+                        "Mac-1E7E29AD0135F9BC",
+                        "Mac-63001698E7A34814",
+                        "Mac-937A206F2EE63C01",
+                        "Mac-AA95B1DDAB278B95",
+                        "VMA2MACOSAP",
+                        "VMM-x86_64"
+                    ],
+                    "CVEs": {
+                        "CVE-2024-44153": false,
+                        "CVE-2024-44182": false,
+                        "CVE-2024-40846": false,
+                        "CVE-2024-40845": false,
+                        "CVE-2024-44154": false,
+                        "CVE-2024-40847": false,
+                        "CVE-2024-44164": false,
+                        "CVE-2024-44168": false,
+                        "CVE-2024-40848": false,
+                        "CVE-2024-40841": false,
+                        "CVE-2024-44135": false,
+                        "CVE-2024-44128": false,
+                        "CVE-2024-44151": false,
+                        "CVE-2024-27876": false,
+                        "CVE-2024-44177": false,
+                        "CVE-2024-40850": false,
+                        "CVE-2024-27880": false,
+                        "CVE-2024-44176": false,
+                        "CVE-2024-44160": false,
+                        "CVE-2024-44161": false,
+                        "CVE-2024-44169": false,
+                        "CVE-2024-44165": false,
+                        "CVE-2024-40791": false,
+                        "CVE-2024-44181": false,
+                        "CVE-2024-44183": false,
+                        "CVE-2024-44167": false,
+                        "CVE-2024-44178": false,
+                        "CVE-2024-40797": false,
+                        "CVE-2024-44163": false,
+                        "CVE-2024-44125": false,
+                        "CVE-2024-40801": false,
+                        "CVE-2024-44158": false,
+                        "CVE-2024-40844": false,
+                        "CVE-2024-40860": false,
+                        "CVE-2024-44166": false,
+                        "CVE-2024-44190": false,
+                        "CVE-2024-44184": false
+                    },
+                    "ActivelyExploitedCVEs": [],
+                    "UniqueCVEsCount": 37,
+                    "DaysSincePreviousRelease": 0
+                },
                 {
                     "UpdateName": "macOS Sonoma 14.6.1",
                     "ProductName": "macOS",
@@ -858,7 +1310,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 8
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.2",
@@ -988,7 +1440,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 59,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 11
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.1.2",
@@ -1064,7 +1516,7 @@
                         "CVE-2023-42917"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 23
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.1.1",
@@ -1134,7 +1586,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 13
                 },
                 {
                     "UpdateName": "macOS Sonoma 14.1",
@@ -1275,12 +1727,12 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 70,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 29
                 },
                 {
                     "UpdateName": "macOS Sonoma 14",
                     "ProductName": "macOS",
-                    "ProductVersion": "14",
+                    "ProductVersion": "14.0",
                     "ReleaseDate": "2023-09-26T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/kb/HT213940",
@@ -1548,10 +2000,10 @@
         {
             "OSVersion": "Ventura 13",
             "Latest": {
-                "ProductVersion": "13.6.9",
-                "Build": "22G830",
-                "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2024-12-15T00:00:00Z",
+                "ProductVersion": "13.7",
+                "Build": "22H123",
+                "ReleaseDate": "2024-09-16T00:00:00Z",
+                "ExpirationDate": "2024-12-18T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -1609,12 +2061,143 @@
                     "VMA2MACOSAP",
                     "VMM-x86_64"
                 ],
-                "SecurityInfo": "This update has no published CVE entries.",
-                "CVEs": {},
+                "SecurityInfo": "https://support.apple.com/en-ca/121234",
+                "CVEs": {
+                    "CVE-2024-44129": false,
+                    "CVE-2024-44182": false,
+                    "CVE-2024-27886": false,
+                    "CVE-2024-40847": false,
+                    "CVE-2024-40814": false,
+                    "CVE-2024-44164": false,
+                    "CVE-2024-44168": false,
+                    "CVE-2024-40848": false,
+                    "CVE-2024-44128": false,
+                    "CVE-2024-44151": false,
+                    "CVE-2024-27876": false,
+                    "CVE-2024-44177": false,
+                    "CVE-2024-40850": false,
+                    "CVE-2024-44176": false,
+                    "CVE-2024-44160": false,
+                    "CVE-2024-44161": false,
+                    "CVE-2024-44169": false,
+                    "CVE-2024-44165": false,
+                    "CVE-2024-40791": false,
+                    "CVE-2024-44181": false,
+                    "CVE-2024-44183": false,
+                    "CVE-2024-44167": false,
+                    "CVE-2024-44178": false,
+                    "CVE-2024-40797": false,
+                    "CVE-2024-44163": false,
+                    "CVE-2024-44158": false,
+                    "CVE-2024-40844": false,
+                    "CVE-2024-44166": false,
+                    "CVE-2024-44190": false,
+                    "CVE-2024-44184": false
+                },
                 "ActivelyExploitedCVEs": [],
-                "UniqueCVEsCount": 0
+                "UniqueCVEsCount": 30
             },
             "SecurityReleases": [
+                {
+                    "UpdateName": "macOS Ventura 13.7",
+                    "ProductName": "macOS",
+                    "ProductVersion": "13.7",
+                    "ReleaseDate": "2024-09-16T00:00:00Z",
+                    "ReleaseType": "OS",
+                    "SecurityInfo": "https://support.apple.com/en-ca/121234",
+                    "SupportedDevices": [
+                        "J132AP",
+                        "J137AP",
+                        "J140AAP",
+                        "J140KAP",
+                        "J152FAP",
+                        "J160AP",
+                        "J174AP",
+                        "J180dAP",
+                        "J185AP",
+                        "J185FAP",
+                        "J213AP",
+                        "J214KAP",
+                        "J215AP",
+                        "J223AP",
+                        "J230KAP",
+                        "J274AP",
+                        "J293AP",
+                        "J313AP",
+                        "J314cAP",
+                        "J314sAP",
+                        "J316cAP",
+                        "J316sAP",
+                        "J375cAP",
+                        "J375dAP",
+                        "J413AP",
+                        "J414cAP",
+                        "J414sAP",
+                        "J415AP",
+                        "J416cAP",
+                        "J416sAP",
+                        "J433AP",
+                        "J434AP",
+                        "J456AP",
+                        "J457AP",
+                        "J473AP",
+                        "J474sAP",
+                        "J475cAP",
+                        "J475dAP",
+                        "J493AP",
+                        "J504AP",
+                        "J680AP",
+                        "J780AP",
+                        "Mac-1E7E29AD0135F9BC",
+                        "Mac-4B682C642B45593E",
+                        "Mac-551B86E5744E2388",
+                        "Mac-63001698E7A34814",
+                        "Mac-77F17D7DA9285301",
+                        "Mac-937A206F2EE63C01",
+                        "Mac-AA95B1DDAB278B95",
+                        "Mac-B4831CEBD52A0C4C",
+                        "Mac-BE088AF8C5EB4FA2",
+                        "Mac-CAD6701F7CEA0921",
+                        "Mac-EE2EBD4B90B839A8",
+                        "VMA2MACOSAP",
+                        "VMM-x86_64"
+                    ],
+                    "CVEs": {
+                        "CVE-2024-44129": false,
+                        "CVE-2024-44182": false,
+                        "CVE-2024-27886": false,
+                        "CVE-2024-40847": false,
+                        "CVE-2024-40814": false,
+                        "CVE-2024-44164": false,
+                        "CVE-2024-44168": false,
+                        "CVE-2024-40848": false,
+                        "CVE-2024-44128": false,
+                        "CVE-2024-44151": false,
+                        "CVE-2024-27876": false,
+                        "CVE-2024-44177": false,
+                        "CVE-2024-40850": false,
+                        "CVE-2024-44176": false,
+                        "CVE-2024-44160": false,
+                        "CVE-2024-44161": false,
+                        "CVE-2024-44169": false,
+                        "CVE-2024-44165": false,
+                        "CVE-2024-40791": false,
+                        "CVE-2024-44181": false,
+                        "CVE-2024-44183": false,
+                        "CVE-2024-44167": false,
+                        "CVE-2024-44178": false,
+                        "CVE-2024-40797": false,
+                        "CVE-2024-44163": false,
+                        "CVE-2024-44158": false,
+                        "CVE-2024-40844": false,
+                        "CVE-2024-44166": false,
+                        "CVE-2024-44190": false,
+                        "CVE-2024-44184": false
+                    },
+                    "ActivelyExploitedCVEs": [],
+                    "UniqueCVEsCount": 30,
+                    "DaysSincePreviousRelease": 0
+                },
                 {
                     "UpdateName": "macOS Ventura 13.6.9",
                     "ProductName": "macOS",
@@ -2251,7 +2834,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 31,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 34
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.2",
@@ -2320,7 +2903,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 13
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6.1",
@@ -2418,7 +3001,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 28,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 34
                 },
                 {
                     "UpdateName": "macOS Ventura 13.6",
@@ -2512,7 +3095,7 @@
                         "CVE-2023-41991"
                     ],
                     "UniqueCVEsCount": 21,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 14
                 },
                 {
                     "UpdateName": "macOS Ventura 13.5.2",
@@ -2585,7 +3168,7 @@
                         "CVE-2023-41064"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 21
                 },
                 {
                     "UpdateName": "macOS Ventura 13.5.1",
@@ -2654,7 +3237,7 @@
                     "CVEs": {},
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 0,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 24
                 },
                 {
                     "UpdateName": "macOS Ventura 13.5",
@@ -2804,7 +3387,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 77,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 12
                 },
                 {
                     "UpdateName": "Rapid Security Response macOS Ventura 13.4.1 (c)",
@@ -2877,7 +3460,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 2
                 },
                 {
                     "UpdateName": "Rapid Security Response macOS Ventura 13.4.1 (a)",
@@ -2950,7 +3533,7 @@
                         "CVE-2023-37450"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 19
                 },
                 {
                     "UpdateName": "macOS Ventura 13.4.1",
@@ -3025,7 +3608,7 @@
                         "CVE-2023-32439"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 34
                 },
                 {
                     "UpdateName": "macOS Ventura 13.4",
@@ -3162,7 +3745,7 @@
                         "CVE-2023-32373"
                     ],
                     "UniqueCVEsCount": 63,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 41
                 },
                 {
                     "UpdateName": "macOS Ventura 13.3.1",
@@ -3237,7 +3820,7 @@
                         "CVE-2023-28205"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 11
                 },
                 {
                     "UpdateName": "macOS Ventura 13.3",
@@ -3404,7 +3987,7 @@
                         "CVE-2023-32435"
                     ],
                     "UniqueCVEsCount": 95,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 42
                 },
                 {
                     "UpdateName": "macOS Ventura 13.2.1",
@@ -3480,7 +4063,7 @@
                         "CVE-2023-23529"
                     ],
                     "UniqueCVEsCount": 4,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 21
                 },
                 {
                     "UpdateName": "macOS Ventura 13.2",
@@ -3588,7 +4171,7 @@
                         "CVE-2023-41990"
                     ],
                     "UniqueCVEsCount": 36,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 75
                 },
                 {
                     "UpdateName": "macOS Ventura 13.0.1",
@@ -3660,12 +4243,12 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 16
                 },
                 {
                     "UpdateName": "macOS Ventura 13",
                     "ProductName": "macOS",
-                    "ProductVersion": "13",
+                    "ProductVersion": "13.0",
                     "ReleaseDate": "2022-10-24T00:00:00Z",
                     "ReleaseType": "OS",
                     "SecurityInfo": "https://support.apple.com/kb/HT213488",
@@ -3998,7 +4581,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2024-12-15T00:00:00Z",
+                "ExpirationDate": "2024-12-18T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -4602,7 +5185,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 28,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 47
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7.1",
@@ -4698,7 +5281,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 23,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 34
                 },
                 {
                     "UpdateName": "macOS Monterey 12.7",
@@ -4789,7 +5372,7 @@
                         "CVE-2023-41992"
                     ],
                     "UniqueCVEsCount": 16,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 10
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.9",
@@ -4865,7 +5448,7 @@
                         "CVE-2023-41064"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 49
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.8",
@@ -4991,7 +5574,7 @@
                         "CVE-2023-38606"
                     ],
                     "UniqueCVEsCount": 50,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 33
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.7",
@@ -5067,7 +5650,7 @@
                         "CVE-2023-32434"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 34
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.6",
@@ -5172,7 +5755,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 32,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 38
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.5",
@@ -5248,7 +5831,7 @@
                         "CVE-2023-28206"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 14
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.4",
@@ -5361,7 +5944,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 40,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 63
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.3",
@@ -5455,7 +6038,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 21,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 41
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.2",
@@ -5545,7 +6128,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 17,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 50
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6.1",
@@ -5632,7 +6215,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 14,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 42
                 },
                 {
                     "UpdateName": "macOS Monterey 12.6",
@@ -5747,7 +6330,7 @@
                         "CVE-2022-32917"
                     ],
                     "UniqueCVEsCount": 40,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 26
                 },
                 {
                     "UpdateName": "macOS Monterey 12.5.1",
@@ -5825,7 +6408,7 @@
                         "CVE-2022-32893"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 28
                 },
                 {
                     "UpdateName": "macOS Monterey 12.5",
@@ -5969,7 +6552,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 71,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 65
                 },
                 {
                     "UpdateName": "macOS Monterey 12.4",
@@ -6126,7 +6709,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 84,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 46
                 },
                 {
                     "UpdateName": "macOS Monterey 12.3.1",
@@ -6204,7 +6787,7 @@
                         "CVE-2022-22674"
                     ],
                     "UniqueCVEsCount": 2,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 17
                 },
                 {
                     "UpdateName": "macOS Monterey 12.3",
@@ -6346,7 +6929,7 @@
                     },
                     "ActivelyExploitedCVEs": [],
                     "UniqueCVEsCount": 69,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 32
                 },
                 {
                     "UpdateName": "macOS Monterey 12.2.1",
@@ -6422,7 +7005,7 @@
                         "CVE-2022-22620"
                     ],
                     "UniqueCVEsCount": 1,
-                    "DaysSincePreviousRelease": 0
+                    "DaysSincePreviousRelease": 15
                 },
                 {
                     "UpdateName": "macOS Monterey 12.2",
@@ -6512,349 +7095,6 @@
                         "CVE-2022-22587"
                     ],
                     "UniqueCVEsCount": 15,
-                    "DaysSincePreviousRelease": 0
-                },
-                {
-                    "UpdateName": "macOS Monterey 12.1",
-                    "ProductName": "macOS",
-                    "ProductVersion": "12.1",
-                    "ReleaseDate": "2021-12-13T00:00:00Z",
-                    "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/en-ca/102874",
-                    "SupportedDevices": [
-                        "J132AP",
-                        "J137AP",
-                        "J140AAP",
-                        "J140KAP",
-                        "J152FAP",
-                        "J160AP",
-                        "J174AP",
-                        "J185AP",
-                        "J185FAP",
-                        "J213AP",
-                        "J214KAP",
-                        "J215AP",
-                        "J223AP",
-                        "J230KAP",
-                        "J274AP",
-                        "J293AP",
-                        "J313AP",
-                        "J314cAP",
-                        "J314sAP",
-                        "J316cAP",
-                        "J316sAP",
-                        "J375cAP",
-                        "J375dAP",
-                        "J413AP",
-                        "J456AP",
-                        "J457AP",
-                        "J493AP",
-                        "J680AP",
-                        "J780AP",
-                        "Mac-06F11F11946D27C5",
-                        "Mac-06F11FD93F0323C5",
-                        "Mac-1E7E29AD0135F9BC",
-                        "Mac-35C5E08120C7EEAF",
-                        "Mac-473D31EABEB93F9B",
-                        "Mac-4B682C642B45593E",
-                        "Mac-551B86E5744E2388",
-                        "Mac-63001698E7A34814",
-                        "Mac-65CE76090165799A",
-                        "Mac-66E35819EE2D0D05",
-                        "Mac-77F17D7DA9285301",
-                        "Mac-937A206F2EE63C01",
-                        "Mac-937CB26E2E02BB01",
-                        "Mac-9AE82516C7C6B903",
-                        "Mac-9F18E312C5C2BF0B",
-                        "Mac-A369DDC4E67F1C45",
-                        "Mac-A5C67F76ED83108C",
-                        "Mac-AA95B1DDAB278B95",
-                        "Mac-B4831CEBD52A0C4C",
-                        "Mac-B809C3757DA9BB8D",
-                        "Mac-BE088AF8C5EB4FA2",
-                        "Mac-CAD6701F7CEA0921",
-                        "Mac-DB15BD556843C820",
-                        "Mac-E43C1C25D4880AD6",
-                        "Mac-EE2EBD4B90B839A8",
-                        "Mac-F60DEB81FF30ACF6",
-                        "Mac-FFE5EF870D7BA81A",
-                        "VMA2MACOSAP",
-                        "VMM-x86_64"
-                    ],
-                    "CVEs": {
-                        "CVE-2021-30987": false,
-                        "CVE-2021-30950": false,
-                        "CVE-2021-30960": false,
-                        "CVE-2021-30986": false,
-                        "CVE-2021-30966": false,
-                        "CVE-2021-30926": false,
-                        "CVE-2021-30942": false,
-                        "CVE-2021-30957": false,
-                        "CVE-2021-30958": false,
-                        "CVE-2021-30935": false,
-                        "CVE-2021-30945": false,
-                        "CVE-2021-31007": false,
-                        "CVE-2021-31013": false,
-                        "CVE-2021-31000": false,
-                        "CVE-2021-30977": false,
-                        "CVE-2021-30939": false,
-                        "CVE-2021-30981": false,
-                        "CVE-2021-30996": false,
-                        "CVE-2021-30982": false,
-                        "CVE-2021-30937": false,
-                        "CVE-2021-30927": false,
-                        "CVE-2021-30980": false,
-                        "CVE-2021-30949": false,
-                        "CVE-2021-30993": false,
-                        "CVE-2021-30955": false,
-                        "CVE-2021-30976": false,
-                        "CVE-2021-30990": false,
-                        "CVE-2021-30943": false,
-                        "CVE-2021-31009": false,
-                        "CVE-2021-30971": false,
-                        "CVE-2021-30973": false,
-                        "CVE-2021-30929": false,
-                        "CVE-2021-30979": false,
-                        "CVE-2021-30940": false,
-                        "CVE-2021-30941": false,
-                        "CVE-2021-30995": false,
-                        "CVE-2021-30968": false,
-                        "CVE-2021-30946": false,
-                        "CVE-2021-30947": false,
-                        "CVE-2021-30975": false,
-                        "CVE-2021-30944": false,
-                        "CVE-2021-30972": false,
-                        "CVE-2021-30767": false,
-                        "CVE-2021-30964": false,
-                        "CVE-2021-30970": false,
-                        "CVE-2021-30965": false,
-                        "CVE-2021-30934": false,
-                        "CVE-2021-30936": false,
-                        "CVE-2021-30951": false,
-                        "CVE-2021-30952": false,
-                        "CVE-2021-30984": false,
-                        "CVE-2021-30953": false,
-                        "CVE-2021-30954": false,
-                        "CVE-2021-30938": false
-                    },
-                    "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 54,
-                    "DaysSincePreviousRelease": 0
-                },
-                {
-                    "UpdateName": "macOS Monterey 12.0.1",
-                    "ProductName": "macOS",
-                    "ProductVersion": "12.0.1",
-                    "ReleaseDate": "2021-10-25T00:00:00Z",
-                    "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/en-ca/103236",
-                    "SupportedDevices": [
-                        "J132AP",
-                        "J137AP",
-                        "J140AAP",
-                        "J140KAP",
-                        "J152FAP",
-                        "J160AP",
-                        "J174AP",
-                        "J185AP",
-                        "J185FAP",
-                        "J213AP",
-                        "J214KAP",
-                        "J215AP",
-                        "J223AP",
-                        "J230KAP",
-                        "J274AP",
-                        "J293AP",
-                        "J313AP",
-                        "J314cAP",
-                        "J314sAP",
-                        "J316cAP",
-                        "J316sAP",
-                        "J375cAP",
-                        "J375dAP",
-                        "J413AP",
-                        "J456AP",
-                        "J457AP",
-                        "J493AP",
-                        "J680AP",
-                        "J780AP",
-                        "Mac-06F11F11946D27C5",
-                        "Mac-06F11FD93F0323C5",
-                        "Mac-1E7E29AD0135F9BC",
-                        "Mac-35C5E08120C7EEAF",
-                        "Mac-473D31EABEB93F9B",
-                        "Mac-4B682C642B45593E",
-                        "Mac-551B86E5744E2388",
-                        "Mac-63001698E7A34814",
-                        "Mac-65CE76090165799A",
-                        "Mac-66E35819EE2D0D05",
-                        "Mac-77F17D7DA9285301",
-                        "Mac-937A206F2EE63C01",
-                        "Mac-937CB26E2E02BB01",
-                        "Mac-9AE82516C7C6B903",
-                        "Mac-9F18E312C5C2BF0B",
-                        "Mac-A369DDC4E67F1C45",
-                        "Mac-A5C67F76ED83108C",
-                        "Mac-AA95B1DDAB278B95",
-                        "Mac-B4831CEBD52A0C4C",
-                        "Mac-B809C3757DA9BB8D",
-                        "Mac-BE088AF8C5EB4FA2",
-                        "Mac-CAD6701F7CEA0921",
-                        "Mac-DB15BD556843C820",
-                        "Mac-E43C1C25D4880AD6",
-                        "Mac-EE2EBD4B90B839A8",
-                        "Mac-F60DEB81FF30ACF6",
-                        "Mac-FFE5EF870D7BA81A",
-                        "VMA2MACOSAP",
-                        "VMM-x86_64"
-                    ],
-                    "CVEs": {
-                        "CVE-2021-30873": false,
-                        "CVE-2021-30876": false,
-                        "CVE-2021-30879": false,
-                        "CVE-2021-30877": false,
-                        "CVE-2021-30880": false,
-                        "CVE-2021-30994": false,
-                        "CVE-2021-30907": false,
-                        "CVE-2021-30899": false,
-                        "CVE-2021-30931": false,
-                        "CVE-2021-30866": false,
-                        "CVE-2021-30917": false,
-                        "CVE-2021-30903": false,
-                        "CVE-2021-30905": false,
-                        "CVE-2021-30919": false,
-                        "CVE-2020-9846": false,
-                        "CVE-2021-30881": false,
-                        "CVE-2021-30923": false,
-                        "CVE-2021-30831": false,
-                        "CVE-2021-30840": false,
-                        "CVE-2021-30852": false,
-                        "CVE-2021-30895": false,
-                        "CVE-2021-30896": false,
-                        "CVE-2021-30933": false,
-                        "CVE-2021-30906": false,
-                        "CVE-2021-30867": false,
-                        "CVE-2021-30814": false,
-                        "CVE-2021-30922": false,
-                        "CVE-2021-30824": false,
-                        "CVE-2021-30901": false,
-                        "CVE-2021-30821": false,
-                        "CVE-2021-30883": false,
-                        "CVE-2021-30924": false,
-                        "CVE-2021-30886": false,
-                        "CVE-2021-30909": false,
-                        "CVE-2021-30916": false,
-                        "CVE-2021-30864": false,
-                        "CVE-2021-30813": false,
-                        "CVE-2021-31011": false,
-                        "CVE-2021-30904": false,
-                        "CVE-2021-30910": false,
-                        "CVE-2021-30911": false,
-                        "CVE-2021-30874": false,
-                        "CVE-2021-30808": false,
-                        "CVE-2021-30920": false,
-                        "CVE-2021-31004": false,
-                        "CVE-2021-31002": false,
-                        "CVE-2021-30868": false,
-                        "CVE-2021-30912": false,
-                        "CVE-2021-30913": false,
-                        "CVE-2021-30915": false,
-                        "CVE-2021-31005": false,
-                        "CVE-2021-31008": false,
-                        "CVE-2021-30897": false,
-                        "CVE-2021-30884": false,
-                        "CVE-2021-30818": false,
-                        "CVE-2021-30836": false,
-                        "CVE-2021-30846": false,
-                        "CVE-2021-30849": false,
-                        "CVE-2021-30848": false,
-                        "CVE-2021-30851": false,
-                        "CVE-2021-30809": false,
-                        "CVE-2021-30823": false,
-                        "CVE-2021-30887": false,
-                        "CVE-2021-30888": false,
-                        "CVE-2021-30889": false,
-                        "CVE-2021-30861": false,
-                        "CVE-2021-30890": false,
-                        "CVE-2021-30930": false,
-                        "CVE-2021-30908": false,
-                        "CVE-2021-30833": false,
-                        "CVE-2021-30892": false
-                    },
-                    "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 71,
-                    "DaysSincePreviousRelease": 0
-                },
-                {
-                    "UpdateName": "macOS Monterey 12.0",
-                    "ProductName": "macOS",
-                    "ProductVersion": "12.0",
-                    "ReleaseDate": "2021-10-25T00:00:00Z",
-                    "ReleaseType": "OS",
-                    "SecurityInfo": "This update has no published CVE entries.",
-                    "SupportedDevices": [
-                        "J132AP",
-                        "J137AP",
-                        "J140AAP",
-                        "J140KAP",
-                        "J152FAP",
-                        "J160AP",
-                        "J174AP",
-                        "J185AP",
-                        "J185FAP",
-                        "J213AP",
-                        "J214KAP",
-                        "J215AP",
-                        "J223AP",
-                        "J230KAP",
-                        "J274AP",
-                        "J293AP",
-                        "J313AP",
-                        "J314cAP",
-                        "J314sAP",
-                        "J316cAP",
-                        "J316sAP",
-                        "J375cAP",
-                        "J375dAP",
-                        "J413AP",
-                        "J456AP",
-                        "J457AP",
-                        "J493AP",
-                        "J680AP",
-                        "J780AP",
-                        "Mac-06F11F11946D27C5",
-                        "Mac-06F11FD93F0323C5",
-                        "Mac-1E7E29AD0135F9BC",
-                        "Mac-35C5E08120C7EEAF",
-                        "Mac-473D31EABEB93F9B",
-                        "Mac-4B682C642B45593E",
-                        "Mac-551B86E5744E2388",
-                        "Mac-63001698E7A34814",
-                        "Mac-65CE76090165799A",
-                        "Mac-66E35819EE2D0D05",
-                        "Mac-77F17D7DA9285301",
-                        "Mac-937A206F2EE63C01",
-                        "Mac-937CB26E2E02BB01",
-                        "Mac-9AE82516C7C6B903",
-                        "Mac-9F18E312C5C2BF0B",
-                        "Mac-A369DDC4E67F1C45",
-                        "Mac-A5C67F76ED83108C",
-                        "Mac-AA95B1DDAB278B95",
-                        "Mac-B4831CEBD52A0C4C",
-                        "Mac-B809C3757DA9BB8D",
-                        "Mac-BE088AF8C5EB4FA2",
-                        "Mac-CAD6701F7CEA0921",
-                        "Mac-DB15BD556843C820",
-                        "Mac-E43C1C25D4880AD6",
-                        "Mac-EE2EBD4B90B839A8",
-                        "Mac-F60DEB81FF30ACF6",
-                        "Mac-FFE5EF870D7BA81A",
-                        "VMA2MACOSAP",
-                        "VMM-x86_64"
-                    ],
-                    "CVEs": {},
-                    "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 0,
                     "DaysSincePreviousRelease": 0
                 }
             ],
@@ -7905,13 +8145,20 @@
     },
     "InstallationApps": {
         "LatestUMA": {
-            "title": "macOS Sequoia Beta",
+            "title": "macOS Sequoia",
             "version": "15.0",
-            "build": "24A5331b",
-            "apple_slug": "062-71934",
-            "url": "https://swcdn.apple.com/content/downloads/04/37/062-71934-A_Y67KUXTZ8E/amset7a4ghxkssqwhia6mi2ztb0ptglwh6/InstallAssistant.pkg"
+            "build": "24A335",
+            "apple_slug": "062-78429",
+            "url": "https://swcdn.apple.com/content/downloads/11/43/062-78429-A_DAI7Y9IP98/qxbabjzemiel7guag7q09xxe0631iie45p/InstallAssistant.pkg"
         },
         "AllPreviousUMA": [
+            {
+                "title": "macOS Sonoma",
+                "version": "14.7",
+                "build": "23H124",
+                "apple_slug": "062-78824",
+                "url": "https://swcdn.apple.com/content/downloads/42/57/062-78824-A_60MNDAK5UB/dov1trqs34ol9r0b3zt3swgw04ndf7ctwm/InstallAssistant.pkg"
+            },
             {
                 "title": "macOS Sonoma",
                 "version": "14.6.1",
@@ -7932,6 +8179,13 @@
                 "build": "23E224",
                 "apple_slug": "052-77516",
                 "url": "https://swcdn.apple.com/content/downloads/04/13/052-77516-A_4P7VY083DT/83qy3989rsnylxagdmim3owwjdtc33zfe4/InstallAssistant.pkg"
+            },
+            {
+                "title": "macOS Ventura",
+                "version": "13.7",
+                "build": "22H123",
+                "apple_slug": "062-78643",
+                "url": "https://swcdn.apple.com/content/downloads/05/02/062-78643-A_T7YK72IEUB/f6jf452yv3xah9gljv28yxjs5x5bm7p1fr/InstallAssistant.pkg"
             },
             {
                 "title": "macOS Ventura",
@@ -7977,10 +8231,10 @@
             }
         ],
         "LatestMacIPSW": {
-            "macos_ipsw_url": "https://updates.cdn-apple.com/2024SummerFCS/fullrestores/062-52859/932E0A8F-6644-4759-82DA-F8FA8DEA806A/UniversalMac_14.6.1_23G93_Restore.ipsw",
-            "macos_ipsw_build": "23G93",
-            "macos_ipsw_version": "14.6.1",
-            "macos_ipsw_apple_slug": "062-52859"
+            "macos_ipsw_url": "https://updates.cdn-apple.com/2024FallFCS/fullrestores/062-78489/BDA44327-C79E-4608-A7E0-455A7E91911F/UniversalMac_15.0_24A335_Restore.ipsw",
+            "macos_ipsw_build": "24A335",
+            "macos_ipsw_version": "15.0",
+            "macos_ipsw_apple_slug": "062-78489"
         }
     }
 }
