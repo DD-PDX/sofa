@@ -26,7 +26,7 @@ online_json_url="https://sofafeed.macadmins.io/v1/macos_data_feed.json"
 user_agent="SOFA-Jamf-EA-macOSCVECheck/1.1"
 
 # local store
-json_cache_dir="/private/tmp/sofa"
+json_cache_dir="/private/var/tmp/sofa"
 json_cache="$json_cache_dir/macos_data_feed.json"
 etag_cache="$json_cache_dir/macos_data_feed_etag.txt"
 etag_cache_temp="$json_cache_dir/macos_data_feed_etag_temp.txt"
@@ -47,7 +47,7 @@ if [[ -f "$etag_cache" && -f "$json_cache" ]]; then
         /bin/mv "$etag_cache_temp" "$etag_cache"
     fi
 else
-#     echo "No e-tag cached, proceeding to download SOFA json file"
+#     echo "No e-tag or SOFA json file cached, proceeding to download SOFA json file"
     /usr/bin/curl --compressed --location --max-time 3 --silent --header "User-Agent: $user_agent" "$online_json_url" --etag-save "$etag_cache" --output "$json_cache"
 fi
 

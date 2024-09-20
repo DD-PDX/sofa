@@ -38,7 +38,7 @@ online_json_url="https://sofafeed.macadmins.io/v1/macos_data_feed.json"
 user_agent="SOFA-Jamf-EA-macOSCompatibilityCheck/1.1"
 
 # local store
-json_cache_dir="/private/tmp/sofa"
+json_cache_dir="/private/var/tmp/sofa"
 json_cache="$json_cache_dir/macos_data_feed.json"
 etag_cache="$json_cache_dir/macos_data_feed_etag.txt"
 etag_cache_temp="$json_cache_dir/macos_data_feed_etag_temp.txt"
@@ -83,6 +83,10 @@ fi
 
 # Get model (DeviceID)
 model=$(/usr/sbin/sysctl -n hw.model)
+if [[ -z "$model" ]]; then
+    echo "<result>Could not obtain model</result>"
+    exit
+fi
 # echo "Model Identifier: $model"
 
 # check that the model is virtual or is in the feed at all
@@ -103,7 +107,7 @@ else
     # identify the latest major OS (macOS 11- method)
     latest_os=$("$python_path" -c 'import sys, json; print json.load(sys.stdin)["OSVersions"][0]["OSVersion"]' < "$json_cache" | /usr/bin/head -n 1)
     # idenfity latest compatible major OS (macOS 11- method)
-    latest_compatible_os=$("$python_path" -c 'import sys, json; print json.load(sys.stdin)["Models"]['"$model"']["SupportedOS"][0]' < "$json_cache" | /usr/bin/head -n 1)
+    latest_compatible_os=$("$python_path" -c 'import sys, json; print json.load(sys.stdin)["Models"]["'$model'"]["SupportedOS"][0]' < "$json_cache" | /usr/bin/head -n 1)
 fi
 # echo "Latest macOS: $latest_os"
 # echo "Latest Compatible macOS: $latest_compatible_os"
