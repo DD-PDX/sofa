@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "e896391af739680776b421e53ffe0988c11532182308a82bd6b9c4604fee6136",
+    "UpdateHash": "7584a451e116cc74cf346c20c6e34c9587dcabe57182ac8de5631b9c7fe2dabf",
     "OSVersions": [
         {
             "OSVersion": "Sequoia 15",
@@ -7,7 +7,7 @@
                 "ProductVersion": "15.0",
                 "Build": "24A335",
                 "ReleaseDate": "2024-09-16T00:00:00Z",
-                "ExpirationDate": "2024-12-19T00:00:00Z",
+                "ExpirationDate": "2024-12-26T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -313,7 +313,7 @@
                 "ProductVersion": "14.7",
                 "Build": "23H124",
                 "ReleaseDate": "2024-09-16T00:00:00Z",
-                "ExpirationDate": "2024-12-19T00:00:00Z",
+                "ExpirationDate": "2024-12-26T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -2003,7 +2003,7 @@
                 "ProductVersion": "13.7",
                 "Build": "22H123",
                 "ReleaseDate": "2024-09-16T00:00:00Z",
-                "ExpirationDate": "2024-12-19T00:00:00Z",
+                "ExpirationDate": "2024-12-26T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -4581,7 +4581,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2024-12-19T00:00:00Z",
+                "ExpirationDate": "2024-12-26T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -7200,8 +7200,8 @@
         "ReleaseDate": "2024-09-03T18:18:18Z"
     },
     "XProtectPlistConfigData": {
-        "com.apple.XProtect": "5273",
-        "ReleaseDate": "2024-09-12T23:58:11Z"
+        "com.apple.XProtect": "5272",
+        "ReleaseDate": "2024-09-17T18:52:56Z"
     },
     "Models": {
         "Mac15,13": {

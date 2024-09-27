@@ -13,7 +13,13 @@
       <link>https://sofa.macadmins.io/v1/rss_feed.xml</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Sep 2024 16:39:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 20:02:44 +0000</lastBuildDate>
+    <item>
+      <title>XProtect Plist Config 5272</title>
+      <link>https://sofa.macadmins.io/</link>
+      <guid isPermaLink="false">XProtect_Config_5272</guid>
+      <pubDate>Tue, 17 Sep 2024 18:52:56 +0000</pubDate>
+    </item>
     <item>
       <title>iOS 17.7 and iPadOS 17.7</title>
       <link>https://sofa.macadmins.io/</link>
@@ -48,12 +54,6 @@
       <description>Vulnerabilities Addressed: 78&lt;br&gt;Exploited CVE(s): 0&lt;br&gt;Days to Prev. Release: 0</description>
       <guid isPermaLink="false">macOS_OS_15.0</guid>
       <pubDate>Mon, 16 Sep 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>XProtect Plist Config 5273</title>
-      <link>https://sofa.macadmins.io/</link>
-      <guid isPermaLink="false">XProtect_Config_5273</guid>
-      <pubDate>Thu, 12 Sep 2024 23:58:11 +0000</pubDate>
     </item>
     <item>
       <title>XProtect Plug-in Service 74</title>
