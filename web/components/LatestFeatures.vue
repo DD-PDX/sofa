@@ -13,6 +13,8 @@
           <p><strong>Build:</strong> {{ osData.Latest.Build }}</p>
           <p><strong>Release Date:</strong> {{ formatDate(osData.Latest.ReleaseDate) }}</p>
           <p><strong>Days Since Release:</strong> {{ daysSinceRelease(osData.Latest.ReleaseDate) }}</p>
+          
+          <!-- Display installer info for Sequoia 15 -->
           <div v-if="osData.OSVersion === 'Sequoia 15'">
             <p v-if="installationApps?.LatestUMA?.url">
               <strong>Installer Package: </strong>
@@ -22,6 +24,11 @@
               <strong>Current IPSW file: </strong>
               <a :href="installationApps.LatestMacIPSW.macos_ipsw_url" target="_blank">Download</a>
             </p>
+          </div>
+          <!-- Or we show link to UMA when not Sequoia 15 -->
+          <div v-else>
+            <strong>Installer Package (UMA): </strong>
+            <a href="/macos_installer_info.html#release-information-table">Download links</a>
           </div>
         </div>
 
@@ -69,7 +76,7 @@ export default {
       osData: null,
       installationApps: null,
       xProtectData: null,
-      osImage: '', 
+      osImage: '',
     };
   },
   mounted() {
@@ -89,13 +96,8 @@ export default {
             this.osData.Latest.ReleaseDate = 'Unknown'; // Set ReleaseDate to 'Unknown' if it's missing
           }
 
-          if (this.osData.OSVersion === 'Sonoma 14') {
+          if (this.osData.OSVersion === 'Sequoia 15') {
             this.installationApps = data.InstallationApps;
-            if (this.installationApps) {
-              console.log('Loaded InstallationApps Data:', this.installationApps); // Log the InstallationApps data for debugging
-            } else {
-              console.warn('InstallationApps not found in data');
-            }
           }
 
           this.osImage = this.getOsImage(this.platform, this.title);
@@ -158,12 +160,11 @@ export default {
       const releaseDate = new Date(dateString);
       const currentDate = new Date();
       const timeDiff = currentDate - releaseDate;
-      const daysDiff = Math.floor(timeDiff / (1000 * 3600 * 24));
-      return daysDiff;
+      return Math.floor(timeDiff / (1000 * 3600 * 24));
     },
     timeSinceRelease(dateString) {
       if (dateString === 'Unknown') {
-        return 'Unknown'; // Handle the case for unknown date
+        return 'Unknown';
       }
       const releaseDate = new Date(dateString);
       const currentDate = new Date();
@@ -171,7 +172,7 @@ export default {
 
       const days = Math.floor(timeDiff / (1000 * 3600 * 24));
       const hours = Math.floor((timeDiff % (1000 * 3600 * 24)) / (1000 * 3600));
-      
+
       return `${days} days, ${hours} hours`;
     },
   },
