@@ -222,24 +222,50 @@ def process_os_type(os_type: str, config: dict, gdmf_data: dict) -> list:
     }
     if os_type == "macOS":
         catalog_url: str = (
-            "https://swscan.apple.com/content/catalogs/others/index-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog" 
+            "https://swscan.apple.com/content/catalogs/others/index-15-14-13-12-10.16-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog"
     # noqa: E501 pylint: disable=line-too-long
         )
         catalog_content = fetch_content(catalog_url)
-        config_match = re.search(
+        # Find all URLs for XProtectPlistConfigData
+        config_matches = re.findall(
             r"https.*XProtectPlistConfigData.*?\.pkm", catalog_content
         )
-        if config_match:
-            plist_url = config_match.group(0)
-        payload_match = re.search(r"https.*XProtectPayloads.*?\.pkm", catalog_content)
-        if payload_match:
-            payloads_url = payload_match.group(0)
-        plist_info = extract_xprotect_versions_and_post_date(catalog_content, plist_url)
-        payloads_info = extract_xprotect_versions_and_post_date(
-            catalog_content, payloads_url
+        plist_info = None
+
+        if config_matches:
+            # Iterate over all matched URLs and extract version information
+            plist_versions = [
+                extract_xprotect_versions_and_post_date(catalog_content, url)
+                for url in config_matches
+            ]
+
+            # Sort the plist versions by date (or version) to get the latest
+            plist_versions.sort(key=lambda x: x["ReleaseDate"], reverse=True)
+            # Retrieve the latest version info
+            plist_info = plist_versions[0]
+
+        # Find all URLs for XProtectPayloads
+        payload_matches = re.findall(
+            r"https.*XProtectPayloads.*?\.pkm", catalog_content
         )
+        payloads_info = None
+
+        if payload_matches:
+            # Iterate over all matched URLs and extract version information
+            payload_versions = [
+                extract_xprotect_versions_and_post_date(catalog_content, url)
+                for url in payload_matches
+            ]
+
+            # Sort the payload versions by date to get the latest
+            payload_versions.sort(key=lambda x: x["ReleaseDate"], reverse=True)
+            # Retrieve the latest version info
+            payloads_info = payload_versions[0]
+
+        # Update the feed structure with the latest information
         feed_structure["XProtectPayloads"] = payloads_info
         feed_structure["XProtectPlistConfigData"] = plist_info
+        # Load and tag model data
         model_files = [
             ("model_identifier_sequoia.json", "macOS Sequoia 15"),
             ("model_identifier_sonoma.json", "macOS Sonoma 14"),
@@ -575,7 +601,7 @@ def format_iso_date(date_str: str) -> str:
 
 def fetch_security_releases(os_type: str, os_version: str, gdmf_data: dict) -> list:
     """Fetch security releases for the given OS type and version, sourced from multiple Apple Support pages."""
-    
+
     # Updated URLs to include multiple sources
     urls = [
         "https://support.apple.com/en-ca/100100",  # Current info
@@ -583,7 +609,7 @@ def fetch_security_releases(os_type: str, os_version: str, gdmf_data: dict) -> l
         #"https://support.apple.com/en-ca/120989",  # 2020 to 2021
         #"https://support.apple.com/en-ca/103179",  # 2018 to 2019
     ]
-    
+
     security_releases = []
     release_dates = []
 
@@ -592,18 +618,15 @@ def fetch_security_releases(os_type: str, os_version: str, gdmf_data: dict) -> l
         print(f"Fetching data from {url}")
         response = requests.get(url)
 
-        if (
-            response.ok
-        ):  # TODO: any validation we want on the rest of this page we're parsing?
+        if response.ok:
             html_content = response.text
             soup = BeautifulSoup(html_content, "lxml")
             rows = soup.find_all("tr")
-            
-            release_dates = []
+
             for row in rows:
                 cells = row.find_all("td")
                 if cells:
-                    name_info = cells[0].get_text(strip=True)  # TODO: example of this value?
+                    name_info = cells[0].get_text(strip=True)
                     os_version_info = process_os_version(os_type, os_version, name_info)
                     # Ensure os_version_info non-empty/matches the targeted version before proceeding
                     if os_version_info and os_version in os_version_info:  # Filter based on the targeted OS version
@@ -669,7 +692,7 @@ def fetch_security_releases(os_type: str, os_version: str, gdmf_data: dict) -> l
         else:
             print(f"Failed to retrieve data from {url}")
             continue  # Skip to the next URL if the current one fails
-    
+
     return security_releases if security_releases else print("Failed to retrieve security releases.") or []
 
 
@@ -737,27 +760,28 @@ def fetch_cves(url: str) -> dict:
 def calculate_days_since_previous_release(release_dates: list) -> dict:
     """Calculate the days between each release date and the previous sequentially"""
     days_between_releases = {}
-    for i in range(len(release_dates) - 1):
-        try:
-            next_release_date = parse_flexible_date(release_dates[i])
-            current_release_date = parse_flexible_date(release_dates[i + 1])
-            days_difference = abs((next_release_date - current_release_date).days)
+    try:
+        date_objects = [parse_flexible_date(date) for date in release_dates]
+        date_objects.sort(reverse=True)
+        for i in range(len(date_objects) - 1):
+            days_difference = (date_objects[i] - date_objects[i + 1]).days
             days_between_releases[release_dates[i]] = days_difference
-        except ValueError as e:
-            print(f"Error parsing date: {e}")
+        # Handle the last element which will always have 0 days since previous release
+        if release_dates:
+            days_between_releases[release_dates[-1]] = 0
+    except ValueError as e:
+        print(f"Error parsing date: {e}")
     return days_between_releases
-
 
 def parse_flexible_date(date_str: str) -> datetime:
     """Parse a date string with flexible formats to sanitize data scraped from the webpage"""
-    formats = ["%Y-%m-%d", "%d %b %Y"]
+    formats = ["%Y-%m-%d", "%d %b %Y", "%B %d, %Y"]
     for fmt in formats:
         try:
             return datetime.strptime(date_str, fmt)
         except ValueError:
             continue
     raise ValueError(f"Date format not recognized: {date_str}")
-
 
 def add_compatible_machines(current_macos_full_version: str) -> list:
     """Add compatible machines for the given macOS version, only processed for macOS"""
@@ -786,11 +810,11 @@ def add_compatible_machines(current_macos_full_version: str) -> list:
 def write_data_to_json(feed_structure: dict, filename: str):
     """Writes the fully populated feed structure to JSON filename"""
     latest_versions = {}
-    
+
     for os_version in feed_structure["OSVersions"]:
         if "Latest" in os_version:
             latest_dict = os_version["Latest"]
-            
+
             # Ensure all required keys are present with default values
             latest_dict["ProductVersion"] = latest_dict.get("ProductVersion", "")
             latest_dict["ReleaseDate"] = latest_dict.get("ReleaseDate", "")
@@ -801,11 +825,11 @@ def write_data_to_json(feed_structure: dict, filename: str):
             latest_dict["ActivelyExploitedCVEs"] = latest_dict.get("ActivelyExploitedCVEs", [])
             latest_dict["CVEs"] = latest_dict.get("CVEs", {})
             latest_dict["SupportedDevices"] = latest_dict.get("SupportedDevices", [])
-            
+
             # Convert dates to ISO format
             latest_dict["ReleaseDate"] = format_iso_date(latest_dict.get("ReleaseDate", ""))
             latest_dict["ExpirationDate"] = format_iso_date(latest_dict.get("ExpirationDate", ""))
-            
+
             product_version = latest_dict["ProductVersion"]
 
             # Store the latest version info for comparison
@@ -813,7 +837,7 @@ def write_data_to_json(feed_structure: dict, filename: str):
                 "latest_date": latest_dict["ReleaseDate"],
                 "os_version_dict": os_version
             }
-        
+
         # Handle SecurityReleases similarly if present
         if "SecurityReleases" in os_version and isinstance(os_version["SecurityReleases"], list):
             for release in os_version["SecurityReleases"]:
@@ -834,7 +858,7 @@ def write_data_to_json(feed_structure: dict, filename: str):
             new_date = version_info["security_date"]
             latest_dict["ReleaseDate"] = new_date
             print(f"Updated {product_version} ReleaseDate from {original_date} to {new_date}")
-    
+
     # Write the updated feed structure back to a file
     with open(filename, "w", encoding="utf-8") as json_file:
         json.dump(

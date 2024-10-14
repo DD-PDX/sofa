@@ -1,68 +1,68 @@
 {
     "latest_etag": {
-        "LastCheck": "2024-10-07T19:02:19+00:00Z",
-        "UpdateHash": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+        "LastCheck": "2024-10-14T16:38:59+00:00Z",
+        "UpdateHash": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
     },
     "log": [
         {
-            "timestamp": "2024-10-07T19:02:19+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T16:38:59+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T19:01:41+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T16:38:34+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T18:03:04+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T12:47:19+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T18:02:10+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T12:46:33+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T17:02:19+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T08:38:28+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T17:01:50+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T08:38:15+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T16:39:13+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T04:37:23+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T16:38:35+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T04:37:07+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T12:47:17+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T00:50:21+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6"
         },
         {
-            "timestamp": "2024-10-07T12:46:29+00:00Z",
-            "new_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c",
+            "timestamp": "2024-10-14T00:49:34+00:00Z",
+            "new_etag": "ac134d899db04d887d760bea98d5372237c05d4e9c89968b7ae6682b9af665d6",
             "status": "success (200)",
-            "previous_etag": "563e972ddcb41c014b3715b88c1272d6df0d90de621acc248fd802136ef2309c"
+            "previous_etag": "62ac31289cfde779c9da60bbe7e7a1aa5f0e2bcb25e46e581a103d5562c4a5c8"
         }
     ]
 }
