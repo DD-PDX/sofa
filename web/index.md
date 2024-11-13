@@ -35,8 +35,27 @@ features:
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<div>
+  <p>👋 We’re thrilled to have you here!</p>
+  <p>If you find value in this project, consider showing your support by starring us on GitHub! 🌟</p>
+  <div>
+    <a class="github-button" href="https://github.com/macadmins/sofa" 
+       data-icon="octicon-star" data-size="large" data-show-count="true" 
+       aria-label="Star macadmins/sofa on GitHub">Star</a>
+  </div>
+</div>
+
 <script setup>
 import FeedInfo from './components/FeedInfo.vue';
+
+// Load GitHub buttons script asynchronously
+if (typeof window !== 'undefined') {
+  const script = document.createElement('script');
+  script.src = 'https://buttons.github.io/buttons.js';
+  script.async = true;
+  script.defer = true;
+  document.body.appendChild(script);
+}
 </script>
 
 <FeedInfo />

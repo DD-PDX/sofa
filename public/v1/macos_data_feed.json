@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "f4965563dc85e83f225c6db4763473da858fb976488fa361edb62f346ae5e66b",
+    "UpdateHash": "a55e92837cafce4732c63a8f1cc95c4921a5721dccb9fc91bfd3cb7b27a2640f",
     "OSVersions": [
         {
             "OSVersion": "Sequoia 15",
@@ -7,7 +7,7 @@
                 "ProductVersion": "15.1",
                 "Build": "24B83",
                 "ReleaseDate": "2024-10-28T00:00:00Z",
-                "ExpirationDate": "2025-01-26T00:00:00Z",
+                "ExpirationDate": "2025-02-11T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -70,6 +70,9 @@
                     "CVE-2024-38477": false,
                     "CVE-2024-38476": false,
                     "CVE-2024-44255": false,
+                    "CVE-2024-44232": false,
+                    "CVE-2024-44233": false,
+                    "CVE-2024-44234": false,
                     "CVE-2024-44270": false,
                     "CVE-2024-44280": false,
                     "CVE-2024-44260": false,
@@ -127,7 +130,7 @@
                     "CVE-2024-44257": false
                 },
                 "ActivelyExploitedCVEs": [],
-                "UniqueCVEsCount": 59
+                "UniqueCVEsCount": 62
             },
             "SecurityReleases": [
                 {
@@ -198,6 +201,9 @@
                         "CVE-2024-38477": false,
                         "CVE-2024-38476": false,
                         "CVE-2024-44255": false,
+                        "CVE-2024-44232": false,
+                        "CVE-2024-44233": false,
+                        "CVE-2024-44234": false,
                         "CVE-2024-44270": false,
                         "CVE-2024-44280": false,
                         "CVE-2024-44260": false,
@@ -255,7 +261,7 @@
                         "CVE-2024-44257": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 59,
+                    "UniqueCVEsCount": 62,
                     "DaysSincePreviousRelease": 25
                 },
                 {
@@ -314,6 +320,15 @@
                         "J615AP",
                         "J680AP",
                         "J780AP",
+                        "J604AP",
+                        "J614cAP",
+                        "J614sAP",
+                        "J616cAP",
+                        "J616sAP",
+                        "J623AP",
+                        "J624AP",
+                        "J773gAP",
+                        "J773sAP",
                         "Mac-1E7E29AD0135F9BC",
                         "Mac-63001698E7A34814",
                         "Mac-937A206F2EE63C01",
@@ -382,6 +397,15 @@
                         "J615AP",
                         "J680AP",
                         "J780AP",
+                        "J604AP",
+                        "J614cAP",
+                        "J614sAP",
+                        "J616cAP",
+                        "J616sAP",
+                        "J623AP",
+                        "J624AP",
+                        "J773gAP",
+                        "J773sAP",
                         "Mac-1E7E29AD0135F9BC",
                         "Mac-63001698E7A34814",
                         "Mac-937A206F2EE63C01",
@@ -494,7 +518,7 @@
                     "URL": "https://support.apple.com/en-ca/HT201862",
                     "Identifiers": {
                         "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
-                        "Mac15,12": "MacBook Air (15-inch, M3, 2024)",
+                        "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
                         "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
                         "Mac14,2": "MacBook Air (M2, 2022)",
                         "MacBookAir10,1": "MacBook Air (M1, 2020)",
@@ -505,6 +529,11 @@
                     "Model": "MacBook Pro",
                     "URL": "https://support.apple.com/en-ca/HT201300",
                     "Identifiers": {
+                        "Mac16,1": "MacBook Pro (14-inch, 2024)",
+                        "Mac16,5": "MacBook Pro (14-inch, 2024)",
+                        "Mac16,6": "MacBook Pro (14-inch, 2024)",
+                        "Mac16,7": "MacBook Pro (14-inch, 2024)",
+                        "Mac16,8": "MacBook Pro (14-inch, 2024)",
                         "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
                         "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
                         "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
@@ -536,6 +565,8 @@
                     "Model": "Mac mini",
                     "URL": "https://support.apple.com/en-ca/HT201894",
                     "Identifiers": {
+                        "Mac16,15": "Mac mini (2024)",
+                        "Mac16,10": "Mac mini (2024)",
                         "Mac14,3": "Mac mini (2023)",
                         "Mac14,12": "Mac mini (2023)",
                         "Macmini9,1": "Mac mini (M1, 2020)",
@@ -556,6 +587,8 @@
                     "Model": "iMac",
                     "URL": "https://support.apple.com/en-ca/HT201634",
                     "Identifiers": {
+                        "Mac16,2": "iMac (24-inch, 2024, Two ports)",
+                        "Mac16,3": "iMac (24-inch, 2024, Four ports)",
                         "Mac15,5": "iMac (24-inch, 2023)",
                         "Mac15,4": "iMac (24-inch, 2023)",
                         "iMac21,1": "iMac (24-inch, M1, 2021)",
@@ -583,7 +616,7 @@
                 "ProductVersion": "14.7.1",
                 "Build": "23H222",
                 "ReleaseDate": "2024-10-28T00:00:00Z",
-                "ExpirationDate": "2025-01-26T00:00:00Z",
+                "ExpirationDate": "2025-02-11T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -645,6 +678,9 @@
                 "SecurityInfo": "https://support.apple.com/en-ca/121570",
                 "CVEs": {
                     "CVE-2024-44255": false,
+                    "CVE-2024-44232": false,
+                    "CVE-2024-44233": false,
+                    "CVE-2024-44234": false,
                     "CVE-2024-44270": false,
                     "CVE-2024-44280": false,
                     "CVE-2024-44260": false,
@@ -692,7 +728,7 @@
                     "CVE-2024-44257": false
                 },
                 "ActivelyExploitedCVEs": [],
-                "UniqueCVEsCount": 46
+                "UniqueCVEsCount": 49
             },
             "SecurityReleases": [
                 {
@@ -762,6 +798,9 @@
                     ],
                     "CVEs": {
                         "CVE-2024-44255": false,
+                        "CVE-2024-44232": false,
+                        "CVE-2024-44233": false,
+                        "CVE-2024-44234": false,
                         "CVE-2024-44270": false,
                         "CVE-2024-44280": false,
                         "CVE-2024-44260": false,
@@ -809,7 +848,7 @@
                         "CVE-2024-44257": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 46,
+                    "UniqueCVEsCount": 49,
                     "DaysSincePreviousRelease": 42
                 },
                 {
@@ -2307,7 +2346,7 @@
                     "URL": "https://support.apple.com/en-ca/HT201862",
                     "Identifiers": {
                         "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
-                        "Mac15,12": "MacBook Air (15-inch, M3, 2024)",
+                        "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
                         "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
                         "Mac14,2": "MacBook Air (M2, 2022)",
                         "MacBookAir10,1": "MacBook Air (M1, 2020)",
@@ -2398,7 +2437,7 @@
                 "ProductVersion": "13.7.1",
                 "Build": "22H221",
                 "ReleaseDate": "2024-10-28T00:00:00Z",
-                "ExpirationDate": "2025-01-26T00:00:00Z",
+                "ExpirationDate": "2025-02-11T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -2459,6 +2498,9 @@
                 "SecurityInfo": "https://support.apple.com/en-ca/121568",
                 "CVEs": {
                     "CVE-2024-44255": false,
+                    "CVE-2024-44232": false,
+                    "CVE-2024-44233": false,
+                    "CVE-2024-44234": false,
                     "CVE-2024-44270": false,
                     "CVE-2024-44280": false,
                     "CVE-2024-44126": false,
@@ -2503,7 +2545,7 @@
                     "CVE-2024-44257": false
                 },
                 "ActivelyExploitedCVEs": [],
-                "UniqueCVEsCount": 43
+                "UniqueCVEsCount": 46
             },
             "SecurityReleases": [
                 {
@@ -2572,6 +2614,9 @@
                     ],
                     "CVEs": {
                         "CVE-2024-44255": false,
+                        "CVE-2024-44232": false,
+                        "CVE-2024-44233": false,
+                        "CVE-2024-44234": false,
                         "CVE-2024-44270": false,
                         "CVE-2024-44280": false,
                         "CVE-2024-44126": false,
@@ -2616,7 +2661,7 @@
                         "CVE-2024-44257": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 43,
+                    "UniqueCVEsCount": 46,
                     "DaysSincePreviousRelease": 42
                 },
                 {
@@ -5103,7 +5148,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2025-01-26T00:00:00Z",
+                "ExpirationDate": "2025-02-11T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -7724,8 +7769,8 @@
         "ReleaseDate": "2024-10-16T15:47:46Z"
     },
     "XProtectPlistConfigData": {
-        "com.apple.XProtect": "5278",
-        "ReleaseDate": "2024-10-15T17:18:27Z"
+        "com.apple.XProtect": "5282",
+        "ReleaseDate": "2024-11-12T18:13:16Z"
     },
     "Models": {
         "Mac15,13": {
@@ -7740,7 +7785,7 @@
             ]
         },
         "Mac15,12": {
-            "MarketingName": "MacBook Air (15-inch, M3, 2024)",
+            "MarketingName": "MacBook Air (13-inch, M3, 2024)",
             "SupportedOS": [
                 "Sequoia 15",
                 "Sonoma 14"
@@ -7806,6 +7851,51 @@
                 14,
                 13,
                 12
+            ]
+        },
+        "Mac16,1": {
+            "MarketingName": "MacBook Pro (14-inch, 2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
+        "Mac16,5": {
+            "MarketingName": "MacBook Pro (14-inch, 2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
+        "Mac16,6": {
+            "MarketingName": "MacBook Pro (14-inch, 2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
+        "Mac16,7": {
+            "MarketingName": "MacBook Pro (14-inch, 2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
+        "Mac16,8": {
+            "MarketingName": "MacBook Pro (14-inch, 2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
             ]
         },
         "Mac15,3": {
@@ -8151,6 +8241,24 @@
                 12
             ]
         },
+        "Mac16,15": {
+            "MarketingName": "Mac mini (2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
+        "Mac16,10": {
+            "MarketingName": "Mac mini (2024)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
         "Mac14,3": {
             "MarketingName": "Mac mini (2023)",
             "SupportedOS": [
@@ -8265,6 +8373,24 @@
                 14,
                 13,
                 12
+            ]
+        },
+        "Mac16,2": {
+            "MarketingName": "iMac (24-inch, 2024, Two ports)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
+            ]
+        },
+        "Mac16,3": {
+            "MarketingName": "iMac (24-inch, 2024, Four ports)",
+            "SupportedOS": [
+                "Sequoia 15"
+            ],
+            "OSVersions": [
+                15
             ]
         },
         "Mac15,5": {
@@ -8674,6 +8800,13 @@
             "url": "https://swcdn.apple.com/content/downloads/08/08/072-12353-A_IUBHH68MQT/sv48ma68gmhl96fa9anqfj3i2fnb1ur2wh/InstallAssistant.pkg"
         },
         "AllPreviousUMA": [
+            {
+                "title": "macOS Sequoia",
+                "version": "15.1",
+                "build": "24B2083",
+                "apple_slug": "072-12295",
+                "url": "https://swcdn.apple.com/content/downloads/09/57/072-12295-A_E6ZJOV0DG7/55hn1tc1t2rk1g4mmb6l7z3ac6cippqfq0/InstallAssistant.pkg"
+            },
             {
                 "title": "macOS Sequoia",
                 "version": "15.0.1",
