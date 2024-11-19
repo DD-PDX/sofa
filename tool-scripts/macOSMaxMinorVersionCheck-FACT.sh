@@ -1,6 +1,15 @@
 #!/bin/zsh --no-rcs
 # shellcheck shell=bash
-
+#
+#
+#########################################################
+# EA script modified for use as an Addigy numeric fact. #
+#  - Removed verbose output						        #
+#  - Set exits for errors to exit 1						#
+#  - Changed output to just the version number     		#
+#########################################################
+#
+#
 # Check latest available compatible version of macOS using SOFA
 # by Graham Pugh
 #
