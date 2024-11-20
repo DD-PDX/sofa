@@ -3,7 +3,7 @@
 #
 #
 #########################################################
-# EA script modified for use as an Addigy numeric fact. #
+# EA script modified for use as an Addigy string fact.  #
 #  - Removed verbose output						        #
 #  - Set exits for errors to exit 1						#
 #  - Changed output to just the version number     		#
