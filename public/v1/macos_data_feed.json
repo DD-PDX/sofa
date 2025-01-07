@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "d985e0f8ef1875f16a11deb744e3a1ae335343f542374f773a263ec6eae7701d",
+    "UpdateHash": "c1607d4a1f39889a235e4a941b4c7c3859e5c1c41b3489e0d47d3c61a13dfbe5",
     "OSVersions": [
         {
             "OSVersion": "Sequoia 15",
@@ -7,7 +7,7 @@
                 "ProductVersion": "15.2",
                 "Build": "24C101",
                 "ReleaseDate": "2024-12-11T00:00:00Z",
-                "ExpirationDate": "2025-03-31T00:00:00Z",
+                "ExpirationDate": "2025-04-07T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -573,14 +573,12 @@
                         "J230KAP",
                         "J274AP",
                         "J293AP",
-                        "J313AP",
                         "J314cAP",
                         "J314sAP",
                         "J316cAP",
                         "J316sAP",
                         "J375cAP",
                         "J375dAP",
-                        "J413AP",
                         "J414cAP",
                         "J414sAP",
                         "J415AP",
@@ -816,7 +814,7 @@
                 "ProductVersion": "14.7.2",
                 "Build": "23H311",
                 "ReleaseDate": "2024-12-11T00:00:00Z",
-                "ExpirationDate": "2025-03-31T00:00:00Z",
+                "ExpirationDate": "2025-04-07T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -2715,7 +2713,7 @@
                 "ProductVersion": "13.7.2",
                 "Build": "22H313",
                 "ReleaseDate": "2024-12-11T00:00:00Z",
-                "ExpirationDate": "2025-03-31T00:00:00Z",
+                "ExpirationDate": "2025-04-07T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -5498,7 +5496,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2025-03-31T00:00:00Z",
+                "ExpirationDate": "2025-04-07T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -9186,13 +9184,6 @@
                 "url": "https://swcdn.apple.com/content/downloads/05/43/072-01382-A_5URDEOHRHL/chwodorv8xcjx5ea41i5gmmw9ofgjwxtq1/InstallAssistant.pkg"
             },
             {
-                "title": "macOS Sequoia",
-                "version": "15.0",
-                "build": "24A335",
-                "apple_slug": "062-78429",
-                "url": "https://swcdn.apple.com/content/downloads/11/43/062-78429-A_DAI7Y9IP98/qxbabjzemiel7guag7q09xxe0631iie45p/InstallAssistant.pkg"
-            },
-            {
                 "title": "macOS Sonoma",
                 "version": "14.7.2",
                 "build": "23H311",
@@ -9205,13 +9196,6 @@
                 "build": "23H222",
                 "apple_slug": "072-09041",
                 "url": "https://swcdn.apple.com/content/downloads/12/44/072-09041-A_ZYPP05KKXT/jpuuhsha7r52g4p867qvcdfaugaloimbgh/InstallAssistant.pkg"
-            },
-            {
-                "title": "macOS Sonoma",
-                "version": "14.7",
-                "build": "23H124",
-                "apple_slug": "062-78824",
-                "url": "https://swcdn.apple.com/content/downloads/42/57/062-78824-A_60MNDAK5UB/dov1trqs34ol9r0b3zt3swgw04ndf7ctwm/InstallAssistant.pkg"
             },
             {
                 "title": "macOS Sonoma",
@@ -9233,13 +9217,6 @@
                 "build": "22H221",
                 "apple_slug": "072-09024",
                 "url": "https://swcdn.apple.com/content/downloads/29/47/072-09024-A_8G5EY3SPX2/l6ecgngkrhhbc6q4mae5cwe42pxp49co7w/InstallAssistant.pkg"
-            },
-            {
-                "title": "macOS Ventura",
-                "version": "13.7",
-                "build": "22H123",
-                "apple_slug": "062-78643",
-                "url": "https://swcdn.apple.com/content/downloads/05/02/062-78643-A_T7YK72IEUB/f6jf452yv3xah9gljv28yxjs5x5bm7p1fr/InstallAssistant.pkg"
             },
             {
                 "title": "macOS Ventura",
