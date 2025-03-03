@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "663cb70acde566c0279fd7ac962a6bd61767385a75a5736cca71acbe8d80646e",
+    "UpdateHash": "800a861e2c3fe7c26db1265ce045f39709d2871d379d959cc782346bd0bd6000",
     "OSVersions": [
         {
             "OSVersion": "Sequoia 15",
@@ -7,7 +7,7 @@
                 "ProductVersion": "15.3.1",
                 "Build": "24D70",
                 "ReleaseDate": "2025-02-10T00:00:00Z",
-                "ExpirationDate": "2025-05-25T00:00:00Z",
+                "ExpirationDate": "2025-06-01T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -946,9 +946,9 @@
                         "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-                        "MacBookPro15,1": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
+                        "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
                     }
                 },
                 {
@@ -1006,7 +1006,7 @@
                 "ProductVersion": "14.7.4",
                 "Build": "23H420",
                 "ReleaseDate": "2025-02-10T00:00:00Z",
-                "ExpirationDate": "2025-05-25T00:00:00Z",
+                "ExpirationDate": "2025-06-01T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -3023,9 +3023,9 @@
                         "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-                        "MacBookPro15,1": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
+                        "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
                     }
                 },
                 {
@@ -3079,7 +3079,7 @@
                 "ProductVersion": "13.7.4",
                 "Build": "22H420",
                 "ReleaseDate": "2025-02-10T00:00:00Z",
-                "ExpirationDate": "2025-05-25T00:00:00Z",
+                "ExpirationDate": "2025-06-01T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -5951,9 +5951,9 @@
                         "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-                        "MacBookPro15,1": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+                        "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
                         "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
                         "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
                         "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
@@ -6020,7 +6020,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2025-05-25T00:00:00Z",
+                "ExpirationDate": "2025-06-01T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -8564,9 +8564,9 @@
                         "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
                         "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-                        "MacBookPro15,1": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
-                        "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+                        "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
+                        "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
                         "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
                         "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
                         "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
@@ -8642,8 +8642,8 @@
         "ReleaseDate": "2024-12-17T18:03:20Z"
     },
     "XProtectPlistConfigData": {
-        "com.apple.XProtect": "5287",
-        "ReleaseDate": "2025-02-05T18:35:11Z"
+        "com.apple.XProtect": "5288",
+        "ReleaseDate": "2025-02-26T18:08:01Z"
     },
     "Models": {
         "Mac15,13": {
@@ -9070,7 +9070,7 @@
             ]
         },
         "MacBookPro15,1": {
-            "MarketingName": "MacBook Pro (15-inch, 2019)",
+            "MarketingName": "MacBook Pro (15-inch, 2018)",
             "SupportedOS": [
                 "Sequoia 15",
                 "Sonoma 14",
@@ -9085,7 +9085,7 @@
             ]
         },
         "MacBookPro15,3": {
-            "MarketingName": "MacBook Pro (15-inch, 2019)",
+            "MarketingName": "MacBook Pro (15-inch, 2018)",
             "SupportedOS": [
                 "Sequoia 15",
                 "Sonoma 14",
@@ -9100,7 +9100,7 @@
             ]
         },
         "MacBookPro15,2": {
-            "MarketingName": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+            "MarketingName": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
             "SupportedOS": [
                 "Sequoia 15",
                 "Sonoma 14",
