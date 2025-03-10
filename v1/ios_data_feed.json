@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "02faf8e25b82ee64024f8cab8e932d7ace1975cedff2440a0dd4765446b2b963",
+    "UpdateHash": "530210f8a19c7933beffad126461c3527afd543fc8a21f5c675c3cc1d32a81eb",
     "OSVersions": [
         {
             "OSVersion": "18",
@@ -7,7 +7,7 @@
                 "ProductVersion": "18.3.1",
                 "Build": "22D72",
                 "ReleaseDate": "2025-02-10T00:00:00Z",
-                "ExpirationDate": "2025-06-01T00:00:00Z",
+                "ExpirationDate": "2025-06-08T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -496,6 +496,7 @@
                         "CVE-2024-27876": false,
                         "CVE-2024-27869": false,
                         "CVE-2024-44124": false,
+                        "CVE-2024-54469": false,
                         "CVE-2024-44131": false,
                         "CVE-2024-40850": false,
                         "CVE-2024-27880": false,
@@ -503,6 +504,8 @@
                         "CVE-2024-44169": false,
                         "CVE-2024-44165": false,
                         "CVE-2024-44191": false,
+                        "CVE-2024-44122": false,
+                        "CVE-2024-54560": false,
                         "CVE-2024-44198": false,
                         "CVE-2024-40791": false,
                         "CVE-2024-44183": false,
@@ -518,18 +521,23 @@
                         "CVE-2024-44144": false,
                         "CVE-2024-44123": false,
                         "CVE-2024-44145": false,
+                        "CVE-2024-44179": false,
                         "CVE-2024-40853": false,
                         "CVE-2024-44139": false,
                         "CVE-2024-44180": false,
                         "CVE-2024-44170": false,
+                        "CVE-2024-54558": false,
                         "CVE-2024-44184": false,
                         "CVE-2024-27879": false,
+                        "CVE-2024-54467": false,
+                        "CVE-2024-44192": false,
                         "CVE-2024-40857": false,
                         "CVE-2024-44187": false,
+                        "CVE-2024-44227": false,
                         "CVE-2024-40856": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 40,
+                    "UniqueCVEsCount": 48,
                     "DaysSincePreviousRelease": 0
                 }
             ]
@@ -540,7 +548,7 @@
                 "ProductVersion": "17.7.2",
                 "Build": "21H6221",
                 "ReleaseDate": "2024-11-19T00:00:00Z",
-                "ExpirationDate": "2025-06-01T00:00:00Z",
+                "ExpirationDate": "2025-06-08T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -939,12 +947,13 @@
                         "CVE-2024-44127": false,
                         "CVE-2024-44158": false,
                         "CVE-2024-40844": false,
+                        "CVE-2024-44179": false,
                         "CVE-2024-44164": false,
                         "CVE-2024-44184": false,
                         "CVE-2024-27879": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 17,
+                    "UniqueCVEsCount": 18,
                     "DaysSincePreviousRelease": 40
                 },
                 {
@@ -1499,7 +1508,7 @@
                 "ProductVersion": "16.7.10",
                 "Build": "20H6350",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2025-06-01T00:00:00Z",
+                "ExpirationDate": "2025-06-08T00:00:00Z",
                 "SupportedDevices": [
                     "iPad6,11",
                     "iPad6,12",
@@ -2228,6 +2237,7 @@
                         "CVE-2022-42864": false,
                         "CVE-2022-46690": false,
                         "CVE-2022-42837": false,
+                        "CVE-2022-43454": false,
                         "CVE-2022-46689": false,
                         "CVE-2022-46701": false,
                         "CVE-2022-42842": false,
@@ -2235,6 +2245,7 @@
                         "CVE-2022-42844": false,
                         "CVE-2022-42845": false,
                         "CVE-2022-48618": true,
+                        "CVE-2022-48610": false,
                         "CVE-2022-42839": false,
                         "CVE-2022-46716": false,
                         "CVE-2022-32943": false,
@@ -2264,7 +2275,7 @@
                         "CVE-2022-48618",
                         "CVE-2022-42856"
                     ],
-                    "UniqueCVEsCount": 47,
+                    "UniqueCVEsCount": 49,
                     "DaysSincePreviousRelease": 13
                 },
                 {
