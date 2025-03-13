@@ -1,13 +1,13 @@
 {
-    "UpdateHash": "530210f8a19c7933beffad126461c3527afd543fc8a21f5c675c3cc1d32a81eb",
+    "UpdateHash": "e3d177a3bc6a9c5deb9b829d11490382d3f47f9541f0921bcbb6c74e834b49f4",
     "OSVersions": [
         {
             "OSVersion": "18",
             "Latest": {
-                "ProductVersion": "18.3.1",
-                "Build": "22D72",
-                "ReleaseDate": "2025-02-10T00:00:00Z",
-                "ExpirationDate": "2025-06-08T00:00:00Z",
+                "ProductVersion": "18.3.2",
+                "Build": "22D6082",
+                "ReleaseDate": "2025-03-11T00:00:00Z",
+                "ExpirationDate": "2025-06-11T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -98,12 +98,12 @@
             },
             "SecurityReleases": [
                 {
-                    "UpdateName": "iOS 18.3.1 and iPadOS 18.3.1",
+                    "UpdateName": "iOS 18.3.2 and iPadOS 18.3.2",
                     "ProductName": "iOS",
-                    "ProductVersion": "18.3.1",
-                    "ReleaseDate": "2025-02-10T00:00:00Z",
+                    "ProductVersion": "18.3.2",
+                    "ReleaseDate": "2025-03-11T00:00:00Z",
                     "ReleaseType": "OS",
-                    "SecurityInfo": "https://support.apple.com/en-ca/122174",
+                    "SecurityInfo": "https://support.apple.com/en-ca/122281",
                     "SupportedDevices": [
                         "iPad11,1",
                         "iPad11,2",
@@ -187,6 +187,23 @@
                         "iPhone17,3",
                         "iPhone17,4"
                     ],
+                    "CVEs": {
+                        "CVE-2025-24201": true
+                    },
+                    "ActivelyExploitedCVEs": [
+                        "CVE-2025-24201"
+                    ],
+                    "UniqueCVEsCount": 1,
+                    "DaysSincePreviousRelease": 29
+                },
+                {
+                    "UpdateName": "iOS 18.3.1 and iPadOS 18.3.1",
+                    "ProductName": "iOS",
+                    "ProductVersion": "18.3.1",
+                    "ReleaseDate": "2025-02-10T00:00:00Z",
+                    "ReleaseType": "OS",
+                    "SecurityInfo": "https://support.apple.com/en-ca/122174",
+                    "SupportedDevices": [],
                     "CVEs": {
                         "CVE-2025-24200": true
                     },
@@ -548,7 +565,7 @@
                 "ProductVersion": "17.7.2",
                 "Build": "21H6221",
                 "ReleaseDate": "2024-11-19T00:00:00Z",
-                "ExpirationDate": "2025-06-08T00:00:00Z",
+                "ExpirationDate": "2025-06-11T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -1508,7 +1525,7 @@
                 "ProductVersion": "16.7.10",
                 "Build": "20H6350",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2025-06-08T00:00:00Z",
+                "ExpirationDate": "2025-06-11T00:00:00Z",
                 "SupportedDevices": [
                     "iPad6,11",
                     "iPad6,12",
