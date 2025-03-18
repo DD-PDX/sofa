@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "e3d177a3bc6a9c5deb9b829d11490382d3f47f9541f0921bcbb6c74e834b49f4",
+    "UpdateHash": "9bb3afb51955d59a1a395a5fc515c168579a75491d6dfbd36042902a53491b17",
     "OSVersions": [
         {
             "OSVersion": "18",
@@ -7,7 +7,7 @@
                 "ProductVersion": "18.3.2",
                 "Build": "22D6082",
                 "ReleaseDate": "2025-03-11T00:00:00Z",
-                "ExpirationDate": "2025-06-11T00:00:00Z",
+                "ExpirationDate": "2025-06-16T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -385,7 +385,9 @@
                         "CVE-2024-45490": false,
                         "CVE-2024-54514": false,
                         "CVE-2024-44225": false,
+                        "CVE-2024-54525": false,
                         "CVE-2024-54530": false,
+                        "CVE-2024-44276": false,
                         "CVE-2024-54492": false,
                         "CVE-2024-54497": false,
                         "CVE-2024-44246": false,
@@ -401,7 +403,7 @@
                         "CVE-2024-54543": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 38,
+                    "UniqueCVEsCount": 40,
                     "DaysSincePreviousRelease": 22
                 },
                 {
@@ -565,7 +567,7 @@
                 "ProductVersion": "17.7.2",
                 "Build": "21H6221",
                 "ReleaseDate": "2024-11-19T00:00:00Z",
-                "ExpirationDate": "2025-06-11T00:00:00Z",
+                "ExpirationDate": "2025-06-16T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -1525,7 +1527,7 @@
                 "ProductVersion": "16.7.10",
                 "Build": "20H6350",
                 "ReleaseDate": "2024-08-07T00:00:00Z",
-                "ExpirationDate": "2025-06-11T00:00:00Z",
+                "ExpirationDate": "2025-06-16T00:00:00Z",
                 "SupportedDevices": [
                     "iPad6,11",
                     "iPad6,12",
