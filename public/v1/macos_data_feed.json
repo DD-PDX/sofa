@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "77c4d8ba7e0ea583b851c42d90af1b5447d563b1f7cba6e5f7417940fe42416f",
+    "UpdateHash": "31150d6f11f3573c832bd4641e5a1228ac7de67fc4902b02c39f0fd64307590b",
     "OSVersions": [
         {
             "OSVersion": "Sequoia 15",
@@ -7,7 +7,7 @@
                 "ProductVersion": "15.4",
                 "Build": "24E248",
                 "ReleaseDate": "2025-03-31T00:00:00Z",
-                "ExpirationDate": "2025-07-10T00:00:00Z",
+                "ExpirationDate": "2025-07-13T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -1394,7 +1394,7 @@
                     "Model": "Mac mini",
                     "URL": "https://support.apple.com/en-ca/HT201894",
                     "Identifiers": {
-                        "Mac16,15": "Mac mini (2024)",
+                        "Mac16,11": "Mac mini (2024)",
                         "Mac16,10": "Mac mini (2024)",
                         "Mac14,3": "Mac mini (2023)",
                         "Mac14,12": "Mac mini (2023)",
@@ -1445,7 +1445,7 @@
                 "ProductVersion": "14.7.5",
                 "Build": "23H527",
                 "ReleaseDate": "2025-03-31T00:00:00Z",
-                "ExpirationDate": "2025-07-10T00:00:00Z",
+                "ExpirationDate": "2025-07-13T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -3798,7 +3798,7 @@
                 "ProductVersion": "13.7.5",
                 "Build": "22H527",
                 "ReleaseDate": "2025-03-31T00:00:00Z",
-                "ExpirationDate": "2025-07-10T00:00:00Z",
+                "ExpirationDate": "2025-07-13T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -6989,7 +6989,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2025-07-10T00:00:00Z",
+                "ExpirationDate": "2025-07-13T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -10086,7 +10086,7 @@
                 12
             ]
         },
-        "Mac16,15": {
+        "Mac16,11": {
             "MarketingName": "Mac mini (2024)",
             "SupportedOS": [
                 "Sequoia 15"
