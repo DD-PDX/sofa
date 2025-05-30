@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "f22c0656ad81b1220efa5eed51afdb455b595b7ceb78d09ccb1775af3e2cea45",
+    "UpdateHash": "b3473f99900314f6083149cb7b93eddc737d31ad2e3d37def5745c84777f4e6e",
     "OSVersions": [
         {
             "OSVersion": "18",
@@ -7,7 +7,7 @@
                 "ProductVersion": "18.5",
                 "Build": "22F6076",
                 "ReleaseDate": "2025-05-12T00:00:00Z",
-                "ExpirationDate": "2025-08-21T00:00:00Z",
+                "ExpirationDate": "2025-08-28T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -288,6 +288,7 @@
                         "CVE-2025-24212": false,
                         "CVE-2025-24163": false,
                         "CVE-2025-24230": false,
+                        "CVE-2025-31196": false,
                         "CVE-2025-24211": false,
                         "CVE-2025-24190": false,
                         "CVE-2025-30454": false,
@@ -311,6 +312,7 @@
                         "CVE-2025-24178": false,
                         "CVE-2025-31182": false,
                         "CVE-2025-24238": false,
+                        "CVE-2025-31199": false,
                         "CVE-2025-30470": false,
                         "CVE-2025-24193": false,
                         "CVE-2025-30426": false,
@@ -318,6 +320,7 @@
                         "CVE-2025-30469": false,
                         "CVE-2025-24173": false,
                         "CVE-2025-24095": false,
+                        "CVE-2025-30466": false,
                         "CVE-2025-24113": false,
                         "CVE-2025-30467": false,
                         "CVE-2025-31192": false,
@@ -342,7 +345,7 @@
                         "CVE-2025-30425": false
                     },
                     "ActivelyExploitedCVEs": [],
-                    "UniqueCVEsCount": 72,
+                    "UniqueCVEsCount": 75,
                     "DaysSincePreviousRelease": 20
                 },
                 {
@@ -662,7 +665,7 @@
                 "ProductVersion": "17.7.2",
                 "Build": "21H6221",
                 "ReleaseDate": "2024-11-19T00:00:00Z",
-                "ExpirationDate": "2025-08-21T00:00:00Z",
+                "ExpirationDate": "2025-08-28T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -1757,7 +1760,7 @@
                 "ProductVersion": "16.7.11",
                 "Build": "20H6360",
                 "ReleaseDate": "2025-03-31T00:00:00Z",
-                "ExpirationDate": "2025-08-21T00:00:00Z",
+                "ExpirationDate": "2025-08-28T00:00:00Z",
                 "SupportedDevices": [
                     "iPad6,11",
                     "iPad6,12",
