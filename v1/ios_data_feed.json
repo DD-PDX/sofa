@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "b3473f99900314f6083149cb7b93eddc737d31ad2e3d37def5745c84777f4e6e",
+    "UpdateHash": "f15a5a4c3e902f37f0ccf1335f1f1f96b6212a0d550b93992d8f7a169052a6b3",
     "OSVersions": [
         {
             "OSVersion": "18",
@@ -7,7 +7,7 @@
                 "ProductVersion": "18.5",
                 "Build": "22F6076",
                 "ReleaseDate": "2025-05-12T00:00:00Z",
-                "ExpirationDate": "2025-08-28T00:00:00Z",
+                "ExpirationDate": "2025-09-10T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -374,12 +374,14 @@
                     "SecurityInfo": "https://support.apple.com/en-ca/122174",
                     "SupportedDevices": [],
                     "CVEs": {
-                        "CVE-2025-24200": true
+                        "CVE-2025-24200": true,
+                        "CVE-2025-43200": true
                     },
                     "ActivelyExploitedCVEs": [
-                        "CVE-2025-24200"
+                        "CVE-2025-24200",
+                        "CVE-2025-43200"
                     ],
-                    "UniqueCVEsCount": 1,
+                    "UniqueCVEsCount": 2,
                     "DaysSincePreviousRelease": 14
                 },
                 {
@@ -665,7 +667,7 @@
                 "ProductVersion": "17.7.2",
                 "Build": "21H6221",
                 "ReleaseDate": "2024-11-19T00:00:00Z",
-                "ExpirationDate": "2025-08-28T00:00:00Z",
+                "ExpirationDate": "2025-09-10T00:00:00Z",
                 "SupportedDevices": [
                     "iPad11,1",
                     "iPad11,2",
@@ -886,12 +888,14 @@
                     "SecurityInfo": "https://support.apple.com/en-ca/122173",
                     "SupportedDevices": [],
                     "CVEs": {
-                        "CVE-2025-24200": true
+                        "CVE-2025-24200": true,
+                        "CVE-2025-43200": true
                     },
                     "ActivelyExploitedCVEs": [
-                        "CVE-2025-24200"
+                        "CVE-2025-24200",
+                        "CVE-2025-43200"
                     ],
-                    "UniqueCVEsCount": 1,
+                    "UniqueCVEsCount": 2,
                     "DaysSincePreviousRelease": 14
                 },
                 {
@@ -1760,7 +1764,7 @@
                 "ProductVersion": "16.7.11",
                 "Build": "20H6360",
                 "ReleaseDate": "2025-03-31T00:00:00Z",
-                "ExpirationDate": "2025-08-28T00:00:00Z",
+                "ExpirationDate": "2025-09-10T00:00:00Z",
                 "SupportedDevices": [
                     "iPad6,11",
                     "iPad6,12",
@@ -1804,13 +1808,15 @@
                     ],
                     "CVEs": {
                         "CVE-2025-24200": true,
+                        "CVE-2025-43200": true,
                         "CVE-2025-24201": true
                     },
                     "ActivelyExploitedCVEs": [
                         "CVE-2025-24200",
+                        "CVE-2025-43200",
                         "CVE-2025-24201"
                     ],
-                    "UniqueCVEsCount": 2,
+                    "UniqueCVEsCount": 3,
                     "DaysSincePreviousRelease": 236
                 },
                 {
