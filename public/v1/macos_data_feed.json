@@ -1,5 +1,5 @@
 {
-    "UpdateHash": "3e58ede59fd29872e0f4308754d1b2f82d24e1187b6f2f49e3c526a4b8ddcd48",
+    "UpdateHash": "b5876b765af1f14b349b699f8d819fe16ae0b77a0dd792693ae0b4ddc97c04ce",
     "OSVersions": [
         {
             "OSVersion": "Sequoia 15",
@@ -7,7 +7,7 @@
                 "ProductVersion": "15.5",
                 "Build": "24F74",
                 "ReleaseDate": "2025-05-12T00:00:00Z",
-                "ExpirationDate": "2025-09-10T00:00:00Z",
+                "ExpirationDate": "2025-10-09T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -611,14 +611,12 @@
                         "J230KAP",
                         "J274AP",
                         "J293AP",
-                        "J313AP",
                         "J314cAP",
                         "J314sAP",
                         "J316cAP",
                         "J316sAP",
                         "J375cAP",
                         "J375dAP",
-                        "J413AP",
                         "J414cAP",
                         "J414sAP",
                         "J415AP",
@@ -640,22 +638,9 @@
                         "J516cAP",
                         "J516mAP",
                         "J516sAP",
-                        "J575cAP",
-                        "J575dAP",
-                        "J604AP",
                         "J613AP",
-                        "J614cAP",
-                        "J614sAP",
                         "J615AP",
-                        "J616cAP",
-                        "J616sAP",
-                        "J623AP",
-                        "J624AP",
                         "J680AP",
-                        "J713AP",
-                        "J715AP",
-                        "J773gAP",
-                        "J773sAP",
                         "J780AP",
                         "Mac-1E7E29AD0135F9BC",
                         "Mac-63001698E7A34814",
@@ -1590,7 +1575,7 @@
                 "ProductVersion": "14.7.6",
                 "Build": "23H626",
                 "ReleaseDate": "2025-05-12T00:00:00Z",
-                "ExpirationDate": "2025-09-10T00:00:00Z",
+                "ExpirationDate": "2025-10-09T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -4008,7 +3993,7 @@
                 "ProductVersion": "13.7.6",
                 "Build": "22H625",
                 "ReleaseDate": "2025-05-12T00:00:00Z",
-                "ExpirationDate": "2025-09-10T00:00:00Z",
+                "ExpirationDate": "2025-10-09T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -7266,7 +7251,7 @@
                 "ProductVersion": "12.7.6",
                 "Build": "21H1320",
                 "ReleaseDate": "2024-07-29T00:00:00Z",
-                "ExpirationDate": "2025-09-10T00:00:00Z",
+                "ExpirationDate": "2025-10-09T00:00:00Z",
                 "SupportedDevices": [
                     "J132AP",
                     "J137AP",
@@ -9886,13 +9871,13 @@
         }
     ],
     "XProtectPayloads": {
-        "com.apple.XProtectFramework.XProtect": "151",
+        "com.apple.XProtectFramework.XProtect": "152",
         "com.apple.XprotectFramework.PluginService": "74",
-        "ReleaseDate": "2025-03-04T19:20:40Z"
+        "ReleaseDate": "2025-07-08T17:06:35Z"
     },
     "XProtectPlistConfigData": {
-        "com.apple.XProtect": "5300",
-        "ReleaseDate": "2025-06-10T20:57:50Z"
+        "com.apple.XProtect": "5304",
+        "ReleaseDate": "2025-07-08T17:07:41Z"
     },
     "Models": {
         "Mac16,13": {
