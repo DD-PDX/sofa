@@ -18,8 +18,8 @@
           <p><strong>Release Date:</strong> {{ formatDate(osData.Latest.ReleaseDate) }}</p>
           <p><strong>Days Since Release:</strong> {{ daysSinceRelease(osData.Latest.ReleaseDate) }}</p>
 
-          <!-- Display installer info for Sequoia 15 (macOS only) -->
-          <div v-if="platform === 'macOS' && osData.OSVersion === 'Sequoia 15'">
+          <!-- Display installer info for Tahoe 26 (macOS only) -->
+          <div v-if="platform === 'macOS' && osData.OSVersion === 'Tahoe 26'">
             <p v-if="installationApps?.LatestUMA?.url">
               <strong>Installer Package: </strong>
               <a :href="installationApps.LatestUMA.url" target="_blank">Download</a>
@@ -30,7 +30,7 @@
             </p>
           </div>
           <!-- General installer info link for macOS (not displayed on iOS) -->
-          <div v-if="platform === 'macOS' && osData.OSVersion !== 'Sequoia 15'">
+          <div v-if="platform === 'macOS' && osData.OSVersion !== 'Tahoe 26'">
             <strong>Installer Package (UMA): </strong>
             <a href="/macos_installer_info.html#release-information-table">Download links</a>
           </div>
@@ -245,10 +245,12 @@ export default {
     },
     getOsImage(platform, title) {
       const images = {
+        'Tahoe': 'Tahoe.png',
         'Sonoma': 'Sonoma.png',
         'Sequoia': 'Sequoia.png',
         'Ventura': 'Ventura.png',
         'Monterey': 'Monterey.png',
+        'iOS 26': 'ios_26.png',
         'iOS 18': 'ios_18.png',
         'iOS 17': 'ios_17.png',
         'iOS 16': 'ios_16.png',
