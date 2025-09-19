@@ -80,6 +80,12 @@ fi
 latest_os=$( /usr/bin/cut -d. -f1 <<< "$os_version"  )
 # echo "Latest Major Version: $latest_os"
 
+# Subtract 10 if the latest is 26 or greater.
+if [ "$latest_os" -ge 26 ]
+then
+    latest_os=$(($latest_os - 10))
+fi
+
 # Verify integer received from SOFA and output the result
 if [[ "$((latest_os-latest_os))" == 0 ]]; then
 #     echo "<result>$((latest_os-system_os))</result>"
