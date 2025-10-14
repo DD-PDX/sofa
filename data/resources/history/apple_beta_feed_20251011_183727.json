@@ -1,0 +1,126 @@
+{
+  "UpdateHash": "b2df4c9d660e5d351eb3a3800bf00a55b4d57f7cd2fcc329383309cf41d693a0",
+  "created_at": "2025-10-11T18:37:27.328823Z",
+  "items": [
+    {
+      "title": "Xcode 26.1 beta 2 (17B5035f)",
+      "platform": "Xcode",
+      "version": "26.1 beta 2",
+      "build": "17B5035f",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-26_1-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 26.1 beta 2 (23B5059e)",
+      "platform": "iOS",
+      "version": "26.1 beta 2",
+      "build": "23B5059e",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-26_1-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 26.1 beta 2 (23B5059e)",
+      "platform": "iPadOS",
+      "version": "26.1 beta 2",
+      "build": "23B5059e",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=ipados-26_1-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 26.1 beta 2 (25B5057f)",
+      "platform": "macOS",
+      "version": "26.1 beta 2",
+      "build": "25B5057f",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-26_1-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 26.1 beta 2 (23J5558e)",
+      "platform": "tvOS",
+      "version": "26.1 beta 2",
+      "build": "23J5558e",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-26_1-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 26.1 beta 2 (23N5028e)",
+      "platform": "visionOS",
+      "version": "26.1 beta 2",
+      "build": "23N5028e",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-26_1-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 26.1 beta 2 (23S5017d)",
+      "platform": "watchOS",
+      "version": "26.1 beta 2",
+      "build": "23S5017d",
+      "released": "2025-10-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-26_1-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 26.0.1 (17A400)",
+      "platform": "Xcode",
+      "version": "26.0.1",
+      "build": "17A400",
+      "released": "2025-09-22",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-26_0_1-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 26 (17A324)",
+      "platform": "Xcode",
+      "version": "26",
+      "build": "17A324",
+      "released": "2025-09-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-26-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 17.7.9 RC (21H446)",
+      "platform": "iPadOS",
+      "version": "17.7.9 RC",
+      "build": "21H446",
+      "released": "2025-07-21",
+      "release_notes_url": null,
+      "downloads_url": "https://developer.apple.com/download",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 16.4 (16F6)",
+      "platform": "Xcode",
+      "version": "16.4",
+      "build": "16F6",
+      "released": "2025-05-28",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-16_4-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 17.7.6 RC(21H423)",
+      "platform": "iPadOS",
+      "version": "17.7.6 RC",
+      "build": "21H423",
+      "released": "2025-03-24",
+      "release_notes_url": null,
+      "downloads_url": "https://developer.apple.com/download",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    }
+  ]
+}
