@@ -1,9 +1,230 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2025.10.14",
-  "dateReleased": "2025-10-14T18:00:15.9368Z",
-  "count": 1441,
+  "catalogVersion": "2025.11.04",
+  "dateReleased": "2025-11-04T17:55:00.4405Z",
+  "count": 1455,
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2025-48703",
+      "vendorProject": "CWP",
+      "product": "Control Web Panel",
+      "vulnerabilityName": "CWP Control Web Panel OS Command Injection Vulnerability",
+      "dateAdded": "2025-11-04",
+      "shortDescription": "CWP Control Web Panel (formerly CentOS Web Panel) contains an OS command Injection vulnerability that allows unauthenticated remote code execution via shell metacharacters in the t_total parameter in a filemanager changePerm request. A valid non-root username must be known.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-25",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://control-webpanel.com/changelog ; https://nvd.nist.gov/vuln/detail/CVE-2025-48703",
+      "cwes": [
+        "CWE-78"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-11371",
+      "vendorProject": "Gladinet",
+      "product": "CentreStack and Triofox",
+      "vulnerabilityName": "Gladinet CentreStack and Triofox Files or Directories Accessible to External Parties Vulnerability",
+      "dateAdded": "2025-11-04",
+      "shortDescription": "Gladinet CentreStack and Triofox contains a files or directories accessible to external parties vulnerability that allows unintended disclosure of system files.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-25",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.centrestack.com/p/gce_latest_release.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-11371",
+      "cwes": [
+        "CWE-552"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-41244",
+      "vendorProject": "Broadcom",
+      "product": "VMware Aria Operations and VMware Tools",
+      "vulnerabilityName": "Broadcom VMware Aria Operations and VMware Tools Privilege Defined with Unsafe Actions Vulnerability",
+      "dateAdded": "2025-10-30",
+      "shortDescription": "Broadcom VMware Aria Operations and VMware Tools contain a privilege defined with unsafe actions vulnerability. A malicious local actor with non-administrative privileges having access to a VM with VMware Tools installed and managed by Aria Operations with SDMP enabled may exploit this vulnerability to escalate privileges to root on the same VM.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-20",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36149 ; https://nvd.nist.gov/vuln/detail/CVE-2025-41244",
+      "cwes": [
+        "CWE-267"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-24893",
+      "vendorProject": "XWiki",
+      "product": "Platform",
+      "vulnerabilityName": "XWiki Platform Eval Injection Vulnerability",
+      "dateAdded": "2025-10-30",
+      "shortDescription": "XWiki Platform contains an eval injection vulnerability that could allow any guest to perform arbitrary remote code execution through a request to SolrSearch.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-20",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-rr6p-3pfg-562j ; https://nvd.nist.gov/vuln/detail/CVE-2025-24893",
+      "cwes": [
+        "CWE-95"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-6204",
+      "vendorProject": "Dassault Systèmes",
+      "product": "DELMIA Apriso",
+      "vulnerabilityName": "Dassault Systèmes DELMIA Apriso Code Injection Vulnerability",
+      "dateAdded": "2025-10-28",
+      "shortDescription": "Dassault Systèmes DELMIA Apriso contains a code injection vulnerability that could allow an attacker to execute arbitrary code.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-18",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6204 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6204",
+      "cwes": [
+        "CWE-94"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-6205",
+      "vendorProject": "Dassault Systèmes",
+      "product": "DELMIA Apriso",
+      "vulnerabilityName": "Dassault Systèmes DELMIA Apriso Missing Authorization Vulnerability",
+      "dateAdded": "2025-10-28",
+      "shortDescription": "Dassault Systèmes DELMIA Apriso contains a missing authorization vulnerability that could allow an attacker to gain privileged access to the application.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-18",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.3ds.com/trust-center/security/security-advisories/cve-2025-6205 ; https://nvd.nist.gov/vuln/detail/CVE-2025-6205",
+      "cwes": [
+        "CWE-862"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-54236",
+      "vendorProject": "Adobe",
+      "product": "Commerce and Magento",
+      "vulnerabilityName": "Adobe Commerce and Magento Improper Input Validation Vulnerability",
+      "dateAdded": "2025-10-24",
+      "shortDescription": "Adobe Commerce and Magento Open Source contain an improper input validation vulnerability that could allow an attacker to take over customer accounts through the Commerce REST API.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-14",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27397 ; https://nvd.nist.gov/vuln/detail/CVE-2025-54236",
+      "cwes": [
+        "CWE-20"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-59287",
+      "vendorProject": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability",
+      "dateAdded": "2025-10-24",
+      "shortDescription": "Microsoft Windows Server Update Service (WSUS) contains a deserialization of untrusted data vulnerability that allows for remote code execution.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-14",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-59287 ; https://nvd.nist.gov/vuln/detail/CVE-2025-59287",
+      "cwes": [
+        "CWE-502"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-61932",
+      "vendorProject": "Motex",
+      "product": "LANSCOPE Endpoint Manager",
+      "vulnerabilityName": "Motex LANSCOPE Endpoint Manager Improper Verification of Source of a Communication Channel Vulnerability",
+      "dateAdded": "2025-10-22",
+      "shortDescription": "Motex LANSCOPE Endpoint Manager contains an improper verification of source of a communication channel vulnerability allowing an attacker to execute arbitrary code by sending specially crafted packets.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-12",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.motex.co.jp/news/notice/2025/release251020/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-61932",
+      "cwes": [
+        "CWE-940"
+      ]
+    },
+    {
+      "cveID": "CVE-2022-48503",
+      "vendorProject": "Apple",
+      "product": "Multiple Products",
+      "vulnerabilityName": "Apple Multiple Products Unspecified Vulnerability",
+      "dateAdded": "2025-10-20",
+      "shortDescription": "Apple macOS, iOS, tvOS, Safari, and watchOS contain an unspecified vulnerability in JavaScriptCore that when processing web content may lead to arbitrary code execution. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-10",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://support.apple.com/en-us/HT213340 ; https://support.apple.com/en-us/HT213341 ; https://support.apple.com/en-us/HT213342 ; https://support.apple.com/en-us/HT213345 ; https://support.apple.com/en-us/HT213346 ; https://nvd.nist.gov/vuln/detail/CVE-2022-48503",
+      "cwes": []
+    },
+    {
+      "cveID": "CVE-2025-2746",
+      "vendorProject": "Kentico",
+      "product": "Xperience CMS",
+      "vulnerabilityName": "Kentico Xperience CMS Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2025-10-20",
+      "shortDescription": "Kentico Xperience CMS contains an authentication bypass using an alternate path or channel vulnerability that could allow an attacker to control administrative objects.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-10",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://devnet.kentico.com/download/hotfixes ; https://nvd.nist.gov/vuln/detail/CVE-2025-2746",
+      "cwes": [
+        "CWE-288"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-2747",
+      "vendorProject": "Kentico",
+      "product": "Xperience CMS",
+      "vulnerabilityName": "Kentico Xperience CMS Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "dateAdded": "2025-10-20",
+      "shortDescription": "Kentico Xperience CMS contains an authentication bypass using an alternate path or channel vulnerability that could allow an attacker to control administrative objects.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-10",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://devnet.kentico.com/download/hotfixes ; https://nvd.nist.gov/vuln/detail/CVE-2025-2747",
+      "cwes": [
+        "CWE-288"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-33073",
+      "vendorProject": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows SMB Client Improper Access Control Vulnerability",
+      "dateAdded": "2025-10-20",
+      "shortDescription": "Microsoft Windows SMB Client contains an improper access control vulnerability that could allow for privilege escalation. An attacker could execute a specially crafted malicious script to coerce the victim machine to connect back to the attack system using SMB and authenticate.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-10",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-33073 ; https://nvd.nist.gov/vuln/detail/CVE-2025-33073",
+      "cwes": [
+        "CWE-284"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-61884",
+      "vendorProject": "Oracle",
+      "product": "E-Business Suite",
+      "vulnerabilityName": "Oracle E-Business Suite Server-Side Request Forgery (SSRF) Vulnerability",
+      "dateAdded": "2025-10-20",
+      "shortDescription": "Oracle E-Business Suite contains a server-side request forgery (SSRF) vulnerability in the Runtime component of Oracle Configurator. This vulnerability is remotely exploitable without authentication.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-10",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.oracle.com/security-alerts/alert-cve-2025-61884.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-61884",
+      "cwes": [
+        "CWE-918"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-54253",
+      "vendorProject": "Adobe",
+      "product": "Experience Manager (AEM) Forms",
+      "vulnerabilityName": "Adobe Experience Manager Forms Code Execution Vulnerability",
+      "dateAdded": "2025-10-15",
+      "shortDescription": "Adobe Experience Manager Forms in JEE contains an unspecified vulnerability that allows for arbitrary code execution.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2025-11-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://helpx.adobe.com/security/products/aem-forms/apsb25-82.html ; https://nvd.nist.gov/vuln/detail/CVE-2025-54253",
+      "cwes": []
+    },
     {
       "cveID": "CVE-2025-47827",
       "vendorProject": "IGEL",
@@ -47,21 +268,6 @@
       "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2025-59230 ; https://nvd.nist.gov/vuln/detail/CVE-2025-59230",
       "cwes": [
         "CWE-284"
-      ]
-    },
-    {
-      "cveID": "CVE-2025-6264",
-      "vendorProject": "Rapid7",
-      "product": "Velociraptor",
-      "vulnerabilityName": "Rapid7 Velociraptor Incorrect Default Permissions Vulnerability",
-      "dateAdded": "2025-10-14",
-      "shortDescription": "Rapid7 Velociraptor contains an incorrect default permissions vulnerability that can lead to arbitrary command execution and endpoint takeover. To successfully exploit this vulnerability the user must already have access to collect artifacts from the endpoint.",
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "dueDate": "2025-11-04",
-      "knownRansomwareCampaignUse": "Known",
-      "notes": "https://docs.velociraptor.app/announcements/advisories/cve-2025-6264/ ; https://nvd.nist.gov/vuln/detail/CVE-2025-6264",
-      "cwes": [
-        "CWE-276"
       ]
     },
     {
@@ -3343,7 +3549,7 @@
       "shortDescription": "Palo Alto Networks PAN-OS contains an OS command injection vulnerability that allows for privilege escalation through the web-based management interface for several PAN products, including firewalls and VPN concentrators.",
       "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable. Additionally, the management interfaces for affected devices should not be exposed to untrusted networks, including the internet.",
       "dueDate": "2024-12-09",
-      "knownRansomwareCampaignUse": "Unknown",
+      "knownRansomwareCampaignUse": "Known",
       "notes": "https://security.paloaltonetworks.com/CVE-2024-9474 ; https://nvd.nist.gov/vuln/detail/CVE-2024-9474",
       "cwes": [
         "CWE-77"
@@ -4834,7 +5040,7 @@
       "shortDescription": "Linux kernel contains a use-after-free vulnerability in the netfilter: nf_tables component that allows an attacker to achieve local privilege escalation.",
       "requiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
       "dueDate": "2024-06-20",
-      "knownRansomwareCampaignUse": "Unknown",
+      "knownRansomwareCampaignUse": "Known",
       "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f342de4e2f33e0e39165d8639387aa6c19dff660;   https://nvd.nist.gov/vuln/detail/CVE-2024-1086",
       "cwes": [
         "CWE-416"
@@ -21389,5 +21595,5 @@
       ]
     }
   ],
-  "fetchTimestamp": "2025-10-14T20:08:53.473261728Z"
+  "fetchTimestamp": "2025-11-04T18:42:36.699999308Z"
 }
