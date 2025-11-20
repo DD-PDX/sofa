@@ -26,7 +26,7 @@
 system_version=$( /usr/bin/sw_vers -productVersion )
 # system_version=14.1  # UNCOMMENT TO TEST OLDER VERSIONS
 system_os=$( /usr/bin/cut -d. -f1 <<< "$system_version" )
-# echo "System Major Version: $system_os"
+#  echo "System Major Version: $system_os"
 
 if [[ $system_os -ge 12 ]]; then
     # use plistlib
@@ -78,10 +78,11 @@ else
     os_version=$( "$python_path" -c 'import sys, json; print json.load(sys.stdin)["OSVersions"][0]["Latest"]["ProductVersion"]' < "$json_cache" | /usr/bin/head -n 1 )
 fi
 latest_os=$( /usr/bin/cut -d. -f1 <<< "$os_version"  )
-# echo "Latest Major Version: $latest_os"
+#  echo "Latest Major Version: $latest_os"
 
-# Subtract 10 if the latest is 26 or greater.
-if [ "$latest_os" -ge 26 ]
+# Subtract 10 if the latest is 26 or greater and current OS is less than 26.
+# There has to be a better way to do this.
+if [[ "$latest_os" -ge 26  && "$system_os" -lt 26 ]]
 then
     latest_os=$(($latest_os - 10))
 fi
