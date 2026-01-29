@@ -1,25 +1,25 @@
 {
   "OSName": "watchOS",
   "Version": "2.0",
-  "UpdateHash": "1d28c90e147366249271b00c7477713479e6657365262851bcada748abddc64f",
-  "LastCheck": "2025-12-26T18:12:15.673470826+00:00",
+  "UpdateHash": "b80845697cee53d1c60c2f2b01c486f0d4cfe20a188ae4cc5c0edb3847d0c14d",
+  "LastCheck": "2026-01-29T20:13:00.159083668+00:00",
   "OSVersions": [
     {
       "OSVersion": "watchOS 26",
       "Latest": {
-        "UpdateName": "watchOS 26.2",
+        "UpdateName": "watchOS 26.2.1",
         "ProductName": "watchOS",
-        "ProductVersion": "26.2",
-        "Build": "23S6303",
+        "ProductVersion": "26.2.1",
+        "Build": "23S6314",
         "AllBuilds": [
-          "23S6303",
-          "23S303"
+          "23S6314",
+          "23S314"
         ],
-        "ReleaseDate": "2025-12-12",
-        "ExpirationDate": "2026-03-26",
+        "ReleaseDate": "2026-01-26",
+        "ExpirationDate": "2026-04-29",
         "ReleaseType": "OS",
-        "SecurityInfo": "https://support.apple.com/en-us/125890",
-        "SecurityInfoContext": "watchOS has been updated to version 26.2, which was released on December 12, 2025. This update addresses 17 security issues and is the most recent approved version.",
+        "SecurityInfo": "https://support.apple.com/en-us/100100",
+        "SecurityInfoContext": "watchOS has been updated to version 26.2.1, which was released on January 26, 2026. This update has no published CVE entries and is the most recent approved version.",
         "SupportedDevices": [
           "Watch6,1",
           "Watch6,10",
@@ -57,43 +57,14 @@
           "Watch7,8",
           "Watch7,9"
         ],
-        "CVEs": {
-          "CVE-2024-7264": {},
-          "CVE-2025-14174": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-            "in_kev": true,
-            "severity": "High"
-          },
-          "CVE-2025-43511": {},
-          "CVE-2025-43518": {},
-          "CVE-2025-43529": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-            "in_kev": true,
-            "severity": "High"
-          },
-          "CVE-2025-43531": {},
-          "CVE-2025-43532": {},
-          "CVE-2025-43533": {},
-          "CVE-2025-43538": {},
-          "CVE-2025-43539": {},
-          "CVE-2025-46276": {},
-          "CVE-2025-46277": {},
-          "CVE-2025-46279": {},
-          "CVE-2025-46285": {},
-          "CVE-2025-46287": {},
-          "CVE-2025-46288": {},
-          "CVE-2025-9086": {}
-        },
-        "ActivelyExploitedCVEs": [
-          "CVE-2025-43529",
-          "CVE-2025-14174"
-        ],
-        "UniqueCVEsCount": 17,
-        "DaysSincePreviousRelease": 39,
+        "CVEs": {},
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 0,
+        "DaysSincePreviousRelease": 45,
         "update_summary": {
-          "priority": "high",
-          "summary": "Addresses 17 security issues",
-          "recommendation": "Update to stay secure - security fixes available",
+          "priority": "low",
+          "summary": "Maintenance update with no published CVE entries",
+          "recommendation": "Update recommended - may include unpublished security improvements",
           "stats": {
             "exploited": 0,
             "critical": 0,
@@ -101,11 +72,81 @@
             "medium": 0,
             "low": 0,
             "remote": 0,
-            "total": 17
+            "total": 0
           }
         }
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "watchOS 26.2.1",
+          "ProductName": "watchOS",
+          "ProductVersion": "26.2.1",
+          "Build": "23S6314",
+          "AllBuilds": [
+            "23S6314",
+            "23S314"
+          ],
+          "ReleaseDate": "2026-01-26",
+          "ExpirationDate": "2026-04-29",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "watchOS has been updated to version 26.2.1, which was released on January 26, 2026. This update has no published CVE entries and is the most recent approved version.",
+          "SupportedDevices": [
+            "Watch6,1",
+            "Watch6,10",
+            "Watch6,11",
+            "Watch6,12",
+            "Watch6,13",
+            "Watch6,14",
+            "Watch6,15",
+            "Watch6,16",
+            "Watch6,17",
+            "Watch6,18",
+            "Watch6,2",
+            "Watch6,3",
+            "Watch6,4",
+            "Watch6,6",
+            "Watch6,7",
+            "Watch6,8",
+            "Watch6,9",
+            "Watch7,1",
+            "Watch7,10",
+            "Watch7,11",
+            "Watch7,12",
+            "Watch7,13",
+            "Watch7,14",
+            "Watch7,15",
+            "Watch7,16",
+            "Watch7,17",
+            "Watch7,18",
+            "Watch7,19",
+            "Watch7,2",
+            "Watch7,20",
+            "Watch7,3",
+            "Watch7,4",
+            "Watch7,5",
+            "Watch7,8",
+            "Watch7,9"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 45,
+          "update_summary": {
+            "priority": "low",
+            "summary": "Maintenance update with no published CVE entries",
+            "recommendation": "Update recommended - may include unpublished security improvements",
+            "stats": {
+              "exploited": 0,
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "remote": 0,
+              "total": 0
+            }
+          }
+        },
         {
           "UpdateName": "watchOS 26.2",
           "ProductName": "watchOS",
@@ -116,10 +157,10 @@
             "23S303"
           ],
           "ReleaseDate": "2025-12-12",
-          "ExpirationDate": "2026-03-26",
+          "ExpirationDate": "2026-04-26",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125890",
-          "SecurityInfoContext": "watchOS has been updated to version 26.2, which was released on December 12, 2025. This update addresses 17 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "watchOS 26.2 was released on December 12, 2025. This release addressed 19 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [
             "Watch6,1",
             "Watch6,10",
@@ -182,17 +223,19 @@
             "CVE-2025-46285": {},
             "CVE-2025-46287": {},
             "CVE-2025-46288": {},
+            "CVE-2025-46298": {},
+            "CVE-2025-46299": {},
             "CVE-2025-9086": {}
           },
           "ActivelyExploitedCVEs": [
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 17,
+          "UniqueCVEsCount": 19,
           "DaysSincePreviousRelease": 39,
           "update_summary": {
             "priority": "high",
-            "summary": "Addresses 17 security issues",
+            "summary": "Addresses 19 security issues",
             "recommendation": "Update to stay secure - security fixes available",
             "stats": {
               "exploited": 0,
@@ -201,7 +244,7 @@
               "medium": 0,
               "low": 0,
               "remote": 0,
-              "total": 17
+              "total": 19
             }
           }
         },
@@ -386,18 +429,13 @@
           "UpdateName": "watchOS 26.0.1",
           "ProductName": "watchOS",
           "ProductVersion": "26.0.1",
-          "Build": "23R8352",
-          "AllBuilds": [
-            "23R8352"
-          ],
+          "Build": "",
+          "AllBuilds": [],
           "ReleaseDate": "2025-09-18",
-          "ExpirationDate": "2025-12-28",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/100100",
           "SecurityInfoContext": "watchOS 26.0.1 was released on September 18, 2025. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-          "SupportedDevices": [
-            "Watch7,12"
-          ],
+          "SupportedDevices": [],
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
@@ -421,53 +459,13 @@
           "UpdateName": "watchOS 26",
           "ProductName": "watchOS",
           "ProductVersion": "26.0",
-          "Build": "23R6352",
-          "AllBuilds": [
-            "23R6352",
-            "23R352",
-            "23R350"
-          ],
+          "Build": "",
+          "AllBuilds": [],
           "ReleaseDate": "2025-09-15",
-          "ExpirationDate": "2025-12-28",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125116",
           "SecurityInfoContext": "watchOS 26.0 was released on September 15, 2025. This release addressed 24 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "SupportedDevices": [
-            "Watch6,1",
-            "Watch6,10",
-            "Watch6,11",
-            "Watch6,12",
-            "Watch6,13",
-            "Watch6,14",
-            "Watch6,15",
-            "Watch6,16",
-            "Watch6,17",
-            "Watch6,18",
-            "Watch6,2",
-            "Watch6,3",
-            "Watch6,4",
-            "Watch6,6",
-            "Watch6,7",
-            "Watch6,8",
-            "Watch6,9",
-            "Watch7,1",
-            "Watch7,10",
-            "Watch7,11",
-            "Watch7,13",
-            "Watch7,14",
-            "Watch7,15",
-            "Watch7,16",
-            "Watch7,17",
-            "Watch7,18",
-            "Watch7,19",
-            "Watch7,2",
-            "Watch7,20",
-            "Watch7,3",
-            "Watch7,4",
-            "Watch7,5",
-            "Watch7,8",
-            "Watch7,9"
-          ],
+          "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-31255": {},
             "CVE-2025-43190": {},
@@ -526,7 +524,7 @@
           "22U6090"
         ],
         "ReleaseDate": "2025-08-14",
-        "ExpirationDate": "2026-03-26",
+        "ExpirationDate": "2026-04-29",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/100100",
         "SecurityInfoContext": "watchOS has been updated to version 11.6.1, which was released on August 14, 2025. This update has no published CVE entries and is the most recent approved version.",
@@ -584,7 +582,7 @@
             "22U6090"
           ],
           "ReleaseDate": "2025-08-14",
-          "ExpirationDate": "2026-03-26",
+          "ExpirationDate": "2026-04-29",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/100100",
           "SecurityInfoContext": "watchOS has been updated to version 11.6.1, which was released on August 14, 2025. This update has no published CVE entries and is the most recent approved version.",
@@ -641,7 +639,7 @@
             "22U6084"
           ],
           "ReleaseDate": "2025-07-29",
-          "ExpirationDate": "2026-03-26",
+          "ExpirationDate": "2026-04-29",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124155",
           "SecurityInfoContext": "watchOS 11.6 was released on July 29, 2025. This release addressed 23 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
@@ -1142,5 +1140,6 @@
         }
       ]
     }
-  ]
+  ],
+  "BackgroundSecurityImprovements": {}
 }

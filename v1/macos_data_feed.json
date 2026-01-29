@@ -1,5 +1,5 @@
 {
-  "UpdateHash": "f993c7f20f04e59f0231d05f04bc870e0326d754b7ac9ffe1ead1851748e1c29",
+  "UpdateHash": "c436a847f2602ad72e3df5c322ad204d0543ac28ded4c3d3387432fd1e4c0a02",
   "OSVersions": [
     {
       "OSVersion": "Tahoe 26",
@@ -7,7 +7,7 @@
         "ProductVersion": "26.2",
         "Build": "25C56",
         "ReleaseDate": "2025-12-12T00:00:00Z",
-        "ExpirationDate": "2026-03-26T00:00:00Z",
+        "ExpirationDate": "2026-04-29T00:00:00Z",
         "SupportedDevices": [
           "J152FAP",
           "J160AP",
@@ -113,6 +113,9 @@
           "CVE-2025-46288": false,
           "CVE-2025-46289": false,
           "CVE-2025-46291": false,
+          "CVE-2025-46297": false,
+          "CVE-2025-46298": false,
+          "CVE-2025-46299": false,
           "CVE-2025-5918": false,
           "CVE-2025-9086": false
         },
@@ -120,7 +123,7 @@
           "CVE-2025-43529",
           "CVE-2025-14174"
         ],
-        "UniqueCVEsCount": 47
+        "UniqueCVEsCount": 50
       },
       "SecurityReleases": [
         {
@@ -234,6 +237,9 @@
             "CVE-2025-46288": false,
             "CVE-2025-46289": false,
             "CVE-2025-46291": false,
+            "CVE-2025-46297": false,
+            "CVE-2025-46298": false,
+            "CVE-2025-46299": false,
             "CVE-2025-5918": false,
             "CVE-2025-9086": false
           },
@@ -241,7 +247,7 @@
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 47,
+          "UniqueCVEsCount": 50,
           "DaysSincePreviousRelease": 39
         },
         {
@@ -415,13 +421,15 @@
             "CVE-2025-43503": false,
             "CVE-2025-43506": false,
             "CVE-2025-43507": false,
+            "CVE-2025-43508": false,
             "CVE-2025-43510": false,
             "CVE-2025-43520": false,
+            "CVE-2025-46316": false,
             "CVE-2025-53906": false,
             "CVE-2025-6442": false
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 109,
+          "UniqueCVEsCount": 111,
           "DaysSincePreviousRelease": 35
         },
         {
@@ -647,10 +655,11 @@
             "CVE-2025-43372": false,
             "CVE-2025-43376": false,
             "CVE-2025-43419": false,
+            "CVE-2025-46306": false,
             "CVE-2025-6965": false
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 86,
+          "UniqueCVEsCount": 87,
           "DaysSincePreviousRelease": 0
         }
       ],
@@ -753,7 +762,7 @@
         "ProductVersion": "15.7.3",
         "Build": "24G419",
         "ReleaseDate": "2025-12-12T00:00:00Z",
-        "ExpirationDate": "2026-03-26T00:00:00Z",
+        "ExpirationDate": "2026-04-29T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -2700,6 +2709,7 @@
             "CVE-2024-44197": false,
             "CVE-2024-44200": false,
             "CVE-2024-44201": false,
+            "CVE-2024-44210": false,
             "CVE-2024-44211": false,
             "CVE-2024-44212": false,
             "CVE-2024-44213": false,
@@ -2716,6 +2726,7 @@
             "CVE-2024-44234": false,
             "CVE-2024-44236": false,
             "CVE-2024-44237": false,
+            "CVE-2024-44238": false,
             "CVE-2024-44239": false,
             "CVE-2024-44240": false,
             "CVE-2024-44241": false,
@@ -2768,7 +2779,7 @@
             "CVE-2024-54554": false
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 80,
+          "UniqueCVEsCount": 82,
           "DaysSincePreviousRelease": 25
         },
         {
@@ -3146,7 +3157,7 @@
         "ProductVersion": "14.8.3",
         "Build": "23J220",
         "ReleaseDate": "2025-12-12T00:00:00Z",
-        "ExpirationDate": "2026-03-26T00:00:00Z",
+        "ExpirationDate": "2026-04-29T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -6150,7 +6161,7 @@
         "ProductVersion": "13.7.8",
         "Build": "22H730",
         "ReleaseDate": "2025-08-20T00:00:00Z",
-        "ExpirationDate": "2026-03-26T00:00:00Z",
+        "ExpirationDate": "2026-04-29T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -9550,7 +9561,7 @@
         "ProductVersion": "12.7.6",
         "Build": "21H1320",
         "ReleaseDate": "2024-07-29T00:00:00Z",
-        "ExpirationDate": "2026-03-26T00:00:00Z",
+        "ExpirationDate": "2026-04-29T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -12518,13 +12529,13 @@
     }
   ],
   "XProtectPlistConfigData": {
-    "com.apple.XProtect": "5325",
-    "ReleaseDate": "2025-12-16T18:21:55Z"
+    "com.apple.XProtect": "5326",
+    "ReleaseDate": "2026-01-22T18:57:18Z"
   },
   "XProtectPayloads": {
     "com.apple.XProtectFramework.XProtect": "156",
     "com.apple.XprotectFramework.PluginService": "74",
-    "ReleaseDate": "2025-12-16T18:21:55Z"
+    "ReleaseDate": "2026-01-22T18:57:18Z"
   },
   "Models": {
     "Mac13,1": {
@@ -13703,7 +13714,7 @@
       "build": "25C56",
       "apple_slug": "093-37361",
       "url": "https://swcdn.apple.com/content/downloads/11/14/093-37361-A_NX0SMZC0LI/9slwkknt5xciy7bhd9ux9utct03e07j6qp/InstallAssistant.pkg",
-      "posting_date": "2025-12-12T18:34:07Z",
+      "posting_date": "2026-01-08T23:19:17Z",
       "size": 17389952037
     },
     "AllPreviousUMA": [
@@ -13737,15 +13748,6 @@
       {
         "title": "macOS Tahoe",
         "version": "26.0",
-        "build": "25A354",
-        "apple_slug": "093-37779",
-        "url": "https://swcdn.apple.com/content/downloads/26/38/093-37779-A_Y4733G5GHI/adlxnkoqzyrrzfl1r5krg7ql0cod8vpl5e/InstallAssistant.pkg",
-        "posting_date": "2025-09-15T17:24:54Z",
-        "size": 16954767192
-      },
-      {
-        "title": "macOS Tahoe",
-        "version": "26.0",
         "build": "25A8353",
         "apple_slug": "082-71738",
         "url": "https://swcdn.apple.com/content/downloads/04/39/082-71738-A_TBX8Q9I17N/8qtm9z10of6zskcywb7gn21cctqxwqartj/InstallAssistant.pkg",
@@ -13758,7 +13760,7 @@
         "build": "24G419",
         "apple_slug": "089-70987",
         "url": "https://swcdn.apple.com/content/downloads/47/16/089-70987-A_PWKNKEFQ1D/sjlq45liw0g5lor3a6i89vz7paml1xpq6w/InstallAssistant.pkg",
-        "posting_date": "2025-12-12T18:36:25Z",
+        "posting_date": "2026-01-08T23:19:47Z",
         "size": 15660424508
       },
       {
@@ -13780,21 +13782,12 @@
         "size": 15659855333
       },
       {
-        "title": "macOS Sequoia",
-        "version": "15.7",
-        "build": "24G222",
-        "apple_slug": "093-34000",
-        "url": "https://swcdn.apple.com/content/downloads/17/41/093-34000-A_IVOM0TNC43/plnlr5g9hfkg3fiwr399h1eso63m8vhiqn/InstallAssistant.pkg",
-        "posting_date": "2025-09-15T17:26:14Z",
-        "size": 15659265724
-      },
-      {
         "title": "macOS Sonoma",
         "version": "14.8.3",
         "build": "23J220",
         "apple_slug": "089-71265",
         "url": "https://swcdn.apple.com/content/downloads/32/47/089-71265-A_6O6NMLUUUS/7eoxdv3yggl8rmaz7jicf3wmys68ptjwho/InstallAssistant.pkg",
-        "posting_date": "2025-12-12T18:38:14Z",
+        "posting_date": "2026-01-08T23:20:07Z",
         "size": 13673494625
       },
       {
@@ -13814,15 +13807,6 @@
         "url": "https://swcdn.apple.com/content/downloads/35/20/093-53928-A_KHU5CMCSVU/a6n7xv7lgs90nra9g6swk8iv8qq5wp1ah3/InstallAssistant.pkg",
         "posting_date": "2025-09-29T17:23:39Z",
         "size": 13671245079
-      },
-      {
-        "title": "macOS Sonoma",
-        "version": "14.8",
-        "build": "23J21",
-        "apple_slug": "093-33776",
-        "url": "https://swcdn.apple.com/content/downloads/34/53/093-33776-A_M0RZWTX3HW/ee1446bq7ipokhkad1vx891y7ld0880o0f/InstallAssistant.pkg",
-        "posting_date": "2025-09-15T17:28:07Z",
-        "size": 13671533289
       },
       {
         "title": "macOS Ventura",

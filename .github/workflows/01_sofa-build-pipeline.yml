@@ -111,7 +111,7 @@ jobs:
           mkdir -p bin
 
           # Use specific version since latest release is marked as prerelease
-          DOWNLOAD_URL="https://github.com/headmin/sofa-core-cli/releases/download/v0.1.4"
+          DOWNLOAD_URL="https://github.com/headmin/sofa-core-cli/releases/download/v0.1.6"
           LINUX_ZIP="sofa-core-cli-x86_64-linux-binaries.zip"
 
           echo "  • Downloading Linux binaries: $LINUX_ZIP"
@@ -430,6 +430,7 @@ jobs:
           echo "📁 Adding feeds and resources:"
           git add v1/macos_data_feed.json && echo "✅ Added v1/macos_data_feed.json" || echo "❌ v1/macos_data_feed.json not found or unchanged"
           git add v1/ios_data_feed.json && echo "✅ Added v1/ios_data_feed.json" || echo "❌ v1/ios_data_feed.json not found or unchanged"
+          git add v1/timestamp.json && echo "✅ Added v1/timestamp.json" || echo "❌ v1/timestamp.json not found or unchanged"
           git add v1/rss_feed.xml && echo "✅ Added v1/rss_feed.xml" || echo "❌ v1/rss_feed.xml not found or unchanged"
           git add v2/ && echo "✅ Added v2 feeds" || echo "❌ v2 directory not found or unchanged"
           git add data/resources/ && echo "✅ Added all resources" || echo "❌ resources directory not found or unchanged"
