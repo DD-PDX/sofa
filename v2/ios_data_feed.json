@@ -1,24 +1,29 @@
 {
+  "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "3b746f5911c53850dbaa61206524c3730eb0ad54cd2c7dbad56a8d8f0b1797be",
-  "LastCheck": "2026-03-24T12:50:06.897313429+00:00",
+  "UpdateHash": "302597032c656ba588cd49ce758fb8443c687d231ab95ddad8300af4b51170c3",
+  "LastCheck": "2026-05-17T12:50:23.232479831+00:00",
   "OSVersions": [
     {
       "OSVersion": "26",
       "Latest": {
-        "UpdateName": "iOS 26.3.1 and iPadOS 26.3.1",
+        "UpdateName": "iOS 26.5 and iPadOS 26.5",
         "ProductName": "iOS and iPadOS",
-        "ProductVersion": "26.3.1",
-        "Build": "23D9133",
+        "ProductVersion": "26.5",
+        "Build": "23T6570",
         "AllBuilds": [
-          "23D9133",
-          "23D8133"
+          "23T6570",
+          "23T570",
+          "23L6471",
+          "23L471",
+          "23F77",
+          "23F6077"
         ],
-        "ReleaseDate": "2026-03-04T00:00:00Z",
-        "ExpirationDate": "2026-06-22",
+        "ReleaseDate": "2026-05-11T00:00:00Z",
+        "ExpirationDate": "2026-08-15",
         "ReleaseType": "OS",
-        "SecurityInfo": "https://support.apple.com/en-us/100100",
-        "SecurityInfoContext": "iOS has been updated to version 26.3.1, which was released on March 04, 2026. This update has no published CVE entries and is the most recent approved version.",
+        "SecurityInfo": "https://support.apple.com/en-us/127110",
+        "SecurityInfoContext": "iOS has been updated to version 26.5, released on May 11, 2026. This update addresses 61 security issues and is the most recent approved version.",
         "SupportedDevices": [
           "iPad11,1",
           "iPad11,2",
@@ -116,27 +121,747 @@
           "iPhone18,4",
           "iPhone18,5"
         ],
-        "CVEs": {},
+        "CVEs": {
+          "CVE-2026-1837": {},
+          "CVE-2026-28846": {},
+          "CVE-2026-28847": {},
+          "CVE-2026-28883": {},
+          "CVE-2026-28897": {},
+          "CVE-2026-28901": {},
+          "CVE-2026-28902": {},
+          "CVE-2026-28903": {},
+          "CVE-2026-28904": {},
+          "CVE-2026-28905": {},
+          "CVE-2026-28906": {},
+          "CVE-2026-28907": {},
+          "CVE-2026-28913": {},
+          "CVE-2026-28917": {},
+          "CVE-2026-28918": {},
+          "CVE-2026-28920": {},
+          "CVE-2026-28936": {},
+          "CVE-2026-28940": {},
+          "CVE-2026-28942": {},
+          "CVE-2026-28943": {},
+          "CVE-2026-28944": {},
+          "CVE-2026-28947": {},
+          "CVE-2026-28951": {},
+          "CVE-2026-28953": {},
+          "CVE-2026-28955": {},
+          "CVE-2026-28956": {},
+          "CVE-2026-28957": {},
+          "CVE-2026-28958": {},
+          "CVE-2026-28959": {},
+          "CVE-2026-28962": {},
+          "CVE-2026-28963": {},
+          "CVE-2026-28964": {},
+          "CVE-2026-28965": {},
+          "CVE-2026-28969": {},
+          "CVE-2026-28971": {},
+          "CVE-2026-28972": {},
+          "CVE-2026-28974": {},
+          "CVE-2026-28977": {},
+          "CVE-2026-28983": {},
+          "CVE-2026-28985": {},
+          "CVE-2026-28986": {},
+          "CVE-2026-28987": {},
+          "CVE-2026-28988": {},
+          "CVE-2026-28990": {},
+          "CVE-2026-28991": {},
+          "CVE-2026-28992": {},
+          "CVE-2026-28993": {},
+          "CVE-2026-28994": {},
+          "CVE-2026-28995": {},
+          "CVE-2026-28996": {},
+          "CVE-2026-39869": {},
+          "CVE-2026-43653": {},
+          "CVE-2026-43654": {},
+          "CVE-2026-43655": {},
+          "CVE-2026-43656": {},
+          "CVE-2026-43658": {},
+          "CVE-2026-43659": {},
+          "CVE-2026-43660": {},
+          "CVE-2026-43661": {},
+          "CVE-2026-43666": {},
+          "CVE-2026-43668": {}
+        },
         "ActivelyExploitedCVEs": [],
-        "UniqueCVEsCount": 0,
-        "DaysSincePreviousRelease": 21,
+        "UniqueCVEsCount": 61,
+        "DaysSincePreviousRelease": 19,
         "DeviceScope": "universal",
-        "update_summary": {
-          "priority": "low",
-          "summary": "Maintenance update with no published CVE entries",
-          "recommendation": "Update recommended - may include unpublished security improvements",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 0
+        "UpdateSummary": {
+          "Priority": "high",
+          "Summary": "Addresses 61 security issues",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 61
           }
         }
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "iOS 26.5 and iPadOS 26.5",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "26.5",
+          "Build": "23T6570",
+          "AllBuilds": [
+            "23T6570",
+            "23T570",
+            "23L6471",
+            "23L471",
+            "23F77",
+            "23F6077"
+          ],
+          "ReleaseDate": "2026-05-11T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/127110",
+          "SecurityInfoContext": "iOS has been updated to version 26.5, released on May 11, 2026. This update addresses 61 security issues and is the most recent approved version.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,10",
+            "iPad16,11",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad16,8",
+            "iPad16,9",
+            "iPad17,1",
+            "iPad17,2",
+            "iPad17,3",
+            "iPad17,4",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5",
+            "iPhone18,1",
+            "iPhone18,2",
+            "iPhone18,3",
+            "iPhone18,4",
+            "iPhone18,5"
+          ],
+          "CVEs": {
+            "CVE-2026-1837": {},
+            "CVE-2026-28846": {},
+            "CVE-2026-28847": {},
+            "CVE-2026-28883": {},
+            "CVE-2026-28897": {},
+            "CVE-2026-28901": {},
+            "CVE-2026-28902": {},
+            "CVE-2026-28903": {},
+            "CVE-2026-28904": {},
+            "CVE-2026-28905": {},
+            "CVE-2026-28906": {},
+            "CVE-2026-28907": {},
+            "CVE-2026-28913": {},
+            "CVE-2026-28917": {},
+            "CVE-2026-28918": {},
+            "CVE-2026-28920": {},
+            "CVE-2026-28936": {},
+            "CVE-2026-28940": {},
+            "CVE-2026-28942": {},
+            "CVE-2026-28943": {},
+            "CVE-2026-28944": {},
+            "CVE-2026-28947": {},
+            "CVE-2026-28951": {},
+            "CVE-2026-28953": {},
+            "CVE-2026-28955": {},
+            "CVE-2026-28956": {},
+            "CVE-2026-28957": {},
+            "CVE-2026-28958": {},
+            "CVE-2026-28959": {},
+            "CVE-2026-28962": {},
+            "CVE-2026-28963": {},
+            "CVE-2026-28964": {},
+            "CVE-2026-28965": {},
+            "CVE-2026-28969": {},
+            "CVE-2026-28971": {},
+            "CVE-2026-28972": {},
+            "CVE-2026-28974": {},
+            "CVE-2026-28977": {},
+            "CVE-2026-28983": {},
+            "CVE-2026-28985": {},
+            "CVE-2026-28986": {},
+            "CVE-2026-28987": {},
+            "CVE-2026-28988": {},
+            "CVE-2026-28990": {},
+            "CVE-2026-28991": {},
+            "CVE-2026-28992": {},
+            "CVE-2026-28993": {},
+            "CVE-2026-28994": {},
+            "CVE-2026-28995": {},
+            "CVE-2026-28996": {},
+            "CVE-2026-39869": {},
+            "CVE-2026-43653": {},
+            "CVE-2026-43654": {},
+            "CVE-2026-43655": {},
+            "CVE-2026-43656": {},
+            "CVE-2026-43658": {},
+            "CVE-2026-43659": {},
+            "CVE-2026-43660": {},
+            "CVE-2026-43661": {},
+            "CVE-2026-43666": {},
+            "CVE-2026-43668": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 61,
+          "DaysSincePreviousRelease": 19,
+          "DeviceScope": "universal",
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 61 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 61
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 26.4.2 and iPadOS 26.4.2",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "26.4.2",
+          "Build": "23E6261",
+          "AllBuilds": [
+            "23E6261",
+            "23E261"
+          ],
+          "ReleaseDate": "2026-04-22T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/127002",
+          "SecurityInfoContext": "iOS 26.4.2 was released on April 22, 2026. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,10",
+            "iPad16,11",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad16,8",
+            "iPad16,9",
+            "iPad17,1",
+            "iPad17,2",
+            "iPad17,3",
+            "iPad17,4",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5",
+            "iPhone18,1",
+            "iPhone18,2",
+            "iPhone18,3",
+            "iPhone18,4",
+            "iPhone18,5"
+          ],
+          "CVEs": {
+            "CVE-2026-28950": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 14,
+          "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "26.5",
+            "Build": "23T6570",
+            "ReleaseDate": "2026-05-11T00:00:00Z",
+            "DaysLater": 19
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 26.4.1 and iPadOS 26.4.1",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "26.4.1",
+          "Build": "23E6254",
+          "AllBuilds": [
+            "23E6254",
+            "23E254"
+          ],
+          "ReleaseDate": "2026-04-08T00:00:00Z",
+          "ExpirationDate": "2026-07-21",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "iOS 26.4.1 was released on April 08, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,10",
+            "iPad16,11",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad16,8",
+            "iPad16,9",
+            "iPad17,1",
+            "iPad17,2",
+            "iPad17,3",
+            "iPad17,4",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5",
+            "iPhone18,1",
+            "iPhone18,2",
+            "iPhone18,3",
+            "iPhone18,4",
+            "iPhone18,5"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 15,
+          "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "26.4.2",
+            "Build": "23E6261",
+            "ReleaseDate": "2026-04-22T00:00:00Z",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 26.4 and iPadOS 26.4",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "26.4",
+          "Build": "23T6240",
+          "AllBuilds": [
+            "23T6240",
+            "23T240",
+            "23L6243",
+            "23L243",
+            "23E6246",
+            "23E246"
+          ],
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "ExpirationDate": "2026-07-07",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126792",
+          "SecurityInfoContext": "iOS 26.4 was released on March 24, 2026. This release addressed 43 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,10",
+            "iPad16,11",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad16,8",
+            "iPad16,9",
+            "iPad17,1",
+            "iPad17,2",
+            "iPad17,3",
+            "iPad17,4",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5",
+            "iPhone18,1",
+            "iPhone18,2",
+            "iPhone18,3",
+            "iPhone18,4",
+            "iPhone18,5"
+          ],
+          "CVEs": {
+            "CVE-2025-14524": {},
+            "CVE-2025-64505": {},
+            "CVE-2026-20643": {},
+            "CVE-2026-20657": {},
+            "CVE-2026-20664": {},
+            "CVE-2026-20665": {},
+            "CVE-2026-20687": {},
+            "CVE-2026-20688": {},
+            "CVE-2026-20690": {},
+            "CVE-2026-20691": {},
+            "CVE-2026-20692": {},
+            "CVE-2026-20698": {},
+            "CVE-2026-28822": {},
+            "CVE-2026-28833": {},
+            "CVE-2026-28852": {},
+            "CVE-2026-28856": {},
+            "CVE-2026-28857": {},
+            "CVE-2026-28858": {},
+            "CVE-2026-28859": {},
+            "CVE-2026-28860": {},
+            "CVE-2026-28861": {},
+            "CVE-2026-28863": {},
+            "CVE-2026-28864": {},
+            "CVE-2026-28865": {},
+            "CVE-2026-28866": {},
+            "CVE-2026-28867": {},
+            "CVE-2026-28868": {},
+            "CVE-2026-28870": {},
+            "CVE-2026-28871": {},
+            "CVE-2026-28872": {},
+            "CVE-2026-28873": {},
+            "CVE-2026-28874": {},
+            "CVE-2026-28875": {},
+            "CVE-2026-28876": {},
+            "CVE-2026-28877": {},
+            "CVE-2026-28878": {},
+            "CVE-2026-28879": {},
+            "CVE-2026-28880": {},
+            "CVE-2026-28882": {},
+            "CVE-2026-28886": {},
+            "CVE-2026-28894": {},
+            "CVE-2026-28895": {},
+            "CVE-2026-28967": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 43,
+          "DaysSincePreviousRelease": 20,
+          "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "26.4.1",
+            "Build": "23E6254",
+            "ReleaseDate": "2026-04-08T00:00:00Z",
+            "DaysLater": 15
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 43 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 43
+            }
+          }
+        },
         {
           "UpdateName": "iOS 26.3.1 and iPadOS 26.3.1",
           "ProductName": "iOS and iPadOS",
@@ -147,10 +872,10 @@
             "23D8133"
           ],
           "ReleaseDate": "2026-03-04T00:00:00Z",
-          "ExpirationDate": "2026-06-22",
+          "ExpirationDate": "2026-08-15",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/100100",
-          "SecurityInfoContext": "iOS has been updated to version 26.3.1, which was released on March 04, 2026. This update has no published CVE entries and is the most recent approved version.",
+          "SecurityInfoContext": "iOS 26.3.1 was released on March 04, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [
             "iPad11,1",
             "iPad11,2",
@@ -253,18 +978,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 21,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "26.4",
+            "Build": "23T6240",
+            "ReleaseDate": "2026-03-24T00:00:00Z",
+            "DaysLater": 20
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -285,7 +1016,7 @@
           "ExpirationDate": "2026-06-22",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/126346",
-          "SecurityInfoContext": "iOS 26.3 was released on February 11, 2026. This release addressed 41 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "iOS 26.3 was released on February 11, 2026. This release addressed 46 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [
             "iPad11,1",
             "iPad11,2",
@@ -380,16 +1111,16 @@
           ],
           "CVEs": {
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-59375": {},
             "CVE-2026-20606": {},
@@ -405,6 +1136,7 @@
             "CVE-2026-20634": {},
             "CVE-2026-20635": {},
             "CVE-2026-20636": {},
+            "CVE-2026-20637": {},
             "CVE-2026-20638": {},
             "CVE-2026-20640": {},
             "CVE-2026-20641": {},
@@ -421,6 +1153,7 @@
             "CVE-2026-20661": {},
             "CVE-2026-20663": {},
             "CVE-2026-20667": {},
+            "CVE-2026-20668": {},
             "CVE-2026-20671": {},
             "CVE-2026-20674": {},
             "CVE-2026-20675": {},
@@ -429,33 +1162,42 @@
             "CVE-2026-20678": {},
             "CVE-2026-20680": {},
             "CVE-2026-20682": {},
+            "CVE-2026-20686": {},
+            "CVE-2026-20694": {},
             "CVE-2026-20700": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
-            }
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-20700",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            },
+            "CVE-2026-28855": {}
           },
           "ActivelyExploitedCVEs": [
             "CVE-2026-20700",
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 41,
+          "UniqueCVEsCount": 46,
           "DaysSincePreviousRelease": 16,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 41 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 41
+          "SupersededBy": {
+            "ProductVersion": "26.3.1",
+            "Build": "23D9133",
+            "ReleaseDate": "2026-03-04T00:00:00Z",
+            "DaysLater": 21
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 46 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 46
             }
           }
         },
@@ -463,127 +1205,36 @@
           "UpdateName": "iOS 26.2.1 and iPadOS 26.2.1",
           "ProductName": "iOS and iPadOS",
           "ProductVersion": "26.2.1",
-          "Build": "23S6314",
-          "AllBuilds": [
-            "23S6314",
-            "23S314",
-            "23C71",
-            "23C6071"
-          ],
+          "Build": "",
+          "AllBuilds": [],
           "ReleaseDate": "2026-01-26T00:00:00Z",
-          "ExpirationDate": "2026-05-12",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/100100",
           "SecurityInfoContext": "iOS 26.2.1 was released on January 26, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-          "SupportedDevices": [
-            "iPad11,1",
-            "iPad11,2",
-            "iPad11,3",
-            "iPad11,4",
-            "iPad11,6",
-            "iPad11,7",
-            "iPad12,1",
-            "iPad12,2",
-            "iPad13,1",
-            "iPad13,10",
-            "iPad13,11",
-            "iPad13,16",
-            "iPad13,17",
-            "iPad13,18",
-            "iPad13,19",
-            "iPad13,2",
-            "iPad13,4",
-            "iPad13,5",
-            "iPad13,6",
-            "iPad13,7",
-            "iPad13,8",
-            "iPad13,9",
-            "iPad14,1",
-            "iPad14,10",
-            "iPad14,11",
-            "iPad14,2",
-            "iPad14,3",
-            "iPad14,4",
-            "iPad14,5",
-            "iPad14,6",
-            "iPad14,8",
-            "iPad14,9",
-            "iPad15,3",
-            "iPad15,4",
-            "iPad15,5",
-            "iPad15,6",
-            "iPad15,7",
-            "iPad15,8",
-            "iPad16,1",
-            "iPad16,2",
-            "iPad16,3",
-            "iPad16,4",
-            "iPad16,5",
-            "iPad16,6",
-            "iPad17,1",
-            "iPad17,2",
-            "iPad17,3",
-            "iPad17,4",
-            "iPad8,1",
-            "iPad8,10",
-            "iPad8,11",
-            "iPad8,12",
-            "iPad8,2",
-            "iPad8,3",
-            "iPad8,4",
-            "iPad8,5",
-            "iPad8,6",
-            "iPad8,7",
-            "iPad8,8",
-            "iPad8,9",
-            "iPhone12,1",
-            "iPhone12,3",
-            "iPhone12,5",
-            "iPhone12,8",
-            "iPhone13,1",
-            "iPhone13,2",
-            "iPhone13,3",
-            "iPhone13,4",
-            "iPhone14,2",
-            "iPhone14,3",
-            "iPhone14,4",
-            "iPhone14,5",
-            "iPhone14,6",
-            "iPhone14,7",
-            "iPhone14,8",
-            "iPhone15,2",
-            "iPhone15,3",
-            "iPhone15,4",
-            "iPhone15,5",
-            "iPhone16,1",
-            "iPhone16,2",
-            "iPhone17,1",
-            "iPhone17,2",
-            "iPhone17,3",
-            "iPhone17,4",
-            "iPhone17,5",
-            "iPhone18,1",
-            "iPhone18,2",
-            "iPhone18,3",
-            "iPhone18,4"
-          ],
+          "SupportedDevices": [],
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 45,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "26.3.1",
+            "Build": "23D9133",
+            "ReleaseDate": "2026-03-04T00:00:00Z",
+            "DaysLater": 37
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -591,119 +1242,20 @@
           "UpdateName": "iOS 26.2 and iPadOS 26.2",
           "ProductName": "iOS and iPadOS",
           "ProductVersion": "26.2",
-          "Build": "23S6303",
-          "AllBuilds": [
-            "23S6303",
-            "23S303",
-            "23K6054",
-            "23K54",
-            "23C6055",
-            "23C55"
-          ],
+          "Build": "",
+          "AllBuilds": [],
           "ReleaseDate": "2025-12-12T00:00:00Z",
-          "ExpirationDate": "2026-05-12",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/125884",
-          "SecurityInfoContext": "iOS 26.2 was released on December 12, 2025. This release addressed 37 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
-          "SupportedDevices": [
-            "iPad11,1",
-            "iPad11,2",
-            "iPad11,3",
-            "iPad11,4",
-            "iPad11,6",
-            "iPad11,7",
-            "iPad12,1",
-            "iPad12,2",
-            "iPad13,1",
-            "iPad13,10",
-            "iPad13,11",
-            "iPad13,16",
-            "iPad13,17",
-            "iPad13,18",
-            "iPad13,19",
-            "iPad13,2",
-            "iPad13,4",
-            "iPad13,5",
-            "iPad13,6",
-            "iPad13,7",
-            "iPad13,8",
-            "iPad13,9",
-            "iPad14,1",
-            "iPad14,10",
-            "iPad14,11",
-            "iPad14,2",
-            "iPad14,3",
-            "iPad14,4",
-            "iPad14,5",
-            "iPad14,6",
-            "iPad14,8",
-            "iPad14,9",
-            "iPad15,3",
-            "iPad15,4",
-            "iPad15,5",
-            "iPad15,6",
-            "iPad15,7",
-            "iPad15,8",
-            "iPad16,1",
-            "iPad16,2",
-            "iPad16,3",
-            "iPad16,4",
-            "iPad16,5",
-            "iPad16,6",
-            "iPad17,1",
-            "iPad17,2",
-            "iPad17,3",
-            "iPad17,4",
-            "iPad8,1",
-            "iPad8,10",
-            "iPad8,11",
-            "iPad8,12",
-            "iPad8,2",
-            "iPad8,3",
-            "iPad8,4",
-            "iPad8,5",
-            "iPad8,6",
-            "iPad8,7",
-            "iPad8,8",
-            "iPad8,9",
-            "iPhone12,1",
-            "iPhone12,3",
-            "iPhone12,5",
-            "iPhone12,8",
-            "iPhone13,1",
-            "iPhone13,2",
-            "iPhone13,3",
-            "iPhone13,4",
-            "iPhone14,2",
-            "iPhone14,3",
-            "iPhone14,4",
-            "iPhone14,5",
-            "iPhone14,6",
-            "iPhone14,7",
-            "iPhone14,8",
-            "iPhone15,2",
-            "iPhone15,3",
-            "iPhone15,4",
-            "iPhone15,5",
-            "iPhone16,1",
-            "iPhone16,2",
-            "iPhone17,1",
-            "iPhone17,2",
-            "iPhone17,3",
-            "iPhone17,4",
-            "iPhone17,5",
-            "iPhone18,1",
-            "iPhone18,2",
-            "iPhone18,3",
-            "iPhone18,4"
-          ],
+          "SecurityInfoContext": "iOS 26.2 was released on December 12, 2025. This release addressed 39 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [],
           "CVEs": {
             "CVE-2024-7264": {},
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43428": {},
             "CVE-2025-43475": {},
@@ -711,14 +1263,15 @@
             "CVE-2025-43511": {},
             "CVE-2025-43518": {},
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43531": {},
             "CVE-2025-43532": {},
             "CVE-2025-43533": {},
+            "CVE-2025-43534": {},
             "CVE-2025-43535": {},
             "CVE-2025-43536": {},
             "CVE-2025-43537": {},
@@ -743,6 +1296,7 @@
             "CVE-2025-46303": {},
             "CVE-2025-46304": {},
             "CVE-2025-46305": {},
+            "CVE-2025-46311": {},
             "CVE-2025-5918": {},
             "CVE-2025-9086": {}
           },
@@ -750,21 +1304,27 @@
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 37,
+          "UniqueCVEsCount": 39,
           "DaysSincePreviousRelease": 39,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 37 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 37
+          "SupersededBy": {
+            "ProductVersion": "26.2.1",
+            "Build": "",
+            "ReleaseDate": "2026-01-26T00:00:00Z",
+            "DaysLater": 45
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 39 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 39
             }
           }
         },
@@ -840,16 +1400,16 @@
             "CVE-2025-43503": {},
             "CVE-2025-43507": {},
             "CVE-2025-43510": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43520": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-46316": {}
           },
@@ -860,18 +1420,24 @@
           "UniqueCVEsCount": 62,
           "DaysSincePreviousRelease": 35,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 62 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 62
+          "SupersededBy": {
+            "ProductVersion": "26.2",
+            "Build": "",
+            "ReleaseDate": "2025-12-12T00:00:00Z",
+            "DaysLater": 39
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 62 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 62
             }
           }
         },
@@ -893,18 +1459,24 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "26.1",
+            "Build": "",
+            "ReleaseDate": "2025-11-03T00:00:00Z",
+            "DaysLater": 35
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -961,18 +1533,24 @@
           "UniqueCVEsCount": 36,
           "DaysSincePreviousRelease": 0,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 36 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 36
+          "SupersededBy": {
+            "ProductVersion": "26.0.1",
+            "Build": "",
+            "ReleaseDate": "2025-09-29T00:00:00Z",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 36 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 36
             }
           }
         }
@@ -981,19 +1559,19 @@
     {
       "OSVersion": "18",
       "Latest": {
-        "UpdateName": "iOS 18.7.3 and iPadOS 18.7.3",
+        "UpdateName": "iOS 18.7.8 and iPadOS 18.7.8",
         "ProductName": "iOS and iPadOS",
-        "ProductVersion": "18.7.3",
-        "Build": "22H6217",
+        "ProductVersion": "18.7.8",
+        "Build": "22H6352",
         "AllBuilds": [
-          "22H6217",
-          "22H217"
+          "22H6352",
+          "22H352"
         ],
-        "ReleaseDate": "2025-12-12T00:00:00Z",
-        "ExpirationDate": "2026-06-22",
+        "ReleaseDate": "2026-04-22T00:00:00Z",
+        "ExpirationDate": "2026-08-15",
         "ReleaseType": "OS",
-        "SecurityInfo": "https://support.apple.com/en-us/125885",
-        "SecurityInfoContext": "iOS has been updated to version 18.7.3, which was released on December 12, 2025. This update addresses 22 security issues and is the most recent approved version.",
+        "SecurityInfo": "https://support.apple.com/en-us/127003",
+        "SecurityInfoContext": "iOS has been updated to version 18.7.8, released on April 22, 2026. This update addresses one security issue and is the most recent approved version.",
         "SupportedDevices": [
           "iPad11,1",
           "iPad11,2",
@@ -1056,119 +1634,71 @@
           "iPhone11,2",
           "iPhone11,4",
           "iPhone11,6",
-          "iPhone11,8"
+          "iPhone11,8",
+          "iPhone12,1",
+          "iPhone12,3",
+          "iPhone12,5",
+          "iPhone12,8",
+          "iPhone13,1",
+          "iPhone13,2",
+          "iPhone13,3",
+          "iPhone13,4",
+          "iPhone14,2",
+          "iPhone14,3",
+          "iPhone14,4",
+          "iPhone14,5",
+          "iPhone14,6",
+          "iPhone14,7",
+          "iPhone14,8",
+          "iPhone15,2",
+          "iPhone15,3",
+          "iPhone15,4",
+          "iPhone15,5",
+          "iPhone16,1",
+          "iPhone16,2",
+          "iPhone17,1",
+          "iPhone17,2",
+          "iPhone17,3",
+          "iPhone17,4",
+          "iPhone17,5"
         ],
         "CVEs": {
-          "CVE-2024-7264": {},
-          "CVE-2025-14174": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-            "actively_exploited": true,
-            "in_kev": true,
-            "severity": "Critical"
-          },
-          "CVE-2025-43501": {},
-          "CVE-2025-43512": {},
-          "CVE-2025-43529": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-            "actively_exploited": true,
-            "in_kev": true,
-            "severity": "Critical"
-          },
-          "CVE-2025-43530": {},
-          "CVE-2025-43531": {},
-          "CVE-2025-43532": {},
-          "CVE-2025-43535": {},
-          "CVE-2025-43536": {},
-          "CVE-2025-43538": {},
-          "CVE-2025-43539": {},
-          "CVE-2025-43541": {},
-          "CVE-2025-43542": {},
-          "CVE-2025-46276": {},
-          "CVE-2025-46279": {},
-          "CVE-2025-46285": {},
-          "CVE-2025-46287": {},
-          "CVE-2025-46290": {},
-          "CVE-2025-46292": {},
-          "CVE-2025-5918": {},
-          "CVE-2025-9086": {}
+          "CVE-2026-28950": {}
         },
-        "ActivelyExploitedCVEs": [
-          "CVE-2025-43529",
-          "CVE-2025-14174"
-        ],
-        "UniqueCVEsCount": 22,
-        "DaysSincePreviousRelease": 37,
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 1,
+        "DaysSincePreviousRelease": 29,
         "DeviceScope": "universal",
-        "update_summary": {
-          "priority": "high",
-          "summary": "Addresses 22 security issues",
-          "recommendation": "Update to stay secure - security fixes available",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 22
+        "UpdateSummary": {
+          "Priority": "medium",
+          "Summary": "Addresses 1 security issue",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 1
           }
         }
       },
       "SecurityReleases": [
         {
-          "UpdateName": "iOS 18.7.6",
+          "UpdateName": "iOS 18.7.9 and iPadOS 18.7.9",
           "ProductName": "iOS and iPadOS",
-          "ProductVersion": "18.7.6",
-          "Build": "22H6320",
+          "ProductVersion": "18.7.9",
+          "Build": "22H6355",
           "AllBuilds": [
-            "22H6320",
-            "22H320"
+            "22H6355",
+            "22H355"
           ],
-          "ReleaseDate": "2026-03-04T00:00:00Z",
-          "ExpirationDate": "2026-06-22",
+          "ReleaseDate": "2026-05-11T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/100100",
-          "SecurityInfoContext": "iOS 18.7.6 was released on March 04, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-          "SupportedDevices": [
-            "iPhone11,2",
-            "iPhone11,4",
-            "iPhone11,6",
-            "iPhone11,8"
-          ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
-          "DaysSincePreviousRelease": 21,
-          "DeviceScope": "device-specific",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
-            }
-          }
-        },
-        {
-          "UpdateName": "iOS 18.7.5 and iPadOS 18.7.5",
-          "ProductName": "iOS and iPadOS",
-          "ProductVersion": "18.7.5",
-          "Build": "22H6311",
-          "AllBuilds": [
-            "22H6311",
-            "22H311"
-          ],
-          "ReleaseDate": "2026-02-11T00:00:00Z",
-          "ExpirationDate": "2026-06-22",
-          "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/126347",
-          "SecurityInfoContext": "iOS 18.7.5 was released on February 11, 2026. This release addressed 36 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfo": "https://support.apple.com/en-us/127111",
+          "SecurityInfoContext": "iOS 18.7.9 was released on May 11, 2026. This release addressed 47 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [
             "iPad7,11",
             "iPad7,12",
@@ -1178,118 +1708,87 @@
             "iPhone11,8"
           ],
           "CVEs": {
-            "CVE-2025-43533": {},
-            "CVE-2025-43537": {},
-            "CVE-2025-46300": {},
-            "CVE-2025-46301": {},
-            "CVE-2025-46302": {},
-            "CVE-2025-46303": {},
-            "CVE-2025-46304": {},
-            "CVE-2025-46305": {},
-            "CVE-2025-59375": {},
-            "CVE-2026-20605": {},
-            "CVE-2026-20606": {},
-            "CVE-2026-20608": {},
-            "CVE-2026-20609": {},
-            "CVE-2026-20611": {},
-            "CVE-2026-20616": {},
-            "CVE-2026-20621": {},
-            "CVE-2026-20628": {},
-            "CVE-2026-20634": {},
-            "CVE-2026-20635": {},
-            "CVE-2026-20641": {},
-            "CVE-2026-20644": {},
-            "CVE-2026-20645": {},
-            "CVE-2026-20652": {},
-            "CVE-2026-20653": {},
-            "CVE-2026-20655": {},
-            "CVE-2026-20656": {},
-            "CVE-2026-20660": {},
-            "CVE-2026-20661": {},
-            "CVE-2026-20663": {},
-            "CVE-2026-20671": {},
-            "CVE-2026-20673": {},
-            "CVE-2026-20675": {},
-            "CVE-2026-20677": {},
-            "CVE-2026-20678": {},
-            "CVE-2026-20680": {},
-            "CVE-2026-20682": {}
+            "CVE-2026-28819": {},
+            "CVE-2026-28846": {},
+            "CVE-2026-28847": {},
+            "CVE-2026-28870": {},
+            "CVE-2026-28872": {},
+            "CVE-2026-28873": {},
+            "CVE-2026-28877": {},
+            "CVE-2026-28882": {},
+            "CVE-2026-28894": {},
+            "CVE-2026-28897": {},
+            "CVE-2026-28903": {},
+            "CVE-2026-28904": {},
+            "CVE-2026-28906": {},
+            "CVE-2026-28907": {},
+            "CVE-2026-28917": {},
+            "CVE-2026-28920": {},
+            "CVE-2026-28929": {},
+            "CVE-2026-28936": {},
+            "CVE-2026-28940": {},
+            "CVE-2026-28941": {},
+            "CVE-2026-28943": {},
+            "CVE-2026-28951": {},
+            "CVE-2026-28952": {},
+            "CVE-2026-28953": {},
+            "CVE-2026-28954": {},
+            "CVE-2026-28955": {},
+            "CVE-2026-28957": {},
+            "CVE-2026-28959": {},
+            "CVE-2026-28962": {},
+            "CVE-2026-28969": {},
+            "CVE-2026-28972": {},
+            "CVE-2026-28977": {},
+            "CVE-2026-28983": {},
+            "CVE-2026-28986": {},
+            "CVE-2026-28987": {},
+            "CVE-2026-28992": {},
+            "CVE-2026-28993": {},
+            "CVE-2026-28994": {},
+            "CVE-2026-28995": {},
+            "CVE-2026-39869": {},
+            "CVE-2026-43653": {},
+            "CVE-2026-43654": {},
+            "CVE-2026-43656": {},
+            "CVE-2026-43659": {},
+            "CVE-2026-43660": {},
+            "CVE-2026-43666": {},
+            "CVE-2026-43668": {}
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 36,
-          "DaysSincePreviousRelease": 16,
+          "UniqueCVEsCount": 47,
+          "DaysSincePreviousRelease": 19,
           "DeviceScope": "device-specific",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 36 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 36
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 47 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 47
             }
           }
         },
         {
-          "UpdateName": "iOS 18.7.4 and iPadOS 18.7.4",
+          "UpdateName": "iOS 18.7.8 and iPadOS 18.7.8",
           "ProductName": "iOS and iPadOS",
-          "ProductVersion": "18.7.4",
-          "Build": "22H6218",
+          "ProductVersion": "18.7.8",
+          "Build": "22H6352",
           "AllBuilds": [
-            "22H6218",
-            "22H218"
+            "22H6352",
+            "22H352"
           ],
-          "ReleaseDate": "2026-01-26T00:00:00Z",
-          "ExpirationDate": "2026-05-12",
+          "ReleaseDate": "2026-04-22T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/100100",
-          "SecurityInfoContext": "iOS 18.7.4 was released on January 26, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
-          "SupportedDevices": [
-            "iPad7,11",
-            "iPad7,12",
-            "iPhone11,2",
-            "iPhone11,4",
-            "iPhone11,6",
-            "iPhone11,8"
-          ],
-          "CVEs": {},
-          "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 0,
-          "DaysSincePreviousRelease": 45,
-          "DeviceScope": "device-specific",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
-            }
-          }
-        },
-        {
-          "UpdateName": "iOS 18.7.3 and iPadOS 18.7.3",
-          "ProductName": "iOS and iPadOS",
-          "ProductVersion": "18.7.3",
-          "Build": "22H6217",
-          "AllBuilds": [
-            "22H6217",
-            "22H217"
-          ],
-          "ReleaseDate": "2025-12-12T00:00:00Z",
-          "ExpirationDate": "2026-06-22",
-          "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/125885",
-          "SecurityInfoContext": "iOS has been updated to version 18.7.3, which was released on December 12, 2025. This update addresses 22 security issues and is the most recent approved version.",
+          "SecurityInfo": "https://support.apple.com/en-us/127003",
+          "SecurityInfoContext": "iOS has been updated to version 18.7.8, released on April 22, 2026. This update addresses one security issue and is the most recent approved version.",
           "SupportedDevices": [
             "iPad11,1",
             "iPad11,2",
@@ -1352,23 +1851,641 @@
             "iPhone11,2",
             "iPhone11,4",
             "iPhone11,6",
+            "iPhone11,8",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5"
+          ],
+          "CVEs": {
+            "CVE-2026-28950": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 29,
+          "DeviceScope": "universal",
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 18.7.7 and iPadOS 18.7.7",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "18.7.7",
+          "Build": "22H6340",
+          "AllBuilds": [
+            "22H6340",
+            "22H6333",
+            "22H340",
+            "22H333"
+          ],
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "ExpirationDate": "2026-06-30",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126793",
+          "SecurityInfoContext": "iOS 18.7.7 was released on March 24, 2026. This release addressed 26 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad7,11",
+            "iPad7,12",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9",
+            "iPhone11,2",
+            "iPhone11,4",
+            "iPhone11,6",
+            "iPhone11,8",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5"
+          ],
+          "CVEs": {
+            "CVE-2025-14524": {},
+            "CVE-2025-43376": {},
+            "CVE-2025-43534": {},
+            "CVE-2025-64505": {},
+            "CVE-2026-20637": {},
+            "CVE-2026-20643": {},
+            "CVE-2026-20657": {},
+            "CVE-2026-20665": {},
+            "CVE-2026-20668": {},
+            "CVE-2026-20687": {},
+            "CVE-2026-20690": {},
+            "CVE-2026-28852": {},
+            "CVE-2026-28860": {},
+            "CVE-2026-28861": {},
+            "CVE-2026-28864": {},
+            "CVE-2026-28865": {},
+            "CVE-2026-28866": {},
+            "CVE-2026-28867": {},
+            "CVE-2026-28868": {},
+            "CVE-2026-28871": {},
+            "CVE-2026-28876": {},
+            "CVE-2026-28878": {},
+            "CVE-2026-28879": {},
+            "CVE-2026-28880": {},
+            "CVE-2026-28886": {},
+            "CVE-2026-28967": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 26,
+          "DaysSincePreviousRelease": 0,
+          "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "18.7.8",
+            "Build": "22H6352",
+            "ReleaseDate": "2026-04-22T00:00:00Z",
+            "DaysLater": 29
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 26 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 26
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 18.7.7 and iPadOS 18.7.7",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "18.7.7",
+          "Build": "22H6340",
+          "AllBuilds": [
+            "22H6340",
+            "22H6333",
+            "22H340",
+            "22H333"
+          ],
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "ExpirationDate": "2026-06-30",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126793",
+          "SecurityInfoContext": "iOS 18.7.7 was released on March 24, 2026. This release addressed 26 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad7,11",
+            "iPad7,12",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9",
+            "iPhone11,2",
+            "iPhone11,4",
+            "iPhone11,6",
+            "iPhone11,8",
+            "iPhone12,1",
+            "iPhone12,3",
+            "iPhone12,5",
+            "iPhone12,8",
+            "iPhone13,1",
+            "iPhone13,2",
+            "iPhone13,3",
+            "iPhone13,4",
+            "iPhone14,2",
+            "iPhone14,3",
+            "iPhone14,4",
+            "iPhone14,5",
+            "iPhone14,6",
+            "iPhone14,7",
+            "iPhone14,8",
+            "iPhone15,2",
+            "iPhone15,3",
+            "iPhone15,4",
+            "iPhone15,5",
+            "iPhone16,1",
+            "iPhone16,2",
+            "iPhone17,1",
+            "iPhone17,2",
+            "iPhone17,3",
+            "iPhone17,4",
+            "iPhone17,5"
+          ],
+          "CVEs": {
+            "CVE-2025-14524": {},
+            "CVE-2025-43376": {},
+            "CVE-2025-43534": {},
+            "CVE-2025-64505": {},
+            "CVE-2026-20637": {},
+            "CVE-2026-20643": {},
+            "CVE-2026-20657": {},
+            "CVE-2026-20665": {},
+            "CVE-2026-20668": {},
+            "CVE-2026-20687": {},
+            "CVE-2026-20690": {},
+            "CVE-2026-28852": {},
+            "CVE-2026-28860": {},
+            "CVE-2026-28861": {},
+            "CVE-2026-28864": {},
+            "CVE-2026-28865": {},
+            "CVE-2026-28866": {},
+            "CVE-2026-28867": {},
+            "CVE-2026-28868": {},
+            "CVE-2026-28871": {},
+            "CVE-2026-28876": {},
+            "CVE-2026-28878": {},
+            "CVE-2026-28879": {},
+            "CVE-2026-28880": {},
+            "CVE-2026-28886": {},
+            "CVE-2026-28967": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 26,
+          "DaysSincePreviousRelease": 20,
+          "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "18.7.8",
+            "Build": "22H6352",
+            "ReleaseDate": "2026-04-22T00:00:00Z",
+            "DaysLater": 29
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 26 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 26
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 18.7.6",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "18.7.6",
+          "Build": "22H6320",
+          "AllBuilds": [
+            "22H6320",
+            "22H320"
+          ],
+          "ReleaseDate": "2026-03-04T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "iOS 18.7.6 was released on March 04, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPhone11,2",
+            "iPhone11,4",
+            "iPhone11,6",
             "iPhone11,8"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 21,
+          "DeviceScope": "device-specific",
+          "SupersededBy": {
+            "ProductVersion": "18.7.7",
+            "Build": "22H6340",
+            "ReleaseDate": "2026-03-24T00:00:00Z",
+            "DaysLater": 20
+          },
+          "MergedInto": {
+            "ProductVersion": "18.7.7",
+            "Build": "22H6340",
+            "ReleaseDate": "2026-03-24T00:00:00Z",
+            "DaysLater": 20
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 18.7.5 and iPadOS 18.7.5",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "18.7.5",
+          "Build": "22H6311",
+          "AllBuilds": [
+            "22H6311",
+            "22H311"
+          ],
+          "ReleaseDate": "2026-02-11T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126347",
+          "SecurityInfoContext": "iOS 18.7.5 was released on February 11, 2026. This release addressed 36 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad7,11",
+            "iPad7,12",
+            "iPhone11,2",
+            "iPhone11,4",
+            "iPhone11,6",
+            "iPhone11,8"
+          ],
+          "CVEs": {
+            "CVE-2025-43533": {},
+            "CVE-2025-43537": {},
+            "CVE-2025-46300": {},
+            "CVE-2025-46301": {},
+            "CVE-2025-46302": {},
+            "CVE-2025-46303": {},
+            "CVE-2025-46304": {},
+            "CVE-2025-46305": {},
+            "CVE-2025-59375": {},
+            "CVE-2026-20605": {},
+            "CVE-2026-20606": {},
+            "CVE-2026-20608": {},
+            "CVE-2026-20609": {},
+            "CVE-2026-20611": {},
+            "CVE-2026-20616": {},
+            "CVE-2026-20621": {},
+            "CVE-2026-20628": {},
+            "CVE-2026-20634": {},
+            "CVE-2026-20635": {},
+            "CVE-2026-20641": {},
+            "CVE-2026-20644": {},
+            "CVE-2026-20645": {},
+            "CVE-2026-20652": {},
+            "CVE-2026-20653": {},
+            "CVE-2026-20655": {},
+            "CVE-2026-20656": {},
+            "CVE-2026-20660": {},
+            "CVE-2026-20661": {},
+            "CVE-2026-20663": {},
+            "CVE-2026-20671": {},
+            "CVE-2026-20673": {},
+            "CVE-2026-20675": {},
+            "CVE-2026-20677": {},
+            "CVE-2026-20678": {},
+            "CVE-2026-20680": {},
+            "CVE-2026-20682": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 36,
+          "DaysSincePreviousRelease": 16,
+          "DeviceScope": "device-specific",
+          "SupersededBy": {
+            "ProductVersion": "18.7.7",
+            "Build": "22H6340",
+            "ReleaseDate": "2026-03-24T00:00:00Z",
+            "DaysLater": 41
+          },
+          "MergedInto": {
+            "ProductVersion": "18.7.7",
+            "Build": "22H6340",
+            "ReleaseDate": "2026-03-24T00:00:00Z",
+            "DaysLater": 41
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 36 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 36
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 18.7.4 and iPadOS 18.7.4",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "18.7.4",
+          "Build": "",
+          "AllBuilds": [],
+          "ReleaseDate": "2026-01-26T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SecurityInfoContext": "iOS 18.7.4 was released on January 26, 2026. This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 45,
+          "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "18.7.7",
+            "Build": "22H6340",
+            "ReleaseDate": "2026-03-24T00:00:00Z",
+            "DaysLater": 57
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
+            }
+          }
+        },
+        {
+          "UpdateName": "iOS 18.7.3 and iPadOS 18.7.3",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "18.7.3",
+          "Build": "22H6217",
+          "AllBuilds": [
+            "22H6217",
+            "22H217"
+          ],
+          "ReleaseDate": "2025-12-12T00:00:00Z",
+          "ExpirationDate": "2026-06-30",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/125885",
+          "SecurityInfoContext": "iOS 18.7.3 was released on December 12, 2025. This release addressed 23 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SupportedDevices": [
+            "iPad11,1",
+            "iPad11,2",
+            "iPad11,3",
+            "iPad11,4",
+            "iPad11,6",
+            "iPad11,7",
+            "iPad12,1",
+            "iPad12,2",
+            "iPad13,1",
+            "iPad13,10",
+            "iPad13,11",
+            "iPad13,16",
+            "iPad13,17",
+            "iPad13,18",
+            "iPad13,19",
+            "iPad13,2",
+            "iPad13,4",
+            "iPad13,5",
+            "iPad13,6",
+            "iPad13,7",
+            "iPad13,8",
+            "iPad13,9",
+            "iPad14,1",
+            "iPad14,10",
+            "iPad14,11",
+            "iPad14,2",
+            "iPad14,3",
+            "iPad14,4",
+            "iPad14,5",
+            "iPad14,6",
+            "iPad14,8",
+            "iPad14,9",
+            "iPad15,3",
+            "iPad15,4",
+            "iPad15,5",
+            "iPad15,6",
+            "iPad15,7",
+            "iPad15,8",
+            "iPad16,1",
+            "iPad16,2",
+            "iPad16,3",
+            "iPad16,4",
+            "iPad16,5",
+            "iPad16,6",
+            "iPad8,1",
+            "iPad8,10",
+            "iPad8,11",
+            "iPad8,12",
+            "iPad8,2",
+            "iPad8,3",
+            "iPad8,4",
+            "iPad8,5",
+            "iPad8,6",
+            "iPad8,7",
+            "iPad8,8",
+            "iPad8,9"
           ],
           "CVEs": {
             "CVE-2024-7264": {},
             "CVE-2025-14174": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-14174",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43501": {},
             "CVE-2025-43512": {},
             "CVE-2025-43529": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43529",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43530": {},
             "CVE-2025-43531": {},
@@ -1385,6 +2502,7 @@
             "CVE-2025-46287": {},
             "CVE-2025-46290": {},
             "CVE-2025-46292": {},
+            "CVE-2025-46311": {},
             "CVE-2025-5918": {},
             "CVE-2025-9086": {}
           },
@@ -1392,21 +2510,27 @@
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 22,
+          "UniqueCVEsCount": 23,
           "DaysSincePreviousRelease": 37,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 22 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 22
+          "SupersededBy": {
+            "ProductVersion": "18.7.4",
+            "Build": "",
+            "ReleaseDate": "2026-01-26T00:00:00Z",
+            "DaysLater": 45
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 23 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 23
             }
           }
         },
@@ -1458,17 +2582,17 @@
             "CVE-2025-43503": {},
             "CVE-2025-43507": {},
             "CVE-2025-43510": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43510",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43511": {},
             "CVE-2025-43520": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43520",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -1478,18 +2602,24 @@
           "UniqueCVEsCount": 38,
           "DaysSincePreviousRelease": 37,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 38 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 38
+          "SupersededBy": {
+            "ProductVersion": "18.7.4",
+            "Build": "",
+            "ReleaseDate": "2026-01-26T00:00:00Z",
+            "DaysLater": 82
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 38 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 38
             }
           }
         },
@@ -1511,18 +2641,24 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "18.7.2",
+            "Build": "",
+            "ReleaseDate": "2025-11-05T00:00:00Z",
+            "DaysLater": 37
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -1556,18 +2692,24 @@
           "UniqueCVEsCount": 13,
           "DaysSincePreviousRelease": 26,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 13 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 13
+          "SupersededBy": {
+            "ProductVersion": "18.7.1",
+            "Build": "",
+            "ReleaseDate": "2025-09-29T00:00:00Z",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 13 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 13
             }
           }
         },
@@ -1584,10 +2726,10 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-43300": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43300",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43300",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -1596,18 +2738,24 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 6,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "18.7",
+            "Build": "",
+            "ReleaseDate": "2025-09-15T00:00:00Z",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -1627,18 +2775,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 16,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "18.6.2",
+            "Build": "",
+            "ReleaseDate": "2025-08-20T00:00:00Z",
+            "DaysLater": 6
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -1658,10 +2812,10 @@
             "CVE-2025-31273": {},
             "CVE-2025-31276": {},
             "CVE-2025-31277": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31277",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-31278": {},
             "CVE-2025-31281": {},
@@ -1688,10 +2842,10 @@
             "CVE-2025-43280": {},
             "CVE-2025-43282": {},
             "CVE-2025-6558": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-6965": {},
             "CVE-2025-7424": {},
@@ -1704,18 +2858,24 @@
           "UniqueCVEsCount": 32,
           "DaysSincePreviousRelease": 78,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 32 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 32
+          "SupersededBy": {
+            "ProductVersion": "18.6.1",
+            "Build": "",
+            "ReleaseDate": "2025-08-14T00:00:00Z",
+            "DaysLater": 16
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 32 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 32
             }
           }
         },
@@ -1773,18 +2933,24 @@
           "UniqueCVEsCount": 37,
           "DaysSincePreviousRelease": 26,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 37 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 37
+          "SupersededBy": {
+            "ProductVersion": "18.6",
+            "Build": "",
+            "ReleaseDate": "2025-07-29T00:00:00Z",
+            "DaysLater": 78
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 37 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 37
             }
           }
         },
@@ -1801,16 +2967,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-31200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-31201": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-31201",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -1820,18 +2986,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 16,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "18.5",
+            "Build": "",
+            "ReleaseDate": "2025-05-12T00:00:00Z",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -1929,18 +3101,24 @@
           "UniqueCVEsCount": 77,
           "DaysSincePreviousRelease": 20,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 77 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 77
+          "SupersededBy": {
+            "ProductVersion": "18.4.1",
+            "Build": "",
+            "ReleaseDate": "2025-04-16T00:00:00Z",
+            "DaysLater": 16
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 77 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 77
             }
           }
         },
@@ -1957,10 +3135,10 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-24201": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -1969,18 +3147,24 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 29,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "18.4",
+            "Build": "",
+            "ReleaseDate": "2025-03-31T00:00:00Z",
+            "DaysLater": 20
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -1997,16 +3181,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-24200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24200",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24200",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -2016,18 +3200,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "18.3.2",
+            "Build": "",
+            "ReleaseDate": "2025-03-11T00:00:00Z",
+            "DaysLater": 29
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -2046,10 +3236,10 @@
             "CVE-2024-55549": {},
             "CVE-2024-9956": {},
             "CVE-2025-24085": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-24086": {},
             "CVE-2025-24089": {},
@@ -2095,18 +3285,24 @@
           "UniqueCVEsCount": 40,
           "DaysSincePreviousRelease": 21,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 40 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 40
+          "SupersededBy": {
+            "ProductVersion": "18.3.1",
+            "Build": "",
+            "ReleaseDate": "2025-02-10T00:00:00Z",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 40 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 40
             }
           }
         },
@@ -2126,18 +3322,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 26,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "18.3",
+            "Build": "",
+            "ReleaseDate": "2025-01-27T00:00:00Z",
+            "DaysLater": 21
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -2199,18 +3401,24 @@
           "UniqueCVEsCount": 41,
           "DaysSincePreviousRelease": 22,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 41 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 41
+          "SupersededBy": {
+            "ProductVersion": "18.2.1",
+            "Build": "",
+            "ReleaseDate": "2025-01-06T00:00:00Z",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 41 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 41
             }
           }
         },
@@ -2227,16 +3435,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2024-44308": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2024-44309": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -2246,18 +3454,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 22,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "18.2",
+            "Build": "",
+            "ReleaseDate": "2024-12-11T00:00:00Z",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -2322,18 +3536,24 @@
           "UniqueCVEsCount": 44,
           "DaysSincePreviousRelease": 25,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 44 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 44
+          "SupersededBy": {
+            "ProductVersion": "18.1.1",
+            "Build": "",
+            "ReleaseDate": "2024-11-19T00:00:00Z",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 44 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 44
             }
           }
         },
@@ -2356,18 +3576,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 17,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "18.1",
+            "Build": "",
+            "ReleaseDate": "2024-10-28T00:00:00Z",
+            "DaysLater": 25
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -2436,18 +3662,24 @@
           "UniqueCVEsCount": 48,
           "DaysSincePreviousRelease": 0,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 48 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 48
+          "SupersededBy": {
+            "ProductVersion": "18.0.1",
+            "Build": "",
+            "ReleaseDate": "2024-10-03T00:00:00Z",
+            "DaysLater": 17
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 48 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 48
             }
           }
         }
@@ -2456,19 +3688,19 @@
     {
       "OSVersion": "17",
       "Latest": {
-        "UpdateName": "iPadOS 17.7.10",
+        "UpdateName": "iPadOS 17.7.11",
         "ProductName": "iOS and iPadOS",
-        "ProductVersion": "17.7.10",
-        "Build": "21H6450",
+        "ProductVersion": "17.7.11",
+        "Build": "21H6461",
         "AllBuilds": [
-          "21H6450",
-          "21H450"
+          "21H6461",
+          "21H461"
         ],
-        "ReleaseDate": "2025-08-20T00:00:00Z",
-        "ExpirationDate": "2026-06-22",
+        "ReleaseDate": "2026-05-11T00:00:00Z",
+        "ExpirationDate": "2026-08-15",
         "ReleaseType": "OS",
-        "SecurityInfo": "https://support.apple.com/en-us/124926",
-        "SecurityInfoContext": "iOS has been updated to version 17.7.10, which was released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
+        "SecurityInfo": "https://support.apple.com/en-us/127112",
+        "SecurityInfoContext": "iOS has been updated to version 17.7.11, released on May 11, 2026. This update addresses one security issue and is the most recent approved version.",
         "SupportedDevices": [
           "iPad7,1",
           "iPad7,2",
@@ -2478,35 +3710,72 @@
           "iPad7,6"
         ],
         "CVEs": {
-          "CVE-2025-43300": {
-            "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43300",
-            "actively_exploited": true,
-            "in_kev": true,
-            "severity": "Critical"
-          }
+          "CVE-2026-28950": {}
         },
-        "ActivelyExploitedCVEs": [
-          "CVE-2025-43300"
-        ],
+        "ActivelyExploitedCVEs": [],
         "UniqueCVEsCount": 1,
-        "DaysSincePreviousRelease": 22,
+        "DaysSincePreviousRelease": 264,
         "DeviceScope": "universal",
-        "update_summary": {
-          "priority": "medium",
-          "summary": "Addresses 1 security issue",
-          "recommendation": "Update to stay secure - security fixes available",
-          "stats": {
-            "exploited": 0,
-            "critical": 0,
-            "high": 0,
-            "medium": 0,
-            "low": 0,
-            "remote": 0,
-            "total": 1
+        "UpdateSummary": {
+          "Priority": "medium",
+          "Summary": "Addresses 1 security issue",
+          "Recommendation": "Update to stay secure - security fixes available",
+          "Stats": {
+            "Exploited": 0,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 1
           }
         }
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "iPadOS 17.7.11",
+          "ProductName": "iOS and iPadOS",
+          "ProductVersion": "17.7.11",
+          "Build": "21H6461",
+          "AllBuilds": [
+            "21H6461",
+            "21H461"
+          ],
+          "ReleaseDate": "2026-05-11T00:00:00Z",
+          "ExpirationDate": "2026-08-15",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/127112",
+          "SecurityInfoContext": "iOS has been updated to version 17.7.11, released on May 11, 2026. This update addresses one security issue and is the most recent approved version.",
+          "SupportedDevices": [
+            "iPad7,1",
+            "iPad7,2",
+            "iPad7,3",
+            "iPad7,4",
+            "iPad7,5",
+            "iPad7,6"
+          ],
+          "CVEs": {
+            "CVE-2026-28950": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 1,
+          "DaysSincePreviousRelease": 264,
+          "DeviceScope": "universal",
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
+            }
+          }
+        },
         {
           "UpdateName": "iPadOS 17.7.10",
           "ProductName": "iOS and iPadOS",
@@ -2517,10 +3786,10 @@
             "21H450"
           ],
           "ReleaseDate": "2025-08-20T00:00:00Z",
-          "ExpirationDate": "2026-06-22",
+          "ExpirationDate": "2026-08-15",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124926",
-          "SecurityInfoContext": "iOS has been updated to version 17.7.10, which was released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
+          "SecurityInfoContext": "iOS 17.7.10 was released on August 20, 2025. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
           "SupportedDevices": [
             "iPad7,1",
             "iPad7,2",
@@ -2531,10 +3800,10 @@
           ],
           "CVEs": {
             "CVE-2025-43300": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43300",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43300",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -2543,18 +3812,24 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 22,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "17.7.11",
+            "Build": "21H6461",
+            "ReleaseDate": "2026-05-11T00:00:00Z",
+            "DaysLater": 264
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -2588,10 +3863,10 @@
             "CVE-2025-43230": {},
             "CVE-2025-43282": {},
             "CVE-2025-6558": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-6558",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-7424": {}
           },
@@ -2601,18 +3876,24 @@
           "UniqueCVEsCount": 19,
           "DaysSincePreviousRelease": 71,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 19 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 19
+          "SupersededBy": {
+            "ProductVersion": "17.7.10",
+            "Build": "21H6450",
+            "ReleaseDate": "2025-08-20T00:00:00Z",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 19 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 19
             }
           }
         },
@@ -2632,18 +3913,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 7,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.7.9",
+            "Build": "",
+            "ReleaseDate": "2025-07-29T00:00:00Z",
+            "DaysLater": 71
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -2694,18 +3981,24 @@
           "UniqueCVEsCount": 30,
           "DaysSincePreviousRelease": 42,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 30 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 30
+          "SupersededBy": {
+            "ProductVersion": "17.7.8",
+            "Build": "",
+            "ReleaseDate": "2025-05-19T00:00:00Z",
+            "DaysLater": 7
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 30 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 30
             }
           }
         },
@@ -2728,10 +4021,10 @@
             "CVE-2024-56171": {},
             "CVE-2024-9681": {},
             "CVE-2025-24085": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24085",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-24113": {},
             "CVE-2025-24131": {},
@@ -2742,10 +4035,10 @@
             "CVE-2025-24190": {},
             "CVE-2025-24198": {},
             "CVE-2025-24201": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24201",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-24203": {},
             "CVE-2025-24205": {},
@@ -2789,18 +4082,24 @@
           "UniqueCVEsCount": 50,
           "DaysSincePreviousRelease": 49,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 50 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 50
+          "SupersededBy": {
+            "ProductVersion": "17.7.7",
+            "Build": "",
+            "ReleaseDate": "2025-05-12T00:00:00Z",
+            "DaysLater": 42
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 50 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 50
             }
           }
         },
@@ -2817,16 +4116,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2025-24200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24200",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-24200",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2025-43200": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2025-43200",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -2836,18 +4135,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 14,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "17.7.6",
+            "Build": "",
+            "ReleaseDate": "2025-03-31T00:00:00Z",
+            "DaysLater": 49
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -2887,18 +4192,24 @@
           "UniqueCVEsCount": 19,
           "DaysSincePreviousRelease": 47,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 19 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 19
+          "SupersededBy": {
+            "ProductVersion": "17.7.5",
+            "Build": "",
+            "ReleaseDate": "2025-02-10T00:00:00Z",
+            "DaysLater": 14
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 19 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 19
             }
           }
         },
@@ -2936,18 +4247,24 @@
           "UniqueCVEsCount": 17,
           "DaysSincePreviousRelease": 22,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 17 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 17
+          "SupersededBy": {
+            "ProductVersion": "17.7.4",
+            "Build": "",
+            "ReleaseDate": "2025-01-27T00:00:00Z",
+            "DaysLater": 47
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 17 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 17
             }
           }
         },
@@ -2964,16 +4281,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2024-44308": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-44308",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2024-44309": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-44309",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -2983,18 +4300,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 22,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "17.7.3",
+            "Build": "",
+            "ReleaseDate": "2024-12-11T00:00:00Z",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -3038,18 +4361,24 @@
           "UniqueCVEsCount": 23,
           "DaysSincePreviousRelease": 42,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 23 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 23
+          "SupersededBy": {
+            "ProductVersion": "17.7.2",
+            "Build": "",
+            "ReleaseDate": "2024-11-19T00:00:00Z",
+            "DaysLater": 22
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 23 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 23
             }
           }
         },
@@ -3088,18 +4417,24 @@
           "UniqueCVEsCount": 18,
           "DaysSincePreviousRelease": 40,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 18 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 18
+          "SupersededBy": {
+            "ProductVersion": "17.7.1",
+            "Build": "",
+            "ReleaseDate": "2024-10-28T00:00:00Z",
+            "DaysLater": 42
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 18 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 18
             }
           }
         },
@@ -3119,18 +4454,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 9,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.7",
+            "Build": "",
+            "ReleaseDate": "2024-09-16T00:00:00Z",
+            "DaysLater": 40
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3191,18 +4532,24 @@
           "UniqueCVEsCount": 40,
           "DaysSincePreviousRelease": 70,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 40 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 40
+          "SupersededBy": {
+            "ProductVersion": "17.6.1",
+            "Build": "",
+            "ReleaseDate": "2024-08-07T00:00:00Z",
+            "DaysLater": 9
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 40 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 40
             }
           }
         },
@@ -3222,18 +4569,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 7,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.6",
+            "Build": "",
+            "ReleaseDate": "2024-07-29T00:00:00Z",
+            "DaysLater": 70
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3303,18 +4656,24 @@
           "UniqueCVEsCount": 49,
           "DaysSincePreviousRelease": 53,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 49 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 49
+          "SupersededBy": {
+            "ProductVersion": "17.5.1",
+            "Build": "",
+            "ReleaseDate": "2024-05-20T00:00:00Z",
+            "DaysLater": 7
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 49 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 49
             }
           }
         },
@@ -3336,18 +4695,24 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 16,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 1 security issue",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 1
+          "SupersededBy": {
+            "ProductVersion": "17.5",
+            "Build": "",
+            "ReleaseDate": "2024-05-13T00:00:00Z",
+            "DaysLater": 53
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 1 security issue",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 1
             }
           }
         },
@@ -3368,10 +4733,10 @@
             "CVE-2024-23205": {},
             "CVE-2024-23220": {},
             "CVE-2024-23225": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23225",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-23225",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2024-23226": {},
             "CVE-2024-23231": {},
@@ -3406,10 +4771,10 @@
             "CVE-2024-23292": {},
             "CVE-2024-23293": {},
             "CVE-2024-23296": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23296",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-23296",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2024-23297": {},
             "CVE-2024-27859": {},
@@ -3422,18 +4787,24 @@
           "UniqueCVEsCount": 41,
           "DaysSincePreviousRelease": 26,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 41 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 41
+          "SupersededBy": {
+            "ProductVersion": "17.4.1",
+            "Build": "",
+            "ReleaseDate": "2024-03-21T00:00:00Z",
+            "DaysLater": 16
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 41 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 41
             }
           }
         },
@@ -3453,18 +4824,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 17,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.4",
+            "Build": "",
+            "ReleaseDate": "2024-03-05T00:00:00Z",
+            "DaysLater": 26
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3496,10 +4873,10 @@
             "CVE-2024-23218": {},
             "CVE-2024-23219": {},
             "CVE-2024-23222": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2024-23222",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2024-23222",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2024-23223": {},
             "CVE-2024-23228": {},
@@ -3512,18 +4889,24 @@
           "UniqueCVEsCount": 20,
           "DaysSincePreviousRelease": 34,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 20 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 20
+          "SupersededBy": {
+            "ProductVersion": "17.3.1",
+            "Build": "",
+            "ReleaseDate": "2024-02-08T00:00:00Z",
+            "DaysLater": 17
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 20 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 20
             }
           }
         },
@@ -3543,18 +4926,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 8,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.3",
+            "Build": "",
+            "ReleaseDate": "2024-01-22T00:00:00Z",
+            "DaysLater": 34
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3599,18 +4988,24 @@
           "UniqueCVEsCount": 24,
           "DaysSincePreviousRelease": 11,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 24 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 24
+          "SupersededBy": {
+            "ProductVersion": "17.2.1",
+            "Build": "",
+            "ReleaseDate": "2023-12-19T00:00:00Z",
+            "DaysLater": 8
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 24 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 24
             }
           }
         },
@@ -3627,16 +5022,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2023-42916": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42916",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-42916",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2023-42917": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42917",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-42917",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -3646,18 +5041,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 23,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "17.2",
+            "Build": "",
+            "ReleaseDate": "2023-12-11T00:00:00Z",
+            "DaysLater": 11
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -3677,18 +5078,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 13,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.1.2",
+            "Build": "",
+            "ReleaseDate": "2023-11-30T00:00:00Z",
+            "DaysLater": 23
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3747,18 +5154,24 @@
           "UniqueCVEsCount": 38,
           "DaysSincePreviousRelease": 21,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 38 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 38
+          "SupersededBy": {
+            "ProductVersion": "17.1.1",
+            "Build": "",
+            "ReleaseDate": "2023-11-07T00:00:00Z",
+            "DaysLater": 13
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 38 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 38
             }
           }
         },
@@ -3775,16 +5188,16 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2023-42824": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-42824",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-42824",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2023-5217": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-5217",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-5217",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -3794,18 +5207,24 @@
           "UniqueCVEsCount": 2,
           "DaysSincePreviousRelease": 13,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 2 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 2
+          "SupersededBy": {
+            "ProductVersion": "17.1",
+            "Build": "",
+            "ReleaseDate": "2023-10-25T00:00:00Z",
+            "DaysLater": 21
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 2 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 2
             }
           }
         },
@@ -3825,18 +5244,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 5,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.0.2",
+            "Build": "",
+            "ReleaseDate": "2023-09-26T00:00:00Z",
+            "DaysLater": 5
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3856,18 +5281,24 @@
           "UniqueCVEsCount": 0,
           "DaysSincePreviousRelease": 5,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "low",
-            "summary": "Maintenance update with no published CVE entries",
-            "recommendation": "Update recommended - may include unpublished security improvements",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 0
+          "SupersededBy": {
+            "ProductVersion": "17.0.3",
+            "Build": "",
+            "ReleaseDate": "2023-10-04T00:00:00Z",
+            "DaysLater": 8
+          },
+          "UpdateSummary": {
+            "Priority": "low",
+            "Summary": "Maintenance update with no published CVE entries",
+            "Recommendation": "Update recommended - may include unpublished security improvements",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 0
             }
           }
         },
@@ -3884,22 +5315,22 @@
           "SupportedDevices": [],
           "CVEs": {
             "CVE-2023-41991": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41991",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41991",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2023-41992": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41992",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41992",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2023-41993": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41993",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41993",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             }
           },
           "ActivelyExploitedCVEs": [
@@ -3910,18 +5341,24 @@
           "UniqueCVEsCount": 3,
           "DaysSincePreviousRelease": 3,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "medium",
-            "summary": "Addresses 3 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 3
+          "SupersededBy": {
+            "ProductVersion": "17.0.2",
+            "Build": "",
+            "ReleaseDate": "2023-09-26T00:00:00Z",
+            "DaysLater": 5
+          },
+          "UpdateSummary": {
+            "Priority": "medium",
+            "Summary": "Addresses 3 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 3
             }
           }
         },
@@ -3994,10 +5431,10 @@
             "CVE-2023-41232": {},
             "CVE-2023-41968": {},
             "CVE-2023-41974": {
-              "nist_url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41974",
-              "actively_exploited": true,
-              "in_kev": true,
-              "severity": "Critical"
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2023-41974",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
             },
             "CVE-2023-41980": {},
             "CVE-2023-41981": {},
@@ -4025,34 +5462,364 @@
           "UniqueCVEsCount": 76,
           "DaysSincePreviousRelease": 0,
           "DeviceScope": "universal",
-          "update_summary": {
-            "priority": "high",
-            "summary": "Addresses 76 security issues",
-            "recommendation": "Update to stay secure - security fixes available",
-            "stats": {
-              "exploited": 0,
-              "critical": 0,
-              "high": 0,
-              "medium": 0,
-              "low": 0,
-              "remote": 0,
-              "total": 76
+          "SupersededBy": {
+            "ProductVersion": "17.0.2",
+            "Build": "",
+            "ReleaseDate": "2023-09-21T00:00:00Z",
+            "DaysLater": 3
+          },
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 76 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 76
             }
           }
         }
       ]
     }
   ],
+  "Devices": {
+    "iPad11,1": {
+      "MarketingName": "iPad mini (5th generation) Wi-Fi"
+    },
+    "iPad11,2": {
+      "MarketingName": "iPad mini (5th generation) Wi-Fi + Cellular"
+    },
+    "iPad11,3": {
+      "MarketingName": "iPad Air (3rd generation) Wi-Fi"
+    },
+    "iPad11,4": {
+      "MarketingName": "iPad Air (3rd generation) Wi-Fi + Cellular"
+    },
+    "iPad11,6": {
+      "MarketingName": "iPad (8th generation) Wi-Fi"
+    },
+    "iPad11,7": {
+      "MarketingName": "iPad (8th generation) Wi-Fi + Cellular"
+    },
+    "iPad12,1": {
+      "MarketingName": "iPad (9th generation) Wi-Fi"
+    },
+    "iPad12,2": {
+      "MarketingName": "iPad (9th generation) Wi-Fi + Cellular"
+    },
+    "iPad13,1": {
+      "MarketingName": "iPad Air (4th generation) Wi-Fi"
+    },
+    "iPad13,10": {
+      "MarketingName": "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular"
+    },
+    "iPad13,11": {
+      "MarketingName": "iPad Pro 12.9-inch (5th generation) Wi-Fi + Cellular (1 or 2 TB)"
+    },
+    "iPad13,16": {
+      "MarketingName": "iPad Air (5th generation) Wi-Fi"
+    },
+    "iPad13,17": {
+      "MarketingName": "iPad Air (5th generation) Wi-Fi + Cellular"
+    },
+    "iPad13,18": {
+      "MarketingName": "iPad (10th generation) Wi-Fi"
+    },
+    "iPad13,19": {
+      "MarketingName": "iPad (10th generation) Wi-Fi + Cellular"
+    },
+    "iPad13,2": {
+      "MarketingName": "iPad Air (4th generation) Wi-Fi + Cellular"
+    },
+    "iPad13,4": {
+      "MarketingName": "iPad Pro 11-inch (3rd generation) Wi-Fi"
+    },
+    "iPad13,5": {
+      "MarketingName": "iPad Pro 11-inch (3rd generation) Wi-Fi (1 or 2 TB)"
+    },
+    "iPad13,6": {
+      "MarketingName": "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular"
+    },
+    "iPad13,7": {
+      "MarketingName": "iPad Pro 11-inch (3rd generation) Wi-Fi + Cellular (1 or 2 TB)"
+    },
+    "iPad13,8": {
+      "MarketingName": "iPad Pro 12.9-inch (5th generation) Wi-Fi"
+    },
+    "iPad13,9": {
+      "MarketingName": "iPad Pro 12.9-inch (5th generation) Wi-Fi (1 or 2 TB)"
+    },
+    "iPad14,1": {
+      "MarketingName": "iPad mini (6th generation) Wi-Fi"
+    },
+    "iPad14,10": {
+      "MarketingName": "iPad Air 13-inch (M2) Wi-Fi"
+    },
+    "iPad14,11": {
+      "MarketingName": "iPad Air 13-inch (M2) Wi-Fi + Cellular"
+    },
+    "iPad14,2": {
+      "MarketingName": "iPad mini (6th generation) Wi-Fi + Cellular"
+    },
+    "iPad14,3": {
+      "MarketingName": "iPad Pro 11-inch (4th generation) Wi-Fi"
+    },
+    "iPad14,4": {
+      "MarketingName": "iPad Pro 11-inch (4th generation) Wi-Fi + Cellular"
+    },
+    "iPad14,5": {
+      "MarketingName": "iPad Pro 12.9-inch (6th generation) Wi-Fi"
+    },
+    "iPad14,6": {
+      "MarketingName": "iPad Pro 12.9-inch (6th generation) Wi-Fi + Cellular"
+    },
+    "iPad14,8": {
+      "MarketingName": "iPad Air 11-inch (M2) Wi-Fi"
+    },
+    "iPad14,9": {
+      "MarketingName": "iPad Air 11-inch (M2) Wi-Fi + Cellular"
+    },
+    "iPad15,3": {
+      "MarketingName": "iPad Air 11-inch (M3) Wi-Fi"
+    },
+    "iPad15,4": {
+      "MarketingName": "iPad Air 11-inch (M3) Wi-Fi + Cellular"
+    },
+    "iPad15,5": {
+      "MarketingName": "iPad Air 13-inch (M3) Wi-Fi"
+    },
+    "iPad15,6": {
+      "MarketingName": "iPad Air 13-inch (M3) Wi-Fi + Cellular"
+    },
+    "iPad15,7": {
+      "MarketingName": "iPad (A16) Wi-Fi"
+    },
+    "iPad15,8": {
+      "MarketingName": "iPad (A16) Wi-Fi + Cellular"
+    },
+    "iPad16,1": {
+      "MarketingName": "iPad mini (A17 Pro) Wi-Fi"
+    },
+    "iPad16,10": {
+      "MarketingName": "iPad Air 13-inch (M4) Wi-Fi"
+    },
+    "iPad16,11": {
+      "MarketingName": "iPad Air 13-inch (M4) Wi-Fi + Cellular"
+    },
+    "iPad16,2": {
+      "MarketingName": "iPad mini (A17 Pro) Wi-Fi + Cellular"
+    },
+    "iPad16,3": {
+      "MarketingName": "iPad Pro 11-inch (M4) Wi-Fi"
+    },
+    "iPad16,4": {
+      "MarketingName": "iPad Pro 11-inch (M4) Wi-Fi + Cellular"
+    },
+    "iPad16,5": {
+      "MarketingName": "iPad Pro 13-inch (M4) Wi-Fi"
+    },
+    "iPad16,6": {
+      "MarketingName": "iPad Pro 13-inch (M4) Wi-Fi + Cellular"
+    },
+    "iPad16,8": {
+      "MarketingName": "iPad Air 11-inch (M4) Wi-Fi"
+    },
+    "iPad16,9": {
+      "MarketingName": "iPad Air 11-inch (M4) Wi-Fi + Cellular"
+    },
+    "iPad17,1": {
+      "MarketingName": "iPad Pro 11-inch Wi-Fi (M5)"
+    },
+    "iPad17,2": {
+      "MarketingName": "iPad Pro 11-inch Wi-Fi + Cellular (M5)"
+    },
+    "iPad17,3": {
+      "MarketingName": "iPad Pro 13-inch Wi-Fi (M5)"
+    },
+    "iPad17,4": {
+      "MarketingName": "iPad Pro 13-inch Wi-Fi + Cellular (M5)"
+    },
+    "iPad7,1": {
+      "MarketingName": "iPad Pro (12.9-inch) (2nd generation) Wi-Fi"
+    },
+    "iPad7,11": {
+      "MarketingName": "iPad (7th generation) Wi-Fi"
+    },
+    "iPad7,12": {
+      "MarketingName": "iPad (7th generation) Wi-Fi + Cellular"
+    },
+    "iPad7,2": {
+      "MarketingName": "iPad Pro (12.9-inch) (2nd generation) Wi-Fi + Cellular"
+    },
+    "iPad7,3": {
+      "MarketingName": "iPad Pro (10.5-inch) Wi-Fi"
+    },
+    "iPad7,4": {
+      "MarketingName": "iPad Pro (10.5-inch) Wi-Fi + Cellular"
+    },
+    "iPad7,5": {
+      "MarketingName": "iPad (6th generation) Wi-Fi"
+    },
+    "iPad7,6": {
+      "MarketingName": "iPad (6th generation) Wi-Fi + Cellular"
+    },
+    "iPad8,1": {
+      "MarketingName": "iPad Pro 11-inch (1st generation) Wi-Fi"
+    },
+    "iPad8,10": {
+      "MarketingName": "iPad Pro 11-inch (2nd generation) Wi-Fi + Cellular"
+    },
+    "iPad8,11": {
+      "MarketingName": "iPad Pro 12.9-inch (4th generation) Wi-Fi"
+    },
+    "iPad8,12": {
+      "MarketingName": "iPad Pro 12.9-inch (4th generation) Wi-Fi + Cellular"
+    },
+    "iPad8,2": {
+      "MarketingName": "iPad Pro 11-inch (1st generation) Wi-Fi (1TB)"
+    },
+    "iPad8,3": {
+      "MarketingName": "iPad Pro 11-inch (1st generation) Wi-Fi + Cellular"
+    },
+    "iPad8,4": {
+      "MarketingName": "iPad Pro 11-inch (1st generation) Wi-Fi + Cellular (1TB)"
+    },
+    "iPad8,5": {
+      "MarketingName": "iPad Pro 12.9-inch (3rd generation) Wi-Fi"
+    },
+    "iPad8,6": {
+      "MarketingName": "iPad Pro 12.9-inch (3rd generation) Wi-Fi (1TB)"
+    },
+    "iPad8,7": {
+      "MarketingName": "iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular"
+    },
+    "iPad8,8": {
+      "MarketingName": "iPad Pro 12.9-inch (3rd generation) Wi-Fi + Cellular (1TB)"
+    },
+    "iPad8,9": {
+      "MarketingName": "iPad Pro 11-inch (2nd generation) Wi-Fi"
+    },
+    "iPhone11,2": {
+      "MarketingName": "iPhone XS"
+    },
+    "iPhone11,4": {
+      "MarketingName": "iPhone XS Max (China mainland)"
+    },
+    "iPhone11,6": {
+      "MarketingName": "iPhone XS Max"
+    },
+    "iPhone11,8": {
+      "MarketingName": "iPhone XR"
+    },
+    "iPhone12,1": {
+      "MarketingName": "iPhone 11"
+    },
+    "iPhone12,3": {
+      "MarketingName": "iPhone 11 Pro"
+    },
+    "iPhone12,5": {
+      "MarketingName": "iPhone 11 Pro Max"
+    },
+    "iPhone12,8": {
+      "MarketingName": "iPhone SE (2nd generation)"
+    },
+    "iPhone13,1": {
+      "MarketingName": "iPhone 12 mini"
+    },
+    "iPhone13,2": {
+      "MarketingName": "iPhone 12"
+    },
+    "iPhone13,3": {
+      "MarketingName": "iPhone 12 Pro"
+    },
+    "iPhone13,4": {
+      "MarketingName": "iPhone 12 Pro Max"
+    },
+    "iPhone14,2": {
+      "MarketingName": "iPhone 13 Pro"
+    },
+    "iPhone14,3": {
+      "MarketingName": "iPhone 13 Pro Max"
+    },
+    "iPhone14,4": {
+      "MarketingName": "iPhone 13 mini"
+    },
+    "iPhone14,5": {
+      "MarketingName": "iPhone 13"
+    },
+    "iPhone14,6": {
+      "MarketingName": "iPhone SE (3rd generation)"
+    },
+    "iPhone14,7": {
+      "MarketingName": "iPhone 14"
+    },
+    "iPhone14,8": {
+      "MarketingName": "iPhone 14 Plus"
+    },
+    "iPhone15,2": {
+      "MarketingName": "iPhone 14 Pro"
+    },
+    "iPhone15,3": {
+      "MarketingName": "iPhone 14 Pro Max"
+    },
+    "iPhone15,4": {
+      "MarketingName": "iPhone 15"
+    },
+    "iPhone15,5": {
+      "MarketingName": "iPhone 15 Plus"
+    },
+    "iPhone16,1": {
+      "MarketingName": "iPhone 15 Pro"
+    },
+    "iPhone16,2": {
+      "MarketingName": "iPhone 15 Pro Max"
+    },
+    "iPhone17,1": {
+      "MarketingName": "iPhone 16 Pro"
+    },
+    "iPhone17,2": {
+      "MarketingName": "iPhone 16 Pro Max"
+    },
+    "iPhone17,3": {
+      "MarketingName": "iPhone 16"
+    },
+    "iPhone17,4": {
+      "MarketingName": "iPhone 16 Plus"
+    },
+    "iPhone17,5": {
+      "MarketingName": "iPhone 16e"
+    },
+    "iPhone18,1": {
+      "MarketingName": "iPhone 17 Pro"
+    },
+    "iPhone18,2": {
+      "MarketingName": "iPhone 17 Pro Max"
+    },
+    "iPhone18,3": {
+      "MarketingName": "iPhone 17"
+    },
+    "iPhone18,4": {
+      "MarketingName": "iPhone Air"
+    },
+    "iPhone18,5": {
+      "MarketingName": "iPhone 17e"
+    }
+  },
   "BackgroundSecurityImprovements": {
     "26": [
       {
-        "version": "26.3.1",
-        "build": "23D771330a",
-        "posting_date": "2026-03-17",
-        "documentation_id": null,
-        "prerequisite_version": null,
-        "prerequisite_build": "23D8133",
-        "supported_devices": [
+        "Version": "26.3.1",
+        "VersionExtra": "(a)",
+        "Build": "23D771330a",
+        "PostingDate": "2026-03-17",
+        "DocumentationID": null,
+        "PrerequisiteVersion": null,
+        "PrerequisiteBuild": "23D8133",
+        "SupportedDevices": [
           "iPad11,1",
           "iPad11,2",
           "iPad11,3",
@@ -4148,7 +5915,13 @@
           "iPhone18,3",
           "iPhone18,4",
           "iPhone18,5"
-        ]
+        ],
+        "SupersededBy": {
+          "ProductVersion": "26.4",
+          "Build": "23T6240",
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "DaysLater": 7
+        }
       }
     ]
   }

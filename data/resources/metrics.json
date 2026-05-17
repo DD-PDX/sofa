@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-03-24T06:16:57.705Z",
+  "timestamp": "2026-05-17T06:51:08.358Z",
   "periods": {
     "volume": {
-      "start": "2026-02-22T00:00:00.000Z",
-      "end": "2026-03-24T00:00:00.000Z",
+      "start": "2026-04-17T00:00:00.000Z",
+      "end": "2026-05-17T00:00:00.000Z",
       "days": 30
     },
     "trend": {
-      "start": "2026-03-17T00:00:00.000Z",
-      "end": "2026-03-24T00:00:00.000Z",
+      "start": "2026-05-10T00:00:00.000Z",
+      "end": "2026-05-17T00:00:00.000Z",
       "days": 7
     }
   },
   "volume": {
     "metrics": {
       "totalRequests": {
-        "value": 153086212,
-        "formatted": "153.09M"
+        "value": 142922582,
+        "formatted": "142.92M"
       },
       "bandwidth": {
-        "bytes": 4392165065261,
-        "formatted": "3.99 TB"
+        "bytes": 3625744477591,
+        "formatted": "3.30 TB"
       },
       "cachedRequests": {
-        "value": 148671747,
-        "formatted": "148.67M"
+        "value": 138544369,
+        "formatted": "138.54M"
       },
       "cacheRatio": {
-        "value": 97.1,
-        "formatted": "97.1%"
+        "value": 96.9,
+        "formatted": "96.9%"
       }
     },
     "calculated": {
       "dailyAverage": {
-        "requests": 5102873,
+        "requests": 4764086,
         "formatted": {
-          "requests": "5.10M"
+          "requests": "4.76M"
         }
       }
     }
@@ -43,53 +43,53 @@
   "trend": {
     "metrics": {
       "totalRequests": {
-        "value": 34775945,
-        "formatted": "34.78M"
+        "value": 31307812,
+        "formatted": "31.31M"
       },
       "bandwidth": {
-        "bytes": 983690138206,
-        "formatted": "916.13 GB"
+        "bytes": 818689172206,
+        "formatted": "762.46 GB"
       },
       "cachedRequests": {
-        "value": 33696631,
-        "formatted": "33.70M"
+        "value": 30316663,
+        "formatted": "30.32M"
       }
     },
     "daily": [
       {
-        "date": "2026-03-19",
-        "requests": 5514557,
-        "bytes": 158670592003
+        "date": "2026-05-14",
+        "requests": 4817239,
+        "bytes": 124930858559
       },
       {
-        "date": "2026-03-21",
-        "requests": 3274936,
-        "bytes": 96217805307
+        "date": "2026-05-10",
+        "requests": 3106218,
+        "bytes": 74555075590
       },
       {
-        "date": "2026-03-22",
-        "requests": 3224295,
-        "bytes": 93753994799
+        "date": "2026-05-11",
+        "requests": 5011839,
+        "bytes": 133418490732
       },
       {
-        "date": "2026-03-18",
-        "requests": 5856670,
-        "bytes": 163751254847
+        "date": "2026-05-16",
+        "requests": 3029075,
+        "bytes": 75703006213
       },
       {
-        "date": "2026-03-17",
-        "requests": 6101651,
-        "bytes": 164458131405
+        "date": "2026-05-12",
+        "requests": 5386811,
+        "bytes": 143932452667
       },
       {
-        "date": "2026-03-23",
-        "requests": 5458108,
-        "bytes": 150024653804
+        "date": "2026-05-13",
+        "requests": 5410339,
+        "bytes": 147289705211
       },
       {
-        "date": "2026-03-20",
-        "requests": 5345728,
-        "bytes": 156813706041
+        "date": "2026-05-15",
+        "requests": 4546291,
+        "bytes": 118859583234
       }
     ],
     "geographic": {

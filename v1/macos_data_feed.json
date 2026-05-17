@@ -1,13 +1,13 @@
 {
-  "UpdateHash": "7ca541b2700312b0f6599df2d6fe9a8b5b5b1e27ffd82a7014dc8987e3ef87e8",
+  "UpdateHash": "68f09a464e6f30f5cad79675404d12f65ab9646820656e1dc3fe238ae0cd486e",
   "OSVersions": [
     {
       "OSVersion": "Tahoe 26",
       "Latest": {
-        "ProductVersion": "26.3.1",
-        "Build": "25D2128",
-        "ReleaseDate": "2026-03-04T00:00:00Z",
-        "ExpirationDate": "2026-06-22T00:00:00Z",
+        "ProductVersion": "26.5",
+        "Build": "25F71",
+        "ReleaseDate": "2026-05-11T00:00:00Z",
+        "ExpirationDate": "2026-08-15T00:00:00Z",
         "SupportedDevices": [
           "J152FAP",
           "J160AP",
@@ -73,12 +73,487 @@
           "VMA2MACOSAP",
           "VMM-x86_64"
         ],
-        "SecurityInfo": "https://support.apple.com/en-us/100100",
-        "CVEs": {},
+        "SecurityInfo": "https://support.apple.com/en-us/127115",
+        "CVEs": {
+          "CVE-2026-1837": false,
+          "CVE-2026-28819": false,
+          "CVE-2026-28846": false,
+          "CVE-2026-28847": false,
+          "CVE-2026-28848": false,
+          "CVE-2026-28883": false,
+          "CVE-2026-28897": false,
+          "CVE-2026-28901": false,
+          "CVE-2026-28902": false,
+          "CVE-2026-28903": false,
+          "CVE-2026-28904": false,
+          "CVE-2026-28905": false,
+          "CVE-2026-28906": false,
+          "CVE-2026-28907": false,
+          "CVE-2026-28908": false,
+          "CVE-2026-28913": false,
+          "CVE-2026-28914": false,
+          "CVE-2026-28915": false,
+          "CVE-2026-28917": false,
+          "CVE-2026-28918": false,
+          "CVE-2026-28919": false,
+          "CVE-2026-28920": false,
+          "CVE-2026-28922": false,
+          "CVE-2026-28923": false,
+          "CVE-2026-28924": false,
+          "CVE-2026-28925": false,
+          "CVE-2026-28929": false,
+          "CVE-2026-28930": false,
+          "CVE-2026-28936": false,
+          "CVE-2026-28940": false,
+          "CVE-2026-28941": false,
+          "CVE-2026-28942": false,
+          "CVE-2026-28943": false,
+          "CVE-2026-28944": false,
+          "CVE-2026-28946": false,
+          "CVE-2026-28947": false,
+          "CVE-2026-28951": false,
+          "CVE-2026-28952": false,
+          "CVE-2026-28953": false,
+          "CVE-2026-28954": false,
+          "CVE-2026-28955": false,
+          "CVE-2026-28956": false,
+          "CVE-2026-28958": false,
+          "CVE-2026-28959": false,
+          "CVE-2026-28961": false,
+          "CVE-2026-28962": false,
+          "CVE-2026-28969": false,
+          "CVE-2026-28971": false,
+          "CVE-2026-28972": false,
+          "CVE-2026-28974": false,
+          "CVE-2026-28976": false,
+          "CVE-2026-28977": false,
+          "CVE-2026-28978": false,
+          "CVE-2026-28983": false,
+          "CVE-2026-28985": false,
+          "CVE-2026-28986": false,
+          "CVE-2026-28987": false,
+          "CVE-2026-28988": false,
+          "CVE-2026-28990": false,
+          "CVE-2026-28991": false,
+          "CVE-2026-28992": false,
+          "CVE-2026-28993": false,
+          "CVE-2026-28994": false,
+          "CVE-2026-28995": false,
+          "CVE-2026-28996": false,
+          "CVE-2026-39869": false,
+          "CVE-2026-39870": false,
+          "CVE-2026-39871": false,
+          "CVE-2026-43652": false,
+          "CVE-2026-43653": false,
+          "CVE-2026-43654": false,
+          "CVE-2026-43655": false,
+          "CVE-2026-43656": false,
+          "CVE-2026-43658": false,
+          "CVE-2026-43659": false,
+          "CVE-2026-43660": false,
+          "CVE-2026-43661": false,
+          "CVE-2026-43666": false,
+          "CVE-2026-43668": false
+        },
         "ActivelyExploitedCVEs": [],
-        "UniqueCVEsCount": 0
+        "UniqueCVEsCount": 79
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "macOS Tahoe 26.5",
+          "ProductName": "macOS",
+          "ProductVersion": "26.5",
+          "ReleaseDate": "2026-05-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/127115",
+          "SupportedDevices": [
+            "J152FAP",
+            "J160AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J214KAP",
+            "J215AP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J575cAP",
+            "J575dAP",
+            "J604AP",
+            "J613AP",
+            "J614cAP",
+            "J614sAP",
+            "J615AP",
+            "J616cAP",
+            "J616sAP",
+            "J623AP",
+            "J624AP",
+            "J700AP",
+            "J704AP",
+            "J713AP",
+            "J714cAP",
+            "J714sAP",
+            "J715AP",
+            "J716cAP",
+            "J716sAP",
+            "J773gAP",
+            "J773sAP",
+            "J813AP",
+            "J815AP",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {
+            "CVE-2026-1837": false,
+            "CVE-2026-28819": false,
+            "CVE-2026-28846": false,
+            "CVE-2026-28847": false,
+            "CVE-2026-28848": false,
+            "CVE-2026-28883": false,
+            "CVE-2026-28897": false,
+            "CVE-2026-28901": false,
+            "CVE-2026-28902": false,
+            "CVE-2026-28903": false,
+            "CVE-2026-28904": false,
+            "CVE-2026-28905": false,
+            "CVE-2026-28906": false,
+            "CVE-2026-28907": false,
+            "CVE-2026-28908": false,
+            "CVE-2026-28913": false,
+            "CVE-2026-28914": false,
+            "CVE-2026-28915": false,
+            "CVE-2026-28917": false,
+            "CVE-2026-28918": false,
+            "CVE-2026-28919": false,
+            "CVE-2026-28920": false,
+            "CVE-2026-28922": false,
+            "CVE-2026-28923": false,
+            "CVE-2026-28924": false,
+            "CVE-2026-28925": false,
+            "CVE-2026-28929": false,
+            "CVE-2026-28930": false,
+            "CVE-2026-28936": false,
+            "CVE-2026-28940": false,
+            "CVE-2026-28941": false,
+            "CVE-2026-28942": false,
+            "CVE-2026-28943": false,
+            "CVE-2026-28944": false,
+            "CVE-2026-28946": false,
+            "CVE-2026-28947": false,
+            "CVE-2026-28951": false,
+            "CVE-2026-28952": false,
+            "CVE-2026-28953": false,
+            "CVE-2026-28954": false,
+            "CVE-2026-28955": false,
+            "CVE-2026-28956": false,
+            "CVE-2026-28958": false,
+            "CVE-2026-28959": false,
+            "CVE-2026-28961": false,
+            "CVE-2026-28962": false,
+            "CVE-2026-28969": false,
+            "CVE-2026-28971": false,
+            "CVE-2026-28972": false,
+            "CVE-2026-28974": false,
+            "CVE-2026-28976": false,
+            "CVE-2026-28977": false,
+            "CVE-2026-28978": false,
+            "CVE-2026-28983": false,
+            "CVE-2026-28985": false,
+            "CVE-2026-28986": false,
+            "CVE-2026-28987": false,
+            "CVE-2026-28988": false,
+            "CVE-2026-28990": false,
+            "CVE-2026-28991": false,
+            "CVE-2026-28992": false,
+            "CVE-2026-28993": false,
+            "CVE-2026-28994": false,
+            "CVE-2026-28995": false,
+            "CVE-2026-28996": false,
+            "CVE-2026-39869": false,
+            "CVE-2026-39870": false,
+            "CVE-2026-39871": false,
+            "CVE-2026-43652": false,
+            "CVE-2026-43653": false,
+            "CVE-2026-43654": false,
+            "CVE-2026-43655": false,
+            "CVE-2026-43656": false,
+            "CVE-2026-43658": false,
+            "CVE-2026-43659": false,
+            "CVE-2026-43660": false,
+            "CVE-2026-43661": false,
+            "CVE-2026-43666": false,
+            "CVE-2026-43668": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 79,
+          "DaysSincePreviousRelease": 32
+        },
+        {
+          "UpdateName": "macOS Tahoe 26.4.1",
+          "ProductName": "macOS",
+          "ProductVersion": "26.4.1",
+          "ReleaseDate": "2026-04-09T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/100100",
+          "SupportedDevices": [
+            "J152FAP",
+            "J160AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J214KAP",
+            "J215AP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J575cAP",
+            "J575dAP",
+            "J604AP",
+            "J613AP",
+            "J614cAP",
+            "J614sAP",
+            "J615AP",
+            "J616cAP",
+            "J616sAP",
+            "J623AP",
+            "J624AP",
+            "J700AP",
+            "J704AP",
+            "J713AP",
+            "J714cAP",
+            "J714sAP",
+            "J715AP",
+            "J716cAP",
+            "J716sAP",
+            "J773gAP",
+            "J773sAP",
+            "J813AP",
+            "J815AP",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {},
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 0,
+          "DaysSincePreviousRelease": 16
+        },
+        {
+          "UpdateName": "macOS Tahoe 26.4",
+          "ProductName": "macOS",
+          "ProductVersion": "26.4",
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126794",
+          "SupportedDevices": [
+            "J152FAP",
+            "J160AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J214KAP",
+            "J215AP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J575cAP",
+            "J575dAP",
+            "J604AP",
+            "J613AP",
+            "J614cAP",
+            "J614sAP",
+            "J615AP",
+            "J616cAP",
+            "J616sAP",
+            "J623AP",
+            "J624AP",
+            "J700AP",
+            "J704AP",
+            "J713AP",
+            "J714cAP",
+            "J714sAP",
+            "J715AP",
+            "J716cAP",
+            "J716sAP",
+            "J773gAP",
+            "J773sAP",
+            "J813AP",
+            "J815AP",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {
+            "CVE-2025-14524": false,
+            "CVE-2025-55753": false,
+            "CVE-2025-58098": false,
+            "CVE-2025-59775": false,
+            "CVE-2025-64505": false,
+            "CVE-2025-65082": false,
+            "CVE-2025-66200": false,
+            "CVE-2026-20607": false,
+            "CVE-2026-20631": false,
+            "CVE-2026-20632": false,
+            "CVE-2026-20633": false,
+            "CVE-2026-20643": false,
+            "CVE-2026-20657": false,
+            "CVE-2026-20664": false,
+            "CVE-2026-20665": false,
+            "CVE-2026-20684": false,
+            "CVE-2026-20687": false,
+            "CVE-2026-20688": false,
+            "CVE-2026-20690": false,
+            "CVE-2026-20691": false,
+            "CVE-2026-20692": false,
+            "CVE-2026-20693": false,
+            "CVE-2026-20694": false,
+            "CVE-2026-20695": false,
+            "CVE-2026-20696": false,
+            "CVE-2026-20697": false,
+            "CVE-2026-20698": false,
+            "CVE-2026-20699": false,
+            "CVE-2026-20701": false,
+            "CVE-2026-28816": false,
+            "CVE-2026-28817": false,
+            "CVE-2026-28818": false,
+            "CVE-2026-28820": false,
+            "CVE-2026-28821": false,
+            "CVE-2026-28822": false,
+            "CVE-2026-28823": false,
+            "CVE-2026-28824": false,
+            "CVE-2026-28825": false,
+            "CVE-2026-28826": false,
+            "CVE-2026-28827": false,
+            "CVE-2026-28828": false,
+            "CVE-2026-28829": false,
+            "CVE-2026-28830": false,
+            "CVE-2026-28831": false,
+            "CVE-2026-28832": false,
+            "CVE-2026-28833": false,
+            "CVE-2026-28834": false,
+            "CVE-2026-28835": false,
+            "CVE-2026-28837": false,
+            "CVE-2026-28838": false,
+            "CVE-2026-28839": false,
+            "CVE-2026-28840": false,
+            "CVE-2026-28841": false,
+            "CVE-2026-28842": false,
+            "CVE-2026-28844": false,
+            "CVE-2026-28845": false,
+            "CVE-2026-28852": false,
+            "CVE-2026-28857": false,
+            "CVE-2026-28859": false,
+            "CVE-2026-28860": false,
+            "CVE-2026-28861": false,
+            "CVE-2026-28862": false,
+            "CVE-2026-28864": false,
+            "CVE-2026-28865": false,
+            "CVE-2026-28866": false,
+            "CVE-2026-28867": false,
+            "CVE-2026-28868": false,
+            "CVE-2026-28870": false,
+            "CVE-2026-28871": false,
+            "CVE-2026-28876": false,
+            "CVE-2026-28877": false,
+            "CVE-2026-28878": false,
+            "CVE-2026-28879": false,
+            "CVE-2026-28880": false,
+            "CVE-2026-28881": false,
+            "CVE-2026-28882": false,
+            "CVE-2026-28886": false,
+            "CVE-2026-28888": false,
+            "CVE-2026-28891": false,
+            "CVE-2026-28892": false,
+            "CVE-2026-28893": false,
+            "CVE-2026-28894": false,
+            "CVE-2026-28910": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 83,
+          "DaysSincePreviousRelease": 14
+        },
         {
           "UpdateName": "macOS Tahoe 26.3.2",
           "ProductName": "macOS",
@@ -265,6 +740,7 @@
             "CVE-2026-20619": false,
             "CVE-2026-20620": false,
             "CVE-2026-20621": false,
+            "CVE-2026-20622": false,
             "CVE-2026-20623": false,
             "CVE-2026-20624": false,
             "CVE-2026-20625": false,
@@ -276,6 +752,8 @@
             "CVE-2026-20634": false,
             "CVE-2026-20635": false,
             "CVE-2026-20636": false,
+            "CVE-2026-20637": false,
+            "CVE-2026-20639": false,
             "CVE-2026-20641": false,
             "CVE-2026-20644": false,
             "CVE-2026-20646": false,
@@ -283,6 +761,7 @@
             "CVE-2026-20648": false,
             "CVE-2026-20649": false,
             "CVE-2026-20650": false,
+            "CVE-2026-20651": false,
             "CVE-2026-20652": false,
             "CVE-2026-20653": false,
             "CVE-2026-20654": false,
@@ -292,7 +771,9 @@
             "CVE-2026-20662": false,
             "CVE-2026-20666": false,
             "CVE-2026-20667": false,
+            "CVE-2026-20668": false,
             "CVE-2026-20669": false,
+            "CVE-2026-20670": false,
             "CVE-2026-20671": false,
             "CVE-2026-20673": false,
             "CVE-2026-20675": false,
@@ -300,14 +781,17 @@
             "CVE-2026-20677": false,
             "CVE-2026-20680": false,
             "CVE-2026-20681": false,
-            "CVE-2026-20700": true
+            "CVE-2026-20694": false,
+            "CVE-2026-20699": false,
+            "CVE-2026-20700": true,
+            "CVE-2026-28855": false
           },
           "ActivelyExploitedCVEs": [
             "CVE-2026-20700",
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 57,
+          "UniqueCVEsCount": 66,
           "DaysSincePreviousRelease": 61
         },
         {
@@ -404,6 +888,7 @@
             "CVE-2025-43521": false,
             "CVE-2025-43522": false,
             "CVE-2025-43523": false,
+            "CVE-2025-43524": false,
             "CVE-2025-43526": false,
             "CVE-2025-43527": false,
             "CVE-2025-43529": true,
@@ -446,7 +931,7 @@
             "CVE-2025-43529",
             "CVE-2025-14174"
           ],
-          "UniqueCVEsCount": 58,
+          "UniqueCVEsCount": 59,
           "DaysSincePreviousRelease": 39
         },
         {
@@ -888,15 +1373,49 @@
       ],
       "SupportedModels": [
         {
+          "Model": "Mac Pro",
+          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Identifiers": {
+            "Mac14,8": "Mac Pro (Rack, 2023)",
+            "MacPro7,1": "Mac Pro (2019)",
+            "MacPro7,1-Rack": "Mac Pro (Rack, 2019)"
+          }
+        },
+        {
+          "Model": "Mac Studio",
+          "URL": "https://support.apple.com/en-ca/HT213073",
+          "Identifiers": {
+            "Mac13,1": "Mac Studio (M1 Max)",
+            "Mac13,2": "Mac Studio (M1 Ultra)",
+            "Mac14,13": "Mac Studio (M2 Max, 2023)",
+            "Mac14,14": "Mac Studio (M2 Ultra, 2023)",
+            "Mac15,14": "Mac Studio (M3 Ultra, 2025)",
+            "Mac16,9": "Mac Studio (M4 Max, 2025)"
+          }
+        },
+        {
+          "Model": "Mac mini",
+          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Identifiers": {
+            "Mac14,12": "Mac mini (M2 Pro, 2023)",
+            "Mac14,3": "Mac mini (M2, 2023)",
+            "Mac16,10": "Mac mini (M4, 2024)",
+            "Mac16,11": "Mac mini (M4 Pro, 2024)",
+            "Macmini9,1": "Mac mini (M1, Late 2020)"
+          }
+        },
+        {
           "Model": "MacBook Air",
           "URL": "https://support.apple.com/en-ca/HT201862",
           "Identifiers": {
-            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
-            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
-            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
-            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
             "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
             "Mac14,2": "MacBook Air (M2, 2022)",
+            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
+            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
+            "Mac17,3": "MacBook Air (13-inch, M5)",
+            "Mac17,4": "MacBook Air (15-inch, M5)",
             "MacBookAir10,1": "MacBook Air (M1, 2020)"
           }
         },
@@ -904,77 +1423,63 @@
           "Model": "MacBook Pro",
           "URL": "https://support.apple.com/en-ca/HT201300",
           "Identifiers": {
-            "Mac17,2": "MacBook Pro (14-inch, M5)",
-            "Mac16,1": "MacBook Pro (14-inch, 2024)",
-            "Mac16,5": "MacBook Pro (14-inch, 2024)",
-            "Mac16,6": "MacBook Pro (14-inch, 2024)",
-            "Mac16,7": "MacBook Pro (14-inch, 2024)",
-            "Mac16,8": "MacBook Pro (14-inch, 2024)",
-            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac14,5": "MacBook Pro (14-inch, 2023)",
-            "Mac14,9": "MacBook Pro (14-inch, 2023)",
-            "Mac14,6": "MacBook Pro (16-inch, 2023)",
-            "Mac14,10": "MacBook Pro (16-inch, 2023)",
+            "Mac14,10": "MacBook Pro (16-inch, M2 Pro, 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, M2 Max, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, M2 Max, 2023)",
             "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
-            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
-            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
+            "Mac16,1": "MacBook Pro (14-inch, M4, Nov 2024)",
+            "Mac16,5": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
+            "Mac16,6": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
+            "Mac16,7": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
+            "Mac16,8": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
+            "Mac17,2": "MacBook Pro 14-inch (M5)",
+            "Mac17,6": "MacBook Pro (16-inch, M5 Max)",
+            "Mac17,7": "MacBook Pro (14-inch, M5 Max)",
+            "Mac17,8": "MacBook Pro (16-inch, M5 Pro)",
+            "Mac17,9": "MacBook Pro (14-inch, M5 Pro)",
             "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)"
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
           }
         },
         {
-          "Model": "Mac mini",
-          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Model": "Macbook Neo",
+          "URL": "https://support.apple.com/en-ca/HT201862",
           "Identifiers": {
-            "Mac16,11": "Mac mini (2024)",
-            "Mac16,10": "Mac mini (2024)",
-            "Mac14,3": "Mac mini (2023)",
-            "Mac14,12": "Mac mini (2023)",
-            "Macmini9,1": "Mac mini (M1, 2020)"
+            "Mac17,5": "MacBook Neo"
           }
         },
         {
-          "Model": "Mac Studio",
-          "URL": "https://support.apple.com/en-ca/HT213073",
+          "Model": "Virtual Machine",
+          "URL": "https://support.apple.com",
           "Identifiers": {
-            "Mac16,9": "Mac Studio (2025)",
-            "Mac15,14": "Mac Studio (2025)",
-            "Mac14,13": "Mac Studio (2023)",
-            "Mac14,14": "Mac Studio (2023)",
-            "Mac13,1": "Mac Studio (2022)",
-            "Mac13,2": "Mac Studio (2022)"
+            "VMM-x86_64": "Virtual Machine (x86_64)",
+            "VirtualMac2,1": "Apple Virtual Machine"
           }
         },
         {
           "Model": "iMac",
           "URL": "https://support.apple.com/en-ca/HT201634",
           "Identifiers": {
-            "Mac16,2": "iMac (24-inch, 2024, Two ports)",
-            "Mac16,3": "iMac (24-inch, 2024, Four ports)",
-            "Mac15,5": "iMac (24-inch, 2023)",
-            "Mac15,4": "iMac (24-inch, 2023)",
-            "iMac21,1": "iMac (24-inch, M1, 2021)",
-            "iMac21,2": "iMac (24-inch, M1, 2021)",
-            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
-            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)"
-          }
-        },
-        {
-          "Model": "Mac Pro",
-          "URL": "https://support.apple.com/en-ca/HT202888",
-          "Identifiers": {
-            "Mac14,8": "Mac Pro (2023)",
-            "MacPro7,1": "Mac Pro (2019)"
+            "Mac15,4": "iMac (24-inch, M3, 2023, Two Ports)",
+            "Mac15,5": "iMac (24-inch, M3, 2023, Four Ports)",
+            "Mac16,2": "iMac (24-inch, M4, 2024, Two Ports)",
+            "Mac16,3": "iMac (24-inch, M4, 2024, Four Ports)",
+            "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
+            "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
           }
         }
       ]
@@ -982,10 +1487,10 @@
     {
       "OSVersion": "Sequoia 15",
       "Latest": {
-        "ProductVersion": "15.7.4",
-        "Build": "24G517",
-        "ReleaseDate": "2026-02-11T00:00:00Z",
-        "ExpirationDate": "2026-06-22T00:00:00Z",
+        "ProductVersion": "15.7.7",
+        "Build": "24G720",
+        "ReleaseDate": "2026-05-11T00:00:00Z",
+        "ExpirationDate": "2026-08-15T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -1055,51 +1560,326 @@
           "VMA2MACOSAP",
           "VMM-x86_64"
         ],
-        "SecurityInfo": "https://support.apple.com/en-us/126349",
+        "SecurityInfo": "https://support.apple.com/en-us/127116",
         "CVEs": {
-          "CVE-2025-43402": false,
-          "CVE-2025-43403": false,
-          "CVE-2025-43533": false,
-          "CVE-2025-46290": false,
-          "CVE-2025-46300": false,
-          "CVE-2025-46301": false,
-          "CVE-2025-46302": false,
-          "CVE-2025-46303": false,
-          "CVE-2025-46304": false,
-          "CVE-2025-46305": false,
-          "CVE-2025-46310": false,
-          "CVE-2025-59375": false,
-          "CVE-2026-20602": false,
-          "CVE-2026-20605": false,
-          "CVE-2026-20606": false,
-          "CVE-2026-20609": false,
-          "CVE-2026-20611": false,
-          "CVE-2026-20612": false,
-          "CVE-2026-20614": true,
-          "CVE-2026-20619": false,
-          "CVE-2026-20620": false,
-          "CVE-2026-20621": false,
-          "CVE-2026-20624": false,
-          "CVE-2026-20625": false,
-          "CVE-2026-20626": false,
-          "CVE-2026-20628": false,
-          "CVE-2026-20634": false,
-          "CVE-2026-20641": false,
-          "CVE-2026-20653": false,
-          "CVE-2026-20662": false,
-          "CVE-2026-20667": false,
-          "CVE-2026-20671": true,
-          "CVE-2026-20673": false,
-          "CVE-2026-20675": false,
-          "CVE-2026-20680": false
+          "CVE-2025-43524": false,
+          "CVE-2026-28819": false,
+          "CVE-2026-28840": false,
+          "CVE-2026-28846": false,
+          "CVE-2026-28848": false,
+          "CVE-2026-28878": false,
+          "CVE-2026-28897": false,
+          "CVE-2026-28906": false,
+          "CVE-2026-28908": false,
+          "CVE-2026-28915": false,
+          "CVE-2026-28919": false,
+          "CVE-2026-28920": false,
+          "CVE-2026-28922": false,
+          "CVE-2026-28923": false,
+          "CVE-2026-28924": false,
+          "CVE-2026-28925": false,
+          "CVE-2026-28929": false,
+          "CVE-2026-28940": false,
+          "CVE-2026-28941": false,
+          "CVE-2026-28943": false,
+          "CVE-2026-28951": false,
+          "CVE-2026-28952": false,
+          "CVE-2026-28954": false,
+          "CVE-2026-28956": false,
+          "CVE-2026-28959": false,
+          "CVE-2026-28969": false,
+          "CVE-2026-28972": false,
+          "CVE-2026-28974": false,
+          "CVE-2026-28977": false,
+          "CVE-2026-28978": false,
+          "CVE-2026-28986": false,
+          "CVE-2026-28987": false,
+          "CVE-2026-28990": false,
+          "CVE-2026-28992": false,
+          "CVE-2026-28993": false,
+          "CVE-2026-28994": false,
+          "CVE-2026-28996": false,
+          "CVE-2026-39869": false,
+          "CVE-2026-39870": false,
+          "CVE-2026-39871": false,
+          "CVE-2026-43654": false,
+          "CVE-2026-43656": false,
+          "CVE-2026-43659": false,
+          "CVE-2026-43666": false,
+          "CVE-2026-43668": false
         },
-        "ActivelyExploitedCVEs": [
-          "CVE-2026-20671",
-          "CVE-2026-20614"
-        ],
-        "UniqueCVEsCount": 35
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 45
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "macOS Sequoia 15.7.7",
+          "ProductName": "macOS",
+          "ProductVersion": "15.7.7",
+          "ReleaseDate": "2026-05-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/127116",
+          "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J575cAP",
+            "J575dAP",
+            "J604AP",
+            "J613AP",
+            "J614cAP",
+            "J614sAP",
+            "J615AP",
+            "J616cAP",
+            "J616sAP",
+            "J623AP",
+            "J624AP",
+            "J680AP",
+            "J713AP",
+            "J715AP",
+            "J773gAP",
+            "J773sAP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-63001698E7A34814",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {
+            "CVE-2025-43524": false,
+            "CVE-2026-28819": false,
+            "CVE-2026-28840": false,
+            "CVE-2026-28846": false,
+            "CVE-2026-28848": false,
+            "CVE-2026-28878": false,
+            "CVE-2026-28897": false,
+            "CVE-2026-28906": false,
+            "CVE-2026-28908": false,
+            "CVE-2026-28915": false,
+            "CVE-2026-28919": false,
+            "CVE-2026-28920": false,
+            "CVE-2026-28922": false,
+            "CVE-2026-28923": false,
+            "CVE-2026-28924": false,
+            "CVE-2026-28925": false,
+            "CVE-2026-28929": false,
+            "CVE-2026-28940": false,
+            "CVE-2026-28941": false,
+            "CVE-2026-28943": false,
+            "CVE-2026-28951": false,
+            "CVE-2026-28952": false,
+            "CVE-2026-28954": false,
+            "CVE-2026-28956": false,
+            "CVE-2026-28959": false,
+            "CVE-2026-28969": false,
+            "CVE-2026-28972": false,
+            "CVE-2026-28974": false,
+            "CVE-2026-28977": false,
+            "CVE-2026-28978": false,
+            "CVE-2026-28986": false,
+            "CVE-2026-28987": false,
+            "CVE-2026-28990": false,
+            "CVE-2026-28992": false,
+            "CVE-2026-28993": false,
+            "CVE-2026-28994": false,
+            "CVE-2026-28996": false,
+            "CVE-2026-39869": false,
+            "CVE-2026-39870": false,
+            "CVE-2026-39871": false,
+            "CVE-2026-43654": false,
+            "CVE-2026-43656": false,
+            "CVE-2026-43659": false,
+            "CVE-2026-43666": false,
+            "CVE-2026-43668": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 45,
+          "DaysSincePreviousRelease": 48
+        },
+        {
+          "UpdateName": "macOS Sequoia 15.7.5",
+          "ProductName": "macOS",
+          "ProductVersion": "15.7.5",
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126795",
+          "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J575cAP",
+            "J575dAP",
+            "J604AP",
+            "J613AP",
+            "J614cAP",
+            "J614sAP",
+            "J615AP",
+            "J616cAP",
+            "J616sAP",
+            "J623AP",
+            "J624AP",
+            "J680AP",
+            "J713AP",
+            "J715AP",
+            "J773gAP",
+            "J773sAP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-63001698E7A34814",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {
+            "CVE-2025-14524": false,
+            "CVE-2025-55753": false,
+            "CVE-2025-58098": false,
+            "CVE-2025-59775": false,
+            "CVE-2025-64505": false,
+            "CVE-2025-65082": false,
+            "CVE-2025-66200": false,
+            "CVE-2026-20607": false,
+            "CVE-2026-20633": false,
+            "CVE-2026-20637": false,
+            "CVE-2026-20639": false,
+            "CVE-2026-20651": false,
+            "CVE-2026-20657": false,
+            "CVE-2026-20660": false,
+            "CVE-2026-20668": false,
+            "CVE-2026-20687": false,
+            "CVE-2026-20688": false,
+            "CVE-2026-20690": false,
+            "CVE-2026-20692": false,
+            "CVE-2026-20693": false,
+            "CVE-2026-20694": false,
+            "CVE-2026-20695": false,
+            "CVE-2026-20697": false,
+            "CVE-2026-20699": false,
+            "CVE-2026-20701": false,
+            "CVE-2026-28816": false,
+            "CVE-2026-28817": false,
+            "CVE-2026-28818": false,
+            "CVE-2026-28821": false,
+            "CVE-2026-28822": false,
+            "CVE-2026-28824": false,
+            "CVE-2026-28825": false,
+            "CVE-2026-28826": false,
+            "CVE-2026-28827": false,
+            "CVE-2026-28828": false,
+            "CVE-2026-28829": false,
+            "CVE-2026-28831": false,
+            "CVE-2026-28832": false,
+            "CVE-2026-28834": false,
+            "CVE-2026-28835": false,
+            "CVE-2026-28838": false,
+            "CVE-2026-28839": false,
+            "CVE-2026-28852": false,
+            "CVE-2026-28860": false,
+            "CVE-2026-28862": false,
+            "CVE-2026-28864": false,
+            "CVE-2026-28865": false,
+            "CVE-2026-28866": false,
+            "CVE-2026-28867": false,
+            "CVE-2026-28868": false,
+            "CVE-2026-28876": false,
+            "CVE-2026-28877": false,
+            "CVE-2026-28879": false,
+            "CVE-2026-28880": false,
+            "CVE-2026-28886": false,
+            "CVE-2026-28888": false,
+            "CVE-2026-28891": false,
+            "CVE-2026-28892": false,
+            "CVE-2026-28894": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 59,
+          "DaysSincePreviousRelease": 41
+        },
         {
           "UpdateName": "macOS Sequoia 15.7.4",
           "ProductName": "macOS",
@@ -1195,10 +1975,11 @@
             "CVE-2026-20609": false,
             "CVE-2026-20611": false,
             "CVE-2026-20612": false,
-            "CVE-2026-20614": true,
+            "CVE-2026-20614": false,
             "CVE-2026-20619": false,
             "CVE-2026-20620": false,
             "CVE-2026-20621": false,
+            "CVE-2026-20622": false,
             "CVE-2026-20624": false,
             "CVE-2026-20625": false,
             "CVE-2026-20626": false,
@@ -1208,16 +1989,14 @@
             "CVE-2026-20653": false,
             "CVE-2026-20662": false,
             "CVE-2026-20667": false,
-            "CVE-2026-20671": true,
+            "CVE-2026-20671": false,
             "CVE-2026-20673": false,
             "CVE-2026-20675": false,
-            "CVE-2026-20680": false
+            "CVE-2026-20680": false,
+            "CVE-2026-20694": false
           },
-          "ActivelyExploitedCVEs": [
-            "CVE-2026-20671",
-            "CVE-2026-20614"
-          ],
-          "UniqueCVEsCount": 35,
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 37,
           "DaysSincePreviousRelease": 61
         },
         {
@@ -3410,15 +4189,48 @@
       ],
       "SupportedModels": [
         {
+          "Model": "Mac Pro",
+          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Identifiers": {
+            "Mac14,8": "Mac Pro (Rack, 2023)",
+            "MacPro7,1": "Mac Pro (2019)",
+            "MacPro7,1-Rack": "Mac Pro (Rack, 2019)"
+          }
+        },
+        {
+          "Model": "Mac Studio",
+          "URL": "https://support.apple.com/en-ca/HT213073",
+          "Identifiers": {
+            "Mac13,1": "Mac Studio (M1 Max)",
+            "Mac13,2": "Mac Studio (M1 Ultra)",
+            "Mac14,13": "Mac Studio (M2 Max, 2023)",
+            "Mac14,14": "Mac Studio (M2 Ultra, 2023)",
+            "Mac15,14": "Mac Studio (M3 Ultra, 2025)",
+            "Mac16,9": "Mac Studio (M4 Max, 2025)"
+          }
+        },
+        {
+          "Model": "Mac mini",
+          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Identifiers": {
+            "Mac14,12": "Mac mini (M2 Pro, 2023)",
+            "Mac14,3": "Mac mini (M2, 2023)",
+            "Mac16,10": "Mac mini (M4, 2024)",
+            "Mac16,11": "Mac mini (M4 Pro, 2024)",
+            "Macmini8,1": "Mac mini (2018)",
+            "Macmini9,1": "Mac mini (M1, Late 2020)"
+          }
+        },
+        {
           "Model": "MacBook Air",
           "URL": "https://support.apple.com/en-ca/HT201862",
           "Identifiers": {
-            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
-            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
-            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
-            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
             "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
             "Mac14,2": "MacBook Air (M2, 2022)",
+            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
+            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
             "MacBookAir10,1": "MacBook Air (M1, 2020)",
             "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
           }
@@ -3427,85 +4239,67 @@
           "Model": "MacBook Pro",
           "URL": "https://support.apple.com/en-ca/HT201300",
           "Identifiers": {
-            "Mac16,1": "MacBook Pro (14-inch, 2024)",
-            "Mac16,5": "MacBook Pro (14-inch, 2024)",
-            "Mac16,6": "MacBook Pro (14-inch, 2024)",
-            "Mac16,7": "MacBook Pro (14-inch, 2024)",
-            "Mac16,8": "MacBook Pro (14-inch, 2024)",
-            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac14,5": "MacBook Pro (14-inch, 2023)",
-            "Mac14,9": "MacBook Pro (14-inch, 2023)",
-            "Mac14,6": "MacBook Pro (16-inch, 2023)",
-            "Mac14,10": "MacBook Pro (16-inch, 2023)",
+            "Mac14,10": "MacBook Pro (16-inch, M2 Pro, 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, M2 Max, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, M2 Max, 2023)",
             "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
-            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
-            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
-            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
-            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
+            "Mac16,1": "MacBook Pro (14-inch, M4, Nov 2024)",
+            "Mac16,5": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
+            "Mac16,6": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
+            "Mac16,7": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
+            "Mac16,8": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
+            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
             "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
           }
         },
         {
-          "Model": "Mac mini",
-          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Model": "Virtual Machine",
+          "URL": "https://support.apple.com",
           "Identifiers": {
-            "Mac16,11": "Mac mini (2024)",
-            "Mac16,10": "Mac mini (2024)",
-            "Mac14,3": "Mac mini (2023)",
-            "Mac14,12": "Mac mini (2023)",
-            "Macmini9,1": "Mac mini (M1, 2020)",
-            "Macmini8,1": "Mac mini (2018)"
-          }
-        },
-        {
-          "Model": "Mac Studio",
-          "URL": "https://support.apple.com/en-ca/HT213073",
-          "Identifiers": {
-            "Mac16,9": "Mac Studio (2025)",
-            "Mac15,14": "Mac Studio (2025)",
-            "Mac14,13": "Mac Studio (2023)",
-            "Mac14,14": "Mac Studio (2023)",
-            "Mac13,1": "Mac Studio (2022)",
-            "Mac13,2": "Mac Studio (2022)"
+            "VMM-x86_64": "Virtual Machine (x86_64)",
+            "VirtualMac2,1": "Apple Virtual Machine"
           }
         },
         {
           "Model": "iMac",
           "URL": "https://support.apple.com/en-ca/HT201634",
           "Identifiers": {
-            "Mac16,2": "iMac (24-inch, 2024, Two ports)",
-            "Mac16,3": "iMac (24-inch, 2024, Four ports)",
-            "Mac15,5": "iMac (24-inch, 2023)",
-            "Mac15,4": "iMac (24-inch, 2023)",
-            "iMac21,1": "iMac (24-inch, M1, 2021)",
-            "iMac21,2": "iMac (24-inch, M1, 2021)",
-            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
-            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "Mac15,4": "iMac (24-inch, M3, 2023, Two Ports)",
+            "Mac15,5": "iMac (24-inch, M3, 2023, Four Ports)",
+            "Mac16,2": "iMac (24-inch, M4, 2024, Two Ports)",
+            "Mac16,3": "iMac (24-inch, M4, 2024, Four Ports)",
+            "iMac16,2": "iMac (Retina 4K, 21.5-inch, Late 2015)",
             "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
-            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
-            "iMacPro1,1": "iMac Pro"
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
+            "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
           }
         },
         {
-          "Model": "Mac Pro",
-          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Model": "iMac Pro",
+          "URL": "https://support.apple.com",
           "Identifiers": {
-            "Mac14,8": "Mac Pro (2023)",
-            "MacPro7,1": "Mac Pro (2019)"
+            "iMacPro1,1": "iMac Pro"
           }
         }
       ]
@@ -3513,10 +4307,10 @@
     {
       "OSVersion": "Sonoma 14",
       "Latest": {
-        "ProductVersion": "14.8.4",
-        "Build": "23J319",
-        "ReleaseDate": "2026-02-11T00:00:00Z",
-        "ExpirationDate": "2026-06-22T00:00:00Z",
+        "ProductVersion": "14.8.7",
+        "Build": "23J520",
+        "ReleaseDate": "2026-05-11T00:00:00Z",
+        "ExpirationDate": "2026-08-15T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -3575,57 +4369,294 @@
           "VMA2MACOSAP",
           "VMM-x86_64"
         ],
-        "SecurityInfo": "https://support.apple.com/en-us/126350",
+        "SecurityInfo": "https://support.apple.com/en-us/127117",
         "CVEs": {
-          "CVE-2025-43338": false,
-          "CVE-2025-43402": false,
-          "CVE-2025-43403": false,
-          "CVE-2025-43417": false,
-          "CVE-2025-43533": false,
-          "CVE-2025-46283": false,
-          "CVE-2025-46290": false,
-          "CVE-2025-46300": false,
-          "CVE-2025-46301": false,
-          "CVE-2025-46302": false,
-          "CVE-2025-46303": false,
-          "CVE-2025-46304": false,
-          "CVE-2025-46305": false,
-          "CVE-2025-46310": false,
-          "CVE-2025-59375": false,
-          "CVE-2026-20602": false,
-          "CVE-2026-20605": false,
-          "CVE-2026-20606": false,
-          "CVE-2026-20609": false,
-          "CVE-2026-20611": false,
-          "CVE-2026-20612": false,
-          "CVE-2026-20614": true,
-          "CVE-2026-20615": false,
-          "CVE-2026-20616": false,
-          "CVE-2026-20617": false,
-          "CVE-2026-20620": false,
-          "CVE-2026-20621": false,
-          "CVE-2026-20624": false,
-          "CVE-2026-20625": false,
-          "CVE-2026-20627": false,
-          "CVE-2026-20628": false,
-          "CVE-2026-20634": false,
-          "CVE-2026-20641": false,
-          "CVE-2026-20653": false,
-          "CVE-2026-20660": false,
-          "CVE-2026-20667": false,
-          "CVE-2026-20671": true,
-          "CVE-2026-20673": false,
-          "CVE-2026-20675": false,
-          "CVE-2026-20677": false,
-          "CVE-2026-20680": false
+          "CVE-2025-43524": false,
+          "CVE-2026-28819": false,
+          "CVE-2026-28840": false,
+          "CVE-2026-28846": false,
+          "CVE-2026-28897": false,
+          "CVE-2026-28906": false,
+          "CVE-2026-28908": false,
+          "CVE-2026-28915": false,
+          "CVE-2026-28919": false,
+          "CVE-2026-28920": false,
+          "CVE-2026-28922": false,
+          "CVE-2026-28923": false,
+          "CVE-2026-28924": false,
+          "CVE-2026-28925": false,
+          "CVE-2026-28929": false,
+          "CVE-2026-28936": false,
+          "CVE-2026-28943": false,
+          "CVE-2026-28951": false,
+          "CVE-2026-28952": false,
+          "CVE-2026-28954": false,
+          "CVE-2026-28956": false,
+          "CVE-2026-28959": false,
+          "CVE-2026-28969": false,
+          "CVE-2026-28972": false,
+          "CVE-2026-28977": false,
+          "CVE-2026-28978": false,
+          "CVE-2026-28986": false,
+          "CVE-2026-28987": false,
+          "CVE-2026-28990": false,
+          "CVE-2026-28992": false,
+          "CVE-2026-28993": false,
+          "CVE-2026-28994": false,
+          "CVE-2026-28996": false,
+          "CVE-2026-39869": false,
+          "CVE-2026-39870": false,
+          "CVE-2026-39871": false,
+          "CVE-2026-43653": false,
+          "CVE-2026-43654": false,
+          "CVE-2026-43656": false,
+          "CVE-2026-43659": false,
+          "CVE-2026-43666": false,
+          "CVE-2026-43668": false
         },
-        "ActivelyExploitedCVEs": [
-          "CVE-2026-20671",
-          "CVE-2026-20614"
-        ],
-        "UniqueCVEsCount": 41
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 42
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "macOS Sonoma 14.8.7",
+          "ProductName": "macOS",
+          "ProductVersion": "14.8.7",
+          "ReleaseDate": "2026-05-11T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/127117",
+          "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J140AAP",
+            "J140KAP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J613AP",
+            "J615AP",
+            "J680AP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-63001698E7A34814",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {
+            "CVE-2025-43524": false,
+            "CVE-2026-28819": false,
+            "CVE-2026-28840": false,
+            "CVE-2026-28846": false,
+            "CVE-2026-28897": false,
+            "CVE-2026-28906": false,
+            "CVE-2026-28908": false,
+            "CVE-2026-28915": false,
+            "CVE-2026-28919": false,
+            "CVE-2026-28920": false,
+            "CVE-2026-28922": false,
+            "CVE-2026-28923": false,
+            "CVE-2026-28924": false,
+            "CVE-2026-28925": false,
+            "CVE-2026-28929": false,
+            "CVE-2026-28936": false,
+            "CVE-2026-28943": false,
+            "CVE-2026-28951": false,
+            "CVE-2026-28952": false,
+            "CVE-2026-28954": false,
+            "CVE-2026-28956": false,
+            "CVE-2026-28959": false,
+            "CVE-2026-28969": false,
+            "CVE-2026-28972": false,
+            "CVE-2026-28977": false,
+            "CVE-2026-28978": false,
+            "CVE-2026-28986": false,
+            "CVE-2026-28987": false,
+            "CVE-2026-28990": false,
+            "CVE-2026-28992": false,
+            "CVE-2026-28993": false,
+            "CVE-2026-28994": false,
+            "CVE-2026-28996": false,
+            "CVE-2026-39869": false,
+            "CVE-2026-39870": false,
+            "CVE-2026-39871": false,
+            "CVE-2026-43653": false,
+            "CVE-2026-43654": false,
+            "CVE-2026-43656": false,
+            "CVE-2026-43659": false,
+            "CVE-2026-43666": false,
+            "CVE-2026-43668": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 42,
+          "DaysSincePreviousRelease": 48
+        },
+        {
+          "UpdateName": "macOS Sonoma 14.8.5",
+          "ProductName": "macOS",
+          "ProductVersion": "14.8.5",
+          "ReleaseDate": "2026-03-24T00:00:00Z",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/126796",
+          "SupportedDevices": [
+            "J132AP",
+            "J137AP",
+            "J140AAP",
+            "J140KAP",
+            "J152FAP",
+            "J160AP",
+            "J174AP",
+            "J180dAP",
+            "J185AP",
+            "J185FAP",
+            "J213AP",
+            "J214KAP",
+            "J215AP",
+            "J223AP",
+            "J230KAP",
+            "J274AP",
+            "J293AP",
+            "J313AP",
+            "J314cAP",
+            "J314sAP",
+            "J316cAP",
+            "J316sAP",
+            "J375cAP",
+            "J375dAP",
+            "J413AP",
+            "J414cAP",
+            "J414sAP",
+            "J415AP",
+            "J416cAP",
+            "J416sAP",
+            "J433AP",
+            "J434AP",
+            "J456AP",
+            "J457AP",
+            "J473AP",
+            "J474sAP",
+            "J475cAP",
+            "J475dAP",
+            "J493AP",
+            "J504AP",
+            "J514cAP",
+            "J514mAP",
+            "J514sAP",
+            "J516cAP",
+            "J516mAP",
+            "J516sAP",
+            "J613AP",
+            "J615AP",
+            "J680AP",
+            "J780AP",
+            "Mac-1E7E29AD0135F9BC",
+            "Mac-63001698E7A34814",
+            "Mac-937A206F2EE63C01",
+            "Mac-AA95B1DDAB278B95",
+            "VMA2MACOSAP",
+            "VMM-x86_64"
+          ],
+          "CVEs": {
+            "CVE-2025-14524": false,
+            "CVE-2025-55753": false,
+            "CVE-2025-58098": false,
+            "CVE-2025-59775": false,
+            "CVE-2025-64505": false,
+            "CVE-2025-65082": false,
+            "CVE-2025-66200": false,
+            "CVE-2026-20607": false,
+            "CVE-2026-20633": false,
+            "CVE-2026-20637": false,
+            "CVE-2026-20639": false,
+            "CVE-2026-20657": false,
+            "CVE-2026-20668": false,
+            "CVE-2026-20688": false,
+            "CVE-2026-20690": false,
+            "CVE-2026-20692": false,
+            "CVE-2026-20693": false,
+            "CVE-2026-20694": false,
+            "CVE-2026-20695": false,
+            "CVE-2026-20697": false,
+            "CVE-2026-20699": false,
+            "CVE-2026-20701": false,
+            "CVE-2026-28816": false,
+            "CVE-2026-28817": false,
+            "CVE-2026-28818": false,
+            "CVE-2026-28821": false,
+            "CVE-2026-28822": false,
+            "CVE-2026-28824": false,
+            "CVE-2026-28825": false,
+            "CVE-2026-28826": false,
+            "CVE-2026-28827": false,
+            "CVE-2026-28828": false,
+            "CVE-2026-28829": false,
+            "CVE-2026-28831": false,
+            "CVE-2026-28832": false,
+            "CVE-2026-28834": false,
+            "CVE-2026-28835": false,
+            "CVE-2026-28838": false,
+            "CVE-2026-28839": false,
+            "CVE-2026-28860": false,
+            "CVE-2026-28862": false,
+            "CVE-2026-28864": false,
+            "CVE-2026-28865": false,
+            "CVE-2026-28866": false,
+            "CVE-2026-28868": false,
+            "CVE-2026-28876": false,
+            "CVE-2026-28877": false,
+            "CVE-2026-28878": false,
+            "CVE-2026-28879": false,
+            "CVE-2026-28880": false,
+            "CVE-2026-28886": false,
+            "CVE-2026-28888": false,
+            "CVE-2026-28891": false,
+            "CVE-2026-28892": false,
+            "CVE-2026-28894": false
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 55,
+          "DaysSincePreviousRelease": 41
+        },
         {
           "UpdateName": "macOS Sonoma 14.8.4",
           "ProductName": "macOS",
@@ -3713,7 +4744,7 @@
             "CVE-2026-20609": false,
             "CVE-2026-20611": false,
             "CVE-2026-20612": false,
-            "CVE-2026-20614": true,
+            "CVE-2026-20614": false,
             "CVE-2026-20615": false,
             "CVE-2026-20616": false,
             "CVE-2026-20617": false,
@@ -3725,20 +4756,20 @@
             "CVE-2026-20628": false,
             "CVE-2026-20634": false,
             "CVE-2026-20641": false,
+            "CVE-2026-20651": false,
             "CVE-2026-20653": false,
             "CVE-2026-20660": false,
             "CVE-2026-20667": false,
-            "CVE-2026-20671": true,
+            "CVE-2026-20670": false,
+            "CVE-2026-20671": false,
             "CVE-2026-20673": false,
             "CVE-2026-20675": false,
             "CVE-2026-20677": false,
-            "CVE-2026-20680": false
+            "CVE-2026-20680": false,
+            "CVE-2026-20694": false
           },
-          "ActivelyExploitedCVEs": [
-            "CVE-2026-20671",
-            "CVE-2026-20614"
-          ],
-          "UniqueCVEsCount": 41,
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 44,
           "DaysSincePreviousRelease": 61
         },
         {
@@ -6567,91 +7598,106 @@
       ],
       "SupportedModels": [
         {
-          "Model": "MacBook Air",
-          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Model": "Mac Pro",
+          "URL": "https://support.apple.com/en-ca/HT202888",
           "Identifiers": {
-            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
-            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
-            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
-            "Mac14,2": "MacBook Air (M2, 2022)",
-            "MacBookAir10,1": "MacBook Air (M1, 2020)",
-            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)",
-            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
-            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)"
-          }
-        },
-        {
-          "Model": "MacBook Pro",
-          "URL": "https://support.apple.com/en-ca/HT201300",
-          "Identifiers": {
-            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac14,5": "MacBook Pro (14-inch, 2023)",
-            "Mac14,9": "MacBook Pro (14-inch, 2023)",
-            "Mac14,6": "MacBook Pro (16-inch, 2023)",
-            "Mac14,10": "MacBook Pro (16-inch, 2023)",
-            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
-            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
-            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
-            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
-            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)"
-          }
-        },
-        {
-          "Model": "Mac mini",
-          "URL": "https://support.apple.com/en-ca/HT201894",
-          "Identifiers": {
-            "Mac14,3": "Mac mini (2023)",
-            "Mac14,12": "Mac mini (2023)",
-            "Macmini9,1": "Mac mini (M1, 2020)",
-            "Macmini8,1": "Mac mini (2018)"
+            "Mac14,8": "Mac Pro (Rack, 2023)",
+            "MacPro7,1": "Mac Pro (2019)",
+            "MacPro7,1-Rack": "Mac Pro (Rack, 2019)"
           }
         },
         {
           "Model": "Mac Studio",
           "URL": "https://support.apple.com/en-ca/HT213073",
           "Identifiers": {
-            "Mac14,13": "Mac Studio (2023)",
-            "Mac14,14": "Mac Studio (2023)",
-            "Mac13,1": "Mac Studio (2022)",
-            "Mac13,2": "Mac Studio (2022)"
+            "Mac13,1": "Mac Studio (M1 Max)",
+            "Mac13,2": "Mac Studio (M1 Ultra)",
+            "Mac14,13": "Mac Studio (M2 Max, 2023)",
+            "Mac14,14": "Mac Studio (M2 Ultra, 2023)"
+          }
+        },
+        {
+          "Model": "Mac mini",
+          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Identifiers": {
+            "Mac14,12": "Mac mini (M2 Pro, 2023)",
+            "Mac14,3": "Mac mini (M2, 2023)",
+            "Macmini8,1": "Mac mini (2018)",
+            "Macmini9,1": "Mac mini (M1, Late 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Air",
+          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Identifiers": {
+            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)",
+            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Pro",
+          "URL": "https://support.apple.com/en-ca/HT201300",
+          "Identifiers": {
+            "Mac14,10": "MacBook Pro (16-inch, M2 Pro, 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, M2 Max, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, M2 Max, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
+            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
+          }
+        },
+        {
+          "Model": "Virtual Machine",
+          "URL": "https://support.apple.com",
+          "Identifiers": {
+            "VMM-x86_64": "Virtual Machine (x86_64)",
+            "VirtualMac2,1": "Apple Virtual Machine"
           }
         },
         {
           "Model": "iMac",
           "URL": "https://support.apple.com/en-ca/HT201634",
           "Identifiers": {
-            "Mac15,5": "iMac (24-inch, 2023)",
-            "Mac15,4": "iMac (24-inch, 2023)",
-            "iMac21,1": "iMac (24-inch, M1, 2021)",
-            "iMac21,2": "iMac (24-inch, M1, 2021)",
-            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
-            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "Mac15,4": "iMac (24-inch, M3, 2023, Two Ports)",
+            "Mac15,5": "iMac (24-inch, M3, 2023, Four Ports)",
+            "iMac16,2": "iMac (Retina 4K, 21.5-inch, Late 2015)",
             "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
-            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
-            "iMacPro1,1": "iMac Pro"
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
+            "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
           }
         },
         {
-          "Model": "Mac Pro",
-          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Model": "iMac Pro",
+          "URL": "https://support.apple.com",
           "Identifiers": {
-            "Mac14,8": "Mac Pro (2023)",
-            "MacPro7,1": "Mac Pro (2019)"
+            "iMacPro1,1": "iMac Pro"
           }
         }
       ]
@@ -6662,7 +7708,7 @@
         "ProductVersion": "13.7.8",
         "Build": "22H730",
         "ReleaseDate": "2025-08-20T00:00:00Z",
-        "ExpirationDate": "2026-06-22T00:00:00Z",
+        "ExpirationDate": "2026-08-15T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -9957,102 +11003,103 @@
       ],
       "SupportedModels": [
         {
-          "Model": "MacBook Air",
-          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Model": "Mac Pro",
+          "URL": "https://support.apple.com/en-ca/HT202888",
           "Identifiers": {
-            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
-            "Mac14,2": "MacBook Air (M2, 2022)",
-            "MacBookAir10,1": "MacBook Air (M1, 2020)",
-            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)",
-            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
-            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)"
-          }
-        },
-        {
-          "Model": "MacBook Pro",
-          "URL": "https://support.apple.com/en-ca/HT201300",
-          "Identifiers": {
-            "Mac15,3": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,6": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,8": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,10": "MacBook Pro (14-inch, Nov 2023)",
-            "Mac15,7": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,9": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac15,11": "MacBook Pro (16-inch, Nov 2023)",
-            "Mac14,5": "MacBook Pro (14-inch, 2023)",
-            "Mac14,9": "MacBook Pro (14-inch, 2023)",
-            "Mac14,6": "MacBook Pro (16-inch, 2023)",
-            "Mac14,10": "MacBook Pro (16-inch, 2023)",
-            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
-            "MacBookPro18,3": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,4": "MacBook Pro (14-inch, 2021)",
-            "MacBookPro18,1": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro18,2": "MacBook Pro (16-inch, 2021)",
-            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
-            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
-            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
-            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
-            "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
-            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
-            "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
-          }
-        },
-        {
-          "Model": "MacBook",
-          "URL": "https://support.apple.com/en-ca/103257",
-          "Identifiers": {
-            "MacBook10,1": "MacBook (Retina, 12-inch, 2017)"
-          }
-        },
-        {
-          "Model": "Mac mini",
-          "URL": "https://support.apple.com/en-ca/HT201894",
-          "Identifiers": {
-            "Mac14,3": "Mac mini (2023)",
-            "Mac14,12": "Mac mini (2023)",
-            "Macmini9,1": "Mac mini (M1, 2020)",
-            "Macmini8,1": "Mac mini (2018)"
+            "Mac14,8": "Mac Pro (Rack, 2023)",
+            "MacPro7,1": "Mac Pro (2019)",
+            "MacPro7,1-Rack": "Mac Pro (Rack, 2019)"
           }
         },
         {
           "Model": "Mac Studio",
           "URL": "https://support.apple.com/en-ca/HT213073",
           "Identifiers": {
-            "Mac14,13": "Mac Studio (2023)",
-            "Mac14,14": "Mac Studio (2023)",
-            "Mac13,1": "Mac Studio (2022)",
-            "Mac13,2": "Mac Studio (2022)"
+            "Mac13,1": "Mac Studio (M1 Max)",
+            "Mac13,2": "Mac Studio (M1 Ultra)",
+            "Mac14,13": "Mac Studio (M2 Max, 2023)",
+            "Mac14,14": "Mac Studio (M2 Ultra, 2023)"
+          }
+        },
+        {
+          "Model": "Mac mini",
+          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Identifiers": {
+            "Mac14,12": "Mac mini (M2 Pro, 2023)",
+            "Mac14,3": "Mac mini (M2, 2023)",
+            "Macmini8,1": "Mac mini (2018)",
+            "Macmini9,1": "Mac mini (M1, Late 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Air",
+          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Identifiers": {
+            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)",
+            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Pro",
+          "URL": "https://support.apple.com/en-ca/HT201300",
+          "Identifiers": {
+            "Mac14,10": "MacBook Pro (16-inch, M2 Pro, 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, M2 Max, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, M2 Max, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
+            "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
+            "MacBookPro13,1": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
+            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+            "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
+          }
+        },
+        {
+          "Model": "Virtual Machine",
+          "URL": "https://support.apple.com",
+          "Identifiers": {
+            "VMM-x86_64": "Virtual Machine (x86_64)",
+            "VirtualMac2,1": "Apple Virtual Machine"
           }
         },
         {
           "Model": "iMac",
           "URL": "https://support.apple.com/en-ca/HT201634",
           "Identifiers": {
-            "Mac15,5": "iMac (24-inch, 2023)",
-            "Mac15,4": "iMac (24-inch, 2023)",
-            "iMac21,1": "iMac (24-inch, M1, 2021)",
-            "iMac21,2": "iMac (24-inch, M1, 2021)",
-            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
-            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
-            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
-            "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
-            "iMacPro1,1": "iMac Pro",
-            "iMac18,3": "iMac (Retina 5K, 27-inch, 2017)",
+            "Mac15,4": "iMac (24-inch, M3, 2023, Two Ports)",
+            "Mac15,5": "iMac (24-inch, M3, 2023, Four Ports)",
+            "iMac16,1": "iMac (21.5-inch, Late 2015)",
+            "iMac16,2": "iMac (Retina 4K, 21.5-inch, Late 2015)",
             "iMac18,2": "iMac (Retina 4K, 21.5-inch, 2017)",
-            "iMac18,1": "iMac (21.5-inch, 2017)"
+            "iMac18,3": "iMac (Retina 5K, 27-inch, 2017)",
+            "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
+            "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
           }
         },
         {
-          "Model": "Mac Pro",
-          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Model": "iMac Pro",
+          "URL": "https://support.apple.com",
           "Identifiers": {
-            "Mac14,8": "Mac Pro (2023)",
-            "MacPro7,1": "Mac Pro (2019)"
+            "iMacPro1,1": "iMac Pro"
           }
         }
       ]
@@ -10063,7 +11110,7 @@
         "ProductVersion": "12.7.6",
         "Build": "21H1320",
         "ReleaseDate": "2024-07-29T00:00:00Z",
-        "ExpirationDate": "2026-06-22T00:00:00Z",
+        "ExpirationDate": "2026-08-15T00:00:00Z",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -12938,112 +13985,129 @@
       ],
       "SupportedModels": [
         {
-          "Model": "MacBook Air",
-          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Model": "Mac Pro",
+          "URL": "https://support.apple.com/en-ca/HT202888",
           "Identifiers": {
-            "Mac14,2": "MacBook Air (M2, 2022)",
-            "MacBookAir10,1": "MacBook Air (M1, 2020)",
-            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)",
-            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
-            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)",
-            "MacBookAir7,2": "MacBook Air (13-inch, Early 2015)",
-            "MacBookAir7,1": "MacBook Air (11-inch, Early 2015)"
-          }
-        },
-        {
-          "Model": "MacBook Pro",
-          "URL": "https://support.apple.com/en-ca/HT201300",
-          "Identifiers": {
-            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
-            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
-            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
-            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
-            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
-            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,3": "MacBook Pro (15-inch, 2018)",
-            "MacBookPro15,2": "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 ports)",
-            "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
-            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
-            "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
-            "MacBookPro13,3": "MacBook Pro (15-inch, 2016)",
-            "MacBookPro13,2": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)",
-            "MacBookPro13,1": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
-            "MacBookPro11,4": "MacBook Pro (Retina, 15-inch, Mid 2015)",
-            "MacBookPro11,5": "MacBook Pro (Retina, 15-inch, Mid 2015)",
-            "MacBookPro12,1": "MacBook Pro (Retina, 13-inch, Early 2015)"
-          }
-        },
-        {
-          "Model": "MacBook",
-          "URL": "https://support.apple.com/en-ca/103257",
-          "Identifiers": {
-            "MacBook10,1": "MacBook (Retina, 12-inch, 2017)",
-            "MacBook9,1": "MacBook (Retina, 12-inch, Early 2016)"
-          }
-        },
-        {
-          "Model": "Mac mini",
-          "URL": "https://support.apple.com/en-ca/HT201894",
-          "Identifiers": {
-            "Mac14,3": "Mac mini (2023)",
-            "Mac14,12": "Mac mini (2023)",
-            "Macmini9,1": "Mac mini (M1, 2020)",
-            "Macmini8,1": "Mac mini (2018)",
-            "Macmini7,1": "Mac mini (Late 2014)"
+            "MacPro6,1": "Mac Pro (Late 2013)",
+            "MacPro7,1": "Mac Pro (2019)",
+            "MacPro7,1-Rack": "Mac Pro (Rack, 2019)"
           }
         },
         {
           "Model": "Mac Studio",
           "URL": "https://support.apple.com/en-ca/HT213073",
           "Identifiers": {
-            "Mac13,1": "Mac Studio (2022)",
-            "Mac13,2": "Mac Studio (2022)"
+            "Mac13,1": "Mac Studio (M1 Max)",
+            "Mac13,2": "Mac Studio (M1 Ultra)"
+          }
+        },
+        {
+          "Model": "Mac mini",
+          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Identifiers": {
+            "Macmini7,1": "Mac mini (Late 2014)",
+            "Macmini8,1": "Mac mini (2018)",
+            "Macmini9,1": "Mac mini (M1, Late 2020)"
+          }
+        },
+        {
+          "Model": "MacBook",
+          "URL": "https://support.apple.com",
+          "Identifiers": {
+            "MacBook10,1": "MacBook (Retina, 12-inch, 2017)"
+          }
+        },
+        {
+          "Model": "MacBook Air",
+          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Identifiers": {
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)",
+            "MacBookAir7,1": "MacBook Air (11-inch, Early 2015)",
+            "MacBookAir7,2": "MacBook Air (13-inch, Early 2015)",
+            "MacBookAir8,1": "MacBook Air (Retina, 13-inch, 2018)",
+            "MacBookAir8,2": "MacBook Air (Retina, 13-inch, 2019)",
+            "MacBookAir9,1": "MacBook Air (Retina, 13-inch, 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Pro",
+          "URL": "https://support.apple.com/en-ca/HT201300",
+          "Identifiers": {
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "MacBookPro11,4": "MacBook Pro (Retina, 15-inch, Mid 2015)",
+            "MacBookPro11,5": "MacBook Pro (Retina, 15-inch, Mid 2015)",
+            "MacBookPro12,1": "MacBook Pro (Retina, 13-inch, Early 2015)",
+            "MacBookPro13,1": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
+            "MacBookPro13,2": "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 ports)",
+            "MacBookPro13,3": "MacBook Pro (15-inch, 2016)",
+            "MacBookPro14,1": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
+            "MacBookPro14,2": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
+            "MacBookPro14,3": "MacBook Pro (15-inch, 2017)",
+            "MacBookPro15,1": "MacBook Pro (15-inch, 2018)",
+            "MacBookPro15,2": "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)",
+            "MacBookPro15,3": "MacBook Pro (15-inch, 2019)",
+            "MacBookPro15,4": "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)",
+            "MacBookPro16,1": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro16,2": "MacBook Pro (13-inch, 2020, Four Thunderbolt 3 ports)",
+            "MacBookPro16,3": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)",
+            "MacBookPro16,4": "MacBook Pro (16-inch, 2019)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
+          }
+        },
+        {
+          "Model": "Virtual Machine",
+          "URL": "https://support.apple.com",
+          "Identifiers": {
+            "VMM-x86_64": "Virtual Machine (x86_64)",
+            "VirtualMac2,1": "Apple Virtual Machine"
           }
         },
         {
           "Model": "iMac",
           "URL": "https://support.apple.com/en-ca/HT201634",
           "Identifiers": {
-            "iMac21,1": "iMac (24-inch, M1, 2021)",
-            "iMac21,2": "iMac (24-inch, M1, 2021)",
-            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
-            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac15,1": "iMac (Retina 5K, 27-inch, Mid 2015)",
+            "iMac16,1": "iMac (21.5-inch, Late 2015)",
+            "iMac16,2": "iMac (Retina 4K, 21.5-inch, Late 2015)",
+            "iMac17,1": "iMac (Retina 5K, 27-inch, Late 2015)",
+            "iMac18,1": "iMac (21.5-inch, 2017)",
+            "iMac18,2": "iMac (Retina 4K, 21.5-inch, 2017)",
+            "iMac18,3": "iMac (Retina 5K, 27-inch, 2017)",
             "iMac19,1": "iMac (Retina 5K, 27-inch, 2019)",
             "iMac19,2": "iMac (Retina 4K, 21.5-inch, 2019)",
-            "iMacPro1,1": "iMac Pro",
-            "iMac18,3": "iMac (Retina 5K, 27-inch, 2017)",
-            "iMac18,2": "iMac (Retina 4K, 21.5-inch, 2017)",
-            "iMac18,1": "iMac (21.5-inch, 2017)",
-            "iMac17,1": "iMac (Retina 5K, 27-inch, Late 2015)",
-            "iMac16,2": "iMac (Retina 4K, 21.5-inch, Late 2015)",
-            "iMac16,1": "iMac (21.5-inch, Late 2015)",
-            "iMac15,1": "iMac (Retina 5K, 27-inch, Mid 2015)"
+            "iMac20,1": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac20,2": "iMac (Retina 5K, 27-inch, 2020)",
+            "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
+            "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
           }
         },
         {
-          "Model": "Mac Pro",
-          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Model": "iMac Pro",
+          "URL": "https://support.apple.com",
           "Identifiers": {
-            "MacPro7,1": "Mac Pro (2019)",
-            "MacPro6,1": "Mac Pro (Late 2013)"
+            "iMacPro1,1": "iMac Pro"
           }
         }
       ]
     }
   ],
   "XProtectPlistConfigData": {
-    "com.apple.XProtect": "5334",
-    "ReleaseDate": "2026-03-17T17:03:09Z"
+    "com.apple.XProtect": "5344",
+    "ReleaseDate": "2026-05-12T17:16:29Z"
   },
   "XProtectPayloads": {
     "com.apple.XProtectFramework.XProtect": "157",
     "com.apple.XprotectFramework.PluginService": "74",
-    "ReleaseDate": "2026-03-17T17:03:09Z"
+    "ReleaseDate": "2026-05-12T17:16:29Z"
   },
   "Models": {
     "Mac13,1": {
-      "MarketingName": "Mac Studio (2022)",
+      "MarketingName": "Mac Studio (M1 Max)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13060,7 +14124,7 @@
       ]
     },
     "Mac13,2": {
-      "MarketingName": "Mac Studio (2022)",
+      "MarketingName": "Mac Studio (M1 Ultra)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13077,7 +14141,7 @@
       ]
     },
     "Mac14,10": {
-      "MarketingName": "MacBook Pro (16-inch, 2023)",
+      "MarketingName": "MacBook Pro (16-inch, M2 Pro, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13092,24 +14156,22 @@
       ]
     },
     "Mac14,12": {
-      "MarketingName": "Mac mini (2023)",
+      "MarketingName": "Mac mini (M2 Pro, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13",
-        "Monterey 12"
+        "Ventura 13"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13,
-        12
+        13
       ]
     },
     "Mac14,13": {
-      "MarketingName": "Mac Studio (2023)",
+      "MarketingName": "Mac Studio (M2 Max, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13124,7 +14186,7 @@
       ]
     },
     "Mac14,14": {
-      "MarketingName": "Mac Studio (2023)",
+      "MarketingName": "Mac Studio (M2 Ultra, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13171,24 +14233,22 @@
       ]
     },
     "Mac14,3": {
-      "MarketingName": "Mac mini (2023)",
+      "MarketingName": "Mac mini (M2, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13",
-        "Monterey 12"
+        "Ventura 13"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13,
-        12
+        13
       ]
     },
     "Mac14,5": {
-      "MarketingName": "MacBook Pro (14-inch, 2023)",
+      "MarketingName": "MacBook Pro (14-inch, M2 Max, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13203,7 +14263,7 @@
       ]
     },
     "Mac14,6": {
-      "MarketingName": "MacBook Pro (16-inch, 2023)",
+      "MarketingName": "MacBook Pro (16-inch, M2 Max, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13223,17 +14283,19 @@
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13"
+        "Ventura 13",
+        "Monterey 12"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13
+        13,
+        12
       ]
     },
     "Mac14,8": {
-      "MarketingName": "Mac Pro (2023)",
+      "MarketingName": "Mac Pro (Rack, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13248,7 +14310,7 @@
       ]
     },
     "Mac14,9": {
-      "MarketingName": "MacBook Pro (14-inch, 2023)",
+      "MarketingName": "MacBook Pro (14-inch, M2 Pro, 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13263,33 +14325,29 @@
       ]
     },
     "Mac15,10": {
-      "MarketingName": "MacBook Pro (14-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13"
+        "Sonoma 14"
       ],
       "OSVersions": [
         26,
         15,
-        14,
-        13
+        14
       ]
     },
     "Mac15,11": {
-      "MarketingName": "MacBook Pro (16-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13"
+        "Sonoma 14"
       ],
       "OSVersions": [
         26,
         15,
-        14,
-        13
+        14
       ]
     },
     "Mac15,12": {
@@ -13319,7 +14377,7 @@
       ]
     },
     "Mac15,14": {
-      "MarketingName": "Mac Studio (2025)",
+      "MarketingName": "Mac Studio (M3 Ultra, 2025)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13330,7 +14388,7 @@
       ]
     },
     "Mac15,3": {
-      "MarketingName": "MacBook Pro (14-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (14-inch, M3, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13345,7 +14403,7 @@
       ]
     },
     "Mac15,4": {
-      "MarketingName": "iMac (24-inch, 2023)",
+      "MarketingName": "iMac (24-inch, M3, 2023, Two Ports)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13360,7 +14418,7 @@
       ]
     },
     "Mac15,5": {
-      "MarketingName": "iMac (24-inch, 2023)",
+      "MarketingName": "iMac (24-inch, M3, 2023, Four Ports)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -13375,67 +14433,59 @@
       ]
     },
     "Mac15,6": {
-      "MarketingName": "MacBook Pro (14-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13"
+        "Sonoma 14"
       ],
       "OSVersions": [
         26,
         15,
-        14,
-        13
+        14
       ]
     },
     "Mac15,7": {
-      "MarketingName": "MacBook Pro (16-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13"
+        "Sonoma 14"
       ],
       "OSVersions": [
         26,
         15,
-        14,
-        13
+        14
       ]
     },
     "Mac15,8": {
-      "MarketingName": "MacBook Pro (14-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13"
+        "Sonoma 14"
       ],
       "OSVersions": [
         26,
         15,
-        14,
-        13
+        14
       ]
     },
     "Mac15,9": {
-      "MarketingName": "MacBook Pro (16-inch, Nov 2023)",
+      "MarketingName": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13"
+        "Sonoma 14"
       ],
       "OSVersions": [
         26,
         15,
-        14,
-        13
+        14
       ]
     },
     "Mac16,1": {
-      "MarketingName": "MacBook Pro (14-inch, 2024)",
+      "MarketingName": "MacBook Pro (14-inch, M4, Nov 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13446,7 +14496,7 @@
       ]
     },
     "Mac16,10": {
-      "MarketingName": "Mac mini (2024)",
+      "MarketingName": "Mac mini (M4, 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13457,7 +14507,7 @@
       ]
     },
     "Mac16,11": {
-      "MarketingName": "Mac mini (2024)",
+      "MarketingName": "Mac mini (M4 Pro, 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13490,7 +14540,7 @@
       ]
     },
     "Mac16,2": {
-      "MarketingName": "iMac (24-inch, 2024, Two ports)",
+      "MarketingName": "iMac (24-inch, M4, 2024, Two Ports)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13501,7 +14551,7 @@
       ]
     },
     "Mac16,3": {
-      "MarketingName": "iMac (24-inch, 2024, Four ports)",
+      "MarketingName": "iMac (24-inch, M4, 2024, Four Ports)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13512,7 +14562,7 @@
       ]
     },
     "Mac16,5": {
-      "MarketingName": "MacBook Pro (14-inch, 2024)",
+      "MarketingName": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13523,7 +14573,7 @@
       ]
     },
     "Mac16,6": {
-      "MarketingName": "MacBook Pro (14-inch, 2024)",
+      "MarketingName": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13534,7 +14584,7 @@
       ]
     },
     "Mac16,7": {
-      "MarketingName": "MacBook Pro (14-inch, 2024)",
+      "MarketingName": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13545,7 +14595,7 @@
       ]
     },
     "Mac16,8": {
-      "MarketingName": "MacBook Pro (14-inch, 2024)",
+      "MarketingName": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13556,7 +14606,7 @@
       ]
     },
     "Mac16,9": {
-      "MarketingName": "Mac Studio (2025)",
+      "MarketingName": "Mac Studio (M4 Max, 2025)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15"
@@ -13567,7 +14617,70 @@
       ]
     },
     "Mac17,2": {
-      "MarketingName": "MacBook Pro (14-inch, M5)",
+      "MarketingName": "MacBook Pro 14-inch (M5)",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,3": {
+      "MarketingName": "MacBook Air (13-inch, M5)",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,4": {
+      "MarketingName": "MacBook Air (15-inch, M5)",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,5": {
+      "MarketingName": "MacBook Neo",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,6": {
+      "MarketingName": "MacBook Pro (16-inch, M5 Max)",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,7": {
+      "MarketingName": "MacBook Pro (14-inch, M5 Max)",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,8": {
+      "MarketingName": "MacBook Pro (16-inch, M5 Pro)",
+      "SupportedOS": [
+        "Tahoe 26"
+      ],
+      "OSVersions": [
+        26
+      ]
+    },
+    "Mac17,9": {
+      "MarketingName": "MacBook Pro (14-inch, M5 Pro)",
       "SupportedOS": [
         "Tahoe 26"
       ],
@@ -13577,17 +14690,6 @@
     },
     "MacBook10,1": {
       "MarketingName": "MacBook (Retina, 12-inch, 2017)",
-      "SupportedOS": [
-        "Ventura 13",
-        "Monterey 12"
-      ],
-      "OSVersions": [
-        13,
-        12
-      ]
-    },
-    "MacBook9,1": {
-      "MarketingName": "MacBook (Retina, 12-inch, Early 2016)",
       "SupportedOS": [
         "Monterey 12"
       ],
@@ -13701,9 +14803,11 @@
     "MacBookPro13,1": {
       "MarketingName": "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)",
       "SupportedOS": [
+        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
+        13,
         12
       ]
     },
@@ -13728,21 +14832,23 @@
     "MacBookPro14,1": {
       "MarketingName": "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)",
       "SupportedOS": [
-        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
-        13,
         12
       ]
     },
     "MacBookPro14,2": {
       "MarketingName": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports)",
       "SupportedOS": [
+        "Sequoia 15",
+        "Sonoma 14",
         "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
+        15,
+        14,
         13,
         12
       ]
@@ -13789,7 +14895,7 @@
       ]
     },
     "MacBookPro15,3": {
-      "MarketingName": "MacBook Pro (15-inch, 2018)",
+      "MarketingName": "MacBook Pro (15-inch, 2019)",
       "SupportedOS": [
         "Sequoia 15",
         "Sonoma 14",
@@ -13902,63 +15008,71 @@
       ]
     },
     "MacBookPro18,1": {
-      "MarketingName": "MacBook Pro (16-inch, 2021)",
+      "MarketingName": "MacBook Pro (16-inch, M1 Pro, 2021)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13"
+        "Ventura 13",
+        "Monterey 12"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13
+        13,
+        12
       ]
     },
     "MacBookPro18,2": {
-      "MarketingName": "MacBook Pro (16-inch, 2021)",
+      "MarketingName": "MacBook Pro (16-inch, M1 Max, 2021)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13"
+        "Ventura 13",
+        "Monterey 12"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13
+        13,
+        12
       ]
     },
     "MacBookPro18,3": {
-      "MarketingName": "MacBook Pro (14-inch, 2021)",
+      "MarketingName": "MacBook Pro (14-inch, M1 Pro, 2021)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13"
+        "Ventura 13",
+        "Monterey 12"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13
+        13,
+        12
       ]
     },
     "MacBookPro18,4": {
-      "MarketingName": "MacBook Pro (14-inch, 2021)",
+      "MarketingName": "MacBook Pro (14-inch, M1 Max, 2021)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
-        "Ventura 13"
+        "Ventura 13",
+        "Monterey 12"
       ],
       "OSVersions": [
         26,
         15,
         14,
-        13
+        13,
+        12
       ]
     },
     "MacPro6,1": {
@@ -13972,6 +15086,23 @@
     },
     "MacPro7,1": {
       "MarketingName": "Mac Pro (2019)",
+      "SupportedOS": [
+        "Tahoe 26",
+        "Sequoia 15",
+        "Sonoma 14",
+        "Ventura 13",
+        "Monterey 12"
+      ],
+      "OSVersions": [
+        26,
+        15,
+        14,
+        13,
+        12
+      ]
+    },
+    "MacPro7,1-Rack": {
+      "MarketingName": "Mac Pro (Rack, 2019)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -14012,7 +15143,41 @@
       ]
     },
     "Macmini9,1": {
-      "MarketingName": "Mac mini (M1, 2020)",
+      "MarketingName": "Mac mini (M1, Late 2020)",
+      "SupportedOS": [
+        "Tahoe 26",
+        "Sequoia 15",
+        "Sonoma 14",
+        "Ventura 13",
+        "Monterey 12"
+      ],
+      "OSVersions": [
+        26,
+        15,
+        14,
+        13,
+        12
+      ]
+    },
+    "VMM-x86_64": {
+      "MarketingName": "Virtual Machine (x86_64)",
+      "SupportedOS": [
+        "Tahoe 26",
+        "Sequoia 15",
+        "Sonoma 14",
+        "Ventura 13",
+        "Monterey 12"
+      ],
+      "OSVersions": [
+        26,
+        15,
+        14,
+        13,
+        12
+      ]
+    },
+    "VirtualMac2,1": {
+      "MarketingName": "Apple Virtual Machine",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -14040,18 +15205,26 @@
     "iMac16,1": {
       "MarketingName": "iMac (21.5-inch, Late 2015)",
       "SupportedOS": [
+        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
+        13,
         12
       ]
     },
     "iMac16,2": {
       "MarketingName": "iMac (Retina 4K, 21.5-inch, Late 2015)",
       "SupportedOS": [
+        "Sequoia 15",
+        "Sonoma 14",
+        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
+        15,
+        14,
+        13,
         12
       ]
     },
@@ -14067,11 +15240,9 @@
     "iMac18,1": {
       "MarketingName": "iMac (21.5-inch, 2017)",
       "SupportedOS": [
-        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
-        13,
         12
       ]
     },
@@ -14115,29 +15286,21 @@
     "iMac19,2": {
       "MarketingName": "iMac (Retina 4K, 21.5-inch, 2019)",
       "SupportedOS": [
-        "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
-        15,
-        14,
-        13,
         12
       ]
     },
     "iMac20,1": {
       "MarketingName": "iMac (Retina 5K, 27-inch, 2020)",
       "SupportedOS": [
-        "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
-        26,
         15,
         14,
         13,
@@ -14147,22 +15310,14 @@
     "iMac20,2": {
       "MarketingName": "iMac (Retina 5K, 27-inch, 2020)",
       "SupportedOS": [
-        "Tahoe 26",
-        "Sequoia 15",
-        "Sonoma 14",
-        "Ventura 13",
         "Monterey 12"
       ],
       "OSVersions": [
-        26,
-        15,
-        14,
-        13,
         12
       ]
     },
     "iMac21,1": {
-      "MarketingName": "iMac (24-inch, M1, 2021)",
+      "MarketingName": "iMac (24-inch, M1, 2021, Four Ports)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -14179,7 +15334,7 @@
       ]
     },
     "iMac21,2": {
-      "MarketingName": "iMac (24-inch, M1, 2021)",
+      "MarketingName": "iMac (24-inch, M1, 2021, Two Ports)",
       "SupportedOS": [
         "Tahoe 26",
         "Sequoia 15",
@@ -14214,14 +15369,41 @@
   "InstallationApps": {
     "LatestUMA": {
       "title": "macOS Tahoe",
-      "version": "26.3.2",
-      "build": "25D2140",
-      "apple_slug": "047-94768",
-      "url": "https://swcdn.apple.com/content/downloads/24/35/047-94768-A_ZZXLGKDRHB/e4ehfk9oftcepxzqwc5k8so03dj7c0i8vf/InstallAssistant.pkg",
-      "posting_date": "2026-03-11T21:38:31Z",
-      "size": 17941699481
+      "version": "26.5",
+      "build": "25F71",
+      "apple_slug": "122-77688",
+      "url": "https://swcdn.apple.com/content/downloads/51/26/122-77688-A_F01L27Y7Q6/7e8t8w89evbl6sgkoy9jhrmw2tqfkhjsd9/InstallAssistant.pkg",
+      "posting_date": "2026-05-11T17:19:39Z",
+      "size": 18308485578
     },
     "AllPreviousUMA": [
+      {
+        "title": "macOS Tahoe",
+        "version": "26.4.1",
+        "build": "25E253",
+        "apple_slug": "122-28067",
+        "url": "https://swcdn.apple.com/content/downloads/40/56/122-28067-A_9B4FJ1TL06/zchwyidn8ubxkpelhytzb05o418bchr2se/InstallAssistant.pkg",
+        "posting_date": "2026-04-13T23:15:31Z",
+        "size": 18249548049
+      },
+      {
+        "title": "macOS Tahoe",
+        "version": "26.4",
+        "build": "25E246",
+        "apple_slug": "122-10756",
+        "url": "https://swcdn.apple.com/content/downloads/48/33/122-10756-A_YQ9DW48PY4/y7tlsqmgdnno1pkaf137h2l3gmq0t0ywaz/InstallAssistant.pkg",
+        "posting_date": "2026-03-24T17:42:50Z",
+        "size": 18245968224
+      },
+      {
+        "title": "macOS Tahoe",
+        "version": "26.3.2",
+        "build": "25D2140",
+        "apple_slug": "047-94768",
+        "url": "https://swcdn.apple.com/content/downloads/24/35/047-94768-A_ZZXLGKDRHB/e4ehfk9oftcepxzqwc5k8so03dj7c0i8vf/InstallAssistant.pkg",
+        "posting_date": "2026-03-11T21:38:31Z",
+        "size": 17941699481
+      },
       {
         "title": "macOS Tahoe",
         "version": "26.3.1",
@@ -14260,6 +15442,24 @@
       },
       {
         "title": "macOS Sequoia",
+        "version": "15.7.7",
+        "build": "24G720",
+        "apple_slug": "122-77920",
+        "url": "https://swcdn.apple.com/content/downloads/08/08/122-77920-A_24DGKW16ZQ/p2g06dyhtgf9mgf2yt1p4ihzvkkk91qvlf/InstallAssistant.pkg",
+        "posting_date": "2026-05-11T17:29:07Z",
+        "size": 15662335308
+      },
+      {
+        "title": "macOS Sequoia",
+        "version": "15.7.5",
+        "build": "24G624",
+        "apple_slug": "047-96175",
+        "url": "https://swcdn.apple.com/content/downloads/22/06/047-96175-A_196UW6QK9G/dx1bmt6mb0q3llh0iyingau9ld5liod96r/InstallAssistant.pkg",
+        "posting_date": "2026-03-24T18:11:18Z",
+        "size": 15662743039
+      },
+      {
+        "title": "macOS Sequoia",
         "version": "15.7.4",
         "build": "24G517",
         "apple_slug": "047-48630",
@@ -14284,6 +15484,24 @@
         "url": "https://swcdn.apple.com/content/downloads/23/34/093-99065-A_B4TEYIISAM/1a1ddvynvgdh82ev879kh13y2a3trwr18v/InstallAssistant.pkg",
         "posting_date": "2025-11-03T21:41:50Z",
         "size": 15658844828
+      },
+      {
+        "title": "macOS Sonoma",
+        "version": "14.8.7",
+        "build": "23J520",
+        "apple_slug": "122-77891",
+        "url": "https://swcdn.apple.com/content/downloads/61/03/122-77891-A_GYK4YJ2CRM/8xrsgsownndvprmza1q0cvbsppw3ohtk85/InstallAssistant.pkg",
+        "posting_date": "2026-05-11T17:30:42Z",
+        "size": 13671523298
+      },
+      {
+        "title": "macOS Sonoma",
+        "version": "14.8.5",
+        "build": "23J423",
+        "apple_slug": "047-96015",
+        "url": "https://swcdn.apple.com/content/downloads/23/16/047-96015-A_F2ZJ8P7940/aknn1yshpkeeg1l3hgz7saai1d0zguw31y/InstallAssistant.pkg",
+        "posting_date": "2026-03-24T18:12:54Z",
+        "size": 13674180450
       },
       {
         "title": "macOS Sonoma",
@@ -14359,10 +15577,10 @@
       }
     ],
     "LatestMacIPSW": {
-      "macos_ipsw_url": "https://updates.cdn-apple.com/2026WinterFCS/fullrestores/047-88313/2E098049-1731-4415-A206-546D09301973/UniversalMac_26.3.1_25D2128_Restore.ipsw",
-      "macos_ipsw_build": "25D2128",
-      "macos_ipsw_version": "26.3.1",
-      "macos_ipsw_apple_slug": "047-88313"
+      "macos_ipsw_url": "https://updates.cdn-apple.com/2026SpringFCS/fullrestores/122-58869/DFB1CEEF-5619-4591-9924-E20DB2C8FED0/UniversalMac_26.5_25F71_Restore.ipsw",
+      "macos_ipsw_build": "25F71",
+      "macos_ipsw_version": "26.5",
+      "macos_ipsw_apple_slug": "122-58869"
     }
   }
 }
