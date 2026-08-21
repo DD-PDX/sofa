@@ -1,8 +1,648 @@
 {
-  "UpdateHash": "0e2614a5b1aa3315f243cbe6960a2d4de54127f11cae6e27dcc18ee22fcb052f",
+  "UpdateHash": "6d1042825a38c34cb5c112a2010491fec5278e6a81a3efa69406865a509904bc",
   "created_at": "2025-10-07T06:11:55.252778Z",
   "description": "Historical archive of Apple OS releases including betas removed from current feed",
   "items": [
+    {
+      "title": "iOS 27.0 beta 6 (24A5418b)",
+      "platform": "iOS",
+      "version": "27.0 beta 6",
+      "build": "24A5418b",
+      "released": "2026-08-17",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27_0-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.0 beta 6 (26A5416b)",
+      "platform": "macOS",
+      "version": "27.0 beta 6",
+      "build": "26A5416b",
+      "released": "2026-08-17",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27_0-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27.0 beta 6 (24J5353b)",
+      "platform": "tvOS",
+      "version": "27.0 beta 6",
+      "build": "24J5353b",
+      "released": "2026-08-17",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27_0-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27.0 beta 6 (24M5355a)",
+      "platform": "visionOS",
+      "version": "27.0 beta 6",
+      "build": "24M5355a",
+      "released": "2026-08-17",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27_0-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27.0 beta 6 (24R5353a)",
+      "platform": "watchOS",
+      "version": "27.0 beta 6",
+      "build": "24R5353a",
+      "released": "2026-08-17",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27_0-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 27 beta 5 (27A5237l)",
+      "platform": "Xcode",
+      "version": "27 beta 5",
+      "build": "27A5237l",
+      "released": "2026-08-10",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-27-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 27.0 beta 5 (24A5408d)",
+      "platform": "iOS",
+      "version": "27.0 beta 5",
+      "build": "24A5408d",
+      "released": "2026-08-10",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.0 beta 5 (26A5406e)",
+      "platform": "macOS",
+      "version": "27.0 beta 5",
+      "build": "26A5406e",
+      "released": "2026-08-10",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27.0 beta 5 (24J5346a)",
+      "platform": "tvOS",
+      "version": "27.0 beta 5",
+      "build": "24J5346a",
+      "released": "2026-08-10",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27.0 beta 5 (24M5348b)",
+      "platform": "visionOS",
+      "version": "27.0 beta 5",
+      "build": "24M5348b",
+      "released": "2026-08-10",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27.0 beta 5 (24R5347a)",
+      "platform": "watchOS",
+      "version": "27.0 beta 5",
+      "build": "24R5347a",
+      "released": "2026-08-10",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 27 beta 4 (27A5228h)",
+      "platform": "Xcode",
+      "version": "27 beta 4",
+      "build": "27A5228h",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-27-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 27.0 beta 4 (24A5390f)",
+      "platform": "iOS",
+      "version": "27.0 beta 4",
+      "build": "24A5390f",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 26.6 RC (23G71)",
+      "platform": "iOS",
+      "version": "26.6 RC",
+      "build": "23G71",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.0 beta 4 (26A5388g)",
+      "platform": "macOS",
+      "version": "27.0 beta 4",
+      "build": "26A5388g",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 26.6 RC (25G70)",
+      "platform": "macOS",
+      "version": "26.6 RC",
+      "build": "25G70",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27.0 beta 4 (24J5325d)",
+      "platform": "tvOS",
+      "version": "27.0 beta 4",
+      "build": "24J5325d",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 26.6 RC (23L772)",
+      "platform": "tvOS",
+      "version": "26.6 RC",
+      "build": "23L772",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 26.6 RC (23O770)",
+      "platform": "visionOS",
+      "version": "26.6 RC",
+      "build": "23O770",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27.0 beta 4 (24M5326g)",
+      "platform": "visionOS",
+      "version": "27.0 beta 4",
+      "build": "24M5326g",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 26.6 RC (23U67)",
+      "platform": "watchOS",
+      "version": "26.6 RC",
+      "build": "23U67",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27.0 beta 4 (24R5325h)",
+      "platform": "watchOS",
+      "version": "27.0 beta 4",
+      "build": "24R5325h",
+      "released": "2026-07-20",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 26.6 beta 5 (23G5065a)",
+      "platform": "iOS",
+      "version": "26.6 beta 5",
+      "build": "23G5065a",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iPadOS 27.0 beta 3 v.2 (24A5380l)",
+      "platform": "iPadOS",
+      "version": "27.0 beta 3 v.2",
+      "build": "24A5380l",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=ipados-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.0 beta 3 v.2 (26A5378n)",
+      "platform": "macOS",
+      "version": "27.0 beta 3 v.2",
+      "build": "26A5378n",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 26.6 beta 5 (25G5065a)",
+      "platform": "macOS",
+      "version": "26.6 beta 5",
+      "build": "25G5065a",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 26.6 beta 5 (23L5766a)",
+      "platform": "tvOS",
+      "version": "26.6 beta 5",
+      "build": "23L5766a",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 26.6 beta 5 (23O5765a)",
+      "platform": "visionOS",
+      "version": "26.6 beta 5",
+      "build": "23O5765a",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 26.6 beta 5 (23U5062b)",
+      "platform": "watchOS",
+      "version": "26.6 beta 5",
+      "build": "23U5062b",
+      "released": "2026-07-13",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 27 beta 3 (27A5218g)",
+      "platform": "Xcode",
+      "version": "27 beta 3",
+      "build": "27A5218g",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-27-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 27.0 beta 3 (24A5380h)",
+      "platform": "iOS",
+      "version": "27.0 beta 3",
+      "build": "24A5380h",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 26.6 beta 4 (23G5057c)",
+      "platform": "iOS",
+      "version": "26.6 beta 4",
+      "build": "23G5057c",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.0 beta 3 (26A5378j)",
+      "platform": "macOS",
+      "version": "27.0 beta 3",
+      "build": "26A5378j",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 26.6 beta 4 (25G5057c)",
+      "platform": "macOS",
+      "version": "26.6 beta 4",
+      "build": "25G5057c",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27.0 beta 3 (24J5315i)",
+      "platform": "tvOS",
+      "version": "27.0 beta 3",
+      "build": "24J5315i",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 26.6 beta 4 (23L5758b)",
+      "platform": "tvOS",
+      "version": "26.6 beta 4",
+      "build": "23L5758b",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27.0 beta 3 (24M5316k)",
+      "platform": "visionOS",
+      "version": "27.0 beta 3",
+      "build": "24M5316k",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 26.6 beta 4 (23O5757c)",
+      "platform": "visionOS",
+      "version": "26.6 beta 4",
+      "build": "23O5757c",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27.0 beta 3 (24R5315i)",
+      "platform": "watchOS",
+      "version": "27.0 beta 3",
+      "build": "24R5315i",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 26.6 beta 4 (23U5054b)",
+      "platform": "watchOS",
+      "version": "26.6 beta 4",
+      "build": "23U5054b",
+      "released": "2026-07-06",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 26.6 beta 3 (23G5052d)",
+      "platform": "iOS",
+      "version": "26.6 beta 3",
+      "build": "23G5052d",
+      "released": "2026-06-29",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 26.6 beta 3 (25G5052e)",
+      "platform": "macOS",
+      "version": "26.6 beta 3",
+      "build": "25G5052e",
+      "released": "2026-06-29",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 26.6 beta 3 (23L5753c)",
+      "platform": "tvOS",
+      "version": "26.6 beta 3",
+      "build": "23L5753c",
+      "released": "2026-06-29",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 26.6 beta 3 (23O5752d)",
+      "platform": "visionOS",
+      "version": "26.6 beta 3",
+      "build": "23O5752d",
+      "released": "2026-06-29",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 26.6 beta 3 (23U5049c)",
+      "platform": "watchOS",
+      "version": "26.6 beta 3",
+      "build": "23U5049c",
+      "released": "2026-06-29",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27.0 beta 2 (24R5305g)",
+      "platform": "watchOS",
+      "version": "27.0 beta 2",
+      "build": "24R5305g",
+      "released": "2026-06-23",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 27 beta 2 (27A5209h)",
+      "platform": "Xcode",
+      "version": "27 beta 2",
+      "build": "27A5209h",
+      "released": "2026-06-22",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-27-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 27.0 beta 2 (24A5370h)",
+      "platform": "iOS",
+      "version": "27.0 beta 2",
+      "build": "24A5370h",
+      "released": "2026-06-22",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27.0 beta 2 (26A5368g)",
+      "platform": "macOS",
+      "version": "27.0 beta 2",
+      "build": "26A5368g",
+      "released": "2026-06-22",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27.0 beta 2 (24J5305f)",
+      "platform": "tvOS",
+      "version": "27.0 beta 2",
+      "build": "24J5305f",
+      "released": "2026-06-22",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27.0 beta 2 (24M5306i)",
+      "platform": "visionOS",
+      "version": "27.0 beta 2",
+      "build": "24M5306i",
+      "released": "2026-06-22",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 26.6 RC 2 (17F113)",
+      "platform": "Xcode",
+      "version": "26.6 RC 2",
+      "build": "17F113",
+      "released": "2026-06-18",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-26_6-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 26.6 beta 2 (23G5043d)",
+      "platform": "iOS",
+      "version": "26.6 beta 2",
+      "build": "23G5043d",
+      "released": "2026-06-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 26.6 beta 2 (25G5043d)",
+      "platform": "macOS",
+      "version": "26.6 beta 2",
+      "build": "25G5043d",
+      "released": "2026-06-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 26.6 beta 2 (23L5744d)",
+      "platform": "tvOS",
+      "version": "26.6 beta 2",
+      "build": "23L5744d",
+      "released": "2026-06-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 26.6 beta 2 (23O5743c)",
+      "platform": "visionOS",
+      "version": "26.6 beta 2",
+      "build": "23O5743c",
+      "released": "2026-06-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 26.6 beta 2 (23U5040d)",
+      "platform": "watchOS",
+      "version": "26.6 beta 2",
+      "build": "23U5040d",
+      "released": "2026-06-15",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-26_6-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 27 beta (27A5194q)",
+      "platform": "Xcode",
+      "version": "27 beta",
+      "build": "27A5194q",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-27-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "Xcode 26.6 RC (17F109)",
+      "platform": "Xcode",
+      "version": "26.6 RC",
+      "build": "17F109",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=xcode-26_6-sdk-rn",
+      "downloads_url": "https://developer.apple.com/download/applications",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "iOS 27 beta (24A5355q)",
+      "platform": "iOS",
+      "version": "27 beta",
+      "build": "24A5355q",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=ios-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "macOS 27 beta (26A5353q)",
+      "platform": "macOS",
+      "version": "27 beta",
+      "build": "26A5353q",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=macos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "tvOS 27 beta (24J5289o)",
+      "platform": "tvOS",
+      "version": "27 beta",
+      "build": "24J5289o",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=tvos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "visionOS 27 beta (24M5291p)",
+      "platform": "visionOS",
+      "version": "27 beta",
+      "build": "24M5291p",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=visionos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
+    {
+      "title": "watchOS 27 beta (24R5289n)",
+      "platform": "watchOS",
+      "version": "27 beta",
+      "build": "24R5289n",
+      "released": "2026-06-08",
+      "release_notes_url": "https://developer.apple.com/go/?id=watchos-27-rn",
+      "downloads_url": "https://developer.apple.com/download/os",
+      "source_card_url": "https://developer.apple.com/news/releases/"
+    },
     {
       "title": "iOS 26.6 beta (23G5028e)",
       "platform": "iOS",
@@ -1484,5 +2124,5 @@
       "source_card_url": "https://developer.apple.com/news/releases/"
     }
   ],
-  "last_updated": "2026-05-26T18:04:24.801205Z"
+  "last_updated": "2026-08-17T18:12:01.816020Z"
 }
