@@ -69,22 +69,22 @@ fi
 # echo
 
 if [[ ! -f "$json_cache" ]]; then
-    echo "<result>Could not obtain data</result>"
+    echo "Could not obtain data"
     exit 1
 elif [[ "$os_compatibility" == "legacy" ]]; then
     if ! "$python_path" -c 'import sys, json; print json.load(sys.stdin)["UpdateHash"]' < "$json_cache" > /dev/null; then
-        echo "<result>Could not obtain data</result>"
+        echo "Could not obtain data"
         exit 1
     fi
 elif ! /usr/bin/plutil -extract "UpdateHash" raw "$json_cache" > /dev/null; then
-    echo "<result>Could not obtain data</result>"
+    echo "Could not obtain data"
     exit 1
 fi
 
 # Get model (DeviceID)
 model=$(/usr/sbin/sysctl -n hw.model)
 if [[ -z "$model" ]]; then
-    echo "<result>Could not obtain model</result>"
+    echo "Could not obtain model"
     exit
 fi
 # echo "Model Identifier: $model"
@@ -94,7 +94,7 @@ if [[ $model == "VirtualMac"* ]]; then
     # if virtual, we need to arbitrarily choose a model that supports all current OSes. Plucked for an M1 Mac mini
     model="Macmini9,1"
 elif ! grep -q "$model" "$json_cache"; then
-    echo "<result>Unsupported Hardware</result>"
+    echo "Unsupported Hardware"
     exit 1
 fi
 

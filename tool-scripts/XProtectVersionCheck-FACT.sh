@@ -62,6 +62,10 @@ fi
 
 # 1. Get model (DeviceID)
 model=$(/usr/sbin/sysctl -n hw.model)
+if [[ -z "$model" ]]; then
+    echo "Could not obtain model"
+    exit 1
+fi
 # echo "Model Identifier: $model"
 
 # 2. Get current system OS
@@ -71,7 +75,7 @@ system_os=$(cut -d. -f1 <<< "$system_version")
 
 # exit if less than macOS 12
 if ! is-at-least 12 "$system_os"; then
-    echo "<result>Unsupported macOS</result>"
+    echo "Unsupported macOS"
     exit 1
 fi
 

@@ -92,5 +92,5 @@ if [[ "$((latest_os-latest_os))" == 0 ]]; then
 #     echo "<result>$((latest_os-system_os))</result>"
     echo "$((latest_os-system_os))"
 else
-    echo "<result></result>"
+    echo ""
 fi

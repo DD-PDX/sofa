@@ -53,6 +53,10 @@ fi
 
 # 1. Get model (DeviceID)
 model=$(/usr/sbin/sysctl -n hw.model)
+if [[ -z "$model" ]]; then
+    echo "Could not obtain model"
+    exit 1
+fi
 # echo "Model Identifier: $model"
 
 # check that the model is virtual or is in the feed at all
@@ -60,7 +64,7 @@ if [[ $model == "VirtualMac"* ]]; then
     # if virtual, we need to arbitrarily choose a model that supports all current OSes. Plucked for an M1 Mac mini
     model="Macmini9,1"
 elif ! grep -q "$model" "$json_cache"; then
-    echo "<result>Unsupported Hardware</result>"
+    echo "Unsupported Hardware"
     exit 1
 fi
 
@@ -74,7 +78,7 @@ system_os=$(cut -d. -f1 <<< "$system_version")
 
 # exit if less than macOS 12
 if ! is-at-least 12 "$system_os"; then
-    echo "<result>Unsupported macOS</result>"
+    echo "Unsupported macOS"
     exit 1
 fi
 
