@@ -87,7 +87,14 @@ latest_compatible_os=$(/usr/bin/plutil -extract "Models.$model.SupportedOS.0" ra
 # echo "Latest Compatible macOS: $latest_compatible_os"
 
 # 4. Get OSVersions.Latest.ProductVersion
-for i in {0..3}; do
+# count the OSVersions entries rather than assuming a fixed number
+os_versions_count=$(/usr/bin/plutil -extract "OSVersions" raw "$json_cache" | /usr/bin/head -n 1)
+if [[ ! "$os_versions_count" =~ ^[0-9]+$ ]]; then
+    echo "Could not obtain data"
+    exit 1
+fi
+
+for (( i=0; i<os_versions_count; i++ )); do
     os_version=$(/usr/bin/plutil -extract "OSVersions.$i.OSVersion" raw "$json_cache" | /usr/bin/head -n 1 | grep -v "<stdin>")
     if [[ $os_version ]]; then
         if [[ "$os_version" == "$latest_compatible_os" ]]; then

@@ -105,7 +105,7 @@ fi
 # Get the latest macOS major version and the max compatible major version for this model
 if [[ "$os_compatibility" == "current" ]]; then
     os_version=$( /usr/bin/plutil -extract "OSVersions.0.Latest.ProductVersion" raw "$json_cache" | /usr/bin/head -n 1 | /usr/bin/grep -v "<stdin>" )
-    # SupportedOS.0 returns "Name Version" e.g. "Tahoe 26" or "Sequoia 15"
+    # SupportedOS.0 returns "Name Version" e.g. "Golden Gate 27" or "Sequoia 15"
     latest_compatible_os_string=$( /usr/bin/plutil -extract "Models.$model.SupportedOS.0" raw -expect string "$json_cache" | /usr/bin/head -n 1 )
 else
     os_version=$( "$python_path" -c 'import sys, json; print json.load(sys.stdin)["OSVersions"][0]["Latest"]["ProductVersion"]' < "$json_cache" | /usr/bin/head -n 1 )
@@ -113,8 +113,9 @@ else
 fi
 
 latest_os=$( /usr/bin/cut -d. -f1 <<< "$os_version" )
-# Extract the version number from the "Name Version" string
-max_compatible_os=$( /usr/bin/cut -d' ' -f2 <<< "$latest_compatible_os_string" )
+# Extract the version number from the "Name Version" string.
+# The name can contain spaces (e.g. "Golden Gate 27"), so take the last field.
+max_compatible_os=$( /usr/bin/awk '{print $NF}' <<< "$latest_compatible_os_string" )
 # echo "Latest Major Version: $latest_os"
 # echo "Max Compatible Major Version: $max_compatible_os"
 
