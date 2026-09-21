@@ -46,3 +46,7 @@ echo "Max Major Version:"
 scriptPath="/tmp/macOSMaxMajorVersionCheck-FACT.sh"
 scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSMaxMajorVersionCheck-FACT.sh"
 runScript
+echo "Latest Minor Version of Installed macOS:"
+scriptPath="/tmp/macOSLatestMinorVersionCheck-FACT.sh"
+scriptURL="https://raw.githubusercontent.com/DD-PDX/sofa/main/tool-scripts/macOSLatestMinorVersionCheck-FACT.sh"
+runScript
