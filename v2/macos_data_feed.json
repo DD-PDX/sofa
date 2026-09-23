@@ -1,24 +1,701 @@
 {
   "SchemaVersion": "2026.04.11.2",
   "Version": "2.0",
-  "UpdateHash": "5da4bf08483764868d925660da253c94041846f1e6e5201ef625d98d1f334a2f",
-  "LastCheck": "2026-09-14T12:47:49.884510617+00:00",
+  "UpdateHash": "54e0de62a996b17cdde683b4f053bfad5e91473921599700d70ec8d2ee4d64ea",
+  "LastCheck": "2026-09-23T01:07:26.186669110+00:00",
   "OSVersions": [
+    {
+      "OSVersion": "Golden Gate 27",
+      "Latest": {
+        "UpdateName": "macOS Golden Gate 27",
+        "ProductName": "macOS",
+        "ProductVersion": "27.0",
+        "Build": "26A5428",
+        "AllBuilds": [
+          "26A5428",
+          "26A428"
+        ],
+        "ReleaseDate": "2026-09-14T00:00:00Z",
+        "ExpirationDate": "2026-12-22",
+        "ReleaseType": "OS",
+        "SecurityInfo": "https://support.apple.com/en-us/149035",
+        "SecurityInfoContext": "macOS Golden Gate has been updated to version 27.0, released on September 14, 2026. This update addresses 210 security issues and is the most recent approved version.",
+        "SupportedDevices": [
+          "J180dAP",
+          "J274AP",
+          "J293AP",
+          "J313AP",
+          "J314cAP",
+          "J314sAP",
+          "J316cAP",
+          "J316sAP",
+          "J375cAP",
+          "J375dAP",
+          "J413AP",
+          "J414cAP",
+          "J414sAP",
+          "J415AP",
+          "J416cAP",
+          "J416sAP",
+          "J433AP",
+          "J434AP",
+          "J456AP",
+          "J457AP",
+          "J473AP",
+          "J474sAP",
+          "J475cAP",
+          "J475dAP",
+          "J493AP",
+          "J504AP",
+          "J514cAP",
+          "J514mAP",
+          "J514sAP",
+          "J516cAP",
+          "J516mAP",
+          "J516sAP",
+          "J575cAP",
+          "J575dAP",
+          "J604AP",
+          "J613AP",
+          "J614cAP",
+          "J614sAP",
+          "J615AP",
+          "J616cAP",
+          "J616sAP",
+          "J623AP",
+          "J624AP",
+          "J700AP",
+          "J704AP",
+          "J713AP",
+          "J714cAP",
+          "J714sAP",
+          "J715AP",
+          "J716cAP",
+          "J716sAP",
+          "J773gAP",
+          "J773sAP",
+          "J775cAP",
+          "J775dAP",
+          "J813AP",
+          "J815AP",
+          "J873gAP",
+          "J873sAP",
+          "VMA2MACOSAP"
+        ],
+        "CVEs": {
+          "CVE-2022-3437": {},
+          "CVE-2026-20683": {},
+          "CVE-2026-28899": {},
+          "CVE-2026-28934": {},
+          "CVE-2026-28937": {},
+          "CVE-2026-28966": {},
+          "CVE-2026-28968": {},
+          "CVE-2026-28969": {},
+          "CVE-2026-34979": {},
+          "CVE-2026-43664": {},
+          "CVE-2026-43677": {},
+          "CVE-2026-43683": {},
+          "CVE-2026-43684": {},
+          "CVE-2026-43686": {},
+          "CVE-2026-43687": {},
+          "CVE-2026-43688": {},
+          "CVE-2026-43689": {},
+          "CVE-2026-43690": {},
+          "CVE-2026-43691": {},
+          "CVE-2026-43692": {},
+          "CVE-2026-43695": {},
+          "CVE-2026-43696": {},
+          "CVE-2026-43697": {},
+          "CVE-2026-43698": {},
+          "CVE-2026-43719": {},
+          "CVE-2026-43737": {},
+          "CVE-2026-43738": {},
+          "CVE-2026-43741": {},
+          "CVE-2026-43785": {},
+          "CVE-2026-43786": {},
+          "CVE-2026-43787": {},
+          "CVE-2026-43788": {},
+          "CVE-2026-43789": {},
+          "CVE-2026-43790": {},
+          "CVE-2026-43791": {},
+          "CVE-2026-64712": {},
+          "CVE-2026-64714": {},
+          "CVE-2026-64718": {},
+          "CVE-2026-64752": {},
+          "CVE-2026-64753": {},
+          "CVE-2026-64756": {},
+          "CVE-2026-64760": {},
+          "CVE-2026-64790": {},
+          "CVE-2026-65342": {},
+          "CVE-2026-65344": {},
+          "CVE-2026-65345": {},
+          "CVE-2026-65348": {},
+          "CVE-2026-65354": {},
+          "CVE-2026-65358": {},
+          "CVE-2026-65359": {},
+          "CVE-2026-65360": {},
+          "CVE-2026-65361": {},
+          "CVE-2026-65362": {},
+          "CVE-2026-65364": {},
+          "CVE-2026-65365": {},
+          "CVE-2026-65369": {},
+          "CVE-2026-65374": {},
+          "CVE-2026-65375": {},
+          "CVE-2026-65376": {},
+          "CVE-2026-65377": {},
+          "CVE-2026-65378": {},
+          "CVE-2026-65380": {},
+          "CVE-2026-65381": {},
+          "CVE-2026-65382": {},
+          "CVE-2026-65383": {},
+          "CVE-2026-65393": {},
+          "CVE-2026-65395": {},
+          "CVE-2026-65398": {},
+          "CVE-2026-65399": {},
+          "CVE-2026-65400": {
+            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+            "ActivelyExploited": true,
+            "InKEV": true,
+            "Severity": "Critical"
+          },
+          "CVE-2026-65401": {},
+          "CVE-2026-65402": {},
+          "CVE-2026-65403": {},
+          "CVE-2026-65404": {},
+          "CVE-2026-65405": {},
+          "CVE-2026-65406": {},
+          "CVE-2026-65407": {},
+          "CVE-2026-65408": {},
+          "CVE-2026-65409": {},
+          "CVE-2026-65410": {},
+          "CVE-2026-65412": {},
+          "CVE-2026-65413": {},
+          "CVE-2026-65414": {},
+          "CVE-2026-65415": {},
+          "CVE-2026-84487": {},
+          "CVE-2026-84489": {},
+          "CVE-2026-84491": {},
+          "CVE-2026-84492": {},
+          "CVE-2026-84497": {},
+          "CVE-2026-84505": {},
+          "CVE-2026-84506": {},
+          "CVE-2026-84507": {},
+          "CVE-2026-84509": {},
+          "CVE-2026-84510": {},
+          "CVE-2026-84511": {},
+          "CVE-2026-84512": {},
+          "CVE-2026-84513": {},
+          "CVE-2026-84514": {},
+          "CVE-2026-84515": {},
+          "CVE-2026-84516": {},
+          "CVE-2026-84517": {},
+          "CVE-2026-84518": {},
+          "CVE-2026-84519": {},
+          "CVE-2026-84520": {},
+          "CVE-2026-84521": {},
+          "CVE-2026-84522": {},
+          "CVE-2026-84523": {},
+          "CVE-2026-84524": {},
+          "CVE-2026-84525": {},
+          "CVE-2026-84526": {},
+          "CVE-2026-84527": {},
+          "CVE-2026-84530": {},
+          "CVE-2026-84531": {},
+          "CVE-2026-84532": {},
+          "CVE-2026-84533": {},
+          "CVE-2026-84534": {},
+          "CVE-2026-84535": {},
+          "CVE-2026-84536": {},
+          "CVE-2026-84537": {},
+          "CVE-2026-84538": {},
+          "CVE-2026-84540": {},
+          "CVE-2026-84541": {},
+          "CVE-2026-84543": {},
+          "CVE-2026-84544": {},
+          "CVE-2026-84546": {},
+          "CVE-2026-84548": {},
+          "CVE-2026-84549": {},
+          "CVE-2026-84550": {},
+          "CVE-2026-84551": {},
+          "CVE-2026-84552": {},
+          "CVE-2026-84553": {},
+          "CVE-2026-84554": {},
+          "CVE-2026-84555": {},
+          "CVE-2026-84556": {},
+          "CVE-2026-84558": {},
+          "CVE-2026-84559": {},
+          "CVE-2026-84560": {},
+          "CVE-2026-84561": {},
+          "CVE-2026-84563": {},
+          "CVE-2026-84564": {},
+          "CVE-2026-84565": {},
+          "CVE-2026-84566": {},
+          "CVE-2026-84567": {},
+          "CVE-2026-84568": {},
+          "CVE-2026-84569": {},
+          "CVE-2026-84570": {},
+          "CVE-2026-84571": {},
+          "CVE-2026-84572": {},
+          "CVE-2026-84573": {},
+          "CVE-2026-84574": {},
+          "CVE-2026-84575": {},
+          "CVE-2026-84576": {},
+          "CVE-2026-84577": {},
+          "CVE-2026-84578": {},
+          "CVE-2026-84580": {},
+          "CVE-2026-84581": {},
+          "CVE-2026-84583": {},
+          "CVE-2026-84584": {},
+          "CVE-2026-84585": {},
+          "CVE-2026-84586": {},
+          "CVE-2026-84587": {},
+          "CVE-2026-84588": {},
+          "CVE-2026-84589": {},
+          "CVE-2026-84596": {},
+          "CVE-2026-84597": {},
+          "CVE-2026-84600": {},
+          "CVE-2026-84601": {},
+          "CVE-2026-84602": {},
+          "CVE-2026-84606": {},
+          "CVE-2026-84607": {},
+          "CVE-2026-84609": {},
+          "CVE-2026-84611": {},
+          "CVE-2026-84612": {},
+          "CVE-2026-84616": {},
+          "CVE-2026-84617": {},
+          "CVE-2026-84618": {},
+          "CVE-2026-84619": {},
+          "CVE-2026-84620": {},
+          "CVE-2026-84621": {},
+          "CVE-2026-84622": {},
+          "CVE-2026-84624": {},
+          "CVE-2026-84625": {},
+          "CVE-2026-84626": {},
+          "CVE-2026-84628": {},
+          "CVE-2026-84630": {},
+          "CVE-2026-84631": {},
+          "CVE-2026-84632": {},
+          "CVE-2026-84635": {},
+          "CVE-2026-86869": {},
+          "CVE-2026-86870": {},
+          "CVE-2026-86876": {},
+          "CVE-2026-86881": {},
+          "CVE-2026-86882": {},
+          "CVE-2026-86884": {},
+          "CVE-2026-86888": {},
+          "CVE-2026-86889": {},
+          "CVE-2026-86891": {},
+          "CVE-2026-86894": {},
+          "CVE-2026-86897": {},
+          "CVE-2026-86898": {},
+          "CVE-2026-86900": {},
+          "CVE-2026-86901": {},
+          "CVE-2026-86902": {},
+          "CVE-2026-86903": {},
+          "CVE-2026-86905": {},
+          "CVE-2026-86909": {},
+          "CVE-2026-86910": {},
+          "CVE-2026-86911": {},
+          "CVE-2026-86917": {},
+          "CVE-2026-86924": {}
+        },
+        "ActivelyExploitedCVEs": [
+          "CVE-2026-65400"
+        ],
+        "UniqueCVEsCount": 210,
+        "DaysSincePreviousRelease": 0,
+        "DeviceScope": "universal",
+        "UpdateSummary": {
+          "Priority": "critical",
+          "Summary": "Contains 1 actively exploited vulnerability",
+          "Recommendation": "Update immediately - actively exploited vulnerabilities",
+          "Stats": {
+            "Exploited": 1,
+            "Critical": 0,
+            "High": 0,
+            "Medium": 0,
+            "Low": 0,
+            "Remote": 0,
+            "Total": 210
+          }
+        }
+      },
+      "SecurityReleases": [
+        {
+          "UpdateName": "macOS Golden Gate 27",
+          "ProductName": "macOS",
+          "ProductVersion": "27.0",
+          "Build": "26A5428",
+          "AllBuilds": [
+            "26A5428",
+            "26A428"
+          ],
+          "ReleaseDate": "2026-09-14T00:00:00Z",
+          "ExpirationDate": "2026-12-22",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/149035",
+          "SecurityInfoContext": "macOS has been updated to version 27.0, released on September 14, 2026. This update addresses 210 security issues and is the most recent approved version.",
+          "CVEs": {
+            "CVE-2022-3437": {},
+            "CVE-2026-20683": {},
+            "CVE-2026-28899": {},
+            "CVE-2026-28934": {},
+            "CVE-2026-28937": {},
+            "CVE-2026-28966": {},
+            "CVE-2026-28968": {},
+            "CVE-2026-28969": {},
+            "CVE-2026-34979": {},
+            "CVE-2026-43664": {},
+            "CVE-2026-43677": {},
+            "CVE-2026-43683": {},
+            "CVE-2026-43684": {},
+            "CVE-2026-43686": {},
+            "CVE-2026-43687": {},
+            "CVE-2026-43688": {},
+            "CVE-2026-43689": {},
+            "CVE-2026-43690": {},
+            "CVE-2026-43691": {},
+            "CVE-2026-43692": {},
+            "CVE-2026-43695": {},
+            "CVE-2026-43696": {},
+            "CVE-2026-43697": {},
+            "CVE-2026-43698": {},
+            "CVE-2026-43719": {},
+            "CVE-2026-43737": {},
+            "CVE-2026-43738": {},
+            "CVE-2026-43741": {},
+            "CVE-2026-43785": {},
+            "CVE-2026-43786": {},
+            "CVE-2026-43787": {},
+            "CVE-2026-43788": {},
+            "CVE-2026-43789": {},
+            "CVE-2026-43790": {},
+            "CVE-2026-43791": {},
+            "CVE-2026-64712": {},
+            "CVE-2026-64714": {},
+            "CVE-2026-64718": {},
+            "CVE-2026-64752": {},
+            "CVE-2026-64753": {},
+            "CVE-2026-64756": {},
+            "CVE-2026-64760": {},
+            "CVE-2026-64790": {},
+            "CVE-2026-65342": {},
+            "CVE-2026-65344": {},
+            "CVE-2026-65345": {},
+            "CVE-2026-65348": {},
+            "CVE-2026-65354": {},
+            "CVE-2026-65358": {},
+            "CVE-2026-65359": {},
+            "CVE-2026-65360": {},
+            "CVE-2026-65361": {},
+            "CVE-2026-65362": {},
+            "CVE-2026-65364": {},
+            "CVE-2026-65365": {},
+            "CVE-2026-65369": {},
+            "CVE-2026-65374": {},
+            "CVE-2026-65375": {},
+            "CVE-2026-65376": {},
+            "CVE-2026-65377": {},
+            "CVE-2026-65378": {},
+            "CVE-2026-65380": {},
+            "CVE-2026-65381": {},
+            "CVE-2026-65382": {},
+            "CVE-2026-65383": {},
+            "CVE-2026-65393": {},
+            "CVE-2026-65395": {},
+            "CVE-2026-65398": {},
+            "CVE-2026-65399": {},
+            "CVE-2026-65400": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            },
+            "CVE-2026-65401": {},
+            "CVE-2026-65402": {},
+            "CVE-2026-65403": {},
+            "CVE-2026-65404": {},
+            "CVE-2026-65405": {},
+            "CVE-2026-65406": {},
+            "CVE-2026-65407": {},
+            "CVE-2026-65408": {},
+            "CVE-2026-65409": {},
+            "CVE-2026-65410": {},
+            "CVE-2026-65412": {},
+            "CVE-2026-65413": {},
+            "CVE-2026-65414": {},
+            "CVE-2026-65415": {},
+            "CVE-2026-84487": {},
+            "CVE-2026-84489": {},
+            "CVE-2026-84491": {},
+            "CVE-2026-84492": {},
+            "CVE-2026-84497": {},
+            "CVE-2026-84505": {},
+            "CVE-2026-84506": {},
+            "CVE-2026-84507": {},
+            "CVE-2026-84509": {},
+            "CVE-2026-84510": {},
+            "CVE-2026-84511": {},
+            "CVE-2026-84512": {},
+            "CVE-2026-84513": {},
+            "CVE-2026-84514": {},
+            "CVE-2026-84515": {},
+            "CVE-2026-84516": {},
+            "CVE-2026-84517": {},
+            "CVE-2026-84518": {},
+            "CVE-2026-84519": {},
+            "CVE-2026-84520": {},
+            "CVE-2026-84521": {},
+            "CVE-2026-84522": {},
+            "CVE-2026-84523": {},
+            "CVE-2026-84524": {},
+            "CVE-2026-84525": {},
+            "CVE-2026-84526": {},
+            "CVE-2026-84527": {},
+            "CVE-2026-84530": {},
+            "CVE-2026-84531": {},
+            "CVE-2026-84532": {},
+            "CVE-2026-84533": {},
+            "CVE-2026-84534": {},
+            "CVE-2026-84535": {},
+            "CVE-2026-84536": {},
+            "CVE-2026-84537": {},
+            "CVE-2026-84538": {},
+            "CVE-2026-84540": {},
+            "CVE-2026-84541": {},
+            "CVE-2026-84543": {},
+            "CVE-2026-84544": {},
+            "CVE-2026-84546": {},
+            "CVE-2026-84548": {},
+            "CVE-2026-84549": {},
+            "CVE-2026-84550": {},
+            "CVE-2026-84551": {},
+            "CVE-2026-84552": {},
+            "CVE-2026-84553": {},
+            "CVE-2026-84554": {},
+            "CVE-2026-84555": {},
+            "CVE-2026-84556": {},
+            "CVE-2026-84558": {},
+            "CVE-2026-84559": {},
+            "CVE-2026-84560": {},
+            "CVE-2026-84561": {},
+            "CVE-2026-84563": {},
+            "CVE-2026-84564": {},
+            "CVE-2026-84565": {},
+            "CVE-2026-84566": {},
+            "CVE-2026-84567": {},
+            "CVE-2026-84568": {},
+            "CVE-2026-84569": {},
+            "CVE-2026-84570": {},
+            "CVE-2026-84571": {},
+            "CVE-2026-84572": {},
+            "CVE-2026-84573": {},
+            "CVE-2026-84574": {},
+            "CVE-2026-84575": {},
+            "CVE-2026-84576": {},
+            "CVE-2026-84577": {},
+            "CVE-2026-84578": {},
+            "CVE-2026-84580": {},
+            "CVE-2026-84581": {},
+            "CVE-2026-84583": {},
+            "CVE-2026-84584": {},
+            "CVE-2026-84585": {},
+            "CVE-2026-84586": {},
+            "CVE-2026-84587": {},
+            "CVE-2026-84588": {},
+            "CVE-2026-84589": {},
+            "CVE-2026-84596": {},
+            "CVE-2026-84597": {},
+            "CVE-2026-84600": {},
+            "CVE-2026-84601": {},
+            "CVE-2026-84602": {},
+            "CVE-2026-84606": {},
+            "CVE-2026-84607": {},
+            "CVE-2026-84609": {},
+            "CVE-2026-84611": {},
+            "CVE-2026-84612": {},
+            "CVE-2026-84616": {},
+            "CVE-2026-84617": {},
+            "CVE-2026-84618": {},
+            "CVE-2026-84619": {},
+            "CVE-2026-84620": {},
+            "CVE-2026-84621": {},
+            "CVE-2026-84622": {},
+            "CVE-2026-84624": {},
+            "CVE-2026-84625": {},
+            "CVE-2026-84626": {},
+            "CVE-2026-84628": {},
+            "CVE-2026-84630": {},
+            "CVE-2026-84631": {},
+            "CVE-2026-84632": {},
+            "CVE-2026-84635": {},
+            "CVE-2026-86869": {},
+            "CVE-2026-86870": {},
+            "CVE-2026-86876": {},
+            "CVE-2026-86881": {},
+            "CVE-2026-86882": {},
+            "CVE-2026-86884": {},
+            "CVE-2026-86888": {},
+            "CVE-2026-86889": {},
+            "CVE-2026-86891": {},
+            "CVE-2026-86894": {},
+            "CVE-2026-86897": {},
+            "CVE-2026-86898": {},
+            "CVE-2026-86900": {},
+            "CVE-2026-86901": {},
+            "CVE-2026-86902": {},
+            "CVE-2026-86903": {},
+            "CVE-2026-86905": {},
+            "CVE-2026-86909": {},
+            "CVE-2026-86910": {},
+            "CVE-2026-86911": {},
+            "CVE-2026-86917": {},
+            "CVE-2026-86924": {}
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2026-65400"
+          ],
+          "UniqueCVEsCount": 210,
+          "DaysSincePreviousRelease": 0,
+          "DeviceScope": "universal",
+          "UpdateSummary": {
+            "Priority": "critical",
+            "Summary": "Contains 1 actively exploited vulnerability",
+            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Stats": {
+              "Exploited": 1,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 210
+            }
+          }
+        }
+      ],
+      "SupportedModels": [
+        {
+          "Model": "Mac Pro",
+          "URL": "https://support.apple.com/en-ca/HT202888",
+          "Identifiers": {
+            "Mac14,8": "Mac Pro (Rack, 2023)"
+          }
+        },
+        {
+          "Model": "Mac Studio",
+          "URL": "https://support.apple.com/en-ca/HT213073",
+          "Identifiers": {
+            "Mac13,1": "Mac Studio (M1 Max)",
+            "Mac13,2": "Mac Studio (M1 Ultra)",
+            "Mac14,13": "Mac Studio (M2 Max, 2023)",
+            "Mac14,14": "Mac Studio (M2 Ultra, 2023)",
+            "Mac15,14": "Mac Studio (M3 Ultra, 2025)",
+            "Mac16,9": "Mac Studio (M4 Max, 2025)"
+          }
+        },
+        {
+          "Model": "Mac mini",
+          "URL": "https://support.apple.com/en-ca/HT201894",
+          "Identifiers": {
+            "Mac14,12": "Mac mini (M2 Pro, 2023)",
+            "Mac14,3": "Mac mini (M2, 2023)",
+            "Mac16,10": "Mac mini (M4, 2024)",
+            "Mac16,11": "Mac mini (M4 Pro, 2024)",
+            "Macmini9,1": "Mac mini (M1, Late 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Air",
+          "URL": "https://support.apple.com/en-ca/102869",
+          "Identifiers": {
+            "Mac14,15": "MacBook Air (15-inch, M2, 2023)",
+            "Mac14,2": "MacBook Air (M2, 2022)",
+            "Mac15,12": "MacBook Air (13-inch, M3, 2024)",
+            "Mac15,13": "MacBook Air (15-inch, M3, 2024)",
+            "Mac16,12": "MacBook Air (13-inch, M4, 2025)",
+            "Mac16,13": "MacBook Air (15-inch, M4, 2025)",
+            "Mac17,3": "MacBook Air (13-inch, M5)",
+            "Mac17,4": "MacBook Air (15-inch, M5)",
+            "MacBookAir10,1": "MacBook Air (M1, 2020)"
+          }
+        },
+        {
+          "Model": "MacBook Pro",
+          "URL": "https://support.apple.com/en-ca/108052",
+          "Identifiers": {
+            "Mac14,10": "MacBook Pro (16-inch, M2 Pro, 2023)",
+            "Mac14,5": "MacBook Pro (14-inch, M2 Max, 2023)",
+            "Mac14,6": "MacBook Pro (16-inch, M2 Max, 2023)",
+            "Mac14,7": "MacBook Pro (13-inch, M2, 2022)",
+            "Mac14,9": "MacBook Pro (14-inch, M2 Pro, 2023)",
+            "Mac15,10": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,11": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
+            "Mac15,3": "MacBook Pro (14-inch, M3, Nov 2023)",
+            "Mac15,6": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
+            "Mac15,7": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
+            "Mac15,8": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
+            "Mac15,9": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
+            "Mac16,1": "MacBook Pro (14-inch, M4, Nov 2024)",
+            "Mac16,5": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
+            "Mac16,6": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
+            "Mac16,7": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
+            "Mac16,8": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
+            "Mac17,2": "MacBook Pro 14-inch (M5)",
+            "Mac17,6": "MacBook Pro (16-inch, M5 Max)",
+            "Mac17,7": "MacBook Pro (14-inch, M5 Max)",
+            "Mac17,8": "MacBook Pro (16-inch, M5 Pro)",
+            "Mac17,9": "MacBook Pro (14-inch, M5 Pro)",
+            "MacBookPro17,1": "MacBook Pro (13-inch, M1, 2020)",
+            "MacBookPro18,1": "MacBook Pro (16-inch, M1 Pro, 2021)",
+            "MacBookPro18,2": "MacBook Pro (16-inch, M1 Max, 2021)",
+            "MacBookPro18,3": "MacBook Pro (14-inch, M1 Pro, 2021)",
+            "MacBookPro18,4": "MacBook Pro (14-inch, M1 Max, 2021)"
+          }
+        },
+        {
+          "Model": "Macbook Neo",
+          "URL": "https://support.apple.com/en-ca/HT201862",
+          "Identifiers": {
+            "Mac17,5": "MacBook Neo"
+          }
+        },
+        {
+          "Model": "Virtual Machine",
+          "URL": "https://support.apple.com",
+          "Identifiers": {
+            "VirtualMac2,1": "Apple Virtual Machine"
+          }
+        },
+        {
+          "Model": "iMac",
+          "URL": "https://support.apple.com/en-ca/108054",
+          "Identifiers": {
+            "Mac15,4": "iMac (24-inch, M3, 2023, Two Ports)",
+            "Mac15,5": "iMac (24-inch, M3, 2023, Four Ports)",
+            "Mac16,2": "iMac (24-inch, M4, 2024, Two Ports)",
+            "Mac16,3": "iMac (24-inch, M4, 2024, Four Ports)",
+            "iMac21,1": "iMac (24-inch, M1, 2021, Four Ports)",
+            "iMac21,2": "iMac (24-inch, M1, 2021, Two Ports)"
+          }
+        }
+      ]
+    },
     {
       "OSVersion": "Tahoe 26",
       "Latest": {
-        "UpdateName": "macOS Tahoe 26.6.2",
+        "UpdateName": "macOS Tahoe 26.7",
         "ProductName": "macOS",
-        "ProductVersion": "26.6.2",
-        "Build": "25G83",
+        "ProductVersion": "26.7",
+        "Build": "25G229",
         "AllBuilds": [
-          "25G83"
+          "25G229"
         ],
-        "ReleaseDate": "2026-08-17T00:00:00Z",
-        "ExpirationDate": "2026-12-13",
+        "ReleaseDate": "2026-09-14T00:00:00Z",
+        "ExpirationDate": "2026-12-22",
         "ReleaseType": "OS",
-        "SecurityInfo": "https://support.apple.com/en-us/148281",
-        "SecurityInfoContext": "macOS Tahoe has been updated to version 26.6.2, released on August 17, 2026. This update addresses 28 security issues and is the most recent approved version. This update comes 11 days after the previous release.",
+        "SecurityInfo": "https://support.apple.com/en-us/149042",
+        "SecurityInfoContext": "macOS Tahoe has been updated to version 26.7, released on September 14, 2026. This update addresses 153 security issues and is the most recent approved version. This update comes 28 days after the previous release.",
         "SupportedDevices": [
           "J152FAP",
           "J160AP",
@@ -85,55 +762,381 @@
           "VMM-x86_64"
         ],
         "CVEs": {
-          "CVE-2026-43794": {},
-          "CVE-2026-43795": {},
-          "CVE-2026-64715": {},
-          "CVE-2026-64778": {},
-          "CVE-2026-64779": {},
-          "CVE-2026-64780": {},
-          "CVE-2026-64781": {},
-          "CVE-2026-64782": {},
-          "CVE-2026-64784": {},
-          "CVE-2026-64787": {},
-          "CVE-2026-64788": {},
-          "CVE-2026-65330": {},
-          "CVE-2026-65331": {},
-          "CVE-2026-65332": {},
-          "CVE-2026-65333": {},
-          "CVE-2026-65334": {},
-          "CVE-2026-65335": {},
-          "CVE-2026-65336": {},
-          "CVE-2026-65337": {},
-          "CVE-2026-65338": {},
-          "CVE-2026-65339": {},
-          "CVE-2026-65340": {},
-          "CVE-2026-65341": {},
-          "CVE-2026-65343": {},
-          "CVE-2026-65346": {},
-          "CVE-2026-65347": {},
-          "CVE-2026-65349": {},
-          "CVE-2026-65351": {}
+          "CVE-2022-3437": {},
+          "CVE-2026-20683": {},
+          "CVE-2026-28899": {},
+          "CVE-2026-28934": {},
+          "CVE-2026-28966": {},
+          "CVE-2026-28968": {},
+          "CVE-2026-28969": {},
+          "CVE-2026-43664": {},
+          "CVE-2026-43677": {},
+          "CVE-2026-43683": {},
+          "CVE-2026-43686": {},
+          "CVE-2026-43687": {},
+          "CVE-2026-43690": {},
+          "CVE-2026-43691": {},
+          "CVE-2026-43692": {},
+          "CVE-2026-43695": {},
+          "CVE-2026-43697": {},
+          "CVE-2026-43698": {},
+          "CVE-2026-43702": {},
+          "CVE-2026-43719": {},
+          "CVE-2026-43737": {},
+          "CVE-2026-43741": {},
+          "CVE-2026-43743": {},
+          "CVE-2026-43760": {},
+          "CVE-2026-43763": {},
+          "CVE-2026-43785": {},
+          "CVE-2026-43786": {},
+          "CVE-2026-43787": {},
+          "CVE-2026-43789": {},
+          "CVE-2026-43790": {},
+          "CVE-2026-43791": {},
+          "CVE-2026-64712": {},
+          "CVE-2026-64756": {},
+          "CVE-2026-64790": {},
+          "CVE-2026-65342": {},
+          "CVE-2026-65344": {},
+          "CVE-2026-65345": {},
+          "CVE-2026-65348": {},
+          "CVE-2026-65358": {},
+          "CVE-2026-65359": {},
+          "CVE-2026-65360": {},
+          "CVE-2026-65361": {},
+          "CVE-2026-65362": {},
+          "CVE-2026-65364": {},
+          "CVE-2026-65365": {},
+          "CVE-2026-65369": {},
+          "CVE-2026-65374": {},
+          "CVE-2026-65376": {},
+          "CVE-2026-65377": {},
+          "CVE-2026-65378": {},
+          "CVE-2026-65381": {},
+          "CVE-2026-65382": {},
+          "CVE-2026-65395": {},
+          "CVE-2026-65399": {},
+          "CVE-2026-65400": {
+            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+            "ActivelyExploited": true,
+            "InKEV": true,
+            "Severity": "Critical"
+          },
+          "CVE-2026-65401": {},
+          "CVE-2026-65402": {},
+          "CVE-2026-65403": {},
+          "CVE-2026-65405": {},
+          "CVE-2026-65406": {},
+          "CVE-2026-65407": {},
+          "CVE-2026-65408": {},
+          "CVE-2026-65409": {},
+          "CVE-2026-65410": {},
+          "CVE-2026-65412": {},
+          "CVE-2026-65413": {},
+          "CVE-2026-65414": {},
+          "CVE-2026-84487": {},
+          "CVE-2026-84492": {},
+          "CVE-2026-84497": {},
+          "CVE-2026-84505": {},
+          "CVE-2026-84506": {},
+          "CVE-2026-84507": {},
+          "CVE-2026-84509": {},
+          "CVE-2026-84510": {},
+          "CVE-2026-84511": {},
+          "CVE-2026-84512": {},
+          "CVE-2026-84513": {},
+          "CVE-2026-84514": {},
+          "CVE-2026-84515": {},
+          "CVE-2026-84516": {},
+          "CVE-2026-84517": {},
+          "CVE-2026-84519": {},
+          "CVE-2026-84521": {},
+          "CVE-2026-84523": {},
+          "CVE-2026-84524": {},
+          "CVE-2026-84525": {},
+          "CVE-2026-84526": {},
+          "CVE-2026-84527": {},
+          "CVE-2026-84530": {},
+          "CVE-2026-84532": {},
+          "CVE-2026-84534": {},
+          "CVE-2026-84535": {},
+          "CVE-2026-84536": {},
+          "CVE-2026-84537": {},
+          "CVE-2026-84538": {},
+          "CVE-2026-84540": {},
+          "CVE-2026-84541": {},
+          "CVE-2026-84543": {},
+          "CVE-2026-84544": {},
+          "CVE-2026-84546": {},
+          "CVE-2026-84548": {},
+          "CVE-2026-84549": {},
+          "CVE-2026-84550": {},
+          "CVE-2026-84552": {},
+          "CVE-2026-84553": {},
+          "CVE-2026-84554": {},
+          "CVE-2026-84556": {},
+          "CVE-2026-84559": {},
+          "CVE-2026-84561": {},
+          "CVE-2026-84563": {},
+          "CVE-2026-84564": {},
+          "CVE-2026-84565": {},
+          "CVE-2026-84566": {},
+          "CVE-2026-84567": {},
+          "CVE-2026-84568": {},
+          "CVE-2026-84570": {},
+          "CVE-2026-84572": {},
+          "CVE-2026-84573": {},
+          "CVE-2026-84574": {},
+          "CVE-2026-84575": {},
+          "CVE-2026-84576": {},
+          "CVE-2026-84577": {},
+          "CVE-2026-84578": {},
+          "CVE-2026-84580": {},
+          "CVE-2026-84581": {},
+          "CVE-2026-84583": {},
+          "CVE-2026-84587": {},
+          "CVE-2026-84602": {},
+          "CVE-2026-84607": {},
+          "CVE-2026-84609": {},
+          "CVE-2026-84611": {},
+          "CVE-2026-84612": {},
+          "CVE-2026-84616": {},
+          "CVE-2026-84617": {},
+          "CVE-2026-84618": {},
+          "CVE-2026-84619": {},
+          "CVE-2026-84620": {},
+          "CVE-2026-84621": {},
+          "CVE-2026-84622": {},
+          "CVE-2026-84624": {},
+          "CVE-2026-84626": {},
+          "CVE-2026-84630": {},
+          "CVE-2026-84632": {},
+          "CVE-2026-86876": {},
+          "CVE-2026-86881": {},
+          "CVE-2026-86882": {},
+          "CVE-2026-86888": {},
+          "CVE-2026-86889": {},
+          "CVE-2026-86891": {},
+          "CVE-2026-86910": {},
+          "CVE-2026-86917": {},
+          "CVE-2026-86924": {}
         },
-        "ActivelyExploitedCVEs": [],
-        "UniqueCVEsCount": 28,
-        "DaysSincePreviousRelease": 11,
+        "ActivelyExploitedCVEs": [
+          "CVE-2026-65400"
+        ],
+        "UniqueCVEsCount": 153,
+        "DaysSincePreviousRelease": 28,
         "DeviceScope": "universal",
         "UpdateSummary": {
-          "Priority": "high",
-          "Summary": "Addresses 28 security issues",
-          "Recommendation": "Update to stay secure - security fixes available",
+          "Priority": "critical",
+          "Summary": "Contains 1 actively exploited vulnerability",
+          "Recommendation": "Update immediately - actively exploited vulnerabilities",
           "Stats": {
-            "Exploited": 0,
+            "Exploited": 1,
             "Critical": 0,
             "High": 0,
             "Medium": 0,
             "Low": 0,
             "Remote": 0,
-            "Total": 28
+            "Total": 153
           }
         }
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "macOS Tahoe 26.7",
+          "ProductName": "macOS",
+          "ProductVersion": "26.7",
+          "Build": "25G229",
+          "AllBuilds": [
+            "25G229"
+          ],
+          "ReleaseDate": "2026-09-14T00:00:00Z",
+          "ExpirationDate": "2026-12-22",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/149042",
+          "SecurityInfoContext": "macOS has been updated to version 26.7, released on September 14, 2026. This update addresses 153 security issues and is the most recent approved version.",
+          "CVEs": {
+            "CVE-2022-3437": {},
+            "CVE-2026-20683": {},
+            "CVE-2026-28899": {},
+            "CVE-2026-28934": {},
+            "CVE-2026-28966": {},
+            "CVE-2026-28968": {},
+            "CVE-2026-28969": {},
+            "CVE-2026-43664": {},
+            "CVE-2026-43677": {},
+            "CVE-2026-43683": {},
+            "CVE-2026-43686": {},
+            "CVE-2026-43687": {},
+            "CVE-2026-43690": {},
+            "CVE-2026-43691": {},
+            "CVE-2026-43692": {},
+            "CVE-2026-43695": {},
+            "CVE-2026-43697": {},
+            "CVE-2026-43698": {},
+            "CVE-2026-43702": {},
+            "CVE-2026-43719": {},
+            "CVE-2026-43737": {},
+            "CVE-2026-43741": {},
+            "CVE-2026-43743": {},
+            "CVE-2026-43760": {},
+            "CVE-2026-43763": {},
+            "CVE-2026-43785": {},
+            "CVE-2026-43786": {},
+            "CVE-2026-43787": {},
+            "CVE-2026-43789": {},
+            "CVE-2026-43790": {},
+            "CVE-2026-43791": {},
+            "CVE-2026-64712": {},
+            "CVE-2026-64756": {},
+            "CVE-2026-64790": {},
+            "CVE-2026-65342": {},
+            "CVE-2026-65344": {},
+            "CVE-2026-65345": {},
+            "CVE-2026-65348": {},
+            "CVE-2026-65358": {},
+            "CVE-2026-65359": {},
+            "CVE-2026-65360": {},
+            "CVE-2026-65361": {},
+            "CVE-2026-65362": {},
+            "CVE-2026-65364": {},
+            "CVE-2026-65365": {},
+            "CVE-2026-65369": {},
+            "CVE-2026-65374": {},
+            "CVE-2026-65376": {},
+            "CVE-2026-65377": {},
+            "CVE-2026-65378": {},
+            "CVE-2026-65381": {},
+            "CVE-2026-65382": {},
+            "CVE-2026-65395": {},
+            "CVE-2026-65399": {},
+            "CVE-2026-65400": {
+              "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+              "ActivelyExploited": true,
+              "InKEV": true,
+              "Severity": "Critical"
+            },
+            "CVE-2026-65401": {},
+            "CVE-2026-65402": {},
+            "CVE-2026-65403": {},
+            "CVE-2026-65405": {},
+            "CVE-2026-65406": {},
+            "CVE-2026-65407": {},
+            "CVE-2026-65408": {},
+            "CVE-2026-65409": {},
+            "CVE-2026-65410": {},
+            "CVE-2026-65412": {},
+            "CVE-2026-65413": {},
+            "CVE-2026-65414": {},
+            "CVE-2026-84487": {},
+            "CVE-2026-84492": {},
+            "CVE-2026-84497": {},
+            "CVE-2026-84505": {},
+            "CVE-2026-84506": {},
+            "CVE-2026-84507": {},
+            "CVE-2026-84509": {},
+            "CVE-2026-84510": {},
+            "CVE-2026-84511": {},
+            "CVE-2026-84512": {},
+            "CVE-2026-84513": {},
+            "CVE-2026-84514": {},
+            "CVE-2026-84515": {},
+            "CVE-2026-84516": {},
+            "CVE-2026-84517": {},
+            "CVE-2026-84519": {},
+            "CVE-2026-84521": {},
+            "CVE-2026-84523": {},
+            "CVE-2026-84524": {},
+            "CVE-2026-84525": {},
+            "CVE-2026-84526": {},
+            "CVE-2026-84527": {},
+            "CVE-2026-84530": {},
+            "CVE-2026-84532": {},
+            "CVE-2026-84534": {},
+            "CVE-2026-84535": {},
+            "CVE-2026-84536": {},
+            "CVE-2026-84537": {},
+            "CVE-2026-84538": {},
+            "CVE-2026-84540": {},
+            "CVE-2026-84541": {},
+            "CVE-2026-84543": {},
+            "CVE-2026-84544": {},
+            "CVE-2026-84546": {},
+            "CVE-2026-84548": {},
+            "CVE-2026-84549": {},
+            "CVE-2026-84550": {},
+            "CVE-2026-84552": {},
+            "CVE-2026-84553": {},
+            "CVE-2026-84554": {},
+            "CVE-2026-84556": {},
+            "CVE-2026-84559": {},
+            "CVE-2026-84561": {},
+            "CVE-2026-84563": {},
+            "CVE-2026-84564": {},
+            "CVE-2026-84565": {},
+            "CVE-2026-84566": {},
+            "CVE-2026-84567": {},
+            "CVE-2026-84568": {},
+            "CVE-2026-84570": {},
+            "CVE-2026-84572": {},
+            "CVE-2026-84573": {},
+            "CVE-2026-84574": {},
+            "CVE-2026-84575": {},
+            "CVE-2026-84576": {},
+            "CVE-2026-84577": {},
+            "CVE-2026-84578": {},
+            "CVE-2026-84580": {},
+            "CVE-2026-84581": {},
+            "CVE-2026-84583": {},
+            "CVE-2026-84587": {},
+            "CVE-2026-84602": {},
+            "CVE-2026-84607": {},
+            "CVE-2026-84609": {},
+            "CVE-2026-84611": {},
+            "CVE-2026-84612": {},
+            "CVE-2026-84616": {},
+            "CVE-2026-84617": {},
+            "CVE-2026-84618": {},
+            "CVE-2026-84619": {},
+            "CVE-2026-84620": {},
+            "CVE-2026-84621": {},
+            "CVE-2026-84622": {},
+            "CVE-2026-84624": {},
+            "CVE-2026-84626": {},
+            "CVE-2026-84630": {},
+            "CVE-2026-84632": {},
+            "CVE-2026-86876": {},
+            "CVE-2026-86881": {},
+            "CVE-2026-86882": {},
+            "CVE-2026-86888": {},
+            "CVE-2026-86889": {},
+            "CVE-2026-86891": {},
+            "CVE-2026-86910": {},
+            "CVE-2026-86917": {},
+            "CVE-2026-86924": {}
+          },
+          "ActivelyExploitedCVEs": [
+            "CVE-2026-65400"
+          ],
+          "UniqueCVEsCount": 153,
+          "DaysSincePreviousRelease": 28,
+          "DeviceScope": "universal",
+          "UpdateSummary": {
+            "Priority": "critical",
+            "Summary": "Contains 1 actively exploited vulnerability",
+            "Recommendation": "Update immediately - actively exploited vulnerabilities",
+            "Stats": {
+              "Exploited": 1,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 153
+            }
+          }
+        },
         {
           "UpdateName": "macOS Tahoe 26.6.2",
           "ProductName": "macOS",
@@ -143,14 +1146,16 @@
             "25G83"
           ],
           "ReleaseDate": "2026-08-17T00:00:00Z",
-          "ExpirationDate": "2026-12-13",
+          "ExpirationDate": "2026-12-22",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/148281",
-          "SecurityInfoContext": "macOS has been updated to version 26.6.2, released on August 17, 2026. This update addresses 28 security issues and is the most recent approved version.",
+          "SecurityInfoContext": "macOS 26.6.2 was released on August 17, 2026. This release addressed 34 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {
+            "CVE-2026-28935": {},
             "CVE-2026-43794": {},
             "CVE-2026-43795": {},
             "CVE-2026-64715": {},
+            "CVE-2026-64736": {},
             "CVE-2026-64778": {},
             "CVE-2026-64779": {},
             "CVE-2026-64780": {},
@@ -175,15 +1180,25 @@
             "CVE-2026-65346": {},
             "CVE-2026-65347": {},
             "CVE-2026-65349": {},
-            "CVE-2026-65351": {}
+            "CVE-2026-65351": {},
+            "CVE-2026-65352": {},
+            "CVE-2026-65355": {},
+            "CVE-2026-65390": {},
+            "CVE-2026-65391": {}
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 28,
+          "UniqueCVEsCount": 34,
           "DaysSincePreviousRelease": 11,
           "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "26.7",
+            "Build": "25G229",
+            "ReleaseDate": "2026-09-14T00:00:00Z",
+            "DaysLater": 28
+          },
           "UpdateSummary": {
             "Priority": "high",
-            "Summary": "Addresses 28 security issues",
+            "Summary": "Addresses 34 security issues",
             "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
@@ -192,7 +1207,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 28
+              "Total": 34
             }
           }
         },
@@ -256,14 +1271,16 @@
           "ExpirationDate": "2026-11-04",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/128067",
-          "SecurityInfoContext": "macOS 26.6 was released on July 27, 2026. This release addressed 153 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "macOS 26.6 was released on July 27, 2026. This release addressed 170 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {
             "CVE-2026-23918": {},
+            "CVE-2026-28899": {},
             "CVE-2026-28911": {},
             "CVE-2026-28912": {},
             "CVE-2026-28928": {},
             "CVE-2026-28931": {},
             "CVE-2026-28932": {},
+            "CVE-2026-28933": {},
             "CVE-2026-28945": {},
             "CVE-2026-28973": {},
             "CVE-2026-28981": {},
@@ -279,6 +1296,7 @@
             "CVE-2026-43682": {},
             "CVE-2026-43693": {},
             "CVE-2026-43694": {},
+            "CVE-2026-43702": {},
             "CVE-2026-43710": {},
             "CVE-2026-43711": {},
             "CVE-2026-43714": {},
@@ -301,6 +1319,8 @@
             "CVE-2026-43758": {},
             "CVE-2026-43759": {},
             "CVE-2026-43760": {},
+            "CVE-2026-43761": {},
+            "CVE-2026-43762": {},
             "CVE-2026-43763": {},
             "CVE-2026-43764": {},
             "CVE-2026-43765": {},
@@ -321,6 +1341,7 @@
             "CVE-2026-43780": {},
             "CVE-2026-43781": {},
             "CVE-2026-43782": {},
+            "CVE-2026-43783": {},
             "CVE-2026-43792": {},
             "CVE-2026-43793": {},
             "CVE-2026-43796": {},
@@ -333,11 +1354,13 @@
             "CVE-2026-43804": {},
             "CVE-2026-43805": {},
             "CVE-2026-43806": {},
+            "CVE-2026-43808": {},
             "CVE-2026-43809": {},
             "CVE-2026-43810": {},
             "CVE-2026-43812": {},
             "CVE-2026-43813": {},
             "CVE-2026-43814": {},
+            "CVE-2026-43815": {},
             "CVE-2026-43816": {},
             "CVE-2026-43817": {},
             "CVE-2026-43818": {},
@@ -355,9 +1378,11 @@
             "CVE-2026-64698": {},
             "CVE-2026-64699": {},
             "CVE-2026-64700": {},
+            "CVE-2026-64701": {},
             "CVE-2026-64702": {},
             "CVE-2026-64703": {},
             "CVE-2026-64704": {},
+            "CVE-2026-64705": {},
             "CVE-2026-64707": {},
             "CVE-2026-64708": {},
             "CVE-2026-64709": {},
@@ -365,6 +1390,7 @@
             "CVE-2026-64711": {},
             "CVE-2026-64713": {},
             "CVE-2026-64716": {},
+            "CVE-2026-64717": {},
             "CVE-2026-64718": {},
             "CVE-2026-64719": {},
             "CVE-2026-64720": {},
@@ -410,10 +1436,16 @@
             "CVE-2026-64774": {},
             "CVE-2026-64775": {},
             "CVE-2026-64776": {},
-            "CVE-2026-64783": {}
+            "CVE-2026-64783": {},
+            "CVE-2026-65353": {},
+            "CVE-2026-65357": {},
+            "CVE-2026-65371": {},
+            "CVE-2026-65375": {},
+            "CVE-2026-65407": {},
+            "CVE-2026-84562": {}
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 153,
+          "UniqueCVEsCount": 170,
           "DaysSincePreviousRelease": 28,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -424,7 +1456,7 @@
           },
           "UpdateSummary": {
             "Priority": "high",
-            "Summary": "Addresses 153 security issues",
+            "Summary": "Addresses 170 security issues",
             "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
@@ -433,7 +1465,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 153
+              "Total": 170
             }
           }
         },
@@ -1882,18 +2914,18 @@
     {
       "OSVersion": "Sequoia 15",
       "Latest": {
-        "UpdateName": "macOS Sequoia 15.7.9",
+        "UpdateName": "macOS Sequoia 15.8",
         "ProductName": "macOS",
-        "ProductVersion": "15.7.9",
-        "Build": "24G830",
+        "ProductVersion": "15.8",
+        "Build": "24H23",
         "AllBuilds": [
-          "24G830"
+          "24H23"
         ],
-        "ReleaseDate": "2026-08-06T00:00:00Z",
-        "ExpirationDate": "2026-12-13",
+        "ReleaseDate": "2026-09-14T00:00:00Z",
+        "ExpirationDate": "2026-12-22",
         "ReleaseType": "OS",
-        "SecurityInfo": "https://support.apple.com/en-us/148171",
-        "SecurityInfoContext": "macOS Sequoia has been updated to version 15.7.9, released on August 06, 2026. This update addresses one security issue and is the most recent approved version. This update comes 10 days after the previous release.",
+        "SecurityInfo": "https://support.apple.com/en-us/149043",
+        "SecurityInfoContext": "macOS Sequoia has been updated to version 15.8, released on September 14, 2026. This update addresses 154 security issues and is the most recent approved version. This update comes 39 days after the previous release.",
         "SupportedDevices": [
           "J132AP",
           "J137AP",
@@ -1964,35 +2996,369 @@
           "VMM-x86_64"
         ],
         "CVEs": {
-          "CVE-2026-65400": {
-            "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-            "ActivelyExploited": true,
-            "InKEV": true,
-            "Severity": "Critical"
-          }
+          "CVE-2022-3437": {},
+          "CVE-2026-20683": {},
+          "CVE-2026-28899": {},
+          "CVE-2026-28930": {},
+          "CVE-2026-28934": {},
+          "CVE-2026-28935": {},
+          "CVE-2026-28966": {},
+          "CVE-2026-28968": {},
+          "CVE-2026-28969": {},
+          "CVE-2026-43664": {},
+          "CVE-2026-43677": {},
+          "CVE-2026-43683": {},
+          "CVE-2026-43684": {},
+          "CVE-2026-43686": {},
+          "CVE-2026-43690": {},
+          "CVE-2026-43691": {},
+          "CVE-2026-43692": {},
+          "CVE-2026-43695": {},
+          "CVE-2026-43697": {},
+          "CVE-2026-43702": {},
+          "CVE-2026-43719": {},
+          "CVE-2026-43737": {},
+          "CVE-2026-43741": {},
+          "CVE-2026-43763": {},
+          "CVE-2026-43785": {},
+          "CVE-2026-43786": {},
+          "CVE-2026-43787": {},
+          "CVE-2026-43789": {},
+          "CVE-2026-43790": {},
+          "CVE-2026-43791": {},
+          "CVE-2026-64712": {},
+          "CVE-2026-64736": {},
+          "CVE-2026-64756": {},
+          "CVE-2026-64758": {},
+          "CVE-2026-64790": {},
+          "CVE-2026-65330": {},
+          "CVE-2026-65339": {},
+          "CVE-2026-65342": {},
+          "CVE-2026-65344": {},
+          "CVE-2026-65345": {},
+          "CVE-2026-65346": {},
+          "CVE-2026-65348": {},
+          "CVE-2026-65349": {},
+          "CVE-2026-65358": {},
+          "CVE-2026-65359": {},
+          "CVE-2026-65360": {},
+          "CVE-2026-65361": {},
+          "CVE-2026-65362": {},
+          "CVE-2026-65364": {},
+          "CVE-2026-65365": {},
+          "CVE-2026-65369": {},
+          "CVE-2026-65371": {},
+          "CVE-2026-65374": {},
+          "CVE-2026-65375": {},
+          "CVE-2026-65376": {},
+          "CVE-2026-65377": {},
+          "CVE-2026-65378": {},
+          "CVE-2026-65381": {},
+          "CVE-2026-65382": {},
+          "CVE-2026-65395": {},
+          "CVE-2026-65399": {},
+          "CVE-2026-65402": {},
+          "CVE-2026-65403": {},
+          "CVE-2026-65405": {},
+          "CVE-2026-65406": {},
+          "CVE-2026-65407": {},
+          "CVE-2026-65408": {},
+          "CVE-2026-65409": {},
+          "CVE-2026-65412": {},
+          "CVE-2026-65413": {},
+          "CVE-2026-65414": {},
+          "CVE-2026-84487": {},
+          "CVE-2026-84492": {},
+          "CVE-2026-84497": {},
+          "CVE-2026-84505": {},
+          "CVE-2026-84506": {},
+          "CVE-2026-84507": {},
+          "CVE-2026-84509": {},
+          "CVE-2026-84510": {},
+          "CVE-2026-84511": {},
+          "CVE-2026-84512": {},
+          "CVE-2026-84513": {},
+          "CVE-2026-84514": {},
+          "CVE-2026-84515": {},
+          "CVE-2026-84516": {},
+          "CVE-2026-84517": {},
+          "CVE-2026-84519": {},
+          "CVE-2026-84521": {},
+          "CVE-2026-84523": {},
+          "CVE-2026-84524": {},
+          "CVE-2026-84525": {},
+          "CVE-2026-84526": {},
+          "CVE-2026-84527": {},
+          "CVE-2026-84532": {},
+          "CVE-2026-84534": {},
+          "CVE-2026-84535": {},
+          "CVE-2026-84536": {},
+          "CVE-2026-84537": {},
+          "CVE-2026-84538": {},
+          "CVE-2026-84540": {},
+          "CVE-2026-84541": {},
+          "CVE-2026-84543": {},
+          "CVE-2026-84544": {},
+          "CVE-2026-84546": {},
+          "CVE-2026-84548": {},
+          "CVE-2026-84549": {},
+          "CVE-2026-84550": {},
+          "CVE-2026-84552": {},
+          "CVE-2026-84553": {},
+          "CVE-2026-84554": {},
+          "CVE-2026-84555": {},
+          "CVE-2026-84556": {},
+          "CVE-2026-84559": {},
+          "CVE-2026-84561": {},
+          "CVE-2026-84563": {},
+          "CVE-2026-84564": {},
+          "CVE-2026-84565": {},
+          "CVE-2026-84566": {},
+          "CVE-2026-84567": {},
+          "CVE-2026-84568": {},
+          "CVE-2026-84570": {},
+          "CVE-2026-84572": {},
+          "CVE-2026-84573": {},
+          "CVE-2026-84574": {},
+          "CVE-2026-84575": {},
+          "CVE-2026-84576": {},
+          "CVE-2026-84578": {},
+          "CVE-2026-84580": {},
+          "CVE-2026-84581": {},
+          "CVE-2026-84583": {},
+          "CVE-2026-84587": {},
+          "CVE-2026-84602": {},
+          "CVE-2026-84607": {},
+          "CVE-2026-84609": {},
+          "CVE-2026-84611": {},
+          "CVE-2026-84612": {},
+          "CVE-2026-84616": {},
+          "CVE-2026-84617": {},
+          "CVE-2026-84618": {},
+          "CVE-2026-84619": {},
+          "CVE-2026-84620": {},
+          "CVE-2026-84621": {},
+          "CVE-2026-84622": {},
+          "CVE-2026-84624": {},
+          "CVE-2026-84626": {},
+          "CVE-2026-84630": {},
+          "CVE-2026-84632": {},
+          "CVE-2026-86876": {},
+          "CVE-2026-86881": {},
+          "CVE-2026-86882": {},
+          "CVE-2026-86889": {},
+          "CVE-2026-86891": {},
+          "CVE-2026-86910": {},
+          "CVE-2026-86917": {}
         },
-        "ActivelyExploitedCVEs": [
-          "CVE-2026-65400"
-        ],
-        "UniqueCVEsCount": 1,
-        "DaysSincePreviousRelease": 10,
+        "ActivelyExploitedCVEs": [],
+        "UniqueCVEsCount": 154,
+        "DaysSincePreviousRelease": 39,
         "DeviceScope": "universal",
         "UpdateSummary": {
-          "Priority": "critical",
-          "Summary": "Contains 1 actively exploited vulnerability",
-          "Recommendation": "Update immediately - actively exploited vulnerabilities",
+          "Priority": "high",
+          "Summary": "Addresses 154 security issues",
+          "Recommendation": "Update to stay secure - security fixes available",
           "Stats": {
-            "Exploited": 1,
+            "Exploited": 0,
             "Critical": 0,
             "High": 0,
             "Medium": 0,
             "Low": 0,
             "Remote": 0,
-            "Total": 1
+            "Total": 154
           }
         }
       },
       "SecurityReleases": [
+        {
+          "UpdateName": "macOS Sequoia 15.8",
+          "ProductName": "macOS",
+          "ProductVersion": "15.8",
+          "Build": "24H23",
+          "AllBuilds": [
+            "24H23"
+          ],
+          "ReleaseDate": "2026-09-14T00:00:00Z",
+          "ExpirationDate": "2026-12-22",
+          "ReleaseType": "OS",
+          "SecurityInfo": "https://support.apple.com/en-us/149043",
+          "SecurityInfoContext": "macOS has been updated to version 15.8, released on September 14, 2026. This update addresses 154 security issues and is the most recent approved version.",
+          "CVEs": {
+            "CVE-2022-3437": {},
+            "CVE-2026-20683": {},
+            "CVE-2026-28899": {},
+            "CVE-2026-28930": {},
+            "CVE-2026-28934": {},
+            "CVE-2026-28935": {},
+            "CVE-2026-28966": {},
+            "CVE-2026-28968": {},
+            "CVE-2026-28969": {},
+            "CVE-2026-43664": {},
+            "CVE-2026-43677": {},
+            "CVE-2026-43683": {},
+            "CVE-2026-43684": {},
+            "CVE-2026-43686": {},
+            "CVE-2026-43690": {},
+            "CVE-2026-43691": {},
+            "CVE-2026-43692": {},
+            "CVE-2026-43695": {},
+            "CVE-2026-43697": {},
+            "CVE-2026-43702": {},
+            "CVE-2026-43719": {},
+            "CVE-2026-43737": {},
+            "CVE-2026-43741": {},
+            "CVE-2026-43763": {},
+            "CVE-2026-43785": {},
+            "CVE-2026-43786": {},
+            "CVE-2026-43787": {},
+            "CVE-2026-43789": {},
+            "CVE-2026-43790": {},
+            "CVE-2026-43791": {},
+            "CVE-2026-64712": {},
+            "CVE-2026-64736": {},
+            "CVE-2026-64756": {},
+            "CVE-2026-64758": {},
+            "CVE-2026-64790": {},
+            "CVE-2026-65330": {},
+            "CVE-2026-65339": {},
+            "CVE-2026-65342": {},
+            "CVE-2026-65344": {},
+            "CVE-2026-65345": {},
+            "CVE-2026-65346": {},
+            "CVE-2026-65348": {},
+            "CVE-2026-65349": {},
+            "CVE-2026-65358": {},
+            "CVE-2026-65359": {},
+            "CVE-2026-65360": {},
+            "CVE-2026-65361": {},
+            "CVE-2026-65362": {},
+            "CVE-2026-65364": {},
+            "CVE-2026-65365": {},
+            "CVE-2026-65369": {},
+            "CVE-2026-65371": {},
+            "CVE-2026-65374": {},
+            "CVE-2026-65375": {},
+            "CVE-2026-65376": {},
+            "CVE-2026-65377": {},
+            "CVE-2026-65378": {},
+            "CVE-2026-65381": {},
+            "CVE-2026-65382": {},
+            "CVE-2026-65395": {},
+            "CVE-2026-65399": {},
+            "CVE-2026-65402": {},
+            "CVE-2026-65403": {},
+            "CVE-2026-65405": {},
+            "CVE-2026-65406": {},
+            "CVE-2026-65407": {},
+            "CVE-2026-65408": {},
+            "CVE-2026-65409": {},
+            "CVE-2026-65412": {},
+            "CVE-2026-65413": {},
+            "CVE-2026-65414": {},
+            "CVE-2026-84487": {},
+            "CVE-2026-84492": {},
+            "CVE-2026-84497": {},
+            "CVE-2026-84505": {},
+            "CVE-2026-84506": {},
+            "CVE-2026-84507": {},
+            "CVE-2026-84509": {},
+            "CVE-2026-84510": {},
+            "CVE-2026-84511": {},
+            "CVE-2026-84512": {},
+            "CVE-2026-84513": {},
+            "CVE-2026-84514": {},
+            "CVE-2026-84515": {},
+            "CVE-2026-84516": {},
+            "CVE-2026-84517": {},
+            "CVE-2026-84519": {},
+            "CVE-2026-84521": {},
+            "CVE-2026-84523": {},
+            "CVE-2026-84524": {},
+            "CVE-2026-84525": {},
+            "CVE-2026-84526": {},
+            "CVE-2026-84527": {},
+            "CVE-2026-84532": {},
+            "CVE-2026-84534": {},
+            "CVE-2026-84535": {},
+            "CVE-2026-84536": {},
+            "CVE-2026-84537": {},
+            "CVE-2026-84538": {},
+            "CVE-2026-84540": {},
+            "CVE-2026-84541": {},
+            "CVE-2026-84543": {},
+            "CVE-2026-84544": {},
+            "CVE-2026-84546": {},
+            "CVE-2026-84548": {},
+            "CVE-2026-84549": {},
+            "CVE-2026-84550": {},
+            "CVE-2026-84552": {},
+            "CVE-2026-84553": {},
+            "CVE-2026-84554": {},
+            "CVE-2026-84555": {},
+            "CVE-2026-84556": {},
+            "CVE-2026-84559": {},
+            "CVE-2026-84561": {},
+            "CVE-2026-84563": {},
+            "CVE-2026-84564": {},
+            "CVE-2026-84565": {},
+            "CVE-2026-84566": {},
+            "CVE-2026-84567": {},
+            "CVE-2026-84568": {},
+            "CVE-2026-84570": {},
+            "CVE-2026-84572": {},
+            "CVE-2026-84573": {},
+            "CVE-2026-84574": {},
+            "CVE-2026-84575": {},
+            "CVE-2026-84576": {},
+            "CVE-2026-84578": {},
+            "CVE-2026-84580": {},
+            "CVE-2026-84581": {},
+            "CVE-2026-84583": {},
+            "CVE-2026-84587": {},
+            "CVE-2026-84602": {},
+            "CVE-2026-84607": {},
+            "CVE-2026-84609": {},
+            "CVE-2026-84611": {},
+            "CVE-2026-84612": {},
+            "CVE-2026-84616": {},
+            "CVE-2026-84617": {},
+            "CVE-2026-84618": {},
+            "CVE-2026-84619": {},
+            "CVE-2026-84620": {},
+            "CVE-2026-84621": {},
+            "CVE-2026-84622": {},
+            "CVE-2026-84624": {},
+            "CVE-2026-84626": {},
+            "CVE-2026-84630": {},
+            "CVE-2026-84632": {},
+            "CVE-2026-86876": {},
+            "CVE-2026-86881": {},
+            "CVE-2026-86882": {},
+            "CVE-2026-86889": {},
+            "CVE-2026-86891": {},
+            "CVE-2026-86910": {},
+            "CVE-2026-86917": {}
+          },
+          "ActivelyExploitedCVEs": [],
+          "UniqueCVEsCount": 154,
+          "DaysSincePreviousRelease": 39,
+          "DeviceScope": "universal",
+          "UpdateSummary": {
+            "Priority": "high",
+            "Summary": "Addresses 154 security issues",
+            "Recommendation": "Update to stay secure - security fixes available",
+            "Stats": {
+              "Exploited": 0,
+              "Critical": 0,
+              "High": 0,
+              "Medium": 0,
+              "Low": 0,
+              "Remote": 0,
+              "Total": 154
+            }
+          }
+        },
         {
           "UpdateName": "macOS Sequoia 15.7.9",
           "ProductName": "macOS",
@@ -2002,10 +3368,10 @@
             "24G830"
           ],
           "ReleaseDate": "2026-08-06T00:00:00Z",
-          "ExpirationDate": "2026-12-13",
+          "ExpirationDate": "2026-12-22",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/148171",
-          "SecurityInfoContext": "macOS has been updated to version 15.7.9, released on August 06, 2026. This update addresses one security issue and is the most recent approved version.",
+          "SecurityInfoContext": "macOS 15.7.9 was released on August 06, 2026. This release addressed one security issue. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {
             "CVE-2026-65400": {
               "NISTURL": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
@@ -2020,6 +3386,12 @@
           "UniqueCVEsCount": 1,
           "DaysSincePreviousRelease": 10,
           "DeviceScope": "universal",
+          "SupersededBy": {
+            "ProductVersion": "15.8",
+            "Build": "24H23",
+            "ReleaseDate": "2026-09-14T00:00:00Z",
+            "DaysLater": 39
+          },
           "UpdateSummary": {
             "Priority": "critical",
             "Summary": "Contains 1 actively exploited vulnerability",
@@ -2047,8 +3419,10 @@
           "ExpirationDate": "2026-11-04",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/128071",
-          "SecurityInfoContext": "macOS 15.7.8 was released on July 27, 2026. This release addressed 138 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "macOS 15.7.8 was released on July 27, 2026. This release addressed 148 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {
+            "CVE-2025-14017": {},
+            "CVE-2025-14819": {},
             "CVE-2025-43325": {},
             "CVE-2026-20672": {},
             "CVE-2026-23918": {},
@@ -2059,6 +3433,7 @@
             "CVE-2026-28914": {},
             "CVE-2026-28926": {},
             "CVE-2026-28932": {},
+            "CVE-2026-28933": {},
             "CVE-2026-28936": {},
             "CVE-2026-28945": {},
             "CVE-2026-28961": {},
@@ -2104,6 +3479,7 @@
             "CVE-2026-43756": {},
             "CVE-2026-43757": {},
             "CVE-2026-43758": {},
+            "CVE-2026-43761": {},
             "CVE-2026-43763": {},
             "CVE-2026-43764": {},
             "CVE-2026-43765": {},
@@ -2135,6 +3511,7 @@
             "CVE-2026-43809": {},
             "CVE-2026-43810": {},
             "CVE-2026-43812": {},
+            "CVE-2026-43815": {},
             "CVE-2026-43818": {},
             "CVE-2026-43822": {},
             "CVE-2026-4424": {},
@@ -2147,6 +3524,7 @@
             "CVE-2026-64698": {},
             "CVE-2026-64699": {},
             "CVE-2026-64700": {},
+            "CVE-2026-64701": {},
             "CVE-2026-64702": {},
             "CVE-2026-64703": {},
             "CVE-2026-64704": {},
@@ -2155,7 +3533,9 @@
             "CVE-2026-64709": {},
             "CVE-2026-64710": {},
             "CVE-2026-64711": {},
+            "CVE-2026-64714": {},
             "CVE-2026-64716": {},
+            "CVE-2026-64717": {},
             "CVE-2026-64721": {},
             "CVE-2026-64722": {},
             "CVE-2026-64723": {},
@@ -2186,10 +3566,12 @@
             "CVE-2026-64772": {},
             "CVE-2026-64774": {},
             "CVE-2026-64775": {},
-            "CVE-2026-64776": {}
+            "CVE-2026-64776": {},
+            "CVE-2026-65404": {},
+            "CVE-2026-84489": {}
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 138,
+          "UniqueCVEsCount": 148,
           "DaysSincePreviousRelease": 77,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -2200,7 +3582,7 @@
           },
           "UpdateSummary": {
             "Priority": "high",
-            "Summary": "Addresses 138 security issues",
+            "Summary": "Addresses 148 security issues",
             "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
@@ -2209,7 +3591,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 138
+              "Total": 148
             }
           }
         },
@@ -4978,7 +6360,7 @@
           "23J631"
         ],
         "ReleaseDate": "2026-08-06T00:00:00Z",
-        "ExpirationDate": "2026-12-13",
+        "ExpirationDate": "2026-12-22",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/148172",
         "SecurityInfoContext": "macOS Sonoma has been updated to version 14.8.9, released on August 06, 2026. This update addresses one security issue and is the most recent approved version. This update comes 10 days after the previous release.",
@@ -5079,7 +6461,7 @@
             "23J631"
           ],
           "ReleaseDate": "2026-08-06T00:00:00Z",
-          "ExpirationDate": "2026-12-13",
+          "ExpirationDate": "2026-12-22",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/148172",
           "SecurityInfoContext": "macOS has been updated to version 14.8.9, released on August 06, 2026. This update addresses one security issue and is the most recent approved version.",
@@ -5124,11 +6506,14 @@
           "ExpirationDate": "2026-11-04",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/128072",
-          "SecurityInfoContext": "macOS 14.8.8 was released on July 27, 2026. This release addressed 127 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
+          "SecurityInfoContext": "macOS 14.8.8 was released on July 27, 2026. This release addressed 137 security issues. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {
+            "CVE-2025-14017": {},
+            "CVE-2025-14819": {},
             "CVE-2025-43325": {},
             "CVE-2026-20672": {},
             "CVE-2026-23918": {},
+            "CVE-2026-28836": {},
             "CVE-2026-28849": {},
             "CVE-2026-28896": {},
             "CVE-2026-28900": {},
@@ -5136,6 +6521,7 @@
             "CVE-2026-28914": {},
             "CVE-2026-28926": {},
             "CVE-2026-28932": {},
+            "CVE-2026-28933": {},
             "CVE-2026-28936": {},
             "CVE-2026-28945": {},
             "CVE-2026-28961": {},
@@ -5179,6 +6565,7 @@
             "CVE-2026-43757": {},
             "CVE-2026-43758": {},
             "CVE-2026-43760": {},
+            "CVE-2026-43761": {},
             "CVE-2026-43763": {},
             "CVE-2026-43764": {},
             "CVE-2026-43765": {},
@@ -5207,6 +6594,7 @@
             "CVE-2026-43807": {},
             "CVE-2026-43809": {},
             "CVE-2026-43810": {},
+            "CVE-2026-43815": {},
             "CVE-2026-43818": {},
             "CVE-2026-43822": {},
             "CVE-2026-4424": {},
@@ -5227,6 +6615,7 @@
             "CVE-2026-64709": {},
             "CVE-2026-64710": {},
             "CVE-2026-64711": {},
+            "CVE-2026-64714": {},
             "CVE-2026-64716": {},
             "CVE-2026-64721": {},
             "CVE-2026-64723": {},
@@ -5252,10 +6641,13 @@
             "CVE-2026-64770": {},
             "CVE-2026-64774": {},
             "CVE-2026-64775": {},
-            "CVE-2026-64776": {}
+            "CVE-2026-64776": {},
+            "CVE-2026-65404": {},
+            "CVE-2026-84489": {},
+            "CVE-2026-86902": {}
           },
           "ActivelyExploitedCVEs": [],
-          "UniqueCVEsCount": 127,
+          "UniqueCVEsCount": 137,
           "DaysSincePreviousRelease": 77,
           "DeviceScope": "universal",
           "SupersededBy": {
@@ -5266,7 +6658,7 @@
           },
           "UpdateSummary": {
             "Priority": "high",
-            "Summary": "Addresses 127 security issues",
+            "Summary": "Addresses 137 security issues",
             "Recommendation": "Update to stay secure - security fixes available",
             "Stats": {
               "Exploited": 0,
@@ -5275,7 +6667,7 @@
               "Medium": 0,
               "Low": 0,
               "Remote": 0,
-              "Total": 127
+              "Total": 137
             }
           }
         },
@@ -7667,7 +9059,7 @@
           "22H730"
         ],
         "ReleaseDate": "2025-08-20T00:00:00Z",
-        "ExpirationDate": "2026-12-13",
+        "ExpirationDate": "2026-12-22",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/124929",
         "SecurityInfoContext": "macOS Ventura has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version. This update comes 22 days after the previous release.",
@@ -7767,7 +9159,7 @@
             "22H730"
           ],
           "ReleaseDate": "2025-08-20T00:00:00Z",
-          "ExpirationDate": "2026-12-13",
+          "ExpirationDate": "2026-12-22",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/124929",
           "SecurityInfoContext": "macOS has been updated to version 13.7.8, released on August 20, 2025. This update addresses one security issue and is the most recent approved version.",
@@ -10205,7 +11597,7 @@
           "21H1320"
         ],
         "ReleaseDate": "2024-07-29T00:00:00Z",
-        "ExpirationDate": "2026-12-13",
+        "ExpirationDate": "2026-12-22",
         "ReleaseType": "OS",
         "SecurityInfo": "https://support.apple.com/en-us/120910",
         "SecurityInfoContext": "macOS Monterey has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version. This update comes 77 days after the previous release.",
@@ -10349,7 +11741,7 @@
             "21H1320"
           ],
           "ReleaseDate": "2024-07-29T00:00:00Z",
-          "ExpirationDate": "2026-12-13",
+          "ExpirationDate": "2026-12-22",
           "ReleaseType": "OS",
           "SecurityInfo": "https://support.apple.com/en-us/120910",
           "SecurityInfoContext": "macOS has been updated to version 12.7.6, released on July 29, 2024. This update addresses 42 security issues and is the most recent approved version.",
@@ -12197,7 +13589,7 @@
           "AllBuilds": [],
           "ReleaseDate": "2021-09-20T00:00:00Z",
           "ReleaseType": "OS",
-          "SecurityInfo": "https://support.apple.com/en-us/122283",
+          "SecurityInfo": "https://support.apple.com/en-us/120886",
           "SecurityInfoContext": "macOS 12.0 was released on . This update has no published CVE entries. Newer updates are now available, so please check to see if they apply to your devices.",
           "CVEs": {},
           "ActivelyExploitedCVEs": [],
@@ -12343,6 +13735,7 @@
     "Mac13,1": {
       "MarketingName": "Mac Studio (M1 Max)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -12350,6 +13743,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12360,6 +13754,7 @@
     "Mac13,2": {
       "MarketingName": "Mac Studio (M1 Ultra)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -12367,6 +13762,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12377,12 +13773,14 @@
     "Mac14,10": {
       "MarketingName": "MacBook Pro (16-inch, M2 Pro, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12392,12 +13790,14 @@
     "Mac14,12": {
       "MarketingName": "Mac mini (M2 Pro, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12407,12 +13807,14 @@
     "Mac14,13": {
       "MarketingName": "Mac Studio (M2 Max, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12422,12 +13824,14 @@
     "Mac14,14": {
       "MarketingName": "Mac Studio (M2 Ultra, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12437,12 +13841,14 @@
     "Mac14,15": {
       "MarketingName": "MacBook Air (15-inch, M2, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12452,6 +13858,7 @@
     "Mac14,2": {
       "MarketingName": "MacBook Air (M2, 2022)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -12459,6 +13866,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12469,12 +13877,14 @@
     "Mac14,3": {
       "MarketingName": "Mac mini (M2, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12484,12 +13894,14 @@
     "Mac14,5": {
       "MarketingName": "MacBook Pro (14-inch, M2 Max, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12499,12 +13911,14 @@
     "Mac14,6": {
       "MarketingName": "MacBook Pro (16-inch, M2 Max, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12514,6 +13928,7 @@
     "Mac14,7": {
       "MarketingName": "MacBook Pro (13-inch, M2, 2022)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -12521,6 +13936,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12531,12 +13947,14 @@
     "Mac14,8": {
       "MarketingName": "Mac Pro (Rack, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12546,12 +13964,14 @@
     "Mac14,9": {
       "MarketingName": "MacBook Pro (14-inch, M2 Pro, 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12561,11 +13981,13 @@
     "Mac15,10": {
       "MarketingName": "MacBook Pro (14-inch, 14-core M3 Max, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12574,11 +13996,13 @@
     "Mac15,11": {
       "MarketingName": "MacBook Pro (16-inch, 14-core M3 Max, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12587,11 +14011,13 @@
     "Mac15,12": {
       "MarketingName": "MacBook Air (13-inch, M3, 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12600,11 +14026,13 @@
     "Mac15,13": {
       "MarketingName": "MacBook Air (15-inch, M3, 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12613,10 +14041,12 @@
     "Mac15,14": {
       "MarketingName": "Mac Studio (M3 Ultra, 2025)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12624,12 +14054,14 @@
     "Mac15,3": {
       "MarketingName": "MacBook Pro (14-inch, M3, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12639,12 +14071,14 @@
     "Mac15,4": {
       "MarketingName": "iMac (24-inch, M3, 2023, Two Ports)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12654,12 +14088,14 @@
     "Mac15,5": {
       "MarketingName": "iMac (24-inch, M3, 2023, Four Ports)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
         "Ventura 13"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -12669,11 +14105,13 @@
     "Mac15,6": {
       "MarketingName": "MacBook Pro (14-inch, M3 Pro, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12682,11 +14120,13 @@
     "Mac15,7": {
       "MarketingName": "MacBook Pro (16-inch, M3 Pro, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12695,11 +14135,13 @@
     "Mac15,8": {
       "MarketingName": "MacBook Pro (14-inch, 16-core M3 Max, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12708,11 +14150,13 @@
     "Mac15,9": {
       "MarketingName": "MacBook Pro (16-inch, 16-core M3 Max, Nov 2023)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14
@@ -12721,10 +14165,12 @@
     "Mac16,1": {
       "MarketingName": "MacBook Pro (14-inch, M4, Nov 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12732,10 +14178,12 @@
     "Mac16,10": {
       "MarketingName": "Mac mini (M4, 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12743,10 +14191,12 @@
     "Mac16,11": {
       "MarketingName": "Mac mini (M4 Pro, 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12754,10 +14204,12 @@
     "Mac16,12": {
       "MarketingName": "MacBook Air (13-inch, M4, 2025)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12765,10 +14217,12 @@
     "Mac16,13": {
       "MarketingName": "MacBook Air (15-inch, M4, 2025)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12776,10 +14230,12 @@
     "Mac16,2": {
       "MarketingName": "iMac (24-inch, M4, 2024, Two Ports)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12787,10 +14243,12 @@
     "Mac16,3": {
       "MarketingName": "iMac (24-inch, M4, 2024, Four Ports)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12798,10 +14256,12 @@
     "Mac16,5": {
       "MarketingName": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12809,10 +14269,12 @@
     "Mac16,6": {
       "MarketingName": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12820,10 +14282,12 @@
     "Mac16,7": {
       "MarketingName": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12831,10 +14295,12 @@
     "Mac16,8": {
       "MarketingName": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12842,10 +14308,12 @@
     "Mac16,9": {
       "MarketingName": "Mac Studio (M4 Max, 2025)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15"
       ],
       "OSVersions": [
+        27,
         26,
         15
       ]
@@ -12853,72 +14321,88 @@
     "Mac17,2": {
       "MarketingName": "MacBook Pro 14-inch (M5)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,3": {
       "MarketingName": "MacBook Air (13-inch, M5)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,4": {
       "MarketingName": "MacBook Air (15-inch, M5)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,5": {
       "MarketingName": "MacBook Neo",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,6": {
       "MarketingName": "MacBook Pro (16-inch, M5 Max)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,7": {
       "MarketingName": "MacBook Pro (14-inch, M5 Max)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,8": {
       "MarketingName": "MacBook Pro (16-inch, M5 Pro)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
     "Mac17,9": {
       "MarketingName": "MacBook Pro (14-inch, M5 Pro)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26"
       ],
       "OSVersions": [
+        27,
         26
       ]
     },
@@ -12945,6 +14429,7 @@
     "MacBookAir10,1": {
       "MarketingName": "MacBook Air (M1, 2020)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -12952,6 +14437,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13236,6 +14722,7 @@
     "MacBookPro17,1": {
       "MarketingName": "MacBook Pro (13-inch, M1, 2020)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13243,6 +14730,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13253,6 +14741,7 @@
     "MacBookPro18,1": {
       "MarketingName": "MacBook Pro (16-inch, M1 Pro, 2021)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13260,6 +14749,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13270,6 +14760,7 @@
     "MacBookPro18,2": {
       "MarketingName": "MacBook Pro (16-inch, M1 Max, 2021)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13277,6 +14768,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13287,6 +14779,7 @@
     "MacBookPro18,3": {
       "MarketingName": "MacBook Pro (14-inch, M1 Pro, 2021)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13294,6 +14787,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13304,6 +14798,7 @@
     "MacBookPro18,4": {
       "MarketingName": "MacBook Pro (14-inch, M1 Max, 2021)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13311,6 +14806,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13388,6 +14884,7 @@
     "Macmini9,1": {
       "MarketingName": "Mac mini (M1, Late 2020)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13395,6 +14892,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13422,6 +14920,7 @@
     "VirtualMac2,1": {
       "MarketingName": "Apple Virtual Machine",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13429,6 +14928,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13572,6 +15072,7 @@
     "iMac21,1": {
       "MarketingName": "iMac (24-inch, M1, 2021, Four Ports)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13579,6 +15080,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13589,6 +15091,7 @@
     "iMac21,2": {
       "MarketingName": "iMac (24-inch, M1, 2021, Two Ports)",
       "SupportedOS": [
+        "Golden Gate 27",
         "Tahoe 26",
         "Sequoia 15",
         "Sonoma 14",
@@ -13596,6 +15099,7 @@
         "Monterey 12"
       ],
       "OSVersions": [
+        27,
         26,
         15,
         14,
@@ -13892,6 +15396,12 @@
       "DeviceID": "Mac16,11",
       "MarketingName": "Mac mini (M4 Pro, 2024)"
     },
+    "J775cAP": {
+      "MarketingName": "J775cAP"
+    },
+    "J775dAP": {
+      "MarketingName": "J775dAP"
+    },
     "J780AP": {
       "DeviceID": "iMac20,1",
       "MarketingName": "iMac (Retina 5K, 27-inch, 2020)"
@@ -13903,6 +15413,12 @@
     "J815AP": {
       "DeviceID": "Mac17,4",
       "MarketingName": "MacBook Air (15-inch, M5)"
+    },
+    "J873gAP": {
+      "MarketingName": "J873gAP"
+    },
+    "J873sAP": {
+      "MarketingName": "J873sAP"
     },
     "Mac-06F11F11946D27C5": {
       "DeviceID": "MacBookAir7,1",
@@ -14021,13 +15537,13 @@
     }
   },
   "XProtectPlistConfigData": {
-    "ReleaseDate": "2026-09-01T21:14:25Z",
-    "com.apple.XProtect": "5358"
+    "com.apple.XProtect": "5360",
+    "ReleaseDate": "2026-09-17T16:08:45Z"
   },
   "XProtectPayloads": {
-    "ReleaseDate": "2026-09-01T21:14:25Z",
     "com.apple.XprotectFramework.PluginService": "74",
-    "com.apple.XProtectFramework.XProtect": "157"
+    "com.apple.XProtectFramework.XProtect": "163",
+    "ReleaseDate": "2026-09-17T16:08:45Z"
   },
   "BackgroundSecurityImprovements": {
     "26": [
@@ -14142,15 +15658,33 @@
   },
   "InstallationApps": {
     "LatestUMA": {
-      "Title": "macOS Tahoe",
-      "Version": "26.6.2",
-      "Build": "25G83",
-      "AppleSlug": "140-93587",
-      "URL": "https://swcdn.apple.com/content/downloads/37/33/140-93587-A_GRFFH93NOL/f944yaqo1cjhh2m0kxrl0zhcpg9yb9qphv/InstallAssistant.pkg",
-      "PostingDate": "2026-08-24T22:49:27Z",
-      "Size": 18391902710
+      "Title": "macOS 27 Golden Gate",
+      "Version": "27.0",
+      "Build": "26A428",
+      "AppleSlug": "142-15488",
+      "URL": "https://swcdn.apple.com/content/downloads/01/05/142-15488-A_9XNIAXWVVL/5ajxcy8xk014o98zz1uut0zrlaj2nx91ln/InstallAssistant.pkg",
+      "PostingDate": "2026-09-14T17:13:11Z",
+      "Size": 18414054576
     },
     "AllPreviousUMA": [
+      {
+        "Title": "macOS Tahoe",
+        "Version": "26.7",
+        "Build": "25G229",
+        "AppleSlug": "142-16670",
+        "URL": "https://swcdn.apple.com/content/downloads/52/44/142-16670-A_C1NGFF0VNT/e1mno92ap4g9s6epq5bbee9a57b5tm983g/InstallAssistant.pkg",
+        "PostingDate": "2026-09-14T17:20:59Z",
+        "Size": 18389242715
+      },
+      {
+        "Title": "macOS Tahoe",
+        "Version": "26.6.2",
+        "Build": "25G83",
+        "AppleSlug": "140-93587",
+        "URL": "https://swcdn.apple.com/content/downloads/37/33/140-93587-A_GRFFH93NOL/f944yaqo1cjhh2m0kxrl0zhcpg9yb9qphv/InstallAssistant.pkg",
+        "PostingDate": "2026-08-24T22:49:27Z",
+        "Size": 18391902710
+      },
       {
         "Title": "macOS Tahoe",
         "Version": "26.6.1",
@@ -14186,6 +15720,15 @@
         "URL": "https://swcdn.apple.com/content/downloads/22/07/122-84023-A_RQPL3GX2L6/l6vt7agjz206oaiyhvc0a4wupeffjk36st/InstallAssistant.pkg",
         "PostingDate": "2026-06-09T17:28:04Z",
         "Size": 18308325308
+      },
+      {
+        "Title": "macOS Sequoia",
+        "Version": "15.8",
+        "Build": "24H23",
+        "AppleSlug": "142-16660",
+        "URL": "https://swcdn.apple.com/content/downloads/24/14/142-16660-A_CTI1XX4VYC/dwxnuxoud4401qcf8to49p8iq1ij987j1e/InstallAssistant.pkg",
+        "PostingDate": "2026-09-14T17:22:22Z",
+        "Size": 15670911244
       },
       {
         "Title": "macOS Sequoia",
@@ -14288,10 +15831,10 @@
       }
     ],
     "LatestMacIPSW": {
-      "MacOSIPSWURL": "https://updates.cdn-apple.com/2026SummerFCS/fullrestores/140-75212/A2A24B94-1FC1-45A3-93F7-C51B02AF1F4D/UniversalMac_26.6.2_25G83_Restore.ipsw",
-      "MacOSIPSWBuild": "25G83",
-      "MacOSIPSWVersion": "26.6.2",
-      "MacOSIPSWAppleSlug": "140-75212"
+      "MacOSIPSWURL": "https://updates.cdn-apple.com/2026FallFCS/afcfc88e-bbe6-44bf-a5da-07c56eebc06c/UniversalMac_27.0_26A428_Restore.ipsw",
+      "MacOSIPSWBuild": "26A428",
+      "MacOSIPSWVersion": "27.0",
+      "MacOSIPSWAppleSlug": "unknown"
     }
   }
 }

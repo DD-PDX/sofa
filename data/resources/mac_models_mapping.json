@@ -384,6 +384,16 @@
     "SupportedOS": [],
     "OSVersions": []
   },
+  "J775cAP": {
+    "MarketingName": "J775cAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "J775dAP": {
+    "MarketingName": "J775dAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
   "J780AP": {
     "MarketingName": "J780AP",
     "SupportedOS": [],
@@ -396,6 +406,16 @@
   },
   "J815AP": {
     "MarketingName": "J815AP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "J873gAP": {
+    "MarketingName": "J873gAP",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "J873sAP": {
+    "MarketingName": "J873sAP",
     "SupportedOS": [],
     "OSVersions": []
   },
@@ -710,6 +730,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -718,7 +739,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac13,2": {
@@ -727,6 +749,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -735,7 +758,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,10": {
@@ -744,13 +768,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,12": {
@@ -759,13 +785,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,13": {
@@ -774,13 +802,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,14": {
@@ -789,13 +819,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,15": {
@@ -804,13 +836,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,2": {
@@ -819,6 +853,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -827,7 +862,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,3": {
@@ -836,13 +872,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,5": {
@@ -851,13 +889,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,6": {
@@ -866,13 +906,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,7": {
@@ -881,6 +923,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -889,7 +932,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,8": {
@@ -898,13 +942,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac14,9": {
@@ -913,13 +959,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,10": {
@@ -927,12 +975,14 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,11": {
@@ -940,12 +990,14 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,12": {
@@ -953,12 +1005,14 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,13": {
@@ -966,23 +1020,27 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,14": {
     "MarketingName": "Mac Studio (M3 Ultra, 2025)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,3": {
@@ -991,13 +1049,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,4": {
@@ -1006,13 +1066,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,5": {
@@ -1021,13 +1083,15 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,6": {
@@ -1035,12 +1099,14 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,7": {
@@ -1048,12 +1114,14 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,8": {
@@ -1061,12 +1129,14 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac15,9": {
@@ -1074,216 +1144,258 @@
     "SupportedOS": [
       "Sequoia 15",
       "Sonoma 14",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,1": {
     "MarketingName": "MacBook Pro (14-inch, M4, Nov 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,10": {
     "MarketingName": "Mac mini (M4, 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,11": {
     "MarketingName": "Mac mini (M4 Pro, 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,12": {
     "MarketingName": "MacBook Air (13-inch, M4, 2025)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,13": {
     "MarketingName": "MacBook Air (15-inch, M4, 2025)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,2": {
     "MarketingName": "iMac (24-inch, M4, 2024, Two Ports)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,3": {
     "MarketingName": "iMac (24-inch, M4, 2024, Four Ports)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,5": {
     "MarketingName": "MacBook Pro (16-inch, M4 Max, Nov 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,6": {
     "MarketingName": "MacBook Pro (14-inch, M4 Max, Nov 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,7": {
     "MarketingName": "MacBook Pro (16-inch, M4 Pro, Nov 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,8": {
     "MarketingName": "MacBook Pro (14-inch, M4 Pro, Nov 2024)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac16,9": {
     "MarketingName": "Mac Studio (M4 Max, 2025)",
     "SupportedOS": [
       "Sequoia 15",
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
       15,
-      26
+      26,
+      27
     ]
   },
   "Mac17,2": {
     "MarketingName": "MacBook Pro 14-inch (M5)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,3": {
     "MarketingName": "MacBook Air (13-inch, M5)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,4": {
     "MarketingName": "MacBook Air (15-inch, M5)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,5": {
     "MarketingName": "MacBook Neo",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,6": {
     "MarketingName": "MacBook Pro (16-inch, M5 Max)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,7": {
     "MarketingName": "MacBook Pro (14-inch, M5 Max)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,8": {
     "MarketingName": "MacBook Pro (16-inch, M5 Pro)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "Mac17,9": {
     "MarketingName": "MacBook Pro (14-inch, M5 Pro)",
     "SupportedOS": [
+      "Golden Gate 27",
       "Tahoe 26"
     ],
     "OSVersions": [
-      26
+      26,
+      27
     ]
   },
   "MacBook10,1": {
@@ -1312,6 +1424,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1320,7 +1433,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "MacBookAir7,1": {
@@ -1603,6 +1717,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1611,7 +1726,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "MacBookPro18,1": {
@@ -1620,6 +1736,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1628,7 +1745,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "MacBookPro18,2": {
@@ -1637,6 +1755,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1645,7 +1764,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "MacBookPro18,3": {
@@ -1654,6 +1774,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1662,7 +1783,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "MacBookPro18,4": {
@@ -1671,6 +1793,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1679,7 +1802,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "MacPro6,1": {
@@ -1755,6 +1879,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1763,13 +1888,15 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "VMA2MACOSAP": {
     "MarketingName": "Virtual Machine (Apple Silicon)",
     "SupportedOS": [
-      "macOS 26",
+      "Golden Gate 27",
+      "Tahoe 26",
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
@@ -1780,7 +1907,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "VMM-x86_64": {
@@ -1790,14 +1918,16 @@
       "Sonoma 14",
       "Ventura 13",
       "Tahoe 26",
-      "Monterey 12"
+      "Monterey 12",
+      "Big Sur 11"
     ],
     "OSVersions": [
       11,
       12,
       13,
       14,
-      15
+      15,
+      26
     ]
   },
   "VirtualMac2,1": {
@@ -1806,6 +1936,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -1814,7 +1945,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "Watch2,3": {
@@ -2092,6 +2224,31 @@
     "SupportedOS": [],
     "OSVersions": []
   },
+  "Watch8,1": {
+    "MarketingName": "Watch8,1",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "Watch8,2": {
+    "MarketingName": "Watch8,2",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "Watch8,3": {
+    "MarketingName": "Watch8,3",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "Watch8,4": {
+    "MarketingName": "Watch8,4",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "Watch8,5": {
+    "MarketingName": "Watch8,5",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
   "X589AMLUAP": {
     "MarketingName": "X589AMLUAP",
     "SupportedOS": [],
@@ -2246,6 +2403,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -2254,7 +2412,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "iMac21,2": {
@@ -2263,6 +2422,7 @@
       "Sequoia 15",
       "Sonoma 14",
       "Ventura 13",
+      "Golden Gate 27",
       "Tahoe 26",
       "Monterey 12"
     ],
@@ -2271,7 +2431,8 @@
       13,
       14,
       15,
-      26
+      26,
+      27
     ]
   },
   "iMacPro1,1": {
@@ -2946,6 +3107,21 @@
   },
   "iPhone18,5": {
     "MarketingName": "iPhone18,5",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "iPhone19,2": {
+    "MarketingName": "iPhone19,2",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "iPhone19,3": {
+    "MarketingName": "iPhone19,3",
+    "SupportedOS": [],
+    "OSVersions": []
+  },
+  "iPhone19,7": {
+    "MarketingName": "iPhone19,7",
     "SupportedOS": [],
     "OSVersions": []
   },
