@@ -119,15 +119,18 @@ max_compatible_os=$( /usr/bin/awk '{print $NF}' <<< "$latest_compatible_os_strin
 # echo "Latest Major Version: $latest_os"
 # echo "Max Compatible Major Version: $max_compatible_os"
 
+# Verify we got integers from SOFA BEFORE any arithmetic. In zsh a bare word such
+# as "Gate" (from cut -f2 on "Golden Gate 27") evaluates to 0 in arithmetic context
+# rather than erroring, which silently produced a displacement of 17 on every Mac.
+if [[ ! "$latest_os" =~ ^[0-9]+$ || ! "$max_compatible_os" =~ ^[0-9]+$ ]]; then
+    echo "Could not obtain data"
+    exit 1
+fi
+
 # Subtract 10 if the latest is 26 or greater and the max compatible OS is less than 26.
 # This accounts for Apple's version numbering jump from macOS 15 to macOS 26.
 if [[ "$latest_os" -ge 26 && "$max_compatible_os" -lt 26 ]]; then
     latest_os=$(( latest_os - 10 ))
 fi
 
-# Verify integers received from SOFA and output the result
-if [[ "$((latest_os-latest_os))" == 0 && "$((max_compatible_os-max_compatible_os))" == 0 ]]; then
-    echo "$((latest_os-max_compatible_os))"
-else
-    echo ""
-fi
+echo "$(( latest_os - max_compatible_os ))"
